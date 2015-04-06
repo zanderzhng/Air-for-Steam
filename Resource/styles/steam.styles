@@ -1107,5 +1107,9 @@ steam.styles
 			textcolor=none
 			bgcolor=Focus3
 		}
+
+		"GameItem_Uninstalled GamesGridImage" {
+			alpha		120
+		}
 	}
 }

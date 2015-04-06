@@ -24,18 +24,15 @@
 		// uninstalled
 		// notinstalled (yes there are two)
 
-		GameItem_installed
-		{
+		GameItem_installed {
 			alpha		255
 		}
 
-		GameItem_unInstalled
-		{
-			alpha		120
+		GameItem_unInstalled {
+			alpha		255
 		}
 
-		GameItem_Updating
-		{
+		GameItem_Updating {
 			alpha		255
 		}
 	}
