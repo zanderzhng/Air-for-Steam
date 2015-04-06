@@ -106,6 +106,10 @@
 																											shadowtextcolor=Text.Primary //cursor color
 																										}
 
+//READ ME IF YOU ARE CHANGING TEXTENTRY STYLES
+//To update TextEntry in Settings > In-Game Overlay & Screenshot shortcut keys
+//match resource/steamscheme.res Font "Default" "1" to TextEntry style above
+
 	TextEntry:focus																		{ textcolor=Text.Primary }
 	TextEntry:disabled																{ textcolor=Text.Hint }
 	TextEntry:empty																		{ textcolor=Text.Hint }
