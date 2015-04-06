@@ -710,9 +710,6 @@ steam.styles
 		}
 
 		TextEntryClearButton:hover {
-			//render {
-			//	1="image( x0 + 3, y0, x1, y1, resource/icon_clear_field_hover )"
-			//}
 		}
 
 		CEmoticonButton {

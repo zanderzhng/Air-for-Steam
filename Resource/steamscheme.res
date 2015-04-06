@@ -252,7 +252,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto" [!$OSX]
+				"name"		"Roboto"
 				"name"		"Roboto Regular" [$OSX]
 				"tall"		"16"
 				"weight"	"400"
