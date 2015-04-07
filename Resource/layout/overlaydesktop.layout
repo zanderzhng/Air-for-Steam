@@ -38,7 +38,6 @@
 
 		place { control=BroadcastDetailPanel align=top-center y=20 height=50 width=360 }
 
-		region { name=hidden height=0 width=0 margin-left=-9999 }
-		place { controls="SessionText,ForeverText,TwoWeeksText,GameHubButton,GameGroupsButton,ChatRoomButton,DLCButton,GuideButton,LegacyCDKeyButton,WebSiteButton,ForumsButton,RecommendButton,WorkshopButton,GuidesButton,GuidesDetailPanel,NewsDetailPanel,CommunityDiscussionsDetailPanel" region=hidden }
+		place { control="SessionText,ForeverText,TwoWeeksText,GameHubButton,GameGroupsButton,ChatRoomButton,DLCButton,GuideButton,LegacyCDKeyButton,WebSiteButton,ForumsButton,RecommendButton,WorkshopButton,GuidesButton,GuidesDetailPanel,NewsDetailPanel,CommunityDiscussionsDetailPanel" height=0 width=0 margin-left=-9999 }
 	}
 }

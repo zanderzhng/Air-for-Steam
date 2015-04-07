@@ -1,28 +1,19 @@
 "resource/layout/gamespage_details_gametitleheader.layout"
 {
-	controls
-	{
-		gametitlelabel { controlname="Label" style="headertextlarge" labeltext="" }
-		iconimage { controlname="ImagePanel" style="gameicon" }
-	}
-
-	colors
-	{
+	colors {
 		GameDetailsTitleHeader.HorizontalSpacing=10
 	}
 
-	styles
-	{
+	styles {
 		CDetailsGameTitleHeaderPanel {
 			bgcolor=none
 		}
 	}
 
-	layout
-	{
+	layout {
 		region { name=header width=max height=max }
 
-		place { 
+		place {
 			control=gametitlelabel
 			region=header
 			dir=right

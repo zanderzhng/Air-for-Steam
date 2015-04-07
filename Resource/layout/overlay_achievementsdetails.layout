@@ -51,8 +51,8 @@
 		place { control=progressbackground height=12 align=bottom width=max }
 		place { control=progressbarimage height=12 align=bottom }
 
-		place { controls=ViewAchievementsButton height=45 width=max align=bottom }
+		place { control=ViewAchievementsButton height=45 width=max align=bottom }
 
-		place { controls=ProgressTextEarned height=0 width=0 }
+		place { control=ProgressTextEarned height=0 width=0 }
 	}
 }
