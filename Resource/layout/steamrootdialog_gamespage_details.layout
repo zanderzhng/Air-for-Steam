@@ -66,7 +66,7 @@
 			region=links_l
 			dir=down
 			align=left
-			y=16
+			y=17
 			x=20
 			spacing=6
 		}
@@ -76,7 +76,7 @@
 			region=links_c
 			dir=down
 			align=left
-			y=16
+			y=17
 			spacing=6
 		}
 
@@ -85,7 +85,7 @@
 			region=links_r
 			dir=down
 			align=left
-			y=16
+			y=17
 			spacing=6
 		}
 

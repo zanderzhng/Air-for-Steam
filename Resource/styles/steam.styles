@@ -258,16 +258,17 @@ steam.styles
 		"CSteamRootDialog rightarrow" 			{ image="graphics/material/nav/caret_right_onfocus" }
 		"CSteamRootDialog leftarrow" 				{ image="graphics/material/nav/caret_left_onfocus" }
 
-		CheckButton 										{ image=graphics/chkUnselStd }
-		CheckButton:selected 						{ image=graphics/chkSelStd }
-		CheckButton:disabled			 			{ image=graphics/chkUnselDis }
-		CheckButton:selected:disabled 	{ image=graphics/chkSelDis }
+		CheckButton 										{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkUnselStd )" } }
+		CheckButton:selected 						{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkSelStd )" } }
+		CheckButton:disabled			 			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkUnselDis )" } }
+		CheckButton:selected:disabled 	{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkSelDis )" } }
 
 		CheckButtonList { }
 
 		ListPanelCheckBox {
-			inset-top=1
-			inset-left=8
+			padding-left=0
+			inset-top=-1
+			//inset-left=8
 		}
 
 		"ListPanelColumnheader ListPanelCheckBox" {
@@ -279,8 +280,8 @@ steam.styles
 			inset-top=7
 		}
 
-		RadioButton 								{ image=graphics/RadUnselStd }
-		RadioButton:selected 				{ image=graphics/RadSelStd }
+		RadioButton 								{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/RadUnselStd )" } }
+		RadioButton:selected 				{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/RadSelStd )" } }
 
 		RadioButtonList { }
 
@@ -348,8 +349,8 @@ steam.styles
 
 		ListPanel {
 			padding-left=8
-			selectedbgcolor=A2.Ribbon  // games list selected game bg color
-			shadowtextcolor="Text.Hint"	// the color of disabled line items
+			selectedbgcolor=A2.Ribbon //games list selected game bg color
+			shadowtextcolor="Text.Hint" //the color of disabled line items
 		}
 
 		ListPanelInterior {
@@ -488,26 +489,26 @@ steam.styles
 			textcolor=none
 			padding-left=4 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 9, x1, y1, graphics/material/nav/expand_less )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/material/nav/expand_less )"
 			}
 		}
 
 		ListPanelSectionCollapser:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 9, x1, y1, graphics/material/nav/expand_less )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/material/nav/expand_less )"
 			}
 		}
 
 		ListPanelSectionCollapser:selected {
 			padding-left=2 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 9, x1, y1, graphics/material/nav/expand_more )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/material/nav/expand_more )"
 			}
 		}
 
 		ListPanelSectionCollapser:selected:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 9, x1, y1, graphics/material/nav/expand_more )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/material/nav/expand_more )"
 			}
 		}
 
@@ -516,26 +517,26 @@ steam.styles
 			textcolor=none
 			padding-left=4 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 5, x1, y1, graphics/material/nav/expand_less )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/material/nav/expand_less )"
 			}
 		}
 
 		SectionedListPanelCollapser:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 5, x1, y1, graphics/material/nav/expand_less )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/material/nav/expand_less )"
 			}
 		}
 
 		SectionedListPanelCollapser:selected {
 			padding-left=2 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 5, x1, y1, graphics/material/nav/expand_more )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/material/nav/expand_more )"
 			}
 		}
 
 		SectionedListPanelCollapser:selected:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 5, x1, y1, graphics/material/nav/expand_more )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/material/nav/expand_more )"
 			}
 		}
 
@@ -647,6 +648,7 @@ steam.styles
 		PageTab {
 			minimum-height=0 //reset for button height
 			padding-left=0 padding-right=0 //reset for button padding
+			padding-top=1
 			render_bg { }
 		}
 
@@ -674,13 +676,13 @@ steam.styles
 		TabCloseButton {
 			textcolor=none //don't render "X" as text
 			render_bg {
-				0="image( x0 + 5, y0 + 8, x1, y1, graphics/material/nav/tiny_x )"
+				0="image( x0 + 5, y0 + 7, x1, y1, graphics/material/nav/tiny_x )"
 			}
 		}
 
 		TabCloseButton:hover {
 			render_bg {
-				1="image( x0 + 5, y0 + 8, x1, y1, graphics/material/nav/tiny_x_soft )"
+				1="image( x0 + 5, y0 + 7, x1, y1, graphics/material/nav/tiny_x_soft )"
 			}
 		}
 
@@ -775,29 +777,28 @@ steam.styles
 			}
 		}
 
-		// the background and frame of a tooltip
 		TooltipWindow {
 			bgcolor=A2.Notification
-			padding-left=8
-			padding-right=8
-			padding-top=4
-			padding-bottom=4
+
+			//background and frame of a tooltip
 		}
 
-		// body text inside a tooltip
 		"TooltipWindow Label" {
 			padding-left=8
 			padding-right=8
+			padding-top=3
 			padding-bottom=4
-			padding-top=2
+
+			//body text inside a tooltip
 		}
 
-		// headline text inside a tooltip
 		tooltip_headline {
 			padding-left=8
 			padding-right=8
-			padding-top=2
+			padding-top=3
 			padding-bottom=0
+
+			//headline text inside a tooltip
 		}
 
 		TreeNode {

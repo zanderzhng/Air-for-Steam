@@ -1,15 +1,13 @@
 "resource/layout/screenshotmanager.layout"
 {
-	colors
-	{
+	colors {
 		BorderThumbnailUnpublished="0 0 0 0"
 		BorderThumbnailUploaded="0 0 0 0"
 		BorderThumbnailPublished="0 0 0 0"
 		BorderThumbnailSelected="139 185 224 255"
 	}
 
-	styles
-	{
+	styles {
 		ThumbnailUnpublished {
 			render_bg {
 				0="fill( x0, y0, x1 - 1, y1, BorderThumbnailUnpublished )"
@@ -56,9 +54,7 @@
 		}
 
 		WrapPanel {
-			//inset-bottom=2
 			inset-top=-1
-			//inset-top=-2
 		}
 
 		gameselector {
@@ -81,7 +77,7 @@
 		region { name=buttons height=40 width=max y=60 }
 		region { name=body height=max width=max y=100 }
 
-		place { control=game_selector region=nav y=9 x=16 }
+		place { control=game_selector region=nav y=10 x=16 }
 
 		region { name=list region=body x=26 width=max margin-right=366 }
 

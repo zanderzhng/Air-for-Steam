@@ -20,7 +20,7 @@
 
 //Styleguide
 
-	//Title					24px, 400, condensed, text.white, regular					//
+	//Title					22px, 400, condensed, text.white, regular					//
 
 	//Body					16px, 400, basefont, text.primary, regular				//
 	//Caption				16px, 400, basefont, text.secondary, regular			//
@@ -467,7 +467,7 @@
 //Screenshots
 
 	gameselector {
-		font-family=condensed font-size=24 font-weight=400 textcolor=Text.OnFocus font-style=regular
+		font-family=condensed font-size=22 font-weight=400 textcolor=Text.OnFocus font-style=regular
 		selectedtextcolor=Text.OnFocus //text color on focus, keep same as textcolor
 	}
 
@@ -489,13 +489,14 @@
 //Main Client
 
 	CUINavButton
-		{ font-family=condensed font-size=24 font-weight=400 textcolor=Text.OnFocus font-style=regular }
+		{ font-family=condensed font-size=22 font-weight=400 textcolor=Text.OnFocus font-style=regular }
 
 	CUINavButton:selected
 		{ textcolor=Text.OnFocusHover }
 
 	NavLabel2
 		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.OnFocus font-style=uppercase }
+		//small mode games filter
 
 	NavLabel2:hover
 		{ textcolor=Text.OnFocusHover }
@@ -504,29 +505,20 @@
 		{ textcolor=Text.OnFocusHover }
 
 	LibrarySearch {
-		font-family=condensed font-size=24 font-weight=400 textcolor=Text.OnFocus font-style=regular
+		font-family=condensed font-size=22 font-weight=400 textcolor=Text.OnFocus font-style=regular
 		shadowtextcolor=Text.OnFocus //cursor color
 		selectedbgcolor=Focus2
 	}
 
 	FriendsSearch {
-		font-family=condensed font-size=24 font-weight=400 textcolor=Text.OnFocus font-style=regular
+		font-family=condensed font-size=22 font-weight=400 textcolor=Text.OnFocus font-style=regular
 		shadowtextcolor=Text.OnFocus //cursor color
 		selectedbgcolor=Focus2
 	}
 
 	"CMusicPlayerPanel StatusStyle"
-		{ font-family=condensed font-size=24 font-weight=400 textcolor=Text.OnFocus font-style=regular }
+		{ font-family=condensed font-size=22 font-weight=400 textcolor=Text.OnFocus font-style=regular }
 		//track name in mini-player, mimic CUINavButton
-
-	inbox_button
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.OnFocusHover font-style=regular  }
-
-	inbox_button:hover
-		{ textcolor=Text.OnFocusHover }
-
-	inbox_button:selected
-		{ textcolor=Text.OnFocusHover }
 
 	AccountBalanceStyle
 		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.OnFocus font-style=regular }

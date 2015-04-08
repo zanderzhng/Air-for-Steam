@@ -107,7 +107,7 @@
 
 		place {
 			control=account_balance
-			region=nav align=right y=10 height=30 margin-right=130
+			region=nav align=right y=11 height=30 margin-right=130
 		}
 		place {
 			control=InboxButton

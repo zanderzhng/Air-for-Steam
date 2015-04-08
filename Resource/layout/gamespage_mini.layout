@@ -25,7 +25,7 @@
 		CMiniGameFilterMenuButton {
 			render {
 				0="fill( x1 - 16, y0 + 12, x1 - 4, y1 - 10, Focus4 )"
-				1="image( x1 - 16, y0 + 9, x1, y1, graphics/material/nav/caret_down_onfocus )"
+				1="image( x1 - 16, y0 + 8, x1, y1, graphics/material/nav/caret_down_onfocus )"
 			}
 		}
 
