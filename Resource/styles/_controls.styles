@@ -1,4 +1,4 @@
-"" {
+"_controls.styles" {
 
 	styles {
 
@@ -162,9 +162,6 @@
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
 		"CPlayersDialog FrameMinimizeButton" 												{ render_bg { } }
-		"CPlayersDialog FrameMinimizeButton:hover" 									{ render_bg { } }
-		"CPlayersDialog FrameMinimizeButton:active" 								{ render_bg { } }
-
 		"CPlayersDialog FrameMaximizeButton" 												{ render_bg { } }
 		"CPlayersDialog FrameRestoreButton" 												{ render_bg { } }
 
@@ -174,9 +171,6 @@
 
 
 		"CAddShortcutDialog FrameMinimizeButton" 										{ render_bg { } }
-		"CAddShortcutDialog FrameMinimizeButton:hover" 							{ render_bg { } }
-		"CAddShortcutDialog FrameMinimizeButton:active" 						{ render_bg { } }
-
 		"CAddShortcutDialog FrameMaximizeButton" 										{ render_bg { } }
 		"CAddShortcutDialog FrameRestoreButton" 										{ render_bg { } }
 
@@ -186,9 +180,6 @@
 
 
 		"COverlayBroadcastChatDialog FrameMinimizeButton" 							{ render_bg { } }
-		"COverlayBroadcastChatDialog FrameMinimizeButton:hover" 				{ render_bg { } }
-		"COverlayBroadcastChatDialog FrameMinimizeButton:active" 				{ render_bg { } }
-
 		"COverlayBroadcastChatDialog FrameMaximizeButton" 							{ render_bg { } }
 		"COverlayBroadcastChatDialog FrameRestoreButton" 								{ render_bg { } }
 
