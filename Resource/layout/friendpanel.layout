@@ -1,9 +1,7 @@
 "resource/layout/friendpanel.layout"
 {
-	styles
-	{
+	styles {
 		menuButtonStyle { }
-		menuButtonStyle:hover { }
 
 		WebStatusStyle
 		{ image="graphics/material/icons/status_web" }
@@ -24,15 +22,14 @@
 		{ image="graphics/material/icons/status_mobile" }
 	}
 
-	layout
-	{
+	layout {
 		place { control="AvatarOverlayImage"	x=0 y=2 width=46 height=46 }
 		place { control="AvatarImage"			x=7 y=9 width=32 height=32 }
 		place { control="Clanstatusimage"		height=20 }
 
 		place {
-			control=ClanStatusImage,NameLabel,FriendsNameInstanceLabel
-			x=53 y=7 spacing=4
+			control=NameLabel,FriendsNameInstanceLabel,ClanStatusImage
+			x=53 y=9 spacing=4
 		}
 
 		place {
@@ -40,18 +37,18 @@
 			y=14 align=right margin-right=19
 		}
 
-		// All 3 controls should have same y position
+		//All 3 controls should have same y position
 		place {
 			control=StatusLabel,GameLabel
-			x=53 y=23 spacing=8 margin-right=10
+			x=53 y=25 spacing=8 margin-right=10
 		}
 		place {
 			control=AcceptLink,IgnoreLink,BlockLink
-			x=53 y=23 spacing=8
+			x=53 y=25 spacing=8
 		}
 		place {
 			control=ControlPanelLink
-			x=53 y=23
+			x=53 y=25
 		}
 
 		// this control is shown in the invite-to-game dialog in the overlay

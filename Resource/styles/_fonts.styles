@@ -74,6 +74,10 @@
 		{ textcolor=Text.Secondary }
 		//friends list section header
 
+	"ToolWindow Panel"
+		{ textcolor=Text.Secondary }
+		//group chat mini-friends list section header
+
 	ListPanelSectionHeader
 		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Label font-style=regular }
 
