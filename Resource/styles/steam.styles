@@ -317,7 +317,7 @@ steam.styles
 			//width is 384
 			render {
 				0="fill( x0, y0, x1, y1, A2.Background )"
-				2="image( x0, y0, x1, y1, graphics/air/air_lg )"
+				2="image( x0, y0, x1, y1, graphics/decals/air_logo )"
 			}
 		}
 
