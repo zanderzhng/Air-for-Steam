@@ -1,7 +1,6 @@
 "resource/layout/musicplayerpanel.layout"
 {
 	styles {
-
 		ListPanelInterior:scrollbar {
 			render_bg {
 				0="fill( x1, y0, x1 + 1, y1, Scroll.Gutter )"
@@ -44,7 +43,6 @@
 	}
 
 	layout {
-
 		region { name=nav height=50 width=max y=9 }
 		region { name=body height=max width=max y=50 }
 		region { name=controls region=body height=max width=98 align=top-center }
@@ -55,7 +53,7 @@
 		place {	control=CurrentAlbumImage		region=body y=16 x=26 width=50 height=50 }
 		place {	control=BrowseButton				region=body y=16 x=26 width=50 height=50 }
 
-		place { control=CurrentTrackLabel 	region=nav x=25 y=3 margin-right=79 }
+		place { control=CurrentTrackLabel 	region=nav x=25 y=5 margin-right=79 }
 
 		place {
 			control=PreviousButton
