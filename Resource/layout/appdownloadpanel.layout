@@ -1,7 +1,6 @@
 "resource/layout/appdownloadpanel.layout"
 {
-	styles
-	{
+	styles {
 		panelStyle {
 			render_bg {
 				0="fill( x0, y0, x1, y1, A2.Ribbon )"
@@ -77,14 +76,13 @@
 		place { control=gameimage region=column1 height=69 width=184 align=left y=25 }
 
 		// mid column
-		place { control=namelabel,updatetypelabel region=column2 y=16 spacing=20 }
+		place { control=namelabel,updatetypelabel region=column2 y=17 spacing=20 }
 		place { control=launchbutton,newslink,settingslink region=column2 y=64 spacing=10 }
 
 		// right column
-		place { control=downloadtotallabel,downloadtotalfield region=column3 spacing=20 y=20 height=19 }
-		place { control=starttimelabel,starttimefield region=column3 spacing=20 y=50 height=19 }
-		place { control=timecompletedlabel,timecompletedfield,timeremaininglabel,timeremainingfield region=column3 spacing=20 y=80 height=19 }
-
+		place { control=downloadtotallabel,downloadtotalfield region=column3 spacing=20 y=21 height=19 }
+		place { control=timecompletedlabel,timecompletedfield,starttimelabel,starttimefield region=column3 spacing=20 y=51 height=19 }
+		place { control=timeremaininglabel,timeremainingfield region=column3 spacing=20 y=81 height=19 }
 
 		place { control=topofqueuebutton region=column3 y=18 align=right height=24 width=24 }
 		place { control=removefromqueuebutton region=column3 y=48 align=right height=24 width=24 }
