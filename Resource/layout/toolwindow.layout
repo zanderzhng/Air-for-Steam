@@ -42,13 +42,13 @@
 		Button {
 			textcolor=none //don't render "X" as text
 			render_bg {
-				1="image( x0 + 5, y0 + 7, x1, y1, graphics/material/icons/add )"
+				1="image( x0 + 5, y0 + 6, x1, y1, graphics/material/icons/add )"
 			}
 		}
 
 		Button:hover {
 			render_bg {
-				1="image( x0 + 5, y0 + 7, x1, y1, graphics/material/icons/add_hover )"
+				1="image( x0 + 5, y0 + 6, x1, y1, graphics/material/icons/add_hover )"
 			}
 		}
 	}

@@ -31,9 +31,9 @@
 
 		region { name=links width=max align=top y=90 }
 
-		place { control=FriendsDetailPanel 				width=419 } //172 + 137 + 40 + 40 + 30
-		place { control=CommunityHubDetailPanel 	width=252 } //212 + 40
-		place { control=ScreenshotsDetailPanel 		width=259 } //189 + 40 + 30
+		place { control=FriendsDetailPanel 				width=450 } //190 + 150 + 40 + 40 + 30
+		place { control=CommunityHubDetailPanel 	width=277 } //237 + 40
+		place { control=ScreenshotsDetailPanel 		width=279 } //209 + 40 + 30
 		place { control=FriendsDetailPanel,CommunityHubDetailPanel,ScreenshotsDetailPanel region=links align=top-center height=60 }
 
 		place { control=BroadcastDetailPanel align=top-center y=20 height=50 width=360 }
