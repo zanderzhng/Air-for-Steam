@@ -2,8 +2,6 @@
 {
 	styles {
 		IMEEntry {
-			// vary font size for legibility in CJK languages
-			font-size=18
 		}
 
 		CloseButtonSm {

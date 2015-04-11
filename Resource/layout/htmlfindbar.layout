@@ -13,8 +13,6 @@
 			render_bg { }
 		}
 
-		label { font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
-
 		CloseButtonSm {
 			image=graphics/none
 			render_bg { 0="image( x0, y0, x1, y1, graphics/material/web/stop )" }
@@ -42,7 +40,7 @@
 	}
 
 	layout {
-		region { name=box y=10 width=max height=max margin-left=26 margin-right=26 }
+		region { name=box y=10 width=max height=max margin-left=18 margin-right=18}
 
 		place { control=FindEntry 				region=box align=left width=max margin-right=84 end-right=Next }
 		place { control=FindCount 				region=box align=right end-right=Next margin-right=20 margin-top=7 }

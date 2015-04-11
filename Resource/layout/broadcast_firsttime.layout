@@ -1,9 +1,7 @@
 "friends/broadcast_firsttime.layout"
 {
 	styles {
-
 		IntroHeading {
-			font-family=medium font-size=18 font-weight=500 textcolor=Text.Primary font-style=regular
 		}
 
 		PermissionHeader {

@@ -569,6 +569,27 @@
 	EmoticonMenuItemStyle:hover
 		{ textcolor=Text.Secondary }
 
+	SettingsList {
+		font-family=medium font-size=18 font-weight=500 textcolor=Text.Notification font-style=regular
+		selectedtextcolor=Focus
+		selectedbgcolor=none
+	}
+
+	"CDialogParentalUnlock Password"
+		{ font-size=40 }
+
+	IntroHeading
+		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.Primary font-style=regular }
+		//from broadcast_firsttime.layout
+
+	"HTML label"
+		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
+		//from htmlfindbar.layout
+
+	IMEEntry
+		{ font-size=18 }
+		//from htmlimebar.layout, vary font size for legibility in CJK languages
+
 	emptylisttext
 		{ textcolor=none selectedtextcolor=none }
 		//search results empty

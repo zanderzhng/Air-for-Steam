@@ -231,8 +231,8 @@
 		ListPanel.DisabledSelectedTextColor   ClientBG
 		ListPanel.EmptyListInfoTextColor    Label
 
-		TextEntry.IMEBGColor        "Air230"
-		TextEntry.IMEFGColor        "Light"
+		TextEntry.IMEBGColor        "none"
+		TextEntry.IMEFGColor        "Text.Label"
 
 		WizardPanel.HeaderBGColor     "HeaderDialog"
 
