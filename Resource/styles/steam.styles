@@ -207,83 +207,106 @@ steam.styles
 			render_bg { }
 		}
 
-		//"Hold+Resume" button in normal chat
-		//Chat_MenuButton_withChrome 						{ render_bg { } }
-		//Chat_MenuButton_withChrome:hover 			{ render_bg { } }
-		//Chat_MenuButton_withChrome:active 		{ render_bg { } }
-		//Chat_MenuButton_withChrome:disabled 	{ render_bg { } }
+		SmRemoveButton
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/material/web/stop )" } }
 
-		//"End voice chat" button in normal chat
-		//controlbutton 					{ render_bg { } }
-		//controlbutton:hover 		{ render_bg { } }
-		//controlbutton:active 		{ render_bg { } }
-		//controlbutton:disabled 	{ render_bg { } }
+		SmRemoveButton:hover
+			{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/material/web/stop_hover )" } }
 
-		//DetailsLaunchButton 					{ inset="19 0 0 0" render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/play )" } }
-		//DetailsLaunchButton:hover 		{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/play_hover )" } }
-		//DetailsLaunchButton:active 		{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/play_hover )" } }
-		//DetailsLaunchButton:disabled 	{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/play )" } }
+		SmRemoveButton:active
+			{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/material/web/stop_hover )" } }
 
-		//DetailsInstallButton 					{ inset="19 0 0 0" render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/install)" } }
-		//DetailsInstallButton:hover 		{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/install_hover )" } }
-		//DetailsInstallButton:active 	{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/install_hover )" } }
+		topOfQueueButton
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/material/web/top )" } }
 
-		//DetailsBuyButton 							{ inset="19 0 0 0" render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/buy )" } }
-		//DetailsBuyButton:hover 				{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/buy_hover )" } }
-		//DetailsBuyButton:active 			{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/buy_hover )" } }
+		topOfQueueButton:hover
+			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/material/web/top_hover )" } }
 
-		//PauseButton 									{ inset="19 0 0 0" render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/pause )" } }
-		//PauseButton:hover 						{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/pause_hover )" } }
-		//PauseButton:active 						{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/pause_hover )" } }
+		topOfQueueButton:active
+			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/material/web/top_hover )" } }
 
-		//ResumeButton 									{ inset="19 0 0 0" render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/install )" } }
-		//ResumeButton:hover 						{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/install_hover )" } }
-		//ResumeButton:active 					{ render { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/icons/install_hover )" } }
+		downarrow
+			{ image="graphics/material/nav/caret_down_secondary" }
 
-		SmRemoveButton				 				{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/material/web/stop )" } }
-		SmRemoveButton:hover 					{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/material/web/stop_hover )" } }
-		SmRemoveButton:active 				{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/material/web/stop_hover )" } }
+		uparrow
+			{ image="graphics/material/nav/caret_up_secondary" }
 
-		topOfQueueButton 							{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/material/web/top )" } }
-		topOfQueueButton:hover 				{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/material/web/top_hover )" } }
-		topOfQueueButton:active 			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/material/web/top_hover )" } }
+		rightarrow
+			{ image="graphics/material/nav/caret_right_secondary" }
 
-		downarrow 				{ image="graphics/material/nav/caret_down_secondary" }
-		uparrow 					{ image="graphics/material/nav/caret_up_secondary" }
-		rightarrow 				{ image="graphics/material/nav/caret_right_secondary" }
-		leftarrow 				{ image="graphics/material/nav/caret_left_secondary" }
+		leftarrow
+			{ image="graphics/material/nav/caret_left_secondary" }
 
-		"CSteamRootDialog downarrow" 				{ image="graphics/material/nav/caret_down_onfocus" }
-		"CSteamRootDialog uparrow" 					{ image="graphics/material/nav/caret_up_onfocus" }
-		"CSteamRootDialog rightarrow" 			{ image="graphics/material/nav/caret_right_onfocus" }
-		"CSteamRootDialog leftarrow" 				{ image="graphics/material/nav/caret_left_onfocus" }
+		"CSteamRootDialog downarrow"
+			{ image="graphics/material/nav/caret_down_onfocus" }
 
-		CheckButton 										{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkUnselStd )" } }
-		CheckButton:selected 						{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkSelStd )" } }
-		CheckButton:disabled			 			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkUnselDis )" } }
-		CheckButton:selected:disabled 	{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkSelDis )" } }
+		"CSteamRootDialog uparrow"
+			{ image="graphics/material/nav/caret_up_onfocus" }
 
-		CheckButtonList { }
+		"CSteamRootDialog rightarrow"
+			{ image="graphics/material/nav/caret_right_onfocus" }
 
-		ListPanelCheckBox {
-			padding-left=0
-			inset-top=-1
-			//inset-left=8
-		}
+		"CSteamRootDialog leftarrow"
+			{ image="graphics/material/nav/caret_left_onfocus" }
 
-		"ListPanelColumnheader ListPanelCheckBox" {
-			inset-top=-2
-			inset-left=9
-		}
 
-		"CAddShortcutDialog ListPanelColumnheader ListPanelCheckBox" {
-			inset-top=7
-		}
+		CheckButton
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkUnselStd )" } }
 
-		RadioButton 								{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/RadUnselStd )" } }
-		RadioButton:selected 				{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/RadSelStd )" } }
+		CheckButton:selected
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkSelStd )" } }
+
+		CheckButton:disabled
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkUnselDis )" } }
+
+		CheckButton:selected:disabled
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkSelDis )" } }
+
+		"CheckButtonList CheckButton"
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/chkUnselStd )" } }
+
+		"CheckButtonList CheckButton:selected"
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/chkSelStd )" } }
+
+		"CheckButtonList CheckButton:disabled"
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/chkUnselDis )" } }
+
+		"CheckButtonList CheckButton:selected:disabled"
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/chkSelDis )" } }
+
+		ListPanelCheckBox
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/chkUnselStd )" } }
+
+		ListPanelCheckBox:selected
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/chkSelStd )" } }
+
+		ListPanelCheckBox:disabled
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/chkUnselDis )" } }
+
+		ListPanelCheckBox:selected:disabled
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/chkSelDis )" } }
+
+		"ListPanelColumnheader ListPanelCheckBox"
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/chkUnselStd )" } }
+
+		"ListPanelColumnheader ListPanelCheckBox:selected"
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/chkSelStd )" } }
+
+		"ListPanelColumnheader ListPanelCheckBox:disabled"
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/chkUnselDis )" } }
+
+		"ListPanelColumnheader ListPanelCheckBox:selected:disabled"
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/chkSelDis )" } }
+
+
+		RadioButton
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/RadUnselStd )" } }
+
+		RadioButton:selected
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/RadSelStd )" } }
 
 		RadioButtonList { }
+
 
 		Divider {
 			bgcolor=none
@@ -349,12 +372,39 @@ steam.styles
 
 		ListPanel {
 			padding-left=8
+			bgcolor=A2.Ribbon
 			selectedbgcolor=A2.Ribbon //games list selected game bg color
 			shadowtextcolor="Text.Hint" //the color of disabled line items
 		}
 
-		ListPanelInterior {
-		}
+		CheckButtonList
+			{ bgcolor=A2.Ribbon }
+
+		RadioButtonList
+			{ bgcolor=A2.Ribbon }
+
+		"CDialogSettings ListPanel"
+			{ bgcolor=none }
+
+		"CSubPanelOptionsFamily ListPanel"
+			{ bgcolor=A2.Ribbon }
+
+		"CSettingsSubStreaming ListPanel"
+			{ bgcolor=A2.Ribbon selectedtextcolor=Focus }
+
+		"CSteamRootDialog ListPanel"
+			{ bgcolor=none }
+
+		"CGamesPage_Mini ListPanel"
+			{ bgcolor=none }
+
+		"CPlayersDialog ListPanel"
+			{ bgcolor=none }
+
+		"CServerBrowserDialog ListPanel"
+			{ bgcolor=none }
+
+		ListPanelInterior { }
 
 		ListPanelColumnheader {
 			minimum-height=0 //reset for button height

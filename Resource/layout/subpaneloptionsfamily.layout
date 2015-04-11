@@ -1,12 +1,5 @@
 "resource/layout/subpaneloptionscloud.layout"
 {
-	styles {
-		ListPanel {
-			bgcolor=A2.Ribbon
-			selectedtextcolor=Focus
-		}
-	}
-
 	layout {
 		place { control=BorrowersLabel							width=max }
 		place { control=BorrowersList								dir=down width=max height=120 start=BorrowersLabel y=20 }
