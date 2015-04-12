@@ -1,10 +1,9 @@
 "friends/tradeinvitebar.res"
 {
-	styles
-	{
+	styles {
 		CTradeInviteBar {
 			render_bg {
-				0="fill( x0, y0, x1, y1, A2.Bar )"
+				0="fill( x0, y0, x1, y1, Focus4 )"
 			}
 		}
 
@@ -30,7 +29,7 @@
 		place { control=InviteLabel,InviteSentLabel region=box y=8 margin-right=40 spacing=3 align=top-center }
 		place { control=ClickHereLabel,WaitingForResponseLabel region=box y=29 margin-right=40 spacing=3 align=top-center }
 
-		place { control=CloseButton region=box align=right width=14 height=14 y=21 }
+		place { control=CloseButton region=box align=right width=14 height=14 y=18 }
 
 		place { control=InviteImage,InviteSentImage height=0 width=0 }
 	}

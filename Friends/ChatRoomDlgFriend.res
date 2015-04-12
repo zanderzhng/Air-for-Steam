@@ -5,16 +5,16 @@
 			//styles defined within ToolWindow in _layout.styles
 		}
 
+		ChatListPanel {
+			render {
+				0="image_tiled( x0, y0, x1, y0 + 6, graphics/material/layout/shadow_horiz )"
+			}
+		}
+
 		Textentryfocus_chat {
 			minimum-height=0
 			inset-left=0
 			render_bg { }
-		}
-
-		Textentryfocus_chat:focus {
-			render_bg {
-				//0="fill( x0 + 3, y1 - 1, x1, y1 + 1, Focus )"
-			}
 		}
 
 		"RichText Scrollbar" {
@@ -26,10 +26,10 @@
 		region { name=chat y=6 margin-bottom=120 height=max width=max }
 		region { name=bottom align=bottom height=120 width=max }
 
-		place { control=VoiceBar,TradeInviteBar,GameInviteBar,BIBar,BABar width=max height=55 }
+		place { control=VoiceBar,TradeInviteBar,GameInviteBar,BIBar,BABar width=max height=50 }
 
-		place { control=VoiceChat						region=chat align=right y=12 margin-right=26 }
-		place { control=VoiceBar						region=chat align=left width=max height=55 end-right=VoiceChat }
+		place { control=VoiceBar						region=chat align=left width=max end-right=VoiceChat }
+		place { control=VoiceChat						region=chat align=right y=10 margin-right=26 }
 
 		place {
 			control=TradeInviteBar,GameInviteBar,ChatInfoBar,BIBar,BABar,ChatHistory
