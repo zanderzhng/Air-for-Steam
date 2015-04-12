@@ -1,5 +1,5 @@
-"resource/layout/uinavigatorpanel.layout"
-{
+resource/layout/uinavigatorpanel.layout {
+
 	styles {
 		zoomslider {
 			minimum-height=0 //reset for slider height

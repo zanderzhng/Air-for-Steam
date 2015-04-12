@@ -1,25 +1,18 @@
-"_fonts.styles" {
+fonts.styles {
 
 	colors [$WINDOWS||$LINUX] {
-
-	basefont		"Roboto"
-	condensed		"Roboto Condensed"
-	medium			"Roboto Medium"
-
+		basefont		"Roboto"
+		condensed		"Roboto Condensed"
+		medium			"Roboto Medium"
 	}
 
 	colors [$OSX] {
-
-	basefont		"Roboto Regular"
-	condensed		"Roboto Condensed Regular"
-	medium			"Roboto Medium"
-
+		basefont		"Roboto Regular"
+		condensed		"Roboto Condensed Regular"
+		medium			"Roboto Medium"
 	}
 
 	styles {
-
-//Styleguide
-
 	//Title					22px, 400, condensed, text.white, regular					//
 
 	//Body					16px, 400, basefont, text.primary, regular				//

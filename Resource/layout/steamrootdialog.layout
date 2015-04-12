@@ -1,7 +1,6 @@
-"resource/layout/steamrootdialog.layout"
-{
-	styles {
+resource/layout/steamrootdialog.layout {
 
+	styles {
 		RootMenu {
 			bgcolor=none
 		}
