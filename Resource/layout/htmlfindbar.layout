@@ -15,18 +15,18 @@
 
 		CloseButtonSm {
 			image=graphics/none
-			render_bg { 0="image( x0, y0, x1, y1, graphics/material/web/stop )" }
+			render_bg { 0="image( x0, y0, x1, y1, graphics/new/onfocus/web/stop )" }
 		}
 
 		CloseButtonSm:hover {
-			render_bg { 0="image( x0, y0, x1, y1, graphics/material/web/stop_hover )" }
+			render_bg { 0="image( x0, y0, x1, y1, graphics/new/onfocus/web/stop_hover )" }
 		}
 
 		NextButtonSm {
 			textcolor=none
 			render_bg {
 				0="fill( x0, y0, x1, y1, Button.Hover )"
-				1="image( x0 + 4, y0 + 8, x1, y1, graphics/material/nav/caret_down_onfocus )"
+				1="image( x0 + 4, y0 + 8, x1, y1, graphics/new/onfocus/caret_down_onfocus )"
 			}
 		}
 
@@ -34,7 +34,7 @@
 			textcolor=none
 			render_bg {
 				0="fill( x0, y0, x1, y1, Button.Hover )"
-				1="image( x0 + 4, y0 + 8, x1, y1, graphics/material/nav/caret_up_onfocus )"
+				1="image( x0 + 4, y0 + 8, x1, y1, graphics/new/onfocus/caret_up_onfocus )"
 			}
 		}
 	}

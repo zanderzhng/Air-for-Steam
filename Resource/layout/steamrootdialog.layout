@@ -42,20 +42,20 @@ resource/layout/steamrootdialog.layout {
 		inbox_button_active {
 		textcolor=none
 			render_bg {
-				2="image( x0 + 9, y0 + 8, x1, y1, graphics/material/icons/inbox )"
+				2="image( x0 + 9, y0 + 8, x1, y1, graphics/new/onfocus/inbox )"
 			}
 		}
 
 		inbox_button_active:hover {
 			render_bg {
-				2="image( x0 + 9, y0 + 8, x1, y1, graphics/material/icons/inbox )"
+				2="image( x0 + 9, y0 + 8, x1, y1, graphics/new/onfocus/inbox )"
 			}
 		}
 
 		inbox_button_active:selected {
 			render_bg {
-				1="image( x0, y0, x1, y1, graphics/material/layout/active_circle )"
-				2="image( x0 + 9, y0 + 8, x1, y1, graphics/material/icons/inbox )"
+				1="image( x0, y0, x1, y1, graphics/new/layout/active_circle )"
+				2="image( x0 + 9, y0 + 8, x1, y1, graphics/new/onfocus/inbox )"
 
 			}
 		}
@@ -63,28 +63,28 @@ resource/layout/steamrootdialog.layout {
 		parental_lock_button {
 			image=graphics/none
 			render_bg {
-				0="image( x0 - 2, y0 - 5, x1, y1, graphics/material/icons/unlock)"
+				0="image( x0 - 2, y0 - 5, x1, y1, graphics/new/inactive/unlock)"
 			}
 		}
 
 		parental_lock_button:hover {
 			image=graphics/none
 			render_bg {
-				0="image( x0 - 2, y0 - 5, x1, y1, graphics/material/icons/unlock_hover)"
+				0="image( x0 - 2, y0 - 5, x1, y1, graphics/new/inactive/unlock_hover)"
 			}
 		}
 
 		parental_lock_button:selected {
 			image=graphics/none
 			render_bg {
-				0="image( x0 - 2, y0 - 5, x1, y1, graphics/material/icons/lock)"
+				0="image( x0 - 2, y0 - 5, x1, y1, graphics/new/inactive/lock)"
 			}
 		}
 
 		parental_lock_button:selected:hover {
 			image=graphics/none
 			render_bg {
-				0="image( x0 - 2, y0 - 5, x1, y1, graphics/material/icons/lock_hover)"
+				0="image( x0 - 2, y0 - 5, x1, y1, graphics/new/inactive/lock_hover)"
 			}
 		}
 	}

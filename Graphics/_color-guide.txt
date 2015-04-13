@@ -1,23 +1,44 @@
-Material Light:
-Primary		115
-Secondary	190
+Light
 
-OnFocus		255
-Soft		20% black painted on top of 255 icon
+The standard opacity for an active icon on a light background is 54% (#000000).
+An inactive icon, which is lower in the visual hierarchy, should have an opacity of 26% (#000000).
+
+OnFocus icons,
+	#FFFFFF, Alpha 100%
+	#FFFFFF, Alpha 80% hover
+
+Active icons
+	#000000, Alpha 54%
+	#000000, Alpha 64% hover
+
+Secondary icons
+	#000000, Alpha 36%
+	#000000, Alpha 46% hover
+
+Inactive icons
+	#000000, Alpha 26%
+	#000000, Alpha 36% hover
+	(officer star, logo6, minithrobber)
 
 
-Dark img on light bg:
-Primary 	175 175 175 255
-Primary hover 	150 150 150 255
-Primary select	125 125 125 255
+Dark
 
-Disabled	200 200 200 255
+The standard opacity for an active icon on a dark background is 100% (#FFFFFF).
+An inactive icon, which is lower in the visual hierarchy, should have an opacity of 30% (#FFFFFF).
 
-Light img on dark bg
-Primary 	255 255 255 255
-Primary hover 	230 230 230 255
-Primary select	205 205 205 255
+OnFocus icons,
+	#FFFFFF, Alpha 100%
+	#FFFFFF, Alpha 80% hover
 
-FOR SUPER LIGHT ICONS (bigpic/web/mobile & parental control)
-Primary		70% black painted on top of 255 icon
-Hover		50% black painted on top of 255 icon
+Active icons
+	#FFFFFF, Alpha 70%
+	#FFFFFF, Alpha 60% hover
+
+Secondary icons
+	#FFFFFF, Alpha 50%
+	#FFFFFF, Alpha 40% hover
+
+Inactive icons
+	#FFFFFF, Alpha 30%
+	#FFFFFF, Alpha 40% hover
+	(lock, unlock, bigpic, mobile, web)

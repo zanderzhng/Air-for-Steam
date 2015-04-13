@@ -53,11 +53,11 @@ resource/layout/uinavigatorpanel.layout {
 		}
 
 		MusicPlayerIcon {
-			image="graphics/material/music/player"
+			image="graphics/new/active/music/player"
 		}
 
 		NavLabel2 {
-			image=graphics/material/icons/add
+			image=graphics/new/onfocus/add
 
 			//music page list panel collapser icon (overriden below for game filter button)
 		}
@@ -65,7 +65,7 @@ resource/layout/uinavigatorpanel.layout {
 		CGameFilterMenuButton {
 			render {
 				0="fill( x0, y0, x1, y1, focus )"
-				0="image( x0, y0 + 8, x1, y1, graphics/material/nav/caret_down_soft )"
+				0="image( x0, y0 + 8, x1, y1, graphics/new/onfocus/caret_down_onfocus_hover )"
 			}
 		}
 	}

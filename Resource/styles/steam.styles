@@ -187,7 +187,7 @@ steam.styles {
 			inset-left=7
 			inset-top=1
 			render {
-				0="image ( x1 - 20, y0 + 8, x1, y1, graphics/material/nav/caret_down_primary )"
+				0="image ( x1 - 20, y0 + 8, x1, y1, graphics/new/secondary/caret_down )"
 			}
 			render_bg {
 				0="fill( x0, y0, x1, y1 + 1, Button.Hover )"
@@ -206,102 +206,101 @@ steam.styles {
 		}
 
 		SmRemoveButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/material/web/stop )" } }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/new/onfocus/web/stop )" } }
 
 		SmRemoveButton:hover
-			{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/material/web/stop_hover )" } }
+			{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/new/onfocus/web/stop_hover )" } }
 
 		SmRemoveButton:active
-			{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/material/web/stop_hover )" } }
+			{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/new/onfocus/web/stop_hover )" } }
 
 		topOfQueueButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/material/web/top )" } }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/new/onfocus/web/top )" } }
 
 		topOfQueueButton:hover
-			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/material/web/top_hover )" } }
+			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/new/onfocus/web/top_hover )" } }
 
 		topOfQueueButton:active
-			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/material/web/top_hover )" } }
+			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/new/onfocus/web/top_hover )" } }
 
 		downarrow
-			{ image="graphics/material/nav/caret_down_secondary" }
+			{ image="graphics/new/secondary/caret_down" }
 
 		uparrow
-			{ image="graphics/material/nav/caret_up_secondary" }
+			{ image="graphics/new/secondary/caret_up" }
 
 		rightarrow
-			{ image="graphics/material/nav/caret_right_secondary" }
+			{ image="graphics/new/secondary/caret_right" }
 
 		leftarrow
-			{ image="graphics/material/nav/caret_left_secondary" }
+			{ image="graphics/new/secondary/caret_left" }
 
 		"CSteamRootDialog downarrow"
-			{ image="graphics/material/nav/caret_down_onfocus" }
+			{ image="graphics/new/onfocus/caret_down_onfocus" }
 
 		"CSteamRootDialog uparrow"
-			{ image="graphics/material/nav/caret_up_onfocus" }
+			{ image="graphics/new/onfocus/caret_up_onfocus" }
 
 		"CSteamRootDialog rightarrow"
-			{ image="graphics/material/nav/caret_right_onfocus" }
+			{ image="graphics/new/onfocus/caret_right_onfocus" }
 
 		"CSteamRootDialog leftarrow"
-			{ image="graphics/material/nav/caret_left_onfocus" }
+			{ image="graphics/new/onfocus/caret_left_onfocus" }
 
 
 		CheckButton
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkUnselStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/chkUnselStd )" } }
 
 		CheckButton:selected
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkSelStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/chkSelStd )" } }
 
 		CheckButton:disabled
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkUnselDis )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/chkUnselDis )" } }
 
 		CheckButton:selected:disabled
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/chkSelDis )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/chkSelDis )" } }
 
 		"CheckButtonList CheckButton"
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/chkUnselStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/new/active/switches/chkUnselStd )" } }
 
 		"CheckButtonList CheckButton:selected"
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/chkSelStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/new/active/switches/chkSelStd )" } }
 
 		"CheckButtonList CheckButton:disabled"
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/chkUnselDis )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/new/active/switches/chkUnselDis )" } }
 
 		"CheckButtonList CheckButton:selected:disabled"
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/chkSelDis )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/new/active/switches/chkSelDis )" } }
 
 		ListPanelCheckBox
-			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/chkUnselStd )" } }
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/new/active/switches/chkUnselStd )" } }
 
 		ListPanelCheckBox:selected
-			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/chkSelStd )" } }
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/new/active/switches/chkSelStd )" } }
 
 		ListPanelCheckBox:disabled
-			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/chkUnselDis )" } }
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/new/active/switches/chkUnselDis )" } }
 
 		ListPanelCheckBox:selected:disabled
-			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/chkSelDis )" } }
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/new/active/switches/chkSelDis )" } }
 
 		"ListPanelColumnheader ListPanelCheckBox"
-			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/chkUnselStd )" } }
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/new/active/switches/chkUnselStd )" } }
 
 		"ListPanelColumnheader ListPanelCheckBox:selected"
-			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/chkSelStd )" } }
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/new/active/switches/chkSelStd )" } }
 
 		"ListPanelColumnheader ListPanelCheckBox:disabled"
-			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/chkUnselDis )" } }
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/new/active/switches/chkUnselDis )" } }
 
 		"ListPanelColumnheader ListPanelCheckBox:selected:disabled"
-			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/chkSelDis )" } }
-
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/new/active/switches/chkSelDis )" } }
 
 		RadioButton
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/RadUnselStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/radUnselStd )" } }
 
 		RadioButton:selected
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/RadSelStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/radSelStd )" } }
 
 		RadioButtonList { }
 
@@ -329,7 +328,7 @@ steam.styles {
 			//width is 384
 			render {
 				0="fill( x0, y0, x1, y1, A2.Background )"
-				2="image( x0, y0, x1, y1, graphics/decals/air_logo )"
+				1="image( x0, y0, x1, y1, graphics/new/inactive/air_splash )"
 			}
 		}
 
@@ -376,9 +375,11 @@ steam.styles {
 
 		"CSubPanelOptionsFamily ListPanel"
 			{ bgcolor=A2.Ribbon }
+			//needs to be defined due to CDialogSettings overwrite
 
 		"CSettingsSubStreaming ListPanel"
 			{ bgcolor=A2.Ribbon selectedtextcolor=Focus }
+			//needs to be defined due to CDialogSettings overwrite
 
 		"CSteamRootDialog ListPanel"
 			{ bgcolor=none }
@@ -390,6 +391,9 @@ steam.styles {
 			{ bgcolor=none }
 
 		"CServerBrowserDialog ListPanel"
+			{ bgcolor=none }
+
+		"CAddShortcutDialog ListPanel"
 			{ bgcolor=none }
 
 		ListPanelInterior { }
@@ -421,42 +425,42 @@ steam.styles {
 		}
 
 		ListPanelColumnSelectButton {
-			image=graphics/material/icons/add
+			image=graphics/new/onfocus/add
 		}
 
 		ListPanelColumnSelectButton:hover {
-			image=graphics/material/icons/add_hover
+			image=graphics/new/onfocus/add_hover
 		}
 
 		ListPanelColumnSelectButton:selected {
-			image=graphics/material/icons/add_hover
+			image=graphics/new/onfocus/add_hover
 		}
 
 		"CGamesListPanel ListPanelColumnSelectButton" {
 			image=graphics/none
 			render {
-				0="image( x0 - 1, y0 - 2, x1, y1, graphics/material/icons/add )"
+				0="image( x0 - 1, y0 - 2, x1, y1, graphics/new/onfocus/add )"
 			}
 		}
 
 		"CGamesListPanel ListPanelColumnSelectButton:hover" {
 			image=graphics/none
 			render {
-				0="image( x0 - 1, y0 - 2, x1, y1, graphics/material/icons/add_hover )"
+				0="image( x0 - 1, y0 - 2, x1, y1, graphics/new/onfocus/add_hover )"
 			}
 		}
 
 		"CGamesListPanel ListPanelColumnSelectButton:selected" {
 			image=graphics/none
 			render {
-				0="image( x0 - 1, y0 - 2, x1, y1, graphics/material/icons/add_hover )"
+				0="image( x0 - 1, y0 - 2, x1, y1, graphics/new/onfocus/add_hover )"
 			}
 		}
 
 		"CGamesPage_Details ListPanelColumnSelectButton" {
 			padding-left=1
 			padding-top=2
-			image=graphics/material/icons/add
+			image=graphics/new/onfocus/add
 			render { }
 			render_bg {
 				0="fill( x0 + 7, y0, x1, y1 + 1, Scroll.Gutter )"
@@ -464,18 +468,18 @@ steam.styles {
 		}
 
 		"CGamesPage_Details ListPanelColumnSelectButton:hover" {
-			image=graphics/material/icons/add
+			image=graphics/new/onfocus/add
 			render { }
 		}
 
 		"CGamesPage_Details ListPanelColumnSelectButton:selected" {
-			image=graphics/material/icons/add
+			image=graphics/new/onfocus/add
 			render { }
 		}
 
 		"CGamesPage_Mini ListPanelColumnSelectButton" {
 			padding-left=1
-			image=graphics/material/icons/add
+			image=graphics/new/onfocus/add
 			render { }
 			render_bg {
 				0="fill( x0 + 7, y0 + 1, x1, y1 + 1, Scroll.Gutter )"
@@ -483,12 +487,12 @@ steam.styles {
 		}
 
 		"CGamesPage_Mini ListPanelColumnSelectButton:hover" {
-			image=graphics/material/icons/add
+			image=graphics/new/onfocus/add
 			render { }
 		}
 
 		"CGamesPage_Mini ListPanelColumnSelectButton:selected" {
-			image=graphics/material/icons/add
+			image=graphics/new/onfocus/add
 			render { }
 		}
 
@@ -527,26 +531,26 @@ steam.styles {
 			textcolor=none
 			padding-left=4 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 8, x1, y1, graphics/material/nav/expand_less )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/new/inactive/expand_less )"
 			}
 		}
 
 		ListPanelSectionCollapser:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 8, x1, y1, graphics/material/nav/expand_less )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/new/inactive/expand_less )"
 			}
 		}
 
 		ListPanelSectionCollapser:selected {
 			padding-left=2 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 8, x1, y1, graphics/material/nav/expand_more )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/new/inactive/expand_more )"
 			}
 		}
 
 		ListPanelSectionCollapser:selected:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 8, x1, y1, graphics/material/nav/expand_more )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/new/inactive/expand_more )"
 			}
 		}
 
@@ -555,26 +559,26 @@ steam.styles {
 			textcolor=none
 			padding-left=4 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 4, x1, y1, graphics/material/nav/expand_less )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/new/inactive/expand_less )"
 			}
 		}
 
 		SectionedListPanelCollapser:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 4, x1, y1, graphics/material/nav/expand_less )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/new/inactive/expand_less )"
 			}
 		}
 
 		SectionedListPanelCollapser:selected {
 			padding-left=2 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 4, x1, y1, graphics/material/nav/expand_more )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/new/inactive/expand_more )"
 			}
 		}
 
 		SectionedListPanelCollapser:selected:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 4, x1, y1, graphics/material/nav/expand_more )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/new/inactive/expand_more )"
 			}
 		}
 
@@ -617,22 +621,22 @@ steam.styles {
 			minimum-width=52
 			textcolor=none
 			render_bg {
-				1="image( x0 + 24, y0 + 14, x1, y1, graphics/material/icons/hamburger_soft )"
+				1="image( x0 + 24, y0 + 14, x1, y1, graphics/new/onfocus/hamburger )"
 			}
 		}
 
 		"MenuBar MenuButton:hover" {
 			textcolor=none
 			render_bg {
-				1="image( x0 + 24, y0 + 14, x1, y1, graphics/material/icons/hamburger )"
+				1="image( x0 + 24, y0 + 14, x1, y1, graphics/new/onfocus/hamburger_hover )"
 			}
 		}
 
 		"MenuBar MenuButton:selected" {
 			textcolor=none
 			render_bg {
-				1="image( x0 + 17, y0 + 7, x1, y1, graphics/material/layout/active_circle )"
-				2="image( x0 + 24, y0 + 14, x1, y1, graphics/material/icons/hamburger )"
+				1="image( x0 + 17, y0 + 7, x1, y1, graphics/new/layout/active_circle )"
+				2="image( x0 + 24, y0 + 14, x1, y1, graphics/new/onfocus/hamburger_hover )"
 			}
 		}
 
@@ -640,17 +644,17 @@ steam.styles {
 
 		CChatActionsButton {
 			inset-left=12
-			image="graphics/material/nav/more_vert"
+			image="graphics/new/inactive/more_vert"
 			render_bg { }
 		}
 
 		CChatActionsButton:hover {
-			image="graphics/material/nav/more_vert_hover"
+			image="graphics/new/inactive/more_vert_hover"
 			render_bg { }
 		}
 
 		CChatActionsButton:selected {
-			image="graphics/material/nav/more_vert_hover"
+			image="graphics/new/inactive/more_vert_hover"
 			render_bg { }
 		}
 
@@ -714,13 +718,13 @@ steam.styles {
 		TabCloseButton {
 			textcolor=none //don't render "X" as text
 			render_bg {
-				0="image( x0 + 5, y0 + 7, x1, y1, graphics/material/nav/tiny_x )"
+				0="image( x0 + 5, y0 + 7, x1, y1, graphics/new/onfocus/tiny_x )"
 			}
 		}
 
 		TabCloseButton:hover {
 			render_bg {
-				1="image( x0 + 5, y0 + 7, x1, y1, graphics/material/nav/tiny_x_soft )"
+				1="image( x0 + 5, y0 + 7, x1, y1, graphics/new/onfocus/tiny_x_hover )"
 			}
 		}
 
@@ -741,15 +745,15 @@ steam.styles {
 
 		CEmoticonButton {
 			padding-left=8
-			image="graphics/material/icons/emoticon"
+			image="graphics/new/inactive/emoticon"
 		}
 
 		CEmoticonButton:hover {
-			image="graphics/material/icons/emoticon_hover"
+			image="graphics/new/inactive/emoticon_hover"
 		}
 
 		CEmoticonButton:selected {
-			image="graphics/material/icons/emoticon_hover"
+			image="graphics/new/inactive/emoticon_hover"
 		}
 
 		EmoticonMenuItemStyle {
@@ -860,7 +864,7 @@ steam.styles {
 			textcolor=none
 			inset-top=-8
 			inset-left=-1
-			image=graphics/material/icons/favorite_header
+			image=graphics/new/onfocus/favorite_onfocus
 		}
 
 		CGamesListFavoritesToggle {
@@ -869,72 +873,72 @@ steam.styles {
 		}
 
 		CGamesListFavoritesToggle:hover {
-			image=graphics/material/icons/favorite
+			image=graphics/new/inactive/favorite
 		}
 
 		CGamesListFavoritesToggle:selected {
-			image=graphics/material/icons/favorite
+			image=graphics/new/inactive/favorite
 		}
 
 		CGamesListFavoritesToggle:selected:hover {
-			image=graphics/material/icons/favorite_outline
+			image=graphics/new/inactive/favorite_outline
 		}
 
 		WrapPanel { }
 
 		BackButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/material/web/back }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/back }
 
 		BackButton:hover
-			{ render_bg { } image=graphics/material/web/back_hover }
+			{ render_bg { } image=graphics/new/onfocus/web/back_hover }
 
 		"CSteamRootDialog BackButton:hover"
-			{ render_bg { } image=graphics/material/web/back }
+			{ render_bg { } image=graphics/new/onfocus/web/back }
 
 		BackButton:disabled
 			{ render_bg { } image=graphics/none }
 
 		ForwardButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/material/web/forward }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/forward }
 
 		ForwardButton:hover
-			{ render_bg { } image=graphics/material/web/forward_hover }
+			{ render_bg { } image=graphics/new/onfocus/web/forward_hover }
 
 		ForwardButton:disabled
 			{ render_bg { } image=graphics/none }
 
 		ReloadButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/material/web/refresh }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/refresh }
 
 		ReloadButton:hover
-			{ render_bg { } image=graphics/material/web/refresh_hover }
+			{ render_bg { } image=graphics/new/onfocus/web/refresh_hover }
 
 		ReloadButton:disabled
 			{ render_bg { } image=graphics/none }
 
 		StopButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/material/web/stop }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/stop }
 
 		StopButton:hover
-			{ render_bg { } image=graphics/material/web/stop_hover }
+			{ render_bg { } image=graphics/new/onfocus/web/stop_hover }
 
 		StopButton:disabled
 			{ render_bg { } image=graphics/none }
 
 		BackButtonSm
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/material/web/back }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/back }
 
 		BackButtonSm:hover
-			{ render_bg { } image=graphics/material/web/back_hover }
+			{ render_bg { } image=graphics/new/onfocus/web/back_hover }
 
 		BackButtonSm:disabled
 			{ render_bg { } image=graphics/none }
 
 		ForwardButtonSm
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/material/web/forward }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/forward }
 
 		ForwardButtonSm:hover
-			{ render_bg { } image=graphics/material/web/forward_hover }
+			{ render_bg { } image=graphics/new/onfocus/web/forward_hover }
 
 		ForwardButtonSm:disabled
 			{ render_bg { } image=graphics/none }
@@ -958,7 +962,7 @@ steam.styles {
 		}
 
 		LibrarySearchIcon {
-			image="graphics/material/icons/search"
+			image="graphics/new/onfocus/search"
 		}
 
 		FriendsSearch {
@@ -980,7 +984,7 @@ steam.styles {
 		}
 
 		FriendsSearchIcon {
-			image="graphics/material/icons/search"
+			image="graphics/new/onfocus/search"
 		}
 
 		rightcolumnheadertext {

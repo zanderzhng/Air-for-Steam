@@ -7,7 +7,7 @@
 
 		ChatListPanel {
 			render {
-				0="image_tiled( x0, y0, x1 + 9999, y0 + 6, graphics/material/layout/shadow_horiz )"
+				0="image_tiled( x0, y0, x1 + 9999, y0 + 6, graphics/new/layout/shadow_horiz )"
 			}
 		}
 

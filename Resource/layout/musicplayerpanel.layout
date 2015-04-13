@@ -15,31 +15,55 @@
 			textcolor=none
 		}
 
-		NoTracksLabelStyle	{	bgcolor=none render_bg { } image=graphics/music_background }
+		NoTracksLabelStyle
+			{ bgcolor=none render_bg { } image=graphics/music_background }
 
-		CurrentAlbumImageStyle	{	}
+		CurrentAlbumImageStyle { }
 
-		RepeatButtonStyle										{	render_bg { 0="image( x0, y0, x1, y1, graphics/material/music/repeat )" } }
-		RepeatButtonStyle:selected					{	render_bg { 0="fill( x0, y0, x1, y1 - 6, focus )" 1="image( x0, y0, x1, y1, graphics/material/music/repeat_enabled )" } }
-		RepeatOnceButtonStyle:selected			{	render_bg { 0="fill( x0, y0, x1, y1 - 6, focus )" 1="image( x0, y0, x1, y1, graphics/material/music/repeat1_enabled )" } }
+		RepeatButtonStyle
+			{ render_bg { 0="image( x0, y0, x1, y1, graphics/new/active/music/repeat )" } }
 
-		ShuffleButtonStyle									{	render_bg { 0="image( x0, y0, x1, y1, graphics/material/music/shuffle )" } }
-		ShuffleButtonStyle:selected					{	render_bg { 0="fill( x0, y0, x1, y1 - 6, focus )" 1="image( x0, y0, x1, y1, graphics/material/music/shuffle_enabled )" } }
+		RepeatButtonStyle:selected
+			{ render_bg { 0="fill( x0, y0, x1, y1 - 6, focus )" 1="image( x0, y0, x1, y1, graphics/new/active/music/repeat_enabled )" } }
 
-		PreviousButtonStyle									{	render_bg { 0="image( x0, y0, x1, y1, graphics/material/music/back )" } }
-		NextButtonStyle											{	render_bg { 0="image( x0, y0, x1, y1, graphics/material/music/fwd )" } }
+		RepeatOnceButtonStyle:selected
+			{ render_bg { 0="fill( x0, y0, x1, y1 - 6, focus )" 1="image( x0, y0, x1, y1, graphics/new/active/music/repeatone_enabled )" } }
 
-		PlayButtonStyle											{	render_bg { 0="image( x0, y0, x1, y1, graphics/material/music/play )" } }
-		PauseButtonStyle										{	render_bg { 0="image( x0, y0, x1, y1, graphics/material/music/pause )" } }
+		ShuffleButtonStyle
+			{ render_bg { 0="image( x0, y0, x1, y1, graphics/new/active/music/shuffle )" } }
 
-		VolumeButtonStyle										{	render_bg { 0="image( x0, y0, x1, y1, graphics/material/music/volume )" } }
-		VolumeButtonActiveStyle							{	render_bg { 0="image( x0, y0, x1, y1, graphics/material/music/volume )" } }
+		ShuffleButtonStyle:selected
+			{ render_bg { 0="fill( x0, y0, x1, y1 - 6, focus )" 1="image( x0, y0, x1, y1, graphics/new/active/music/shuffle_enabled )" } }
 
-		MuteVolumeButtonStyle								{	render_bg { 0="image( x0, y0, x1, y1, graphics/material/music/volume_mute )" } }
-		MuteVolumeButtonActiveStyle					{	render_bg { 0="image( x0, y0, x1, y1, graphics/material/music/volume_mute )" } }
+		PreviousButtonStyle
+			{ render_bg { 0="image( x0, y0, x1, y1, graphics/new/active/music/back )" } }
 
-		BrowseButtonStyle										{	render_bg { } }
-		BrowseButtonStyle:hover							{	render_bg { } }
+		NextButtonStyle
+			{ render_bg { 0="image( x0, y0, x1, y1, graphics/new/active/music/fwd )" } }
+
+		PlayButtonStyle
+			{ render_bg { 0="image( x0, y0, x1, y1, graphics/new/active/music/play )" } }
+
+		PauseButtonStyle
+			{ render_bg { 0="image( x0, y0, x1, y1, graphics/new/active/music/pause )" } }
+
+		VolumeButtonStyle
+			{ render_bg { 0="image( x0, y0, x1, y1, graphics/new/active/music/volume )" } }
+
+		VolumeButtonActiveStyle
+			{ render_bg { 0="image( x0, y0, x1, y1, graphics/new/active/music/volume )" } }
+
+		MuteVolumeButtonStyle
+			{ render_bg { 0="image( x0, y0, x1, y1, graphics/new/active/music/mute )" } }
+
+		MuteVolumeButtonActiveStyle
+			{ render_bg { 0="image( x0, y0, x1, y1, graphics/new/active/music/mute )" } }
+
+		BrowseButtonStyle
+			{ render_bg { } }
+
+		BrowseButtonStyle:hover
+			{ render_bg { } }
 	}
 
 	layout {

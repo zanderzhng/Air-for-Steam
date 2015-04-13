@@ -30,7 +30,7 @@ light.styles {
 		Text.OnFocus						"Air255"							//text color on focus color (header)
 		Text.OnFocusHover				"255 255 255 210"			//hover
 		Text.Notification				"Air255"							//text color of a notification
-		Text.NotificationSoft		"Air210"							//softer text color on notification (also used for hover)
+		Text.NotificationSoft		"255 255 255 210"			//softer text color on notification (also used for hover)
 		Text.Selected						"Air255"							//selected text color (usually on focus2)
 
 		Text.Overlay						"Air255"							//overlay text color

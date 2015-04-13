@@ -1,4 +1,4 @@
-"scroll.styles" {
+scroll.styles {
 
 	styles {
 		ScrollBar {
@@ -19,13 +19,13 @@
 			padding-left=0 padding-right=0 //reset
 			bgcolor=Scroll.Gutter
 			minimum-height=19
-			image=graphics/scroll/sm_up
+			image=graphics/new/inactive/scroll/scroll_up
 			render_bg { }
 		}
 
 		ScrollBarButton.up:hover {
 			bgcolor=Scroll.Gutter
-			image=graphics/scroll/sm_up_hover
+			image=graphics/new/inactive/scroll/scroll_up_hover
 			render_bg { }
 		}
 
@@ -34,13 +34,13 @@
 			bgcolor=Scroll.Gutter
 			minimum-height=19
 			inset-top=3
-			image=graphics/scroll/sm_down
+			image=graphics/new/inactive/scroll/scroll_down
 			render_bg { }
 		}
 
 		ScrollBarButton.down:hover {
 			bgcolor=Scroll.Gutter
-			image=graphics/scroll/sm_down_hover
+			image=graphics/new/inactive/scroll/scroll_down_hover
 			render_bg { }
 		}
 
@@ -48,13 +48,13 @@
 			padding-left=0 padding-right=0 //reset
 			bgcolor=Scroll.Gutter
 			minimum-width=19
-			image=graphics/scroll/sm_left
+			image=graphics/new/inactive/scroll/scroll_left
 			render_bg { }
 		}
 
 		ScrollBarButton.left:hover {
 			bgcolor=Scroll.Gutter
-			image=graphics/scroll/sm_left_hover
+			image=graphics/new/inactive/scroll/scroll_left_hover
 			render_bg { }
 		}
 
@@ -62,13 +62,13 @@
 			padding-left=0 padding-right=0 //reset
 			bgcolor=Scroll.Gutter
 			minimum-width=19
-			image=graphics/scroll/sm_right
+			image=graphics/new/inactive/scroll/scroll_right
 			render_bg { }
 		}
 
 		ScrollBarButton.right:hover {
 			bgcolor=Scroll.Gutter
-			image=graphics/scroll/sm_right_hover
+			image=graphics/new/inactive/scroll/scroll_right_hover
 			render_bg { }
 		}
 
