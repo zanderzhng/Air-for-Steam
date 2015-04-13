@@ -6,6 +6,7 @@ steam.styles {
 	include "resource/styles/_controls.styles"
 	include "resource/styles/_scroll.styles"
 	include "resource/styles/_switches.styles"
+	include "resource/styles/_web.styles"
 
 	colors {
 		Frame.ClientInsetX										"10"
@@ -62,95 +63,12 @@ steam.styles {
 
 	styles {
 		"COverlaySettingsDialog Page" {
-			inset-left=10
-			inset-top=10
+			inset-left=6
+			inset-top=30
 		}
 
-		COverlaySettingsDialog {
-			render_bg {
-				0="fill( x0, y0, x1, y0 + 50, Focus )"
-				1="fill( x0, y1 - 48, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CServerBrowserDialog {
-			render_bg {
-				0="fill( x0, y0, x1, y0 + 52, Focus )"
-				1="fill( x0, y0 + 60, x1, y0 + 80, Focus )" //column header
-				2="fill( x0, y1 - 60, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CEditTagsDialog {
-			render_bg {
-				0="fill( x0, y1 - 48, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CEditFriendsGroupsDialog {
-			render_bg {
-				0="fill( x0, y1 - 48, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CSetCustomImageDialog {
-			render_bg {
-				0="fill( x0, y1 - 48, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CRegisterCDKeyWizard {
-			render_bg {
-				0="fill( x0, y1 - 48, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CBackupWizard {
-			render_bg {
-				0="fill( x0, y1 - 48, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CManageSecurityWizard {
-			render_bg {
-				0="fill( x0, y1 - 48, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CChangePasswordWizard {
-			render_bg {
-				0="fill( x0, y1 - 48, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CChangeContactEmailWizard {
-			render_bg {
-				0="fill( x0, y1 - 48, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CChooseBetaDialog {
-			render_bg {
-				0="fill( x0, y1 - 48, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CFriendNotificationOptionsDialog {
-			render_bg {
-				0="fill( x0, y1 - 60, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CInstallAppWizard {
-			render_bg {
-				0="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
-			}
-		}
-
-		CContentManagmentDialog {
-			render_bg {
-				0="fill( x0, y1 - 56, x1, y1, A2.Ribbon )"
-			}
+		"GameItem_Uninstalled GamesGridImage" {
+			alpha		120
 		}
 
 		Button {
@@ -173,6 +91,42 @@ steam.styles {
 
 		Button:disabled	{
 			render_bg { }
+		}
+
+		"CSettingsSubStreamingAdvancedClient URLLabel" {
+			padding-left=10 padding-right=10
+			minimum-height=30
+			render_bg { }
+		}
+
+		"CSettingsSubStreamingAdvancedClient URLLabel:hover" {
+			render_bg {
+				0="fill( x0, y0, x1, y1, Button.Hover )"
+			}
+		}
+
+		"CSettingsSubStreamingAdvancedClient URLLabel:active" {
+			render_bg {
+				0="fill( x0, y0, x1, y1, Button.Pressed )"
+			}
+		}
+
+		"CSettingsSubStreamingAdvancedHost URLLabel" {
+			padding-left=10 padding-right=10
+			minimum-height=30
+			render_bg { }
+		}
+
+		"CSettingsSubStreamingAdvancedHost URLLabel:hover" {
+			render_bg {
+				0="fill( x0, y0, x1, y1, Button.Hover )"
+			}
+		}
+
+		"CSettingsSubStreamingAdvancedHost URLLabel:active" {
+			render_bg {
+				0="fill( x0, y0, x1, y1, Button.Pressed )"
+			}
 		}
 
 		ToggleButton:selected {
@@ -292,15 +246,6 @@ steam.styles {
 			render_bg { }
 		}
 
-		HTML {
-			bgcolor="A2.Ribbon"
-			inset="2 2 2 2"
-		}
-
-		"CWebURLDialog CSteamAuthedHTML" {
-			inset="0 0 0 0" //received gift window
-		}
-
 		ListPanel {
 			padding-left=8
 			bgcolor=A2.Ribbon
@@ -368,6 +313,12 @@ steam.styles {
 			render_bg { }
 		}
 
+		"CServerBrowserDialog ListPanelColumnheader" {
+			inset-top=-8
+			padding-left=2
+			render_bg { }
+		}
+
 		ListPanelColumnSelectButton {
 			image=graphics/onfocus/add
 		}
@@ -398,6 +349,27 @@ steam.styles {
 			image=graphics/none
 			render {
 				0="image( x0 - 1, y0 - 2, x1, y1, graphics/onfocus/add_hover )"
+			}
+		}
+
+		"CServerBrowserDialog ListPanelColumnSelectButton" {
+			image=graphics/none
+			render {
+				0="image( x0 - 1, y0 - 3, x1, y1, graphics/onfocus/add )"
+			}
+		}
+
+		"CServerBrowserDialog ListPanelColumnSelectButton:hover" {
+			image=graphics/none
+			render {
+				0="image( x0 - 1, y0 - 3, x1, y1, graphics/onfocus/add_hover )"
+			}
+		}
+
+		"CServerBrowserDialog ListPanelColumnSelectButton:selected" {
+			image=graphics/none
+			render {
+				0="image( x0 - 1, y0 - 3, x1, y1, graphics/onfocus/add_hover )"
 			}
 		}
 
@@ -638,10 +610,6 @@ steam.styles {
 			render_bg { }
 		}
 
-		PageTab:hover { }
-		PageTab:selected { }
-		PageTab:selected:hover { }
-
 		"CGamePropertiesDialog PageTab" {
 			inset-top=-5
 			padding-left=10
@@ -652,7 +620,7 @@ steam.styles {
 		}
 
 		"CPlayersDialog PageTab" {
-			inset-top=-999
+			inset-top=-9999
 		}
 
 		"CPlayersDialog PageTab:selected" {
@@ -798,7 +766,7 @@ steam.styles {
 		}
 
 		TreeViewSubPanel {
-			bgcolor=none
+			bgcolor=A2.Ribbon
 		}
 
 		TreeView {
@@ -831,62 +799,8 @@ steam.styles {
 
 		WrapPanel { }
 
-		BackButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/back }
-
-		BackButton:hover
-			{ render_bg { } image=graphics/onfocus/web/back_hover }
-
 		"CSteamRootDialog BackButton:hover"
 			{ render_bg { } image=graphics/onfocus/web/back }
-
-		BackButton:disabled
-			{ render_bg { } image=graphics/none }
-
-		ForwardButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/forward }
-
-		ForwardButton:hover
-			{ render_bg { } image=graphics/onfocus/web/forward_hover }
-
-		ForwardButton:disabled
-			{ render_bg { } image=graphics/none }
-
-		ReloadButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/refresh }
-
-		ReloadButton:hover
-			{ render_bg { } image=graphics/onfocus/web/refresh_hover }
-
-		ReloadButton:disabled
-			{ render_bg { } image=graphics/none }
-
-		StopButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/stop }
-
-		StopButton:hover
-			{ render_bg { } image=graphics/onfocus/web/stop_hover }
-
-		StopButton:disabled
-			{ render_bg { } image=graphics/none }
-
-		BackButtonSm
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/back }
-
-		BackButtonSm:hover
-			{ render_bg { } image=graphics/onfocus/web/back_hover }
-
-		BackButtonSm:disabled
-			{ render_bg { } image=graphics/none }
-
-		ForwardButtonSm
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/forward }
-
-		ForwardButtonSm:hover
-			{ render_bg { } image=graphics/onfocus/web/forward_hover }
-
-		ForwardButtonSm:disabled
-			{ render_bg { } image=graphics/none }
 
 		LibrarySearch {
 			minimum-height=30 //reset for text entry height
@@ -950,10 +864,6 @@ steam.styles {
 		rightcolumnheadertext-blue {
 			textcolor=none
 			bgcolor=Focus3
-		}
-
-		"GameItem_Uninstalled GamesGridImage" {
-			alpha		120
 		}
 	}
 }

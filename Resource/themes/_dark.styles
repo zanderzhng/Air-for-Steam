@@ -14,8 +14,8 @@ dark.styles {
 		Button.Hover						"155 155 155 50"			//button bg on hover
 		Button.Pressed					"155 155 155 100"			//button bg on click
 
-		Scroll.Std							"Air45"								//scrollbar handle
-		Scroll.Hover						"Air65"								//scrollbar handle on hover
+		Scroll.Std							"Air80"								//scrollbar handle
+		Scroll.Hover						"Air95"								//scrollbar handle on hover
 		Scroll.Gutter						"A2.Ribbon"						//scrollbar gutter/backdrop
 
 		Text.Primary						"Air215"							//white 87%, text

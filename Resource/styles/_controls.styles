@@ -328,6 +328,31 @@ controls.styles {
 		"CProductMarketingDialog FrameCloseButton:active"
 			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_close_hover )" } }
 
+
+		"CServerBrowserDialog FrameMinimizeButton"
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
+
+		"CServerBrowserDialog FrameMinimizeButton:hover"
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
+
+		"CServerBrowserDialog FrameMinimizeButton:active"
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
+
+		"CServerBrowserDialog FrameMaximizeButton"
+			{ render_bg { } }
+
+		"CServerBrowserDialog FrameRestoreButton"
+			{ render_bg { } }
+
+		"CServerBrowserDialog FrameCloseButton"
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
+
+		"CServerBrowserDialog FrameCloseButton:hover"
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
+
+		"CServerBrowserDialog FrameCloseButton:active"
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
+
 		//-------------------------------------------------------------------------------------------------------------------------------//
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
@@ -385,6 +410,25 @@ controls.styles {
 			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"COverlayBroadcastChatDialog FrameCloseButton:active"
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
+
+
+		"COverlaySettingsDialog FrameMinimizeButton"
+			{ render_bg { } }
+
+		"COverlaySettingsDialog FrameMaximizeButton"
+			{ render_bg { } }
+
+		"COverlaySettingsDialog FrameRestoreButton"
+			{ render_bg { } }
+
+		"COverlaySettingsDialog FrameCloseButton"
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
+
+		"COverlaySettingsDialog FrameCloseButton:hover"
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
+
+		"COverlaySettingsDialog FrameCloseButton:active"
 			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 	}
 }

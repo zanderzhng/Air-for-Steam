@@ -125,19 +125,29 @@ scroll.styles {
 
 		"CSteamRootDialog ListPanelInterior:scrollbar" {
 			render_bg {
-				0="fill( x1, y0, x1 + 1, y1, Scroll.Gutter )" //1px missing from scrollbar on right side of list panel
+				0="fill( x1, y0, x1 + 1, y1, Scroll.Gutter )"
+				//1px missing from scrollbar on right side of list panel
 			}
 		}
 
 		"CPlayersDialog ListPanelInterior:scrollbar" {
 			render_bg {
-				0="fill( x1, y0, x1 + 1, y1, Scroll.Gutter )" //1px missing from scrollbar on right side of list panel
+				0="fill( x1, y0, x1 + 1, y1, Scroll.Gutter )"
+				//1px missing from scrollbar on right side of list panel
 			}
 		}
 
 		"CAddShortcutDialog ListPanelInterior:scrollbar" {
 			render_bg {
-				0="fill( x1, y0, x1 + 1, y1, Scroll.Gutter )" //1px missing from scrollbar on right side of list panel
+				0="fill( x1, y0, x1 + 1, y1, Scroll.Gutter )"
+				//1px missing from scrollbar on right side of list panel
+			}
+		}
+
+		"CServerBrowserDialog ListPanelInterior:scrollbar" {
+			render_bg {
+				0="fill( x1, y0, x1 + 1, y1, Scroll.Gutter )"
+				//1px missing from scrollbar on right side of list panel
 			}
 		}
 

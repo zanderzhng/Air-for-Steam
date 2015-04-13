@@ -116,7 +116,7 @@
 			margin-right=26
 		}
 
-		place { control="TrackList" region=body y=81 width=max height=max }
+		place { control="TrackList" region=body y=82 width=max height=max }
 
 		place { control="NoTracksLabel,InfoLabel,CurrentStatusLabel,CurrentArtistLabel" height=0 width=0 }
 	}

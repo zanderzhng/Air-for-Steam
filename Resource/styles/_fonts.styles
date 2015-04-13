@@ -228,6 +228,14 @@ fonts.styles {
 	Button:disabled
 		{ textcolor=Text.Hint }
 
+	"CSettingsSubStreamingAdvancedClient URLLabel"
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=Focus font-style=uppercase }
+		//spoof a button
+
+	"CSettingsSubStreamingAdvancedHost URLLabel"
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=Focus font-style=uppercase }
+		//spoof a button
+
 //ToggleButton { }
 
 	PageTab
@@ -561,6 +569,13 @@ fonts.styles {
 		selectedtextcolor=Focus
 		selectedbgcolor=none
 	}
+
+	"CServerBrowserDialog status"
+		{ textcolor=Text.Label }
+
+	CloudUsageLabelStyle
+		{ textcolor=Text.Label }
+		//game properties > updates
 
 	"CDialogParentalUnlock Password"
 		{ font-size=40 }

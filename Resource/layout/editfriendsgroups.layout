@@ -1,13 +1,13 @@
-"resource/layout/editfriendsgroups.layout"
-{
+resource/layout/editfriendsgroups.layout {
+
 	layout {
-		region { name="main" x=16 y=4 width=max height=max margin-bottom=0 }
+		region { name=body height=max width=max y=24 }
+		region { name=box height=max width=max region=body margin-left=26 margin-right=26 }
+			place { control=description region=box width=max }
+			place { control=TagChecks region=box start=description dir=down y=20 width=max height=140 }
+			place { control=TextEntry region=box start=TagChecks dir=down y=10 width=max }
+			place { control=AddTagButton region=box start=TextEntry dir=down y=20 align=top-center }
 
-		place { control="Description" width=428 height=72 x=18 y=18 }
-
-		place { control=TagChecks region=main y=78 width=446 height=140 margin-left=0 margin-right=15 }
-
-		place { control="TextEntry" width=240 y=100 }
-		place { control="TextEntry,AddTagButton" y=228 region=main height=24 spacing=10 margin=2 width=max margin-right=16 }
+		//place { control= height=0 width=0 margin-left=9999 }
 	}
 }

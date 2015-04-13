@@ -36,8 +36,6 @@
 			start=ShowChatCombo dir=down y=20
 		}
 
-		place { control=RequiresRestartLabel 																	align=bottom margin-bottom=20 }
-
 		place { control=BroadcastHelpHeader,BroadcastHelpURL,Divider1,ConfigMic height=0 width=0 }
 	}
 }

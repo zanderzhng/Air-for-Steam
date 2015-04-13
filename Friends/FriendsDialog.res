@@ -51,7 +51,7 @@
 		place { control=DownLabel y=77 width=max margin=16 }
 		place { control=NoFriendsAddFriendButton start=DownLabel dir=down margin-top=13 }
 
-		place { control=FriendPanelSelf margin-left=-9999 }
+		place { control=FriendPanelSelf margin-left=9999 }
 		place { control=friends_search_icon,addFriendsButton height=0 width=0 }
 		}
 }
