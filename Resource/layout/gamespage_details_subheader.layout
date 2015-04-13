@@ -17,14 +17,14 @@
 			minimum-height=0 //reset for button height
 			inset-left=999 //remove default dropdown arrow
 			render_bg {
-				0="image( x0 + 3, y0 + 3, x1, y1, graphics/new/onfocus/game_cast )"
+				0="image( x0 + 3, y0 + 3, x1, y1, graphics/onfocus/game_cast )"
 			}
 		}
 
 		ClientListButton:hover {
 			image=graphics/none
 			render_bg {
-				0="image( x0 + 3, y0 + 3, x1, y1, graphics/new/onfocus/game_cast_hover )"
+				0="image( x0 + 3, y0 + 3, x1, y1, graphics/onfocus/game_cast_hover )"
 			}
 		}
 
@@ -33,13 +33,13 @@
 			textcolor=none
 			render { }
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/new/onfocus/game_launch )"
+				0="image( x0, y0, x1, y1, graphics/onfocus/game_launch )"
 			}
 		}
 
 		DetailsLaunchButton:hover {
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/new/onfocus/game_launch_hover )"
+				0="image( x0, y0, x1, y1, graphics/onfocus/game_launch_hover )"
 			}
 		}
 
@@ -48,13 +48,13 @@
 			textcolor=none
 			render { }
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/new/onfocus/game_install )"
+				0="image( x0, y0, x1, y1, graphics/onfocus/game_install )"
 			}
 		}
 
 		DetailsInstallButton:hover {
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/new/onfocus/game_install_hover )"
+				0="image( x0, y0, x1, y1, graphics/onfocus/game_install_hover )"
 			}
 		}
 
@@ -63,13 +63,13 @@
 			textcolor=none
 			render { }
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/new/onfocus/game_install )"
+				0="image( x0, y0, x1, y1, graphics/onfocus/game_install )"
 			}
 		}
 
 		DetailsBuyButton:hover {
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/new/onfocus/game_install_hover )"
+				0="image( x0, y0, x1, y1, graphics/onfocus/game_install_hover )"
 			}
 		}
 	}

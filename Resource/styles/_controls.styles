@@ -2,91 +2,91 @@ controls.styles {
 
 	styles {
 		FrameMinimizeButton
-			{ render_bg { 1="image( x0 - 3, y0 + 6, x1, y1, graphics/new/secondary/controls/win_min )" } }
+			{ render_bg { 1="image( x0 - 3, y0 + 6, x1, y1, graphics/secondary/controls/win_min )" } }
 
 		FrameMinimizeButton:hover
-			{ render_bg { 1="image( x0 - 3, y0 + 6, x1, y1, graphics/new/secondary/controls/win_min_hover )" } }
+			{ render_bg { 1="image( x0 - 3, y0 + 6, x1, y1, graphics/secondary/controls/win_min_hover )" } }
 
 		FrameMinimizeButton:active
-			{ render_bg { 1="image( x0 - 3, y0 + 6, x1, y1, graphics/new/secondary/controls/win_min_hover )" } }
+			{ render_bg { 1="image( x0 - 3, y0 + 6, x1, y1, graphics/secondary/controls/win_min_hover )" } }
 
 		FrameMaximizeButton
-			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/new/secondary/controls/win_max )" } }
+			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/secondary/controls/win_max )" } }
 
 		FrameMaximizeButton:hover
-			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/new/secondary/controls/win_max_hover )" } }
+			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/secondary/controls/win_max_hover )" } }
 
 		FrameMaximizeButton:active
-			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/new/secondary/controls/win_max_hover )" } }
+			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/secondary/controls/win_max_hover )" } }
 
 		FrameRestoreButton
-			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/new/secondary/controls/win_restore )" } }
+			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/secondary/controls/win_restore )" } }
 
 		FrameRestoreButton:hover
-			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/new/secondary/controls/win_restore_hover )" } }
+			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/secondary/controls/win_restore_hover )" } }
 
 		FrameRestoreButton:active
-			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/new/secondary/controls/win_restore_hover )" } }
+			{ render_bg { 1="image( x0, y0 + 3, x1, y1, graphics/secondary/controls/win_restore_hover )" } }
 
 		FrameCloseButton
-			{ render_bg { 0="image( x0 + 3, y0 + 6, x1, y1, graphics/new/secondary/controls/win_close )" } }
+			{ render_bg { 0="image( x0 + 3, y0 + 6, x1, y1, graphics/secondary/controls/win_close )" } }
 
 		FrameCloseButton:hover
-			{ render_bg { 1="image( x0 + 3, y0 + 6, x1, y1, graphics/new/secondary/controls/win_close_hover )" } }
+			{ render_bg { 1="image( x0 + 3, y0 + 6, x1, y1, graphics/secondary/controls/win_close_hover )" } }
 
 		FrameCloseButton:active
-			{ render_bg { 1="image( x0 + 3, y0 + 6, x1, y1, graphics/new/secondary/controls/win_close_hover )" } }
+			{ render_bg { 1="image( x0 + 3, y0 + 6, x1, y1, graphics/secondary/controls/win_close_hover )" } }
 
 		//-------------------------------------------------------------------------------------------------------------------------------//
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
 		"CSteamRootDialog FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
 
 		"CSteamRootDialog FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CSteamRootDialog FrameMinimizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CSteamRootDialog FrameMaximizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_max_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_max_onfocus )" } }
 
 		"CSteamRootDialog FrameMaximizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_max_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_max_onfocus_hover )" } }
 
 		"CSteamRootDialog FrameMaximizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_max_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_max_onfocus_hover )" } }
 
 		"CSteamRootDialog FrameRestoreButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_restore_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_restore_onfocus )" } }
 
 		"CSteamRootDialog FrameRestoreButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_restore_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_restore_onfocus_hover )" } }
 
 		"CSteamRootDialog FrameRestoreButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_restore_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_restore_onfocus_hover )" } }
 
 		"CSteamRootDialog FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"CSteamRootDialog FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"CSteamRootDialog FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		//-------------------------------------------------------------------------------------------------------------------------------//
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
 		"ToolWindow FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
 
 		"ToolWindow FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"ToolWindow FrameMinimizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"ToolWindow FrameMaximizeButton"
 			{ render_bg { } }
@@ -95,23 +95,23 @@ controls.styles {
 			{ render_bg { } }
 
 		"ToolWindow FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"ToolWindow FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"ToolWindow FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 
 		"CFriendsDialog FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
 
 		"CFriendsDialog FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CFriendsDialog FrameMinimizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CFriendsDialog FrameMaximizeButton"
 			{ render_bg { } }
@@ -120,23 +120,23 @@ controls.styles {
 			{ render_bg { } }
 
 		"CFriendsDialog FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"CFriendsDialog FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"CFriendsDialog FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 
 		"CGamesPage_Mini FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
 
 		"CGamesPage_Mini FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CGamesPage_Mini FrameMinimizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CGamesPage_Mini FrameMaximizeButton"
 			{ render_bg { } }
@@ -145,23 +145,23 @@ controls.styles {
 			{ render_bg { } }
 
 		"CGamesPage_Mini FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"CGamesPage_Mini FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"CGamesPage_Mini FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 
 		"HTMLPopup FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
 
 		"HTMLPopup FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"HTMLPopup FrameMinimizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"HTMLPopup FrameMaximizeButton"
 			{ render_bg { } }
@@ -170,23 +170,23 @@ controls.styles {
 			{ render_bg { } }
 
 		"HTMLPopup FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"HTMLPopup FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"HTMLPopup FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 
 		"CMusicPlayerPanel FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
 
 		"CMusicPlayerPanel FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CMusicPlayerPanel FrameMinimizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CMusicPlayerPanel FrameMaximizeButton"
 			{ render_bg { } }
@@ -195,23 +195,23 @@ controls.styles {
 			{ render_bg { } }
 
 		"CMusicPlayerPanel FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"CMusicPlayerPanel FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"CMusicPlayerPanel FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 
 		"CSteamLoginDialog FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_min )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_min )" } }
 
 		"CSteamLoginDialog FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_min_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_min_hover )" } }
 
 		"CSteamLoginDialog FrameMinimizeButton:active"
-			{render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_min_hover )" } }
+			{render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_min_hover )" } }
 
 		"CSteamLoginDialog FrameMaximizeButton"
 			{ render_bg { } }
@@ -220,23 +220,23 @@ controls.styles {
 			{ render_bg { } }
 
 		"CSteamLoginDialog FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_close )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_close )" } }
 
 		"CSteamLoginDialog FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_close_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_close_hover )" } }
 
 		"CSteamLoginDialog FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_close_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_close_hover )" } }
 
 
 		"CScreenshotManager FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
 
 		"CScreenshotManager FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CScreenshotManager FrameMinimizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CScreenshotManager FrameMaximizeButton"
 			{ render_bg { } }
@@ -245,23 +245,23 @@ controls.styles {
 			{ render_bg { } }
 
 		"CScreenshotManager FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"CScreenshotManager FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"CScreenshotManager FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 
 		"CDialogSettings FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_min )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_min )" } }
 
 		"CDialogSettings FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_min_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_min_hover )" } }
 
 		"CDialogSettings FrameMinimizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_min_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_min_hover )" } }
 
 		"CDialogSettings FrameMaximizeButton"
 			{ render_bg { } }
@@ -270,23 +270,23 @@ controls.styles {
 			{ render_bg { } }
 
 		"CDialogSettings FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_close )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_close )" } }
 
 		"CDialogSettings FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_close_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_close_hover )" } }
 
 		"CDialogSettings FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_close_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_close_hover )" } }
 
 
 		"CGamePropertiesDialog FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus )" } }
 
 		"CGamePropertiesDialog FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CGamePropertiesDialog FrameMinimizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_min_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_min_onfocus_hover )" } }
 
 		"CGamePropertiesDialog FrameMaximizeButton"
 			{ render_bg { } }
@@ -295,23 +295,23 @@ controls.styles {
 			{ render_bg { } }
 
 		"CGamePropertiesDialog FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"CGamePropertiesDialog FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"CGamePropertiesDialog FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 
 		"CProductMarketingDialog FrameMinimizeButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_min )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_min )" } }
 
 		"CProductMarketingDialog FrameMinimizeButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_min_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_min_hover )" } }
 
 		"CProductMarketingDialog FrameMinimizeButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_min_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_min_hover )" } }
 
 		"CProductMarketingDialog FrameMaximizeButton"
 			{ render_bg { } }
@@ -320,13 +320,13 @@ controls.styles {
 			{ render_bg { } }
 
 		"CProductMarketingDialog FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_close )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_close )" } }
 
 		"CProductMarketingDialog FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_close_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_close_hover )" } }
 
 		"CProductMarketingDialog FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/secondary/controls/win_close_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/secondary/controls/win_close_hover )" } }
 
 		//-------------------------------------------------------------------------------------------------------------------------------//
 		//-------------------------------------------------------------------------------------------------------------------------------//
@@ -341,13 +341,13 @@ controls.styles {
 			{ render_bg { } }
 
 		"CPlayersDialog FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"CPlayersDialog FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"CPlayersDialog FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 
 		"CAddShortcutDialog FrameMinimizeButton"
@@ -360,13 +360,13 @@ controls.styles {
 			{ render_bg { } }
 
 		"CAddShortcutDialog FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"CAddShortcutDialog FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"CAddShortcutDialog FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 
 		"COverlayBroadcastChatDialog FrameMinimizeButton"
@@ -379,12 +379,12 @@ controls.styles {
 			{ render_bg { } }
 
 		"COverlayBroadcastChatDialog FrameCloseButton"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
 
 		"COverlayBroadcastChatDialog FrameCloseButton:hover"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 
 		"COverlayBroadcastChatDialog FrameCloseButton:active"
-			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/new/onfocus/controls/win_close_onfocus_hover )" } }
+			{ render_bg { 1="image( x0 + 4, y0 + 4, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 	}
 }

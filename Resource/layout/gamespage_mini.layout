@@ -25,14 +25,14 @@
 		CMiniGameFilterMenuButton {
 			render {
 				0="fill( x1 - 16, y0 + 12, x1 - 4, y1 - 10, Focus4 )"
-				1="image( x1 - 16, y0 + 8, x1, y1, graphics/new/onfocus/caret_down_onfocus )"
+				1="image( x1 - 16, y0 + 8, x1, y1, graphics/onfocus/caret_down_onfocus )"
 			}
 		}
 
 		LibrarySearch:empty {
 			textcolor=none
 			padding-top=3
-			image="graphics/new/onfocus/search"
+			image="graphics/onfocus/search"
 		}
 	}
 

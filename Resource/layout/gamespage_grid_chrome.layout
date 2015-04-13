@@ -13,21 +13,21 @@
 		CUILaunchButton {
 			padding-left=20 padding-right=20
 			textcolor=none
-			image=graphics/new/onfocus/game_launch
+			image=graphics/onfocus/game_launch
 			render { }
 			render_bg { }
 		}
 
 		CUILaunchButton:hover {
-			image=graphics/new/onfocus/game_launch_hover
+			image=graphics/onfocus/game_launch_hover
 		}
 
 		"GameItem_Uninstalled CUILaunchButton" {
-			image=graphics/new/onfocus/game_install
+			image=graphics/onfocus/game_install
 		}
 
 		"GameItem_Uninstalled CUILaunchButton:hover" {
-			image=graphics/new/onfocus/game_install_hover
+			image=graphics/onfocus/game_install_hover
 		}
 	}
 

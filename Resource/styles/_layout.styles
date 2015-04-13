@@ -10,14 +10,14 @@ layout.styles {
 
 		"CSteamRootDialog WebPanelStyle" {
 			render {
-				0="image_tiled( x0, y0 + 2, x1, y0 + 8, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 2, x1, y0 + 8, graphics/layout/shadow_horiz )"
 			}
 		}
 
 		"CSteamRootDialog BroadcastPanelMinimized" {
 			inset="0 0 0 0" //reset for html inset
 			render {
-				0="image_tiled( x0, y0, x1, y0 + 6, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0, x1, y0 + 6, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -26,13 +26,13 @@ layout.styles {
 				0="fill( x0, y0 - 10, x1, y0 + 21, Focus4 )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 21, x1, y0 + 27, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 21, x1, y0 + 27, graphics/layout/shadow_horiz )"
 			}
 		}
 
 		CGamesPage_Details {
 			render {
-				0="image_tiled( x0, y0, x1, y0 + 6, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0, x1, y0 + 6, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -41,13 +41,13 @@ layout.styles {
 				0="fill( x0, y0 - 30, x1, y0, Focus4 )"
 			}
 			render {
-				0="image_tiled( x0, y0, x1, y0 + 6, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0, x1, y0 + 6, graphics/layout/shadow_horiz )"
 			}
 		}
 
 		CMusicPage_Details {
 			render {
-				0="image_tiled( x0, y0, x1, y0 + 6, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0, x1, y0 + 6, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -56,7 +56,7 @@ layout.styles {
 				0="fill( x0, y0, x1, y0 + 130, Focus4 )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 130, x1, y0 + 136, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 130, x1, y0 + 136, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -68,7 +68,7 @@ layout.styles {
 				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -81,7 +81,7 @@ layout.styles {
 				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -101,7 +101,7 @@ layout.styles {
 				2="fill( x0, y1 - 90, x1, y1 - 60, A2.Ribbon )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 50, x1, y0 + 56, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 50, x1, y0 + 56, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -129,7 +129,7 @@ layout.styles {
 				1="fill( x0, y0 + 132, x1, y1, A2.Background )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 50, x1, y0 + 56, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 50, x1, y0 + 56, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -143,7 +143,7 @@ layout.styles {
 				2="fill( x0, y0 + 50, x1, y0 + 100, A2.Bar )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 100, x1, y0 + 106, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 100, x1, y0 + 106, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -156,7 +156,7 @@ layout.styles {
 				1="fill( x0 + 182, y1 - 50, x1, y1, A2.Ribbon )"
 			}
 			render {
-				0="image_tiled( x0 + 182, y0, x0 + 188, y1, graphics/new/layout/shadow_vert )"
+				0="image_tiled( x0 + 182, y0, x0 + 188, y1, graphics/layout/shadow_vert )"
 			}
 		}
 
@@ -166,7 +166,7 @@ layout.styles {
 				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -178,7 +178,7 @@ layout.styles {
 				2="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/layout/shadow_horiz )"
 			}
 		}
 
@@ -189,7 +189,7 @@ layout.styles {
 				2="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/new/layout/shadow_horiz )"
+				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/layout/shadow_horiz )"
 			}
 		}
 

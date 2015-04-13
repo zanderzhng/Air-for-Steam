@@ -187,7 +187,7 @@ steam.styles {
 			inset-left=7
 			inset-top=1
 			render {
-				0="image ( x1 - 20, y0 + 8, x1, y1, graphics/new/secondary/caret_down )"
+				0="image ( x1 - 20, y0 + 8, x1, y1, graphics/secondary/caret_down )"
 			}
 			render_bg {
 				0="fill( x0, y0, x1, y1 + 1, Button.Hover )"
@@ -206,101 +206,101 @@ steam.styles {
 		}
 
 		SmRemoveButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/new/onfocus/web/stop )" } }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/onfocus/web/stop )" } }
 
 		SmRemoveButton:hover
-			{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/new/onfocus/web/stop_hover )" } }
+			{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/onfocus/web/stop_hover )" } }
 
 		SmRemoveButton:active
-			{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/new/onfocus/web/stop_hover )" } }
+			{ render_bg { } render { 1="image( x0 + 6, y0 + 5, x1, y1, graphics/onfocus/web/stop_hover )" } }
 
 		topOfQueueButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/new/onfocus/web/top )" } }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/onfocus/web/top )" } }
 
 		topOfQueueButton:hover
-			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/new/onfocus/web/top_hover )" } }
+			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/onfocus/web/top_hover )" } }
 
 		topOfQueueButton:active
-			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/new/onfocus/web/top_hover )" } }
+			{ render_bg { } render { 1="image( x0 + 5, y0 + 4, x1, y1, graphics/onfocus/web/top_hover )" } }
 
 		downarrow
-			{ image="graphics/new/secondary/caret_down" }
+			{ image="graphics/secondary/caret_down" }
 
 		uparrow
-			{ image="graphics/new/secondary/caret_up" }
+			{ image="graphics/secondary/caret_up" }
 
 		rightarrow
-			{ image="graphics/new/secondary/caret_right" }
+			{ image="graphics/secondary/caret_right" }
 
 		leftarrow
-			{ image="graphics/new/secondary/caret_left" }
+			{ image="graphics/secondary/caret_left" }
 
 		"CSteamRootDialog downarrow"
-			{ image="graphics/new/onfocus/caret_down_onfocus" }
+			{ image="graphics/onfocus/caret_down_onfocus" }
 
 		"CSteamRootDialog uparrow"
-			{ image="graphics/new/onfocus/caret_up_onfocus" }
+			{ image="graphics/onfocus/caret_up_onfocus" }
 
 		"CSteamRootDialog rightarrow"
-			{ image="graphics/new/onfocus/caret_right_onfocus" }
+			{ image="graphics/onfocus/caret_right_onfocus" }
 
 		"CSteamRootDialog leftarrow"
-			{ image="graphics/new/onfocus/caret_left_onfocus" }
+			{ image="graphics/onfocus/caret_left_onfocus" }
 
 
 		CheckButton
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/chkUnselStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/active/switches/chkUnselStd )" } }
 
 		CheckButton:selected
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/chkSelStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/active/switches/chkSelStd )" } }
 
 		CheckButton:disabled
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/chkUnselDis )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/active/switches/chkUnselDis )" } }
 
 		CheckButton:selected:disabled
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/chkSelDis )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/active/switches/chkSelDis )" } }
 
 		"CheckButtonList CheckButton"
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/new/active/switches/chkUnselStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/active/switches/chkUnselStd )" } }
 
 		"CheckButtonList CheckButton:selected"
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/new/active/switches/chkSelStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/active/switches/chkSelStd )" } }
 
 		"CheckButtonList CheckButton:disabled"
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/new/active/switches/chkUnselDis )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/active/switches/chkUnselDis )" } }
 
 		"CheckButtonList CheckButton:selected:disabled"
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/new/active/switches/chkSelDis )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 2, x1, y1, graphics/active/switches/chkSelDis )" } }
 
 		ListPanelCheckBox
-			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/new/active/switches/chkUnselStd )" } }
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/active/switches/chkUnselStd )" } }
 
 		ListPanelCheckBox:selected
-			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/new/active/switches/chkSelStd )" } }
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/active/switches/chkSelStd )" } }
 
 		ListPanelCheckBox:disabled
-			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/new/active/switches/chkUnselDis )" } }
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/active/switches/chkUnselDis )" } }
 
 		ListPanelCheckBox:selected:disabled
-			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/new/active/switches/chkSelDis )" } }
+			{ render_bg { 0="image( x0 + 6, y0 + 1, x1, y1, graphics/active/switches/chkSelDis )" } }
 
 		"ListPanelColumnheader ListPanelCheckBox"
-			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/new/active/switches/chkUnselStd )" } }
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/active/switches/chkUnselStd )" } }
 
 		"ListPanelColumnheader ListPanelCheckBox:selected"
-			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/new/active/switches/chkSelStd )" } }
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/active/switches/chkSelStd )" } }
 
 		"ListPanelColumnheader ListPanelCheckBox:disabled"
-			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/new/active/switches/chkUnselDis )" } }
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/active/switches/chkUnselDis )" } }
 
 		"ListPanelColumnheader ListPanelCheckBox:selected:disabled"
-			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/new/active/switches/chkSelDis )" } }
+			{ render_bg { 0="image( x0 + 7, y0 + 7, x1, y1, graphics/active/switches/chkSelDis )" } }
 
 		RadioButton
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/radUnselStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/active/switches/radUnselStd )" } }
 
 		RadioButton:selected
-			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/new/active/switches/radSelStd )" } }
+			{ padding-left=17 render_bg { 0="image( x0, y0 + 3, x1, y1, graphics/active/switches/radSelStd )" } }
 
 		RadioButtonList { }
 
@@ -328,7 +328,7 @@ steam.styles {
 			//width is 384
 			render {
 				0="fill( x0, y0, x1, y1, A2.Background )"
-				1="image( x0, y0, x1, y1, graphics/new/inactive/air_splash )"
+				1="image( x0, y0, x1, y1, graphics/inactive/air_splash )"
 			}
 		}
 
@@ -425,42 +425,42 @@ steam.styles {
 		}
 
 		ListPanelColumnSelectButton {
-			image=graphics/new/onfocus/add
+			image=graphics/onfocus/add
 		}
 
 		ListPanelColumnSelectButton:hover {
-			image=graphics/new/onfocus/add_hover
+			image=graphics/onfocus/add_hover
 		}
 
 		ListPanelColumnSelectButton:selected {
-			image=graphics/new/onfocus/add_hover
+			image=graphics/onfocus/add_hover
 		}
 
 		"CGamesListPanel ListPanelColumnSelectButton" {
 			image=graphics/none
 			render {
-				0="image( x0 - 1, y0 - 2, x1, y1, graphics/new/onfocus/add )"
+				0="image( x0 - 1, y0 - 2, x1, y1, graphics/onfocus/add )"
 			}
 		}
 
 		"CGamesListPanel ListPanelColumnSelectButton:hover" {
 			image=graphics/none
 			render {
-				0="image( x0 - 1, y0 - 2, x1, y1, graphics/new/onfocus/add_hover )"
+				0="image( x0 - 1, y0 - 2, x1, y1, graphics/onfocus/add_hover )"
 			}
 		}
 
 		"CGamesListPanel ListPanelColumnSelectButton:selected" {
 			image=graphics/none
 			render {
-				0="image( x0 - 1, y0 - 2, x1, y1, graphics/new/onfocus/add_hover )"
+				0="image( x0 - 1, y0 - 2, x1, y1, graphics/onfocus/add_hover )"
 			}
 		}
 
 		"CGamesPage_Details ListPanelColumnSelectButton" {
 			padding-left=1
 			padding-top=2
-			image=graphics/new/onfocus/add
+			image=graphics/onfocus/add
 			render { }
 			render_bg {
 				0="fill( x0 + 7, y0, x1, y1 + 1, Scroll.Gutter )"
@@ -468,18 +468,18 @@ steam.styles {
 		}
 
 		"CGamesPage_Details ListPanelColumnSelectButton:hover" {
-			image=graphics/new/onfocus/add
+			image=graphics/onfocus/add
 			render { }
 		}
 
 		"CGamesPage_Details ListPanelColumnSelectButton:selected" {
-			image=graphics/new/onfocus/add
+			image=graphics/onfocus/add
 			render { }
 		}
 
 		"CGamesPage_Mini ListPanelColumnSelectButton" {
 			padding-left=1
-			image=graphics/new/onfocus/add
+			image=graphics/onfocus/add
 			render { }
 			render_bg {
 				0="fill( x0 + 7, y0 + 1, x1, y1 + 1, Scroll.Gutter )"
@@ -487,12 +487,12 @@ steam.styles {
 		}
 
 		"CGamesPage_Mini ListPanelColumnSelectButton:hover" {
-			image=graphics/new/onfocus/add
+			image=graphics/onfocus/add
 			render { }
 		}
 
 		"CGamesPage_Mini ListPanelColumnSelectButton:selected" {
-			image=graphics/new/onfocus/add
+			image=graphics/onfocus/add
 			render { }
 		}
 
@@ -531,26 +531,26 @@ steam.styles {
 			textcolor=none
 			padding-left=4 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 8, x1, y1, graphics/new/inactive/expand_less )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_less )"
 			}
 		}
 
 		ListPanelSectionCollapser:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 8, x1, y1, graphics/new/inactive/expand_less )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_less )"
 			}
 		}
 
 		ListPanelSectionCollapser:selected {
 			padding-left=2 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 8, x1, y1, graphics/new/inactive/expand_more )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_more )"
 			}
 		}
 
 		ListPanelSectionCollapser:selected:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 8, x1, y1, graphics/new/inactive/expand_more )"
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_more )"
 			}
 		}
 
@@ -559,26 +559,26 @@ steam.styles {
 			textcolor=none
 			padding-left=4 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 4, x1, y1, graphics/new/inactive/expand_less )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_less )"
 			}
 		}
 
 		SectionedListPanelCollapser:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 4, x1, y1, graphics/new/inactive/expand_less )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_less )"
 			}
 		}
 
 		SectionedListPanelCollapser:selected {
 			padding-left=2 padding-right=0
 			render_bg {
-				0="image( x0 + 7, y0 + 4, x1, y1, graphics/new/inactive/expand_more )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_more )"
 			}
 		}
 
 		SectionedListPanelCollapser:selected:hover {
 			render_bg {
-				0="image( x0 + 7, y0 + 4, x1, y1, graphics/new/inactive/expand_more )"
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_more )"
 			}
 		}
 
@@ -621,22 +621,22 @@ steam.styles {
 			minimum-width=52
 			textcolor=none
 			render_bg {
-				1="image( x0 + 24, y0 + 14, x1, y1, graphics/new/onfocus/hamburger )"
+				1="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger )"
 			}
 		}
 
 		"MenuBar MenuButton:hover" {
 			textcolor=none
 			render_bg {
-				1="image( x0 + 24, y0 + 14, x1, y1, graphics/new/onfocus/hamburger_hover )"
+				1="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger_hover )"
 			}
 		}
 
 		"MenuBar MenuButton:selected" {
 			textcolor=none
 			render_bg {
-				1="image( x0 + 17, y0 + 7, x1, y1, graphics/new/layout/active_circle )"
-				2="image( x0 + 24, y0 + 14, x1, y1, graphics/new/onfocus/hamburger_hover )"
+				1="image( x0 + 17, y0 + 7, x1, y1, graphics/layout/active_circle )"
+				2="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger_hover )"
 			}
 		}
 
@@ -644,17 +644,17 @@ steam.styles {
 
 		CChatActionsButton {
 			inset-left=12
-			image="graphics/new/inactive/more_vert"
+			image="graphics/inactive/more_vert"
 			render_bg { }
 		}
 
 		CChatActionsButton:hover {
-			image="graphics/new/inactive/more_vert_hover"
+			image="graphics/inactive/more_vert_hover"
 			render_bg { }
 		}
 
 		CChatActionsButton:selected {
-			image="graphics/new/inactive/more_vert_hover"
+			image="graphics/inactive/more_vert_hover"
 			render_bg { }
 		}
 
@@ -718,13 +718,13 @@ steam.styles {
 		TabCloseButton {
 			textcolor=none //don't render "X" as text
 			render_bg {
-				0="image( x0 + 5, y0 + 7, x1, y1, graphics/new/onfocus/tiny_x )"
+				0="image( x0 + 5, y0 + 7, x1, y1, graphics/onfocus/tiny_x )"
 			}
 		}
 
 		TabCloseButton:hover {
 			render_bg {
-				1="image( x0 + 5, y0 + 7, x1, y1, graphics/new/onfocus/tiny_x_hover )"
+				1="image( x0 + 5, y0 + 7, x1, y1, graphics/onfocus/tiny_x_hover )"
 			}
 		}
 
@@ -745,15 +745,15 @@ steam.styles {
 
 		CEmoticonButton {
 			padding-left=8
-			image="graphics/new/inactive/emoticon"
+			image="graphics/inactive/emoticon"
 		}
 
 		CEmoticonButton:hover {
-			image="graphics/new/inactive/emoticon_hover"
+			image="graphics/inactive/emoticon_hover"
 		}
 
 		CEmoticonButton:selected {
-			image="graphics/new/inactive/emoticon_hover"
+			image="graphics/inactive/emoticon_hover"
 		}
 
 		EmoticonMenuItemStyle {
@@ -864,7 +864,7 @@ steam.styles {
 			textcolor=none
 			inset-top=-8
 			inset-left=-1
-			image=graphics/new/onfocus/favorite_onfocus
+			image=graphics/onfocus/favorite_onfocus
 		}
 
 		CGamesListFavoritesToggle {
@@ -873,72 +873,72 @@ steam.styles {
 		}
 
 		CGamesListFavoritesToggle:hover {
-			image=graphics/new/inactive/favorite
+			image=graphics/inactive/favorite
 		}
 
 		CGamesListFavoritesToggle:selected {
-			image=graphics/new/inactive/favorite
+			image=graphics/inactive/favorite
 		}
 
 		CGamesListFavoritesToggle:selected:hover {
-			image=graphics/new/inactive/favorite_outline
+			image=graphics/inactive/favorite_outline
 		}
 
 		WrapPanel { }
 
 		BackButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/back }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/back }
 
 		BackButton:hover
-			{ render_bg { } image=graphics/new/onfocus/web/back_hover }
+			{ render_bg { } image=graphics/onfocus/web/back_hover }
 
 		"CSteamRootDialog BackButton:hover"
-			{ render_bg { } image=graphics/new/onfocus/web/back }
+			{ render_bg { } image=graphics/onfocus/web/back }
 
 		BackButton:disabled
 			{ render_bg { } image=graphics/none }
 
 		ForwardButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/forward }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/forward }
 
 		ForwardButton:hover
-			{ render_bg { } image=graphics/new/onfocus/web/forward_hover }
+			{ render_bg { } image=graphics/onfocus/web/forward_hover }
 
 		ForwardButton:disabled
 			{ render_bg { } image=graphics/none }
 
 		ReloadButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/refresh }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/refresh }
 
 		ReloadButton:hover
-			{ render_bg { } image=graphics/new/onfocus/web/refresh_hover }
+			{ render_bg { } image=graphics/onfocus/web/refresh_hover }
 
 		ReloadButton:disabled
 			{ render_bg { } image=graphics/none }
 
 		StopButton
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/stop }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/stop }
 
 		StopButton:hover
-			{ render_bg { } image=graphics/new/onfocus/web/stop_hover }
+			{ render_bg { } image=graphics/onfocus/web/stop_hover }
 
 		StopButton:disabled
 			{ render_bg { } image=graphics/none }
 
 		BackButtonSm
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/back }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/back }
 
 		BackButtonSm:hover
-			{ render_bg { } image=graphics/new/onfocus/web/back_hover }
+			{ render_bg { } image=graphics/onfocus/web/back_hover }
 
 		BackButtonSm:disabled
 			{ render_bg { } image=graphics/none }
 
 		ForwardButtonSm
-			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/new/onfocus/web/forward }
+			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/forward }
 
 		ForwardButtonSm:hover
-			{ render_bg { } image=graphics/new/onfocus/web/forward_hover }
+			{ render_bg { } image=graphics/onfocus/web/forward_hover }
 
 		ForwardButtonSm:disabled
 			{ render_bg { } image=graphics/none }
@@ -962,7 +962,7 @@ steam.styles {
 		}
 
 		LibrarySearchIcon {
-			image="graphics/new/onfocus/search"
+			image="graphics/onfocus/search"
 		}
 
 		FriendsSearch {
@@ -984,7 +984,7 @@ steam.styles {
 		}
 
 		FriendsSearchIcon {
-			image="graphics/new/onfocus/search"
+			image="graphics/onfocus/search"
 		}
 
 		rightcolumnheadertext {

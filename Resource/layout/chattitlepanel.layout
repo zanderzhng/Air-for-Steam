@@ -7,14 +7,14 @@
 			minimum-width=30
 			render {
 				0="fill( x0, y0, x1, y1, A2.Background )"
-				1="image( x0 + 5, y0 + 7, x1, y1, graphics/new/inactive/gear )"
+				1="image( x0 + 5, y0 + 7, x1, y1, graphics/inactive/gear )"
 			}
 		}
 
 		MenuButton:hover {
 			render {
 				0="fill( x0, y0, x1, y1, A2.Background )"
-				1="image( x0 + 5, y0 + 7, x1, y1, graphics/new/inactive/gear_hover )"
+				1="image( x0 + 5, y0 + 7, x1, y1, graphics/inactive/gear_hover )"
 			}
 		}
 

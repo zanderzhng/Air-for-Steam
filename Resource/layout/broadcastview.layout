@@ -5,13 +5,13 @@
 		CloseButtonStyle {
 			minimum-height=30
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/new/onfocus/web/stop )"
+				0="image( x0, y0, x1, y1, graphics/onfocus/web/stop )"
 			}
 		}
 
 		CloseButtonStyle:hover {
 			render_bg {
-				1="image( x0, y0, x1, y1, graphics/new/onfocus/web/stop_hover )"
+				1="image( x0, y0, x1, y1, graphics/onfocus/web/stop_hover )"
 			}
 		}
 	}

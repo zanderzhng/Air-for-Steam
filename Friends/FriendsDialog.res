@@ -12,7 +12,7 @@
 		FriendsSearch:empty {
 			textcolor=none
 			padding-top=3
-			image="graphics/new/onfocus/search"
+			image="graphics/onfocus/search"
 		}
 
 		CFriendsListSectionAffordance {

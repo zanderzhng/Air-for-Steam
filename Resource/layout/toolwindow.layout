@@ -11,14 +11,14 @@
 			minimum-width=16
 			render {
 				0="fill( x0, y0, x1, y1, Focus )"
-				1="image( x0 + 2, y0 + 8, x1, y1, graphics/new/onfocus/caret_down_onfocus )"
+				1="image( x0 + 2, y0 + 8, x1, y1, graphics/onfocus/caret_down_onfocus )"
 			}
 		}
 
 		MenuButton:hover {
 			render {
 				0="fill( x0, y0, x1, y1, Focus )"
-				1="image( x0 + 2, y0 + 8, x1, y1, graphics/new/onfocus/caret_down_onfocus_hover )"
+				1="image( x0 + 2, y0 + 8, x1, y1, graphics/onfocus/caret_down_onfocus_hover )"
 			}
 		}
 
@@ -26,7 +26,7 @@
 			bgcolor=none
 			render {
 				0="fill( x0, y0, x1, y1, Focus )"
-				1="image( x0 + 2, y0 + 8, x1, y1, graphics/new/onfocus/caret_down_onfocus_hover )"
+				1="image( x0 + 2, y0 + 8, x1, y1, graphics/onfocus/caret_down_onfocus_hover )"
 			}
 		}
 
@@ -42,13 +42,13 @@
 		Button {
 			textcolor=none //don't render "X" as text
 			render_bg {
-				1="image( x0 + 5, y0 + 6, x1, y1, graphics/new/onfocus/add )"
+				1="image( x0 + 5, y0 + 6, x1, y1, graphics/onfocus/add )"
 			}
 		}
 
 		Button:hover {
 			render_bg {
-				1="image( x0 + 5, y0 + 6, x1, y1, graphics/new/onfocus/add_hover )"
+				1="image( x0 + 5, y0 + 6, x1, y1, graphics/onfocus/add_hover )"
 			}
 		}
 	}
