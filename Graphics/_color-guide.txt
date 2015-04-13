@@ -14,6 +14,7 @@ Active icons
 Secondary icons
 	#000000, Alpha 36%
 	#000000, Alpha 46% hover
+	(icon_clear_field)
 
 Inactive icons
 	#000000, Alpha 26%
