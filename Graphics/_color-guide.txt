@@ -19,8 +19,10 @@ Secondary icons
 Inactive icons
 	#000000, Alpha 26%
 	#000000, Alpha 36% hover
-	(officer star, logo6, minithrobber)
+	(officer star, minithrobber)
 
+Ribbon
+	(gridview_placeholder, listview_placeholder, mic_meter_live)
 
 Dark
 
@@ -43,3 +45,6 @@ Inactive icons
 	#FFFFFF, Alpha 30%
 	#FFFFFF, Alpha 40% hover
 	(lock, unlock, bigpic, mobile, web)
+
+Ribbon
+	(gridview_placeholder, listview_placeholder, mic_meter_live)
