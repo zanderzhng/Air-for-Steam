@@ -6,6 +6,6 @@ steam/cached/gameproperties_dlc.res {
 			place { control=ContentList region=box start=DescriptionLabel dir=down y=20 width=max height=170 }
 			place { control=StoreDLCURL region=box start=ContentList dir=down y=20 }
 
-		//place { control= height=0 width=0 margin-left=9999 }
+		//place { control= height=0 width=0 margin-left=-9999 }
 	}
 }

@@ -1,16 +1,15 @@
-"resource/layout/htmlpopup.layout"
-{
-	styles
-	{
+resource/layout/htmlpopup.layout {
+
+	styles {
 		HTML {
 			inset="0 0 0 0"
 		}
 	}
 
-	layout
-	{
-		place { control=frame_minimize,frame_close height=22 width=22 align=right margin-top=13 margin-right=19 spacing=0 }
-		place { control=frame_captiongrip margin=2 width=max height=50 }
+	layout {
+		region { name=header height=50 width=max }
+			place { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		region { name=nav height=50 width=max y=10 x=17 }
 		region { name=body height=max width=max y=50 }
@@ -37,7 +36,7 @@
 
 		place { control=htmlpopupchild region=body width=max height=max }
 
-		place { control="EVCert,StatusText,URLStatusImage" height=0 width=0 }
+		place { control=EVCert,StatusText,URLStatusImage height=0 width=0 margin-left=-9999 }
 	}
 }
 

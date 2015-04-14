@@ -37,9 +37,9 @@
 	}
 
 	layout {
-		place { control=frame_captiongrip width=max height=50 margin=2 }
-		place [$WINDOWS||$LINUX] { control=frame_minimize,frame_close height=22 width=22 align=right y=13 margin-right=19 spacing=0 }
-		place [$OSX] { control=frame_minimize,frame_close height=22 width=22 align=right y=13 margin-right=19 spacing=0 }
+		region { name=header height=50 width=max }
+			place { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		place [!$OSX] { control=MenuBar align=top width=52 height=49 }
 
@@ -51,6 +51,6 @@
 		place { control=library_search region=nav y=9 x=66 height=22 width=162 }
 		place { control=library_filters height=30 y=50 x=20 }
 
-		place { control=label_search_icon,subnavgroup_library height=0 width=0 }
+		place { control=label_search_icon,subnavgroup_library height=0 width=0 margin-left=-9999 }
 	}
 }

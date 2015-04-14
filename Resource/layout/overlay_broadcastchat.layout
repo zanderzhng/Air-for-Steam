@@ -1,5 +1,5 @@
-"resource/layout/overlay_broadcastpanel.layout"
-{
+resource/layout/overlay_broadcastpanel.layout {
+
 	styles {
 		COverlayBroadcastChatDialog {
 			//styles defined in _layout.styles
@@ -23,8 +23,9 @@
 	}
 
 	layout {
-		place { control=frame_minimize,frame_close height=22 width=22 align=right margin-top=13 margin-right=19 spacing=0 }
-		place { control=frame_captiongrip margin=2 width=max height=50 }
+		region { name=header height=50 width=max }
+			place { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		region { name=chat y=50 margin-bottom=90 height=max width=max }
 		region { name=bottom align=bottom height=90 width=max }
@@ -43,6 +44,6 @@
 		place { control=TextEntry						region=bottom x=7 y=42 height=36 width=max end-right=EmoticonButton margin-right=9 }
 		place { control=EmoticonButton			region=bottom align=right y=36 height=50 margin-right=17 }
 
-		place { control=SendButton height=0 width=0 }
+		place { control=SendButton height=0 width=0 margin-left=-9999 }
 	}
 }

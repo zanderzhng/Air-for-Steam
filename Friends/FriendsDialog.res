@@ -36,9 +36,11 @@
 		}
 	}
 
-		layout {
-		place { control=frame_minimize,frame_close height=22 width=22 align=right margin-top=13 margin-right=19 spacing=0 }
-		place { control=frame_captiongrip margin=2 width=max height=80 } //entire focus area grabbable
+	layout {
+		region { name=header height=50 width=max }
+			place { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
+
 		place [!$OSX] { control=MenuBar align=top width=52 height=49 margin-left=-10 }
 
 		region { name=nav height=50 width=max }
@@ -51,7 +53,7 @@
 		place { control=DownLabel y=77 width=max margin=16 }
 		place { control=NoFriendsAddFriendButton start=DownLabel dir=down margin-top=13 }
 
-		place { control=FriendPanelSelf margin-left=9999 }
-		place { control=friends_search_icon,addFriendsButton height=0 width=0 }
-		}
+		place { control=FriendPanelSelf margin-left=-9999 } //don't apply 0's because of cpu spike
+		place { control=frame_maximize,friends_search_icon,addFriendsButton height=0 width=0 margin-left=-9999 }
+	}
 }

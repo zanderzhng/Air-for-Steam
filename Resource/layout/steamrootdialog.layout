@@ -94,10 +94,9 @@ resource/layout/steamrootdialog.layout {
 	}
 
 	layout {
-		place { control=frame_captiongrip width=max height=50 margin=2 }
-		place { control=frame_minimize,frame_maximize,frame_close height=22 width=22 align=right y=13 margin-right=19 spacing=0 }
-		//place [$WINDOWS||$LINUX] { control=frame_minimize,frame_maximize,frame_close height=22 width=22 align=right y=13 margin-right=19 spacing=0 }
-		//place [$OSX] { control=frame_minimize,frame_maximize,frame_close height=22 width=22 align=left y=13 margin-left=0 spacing=0 }
+		region { name=header height=50 width=max }
+			place { control=frame_minimize,frame_maximize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		place [!$OSX] { control=MenuBar align=top width=52 height=49 }
 

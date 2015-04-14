@@ -2,7 +2,7 @@ friends/friendnotificationoptionsdialog.res {
 
 	layout {
 		region { name=header height=50 width=max }
-			place { control=frame_close height=22 width=22 align=right margin-top=13 margin-right=19 spacing=0 }
+			place { control=frame_close height=22 width=22 y=13 align=right margin-right=20 }
 			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		region { name=body height=max width=max y=50 margin-bottom=50 }
@@ -26,6 +26,6 @@ friends/friendnotificationoptionsdialog.res {
 		region { name=buttons align=bottom height=50 }
 			place { control=OKButton,Button1 region=buttons align=right spacing=10 y=10 margin-right=26 }
 
-		place { control=frame_minimize height=0 width=0 margin-left=9999 }
+		place { control=frame_minimize height=0 width=0 margin-left=-9999 }
 	}
 }

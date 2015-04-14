@@ -580,6 +580,9 @@ fonts.styles {
 	"CServerBrowserDialog status"
 		{ textcolor=Text.Label }
 
+	"CSettingsSubStreaming ListPanelSectionHeader"
+		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Label font-style=regular }
+
 	CloudUsageLabelStyle
 		{ textcolor=Text.Label }
 		//game properties > updates

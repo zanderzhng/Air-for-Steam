@@ -24,6 +24,6 @@
 		region { name=body width=max height=max }
 		place { region=body control=workshop_description width=max }
 
-		place { region=body control=workshop_banner width=0 height=0 margin-left=9999 }
+		place { region=body control=workshop_banner width=0 height=0 margin-left=-9999 }
 	}
 }

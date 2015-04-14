@@ -1,16 +1,15 @@
-"steam/cached/overlaywebbrowser.layout"
-{
-	styles {
+steam/cached/overlaywebbrowser.layout {
 
+	styles {
 		HTML {
 			inset="0 0 0 0"
 		}
 	}
 
-	layout
-	{
-		place { control=frame_close height=22 width=22 align=right margin-top=13 margin-right=19 spacing=0 }
-		place { control=frame_captiongrip margin=2 width=max height=50 }
+	layout {
+		region { name=header height=50 width=max }
+			place { control=frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		region { name=nav height=50 width=max y=16 x=17 }
 		region { name=body height=max width=max y=56 }
@@ -37,6 +36,6 @@
 
 		place { control=HTMLField region=body width=max height=max }
 
-		place { control="HomeButton,StatusText,URLStatusImage,EVCert" height=0 width=0 }
+		place { control=HomeButton,StatusText,URLStatusImage,EVCert height=0 width=0 margin-left=-9999 }
 	}
 }

@@ -9,6 +9,6 @@ steam/cached/gameproperties_localfiles.res {
 			place { control=VerifyButton region=box start=DeleteButton dir=down }
 			place { control=BuildIDLabel region=box start=VerifyButton dir=down y=20 }
 
-		//place { control= height=0 width=0 margin-left=9999 }
+		//place { control= height=0 width=0 margin-left=-9999 }
 	}
 }

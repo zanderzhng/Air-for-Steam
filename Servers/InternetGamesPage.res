@@ -15,6 +15,6 @@ servers/InternetGamesPage.res {
 		region { name=buttons align=bottom height=50 }
 			place { control=Filter,AddServerButton,RefreshQuickButton,RefreshButton,ConnectButton region=buttons align=right spacing=10 y=10 margin-right=26 }
 
-		place { control=FilterString height=0 width=0 margin-left=9999 }
+		place { control=FilterString height=0 width=0 margin-left=-9999 }
 	}
 }

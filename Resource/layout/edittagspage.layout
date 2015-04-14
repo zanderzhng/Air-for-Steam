@@ -9,6 +9,6 @@ resource/layout/edittagspage.layout {
 			place { control=TextEntry region=box start=TagChecks dir=down y=10 width=max }
 			place { control=AddTagButton region=box start=TextEntry dir=down y=20 align=top-center }
 
-		//place { control= height=0 width=0 margin-left=9999 }
+		//place { control= height=0 width=0 margin-left=-9999 }
 	}
 }

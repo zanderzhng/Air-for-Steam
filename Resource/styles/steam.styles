@@ -438,6 +438,12 @@ steam.styles {
 			}
 		}
 
+		"CSettingsSubStreaming ListPanelSectionHeader" {
+			padding-left=8
+			padding-top=2
+			padding-bottom=0
+		}
+
 		CFriendsListSectionHeader {
 			inset-left=1
 		}

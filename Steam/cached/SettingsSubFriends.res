@@ -42,6 +42,6 @@
 		place { control=FlashModeNever				start=FlashModeMinimized dir=right margin-left=10 }
 
 
-		place { control=ImageAvatarOverlay,ImageAvatar,URLLabel2,Divider1,Divider2,Label1,Label2,URLLabel1,Label3 height=0 width=0 margin-left=9999 }
+		place { control=ImageAvatarOverlay,ImageAvatar,URLLabel2,Divider1,Divider2,Label1,Label2,URLLabel1,Label3 height=0 width=0 margin-left=-9999 }
 	}
 }

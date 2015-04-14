@@ -13,8 +13,9 @@
 	}
 
 	layout {
-		place { control=frame_minimize,frame_close height=22 width=22 align=right margin-top=13 margin-right=19 spacing=0 }
-		place { control=frame_captiongrip margin=2 width=max height=50 }
+		region { name=header height=50 width=max }
+			place { control=frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		place { control=UserNameEdit,PasswordEdit 							align=top-center dir=down width=300 y=80 spacing=10 }
 		place { control=PasswordCapsLockImage										start=PasswordEdit dir=right x=-27 Y=4 }
@@ -26,7 +27,7 @@
 
 		place { control=CreateNewAccountButton,LostPasswordButton align=top-center dir=down y=310 }
 
-		place { control=ImagePanelLogo,Label2,Label3,Label4 height=0 width=0 }
+		place { control=frame_minimize,ImagePanelLogo,Label2,Label3,Label4 height=0 width=0 margin-left=-9999 }
 	}
 }
 

@@ -1,5 +1,5 @@
-"resource/layout/musicplayerpanel.layout"
-{
+resource/layout/musicplayerpanel.layout {
+
 	styles {
 		ListPanelInterior:scrollbar {
 			render_bg {
@@ -67,17 +67,18 @@
 	}
 
 	layout {
+		region { name=header height=50 width=max }
+			place { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
+
 		region { name=nav height=50 width=max y=9 }
 		region { name=body height=max width=max y=50 }
 		region { name=controls region=body height=max width=98 align=top-center }
 
-		place { control=frame_minimize,frame_close height=22 width=22 align=right margin-top=13 margin-right=19 spacing=0 }
-		place { control=frame_captiongrip margin=2 width=max height=50 }
+		place {	control=CurrentAlbumImage region=body y=16 x=26 width=50 height=50 }
+		place {	control=BrowseButton region=body y=16 x=26 width=50 height=50 }
 
-		place {	control=CurrentAlbumImage		region=body y=16 x=26 width=50 height=50 }
-		place {	control=BrowseButton				region=body y=16 x=26 width=50 height=50 }
-
-		place { control=CurrentTrackLabel 	region=nav x=25 y=5 margin-right=79 }
+		place { control=CurrentTrackLabel region=nav x=25 y=5 margin-right=79 }
 
 		place {
 			control=PreviousButton
@@ -104,7 +105,6 @@
 			height=18
 			width=14
 		}
-
 		place {
 			control=RepeatButton,ShuffleButton,VolumeButton
 			region=body
@@ -118,6 +118,6 @@
 
 		place { control="TrackList" region=body y=82 width=max height=max }
 
-		place { control="NoTracksLabel,InfoLabel,CurrentStatusLabel,CurrentArtistLabel" height=0 width=0 }
+		place { control="NoTracksLabel,InfoLabel,CurrentStatusLabel,CurrentArtistLabel" height=0 width=0 margin-left=-9999 }
 	}
 }

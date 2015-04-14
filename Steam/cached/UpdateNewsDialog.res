@@ -1,5 +1,5 @@
-"steam/cached/UpdateNewsDialog.res"
-{
+steam/cached/UpdateNewsDialog.res {
+
 	styles {
 		HTML {
 			inset="0 0 0 0"
@@ -8,7 +8,7 @@
 
 	layout {
 		region { name=header height=50 width=max }
-			place { control=frame_minimize,frame_close height=22 width=22 align=right margin-top=13 margin-right=19 spacing=0 }
+			place { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
 			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		region { name=body height=max width=max y=50 margin-bottom=50 }

@@ -1,5 +1,5 @@
-"resource/layout/screenshotmanager.layout"
-{
+resource/layout/screenshotmanager.layout {
+
 	colors {
 		BorderThumbnailUnpublished="0 0 0 0"
 		BorderThumbnailUploaded="0 0 0 0"
@@ -70,8 +70,9 @@
 	}
 
 	layout {
-		place { control=frame_minimize,frame_close height=22 width=22 align=right margin-top=13 margin-right=19 spacing=0 }
-		place { control=frame_captiongrip margin=2 width=max height=50 }
+		region { name=header height=50 width=max }
+			place { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		region { name=nav height=50 width=max }
 		region { name=buttons height=40 width=max y=60 }
@@ -110,6 +111,6 @@
 		place { control=delete_button,details_button,publish_button 											region=buttons align=right spacing=10 margin-right=26 margin-bottom=10 }
 		place { control=multi_img_delete,multi_img_upload 																region=buttons align=right spacing=10 margin-right=26 margin-bottom=10 }
 
-		place { control=multi_img,multi_img_count,instr_no_selection,instr_no_selection_title,selectorlabel,null_placer height=0 width=0 }
+		place { control=multi_img,multi_img_count,instr_no_selection,instr_no_selection_title,selectorlabel,null_placer height=0 width=0 margin-left=-9999 }
 	}
 }

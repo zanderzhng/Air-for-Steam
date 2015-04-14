@@ -9,6 +9,6 @@ steam/cached/gameproperties_betas.res {
 			place { control=CheckPasswordButton region=box start=PasswordEntry dir=down y=20 }
 			place { control=BetaResultsLabel region=box start=CheckPasswordButton dir=right x=20 y=7 width=max }
 
-		//place { control= height=0 width=0 margin-left=9999 }
+		//place { control= height=0 width=0 margin-left=-9999 }
 	}
 }
