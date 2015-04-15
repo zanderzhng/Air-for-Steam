@@ -15,7 +15,8 @@
 			dir=down start=SkinCombo y=20
 		}
 
-		place { control=NotifyAvailableGamesCheck		dir=down start=H264HWAccelCheck y=4 }
+		place [$LINUX||$OSX] { control=NotifyAvailableGamesCheck		dir=down start=UrlBarCheck y=4 }
+		place [$WINDOWS] { control=NotifyAvailableGamesCheck		dir=down start=H264HWAccelCheck y=4 }
 
 		place { control=SetJumpListOptionsButton		dir=down start=NotifyAvailableGamesCheck y=10 }
 
