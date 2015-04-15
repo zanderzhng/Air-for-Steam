@@ -36,9 +36,8 @@ If you're providing code to add to the project please adhere to these coding pra
 
 ##### Branches
 
-* `master` stable at all times
-* `develop` new updates and fixes
-* `beta` hotfixes for Steam beta updates
+* `master` should be stable at all times
+* `develop` is for new updates and fixes
 
 ##### Spacing
 
