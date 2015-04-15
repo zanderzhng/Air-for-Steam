@@ -20,7 +20,9 @@ Stay up to date with Air on the [Steam Community Group](http://steamcommunity.co
 
 #### Issues
 
-When reporting [issues](https://github.com/Elundris/Air-for-Steam/issues), please remember to include:
+When reporting an [issue](https://github.com/Elundris/Air-for-Steam/issues), please read through the current topics to make sure that your question hasn't already been answered.
+
+Remember to include:
 * A brief description of the issue and steps to reproduce
 * A screenshot (because pictures are worth a million words)
 * Your operating system
@@ -33,5 +35,7 @@ Found a bug? Know how to fix it? You're my hero!
 Please feel free to contribute your awesomeness to Air!
 
 `master` is stable at all times
+
 `develop` is for new updates and fixes
+
 `beta` is for Steam Client Beta updates
