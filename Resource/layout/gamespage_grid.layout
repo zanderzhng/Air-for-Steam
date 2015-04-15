@@ -31,7 +31,7 @@
 
 		GameItem_unInstalled
 		{
-			alpha		120
+			alpha		255
 		}
 
 		GameItem_Updating

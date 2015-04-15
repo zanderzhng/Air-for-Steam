@@ -61,6 +61,17 @@ steam.styles
 
 	styles
 	{
+
+		"GameItem_Uninstalled GGPlaceholderBG" 
+		{
+			alpha 120
+		}
+
+		"GameItem_Uninstalled GamesGridImage" 
+		{
+			alpha 120
+		}
+
 		"COverlaySettingsDialog Page" {
 			inset-left=10
 			inset-top=10
