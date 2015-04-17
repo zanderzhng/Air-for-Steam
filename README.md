@@ -8,13 +8,13 @@ Embracing Google's Material Design language, Air is a skin for Steam that has be
 
 #### Installation, customization, tweaks (oh my!)
 
-This [handy-dandy FAQ](https://github.com/Elundris/Air-for-Steam/wiki) should answer all of your burning questions. Please check here to see if your question has already been answered!
+This [handy-dandy FAQ](https://github.com/Elundris/Air-for-Steam/wiki) should answer all of your burning questions. If you are the type who frequently has questions, we've frequently got answers!
 
 --
 
 #### Issues
 
-When reporting an [issue](https://github.com/Elundris/Air-for-Steam/issues), please first read through the current topics to make sure that your question hasn't already been answered.
+When reporting an [issue](https://github.com/Elundris/Air-for-Steam/issues), please first read through the current topics to make sure that your issue hasn't already been reported.
 
 Remember to include:
 * A brief description of the issue and steps to reproduce
