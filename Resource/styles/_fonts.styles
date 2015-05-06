@@ -520,7 +520,7 @@ fonts.styles {
 		//track name in mini-player, mimic CUINavButton
 
 	AccountBalanceStyle
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.OnFocus font-style=regular }
+		{ font-family=condensed font-size=18 font-weight=700 textcolor=Text.OnFocus font-style=regular }
 
 //online_friends { }
 
