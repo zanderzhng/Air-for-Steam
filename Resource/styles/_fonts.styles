@@ -171,7 +171,7 @@ fonts.styles {
 	}
 
 	"CSettingsSubFriends TextEntry"
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=Focus font-style=regular }
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
