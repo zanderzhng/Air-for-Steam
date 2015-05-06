@@ -509,31 +509,30 @@ steam.styles {
 		Menu {
 			bgcolor=A2.Menu
 			inset="0 5 0 5"
-			render {
-				1="fill( x0, y1 - 1, x1, y1, A2.MenuDivider )" //btm
-				2="fill( x0, y0, x1, y0 + 1, A2.MenuDivider )" //top
-				3="fill( x0, y0, x0 + 1, y1, A2.MenuDivider )" //lt
-				4="fill( x1 - 1, y0, x1, y1, A2.MenuDivider )" //rt
-			}
 		}
 
 		SuperNavMenu {
 			bgcolor=A2.Menu
 			inset="0 5 0 5"
-			render {
-				1="fill( x0, y1 - 1, x1, y1, A2.MenuDivider )" //btm
-				2="gradient( x0, y0, x0 + 1, y1, A2.Menu, A2.MenuDivider )"
-				3="gradient( x1 - 1, y0, x1, y1, A2.Menu, A2.MenuDivider )"
-			}
 		}
 
 		"ComboBox Menu" {
-			bgcolor=A2.Menu
-			inset="0 -2 1 1"
-			render {
-				1="fill( x0, y1 - 1, x1, y1, A2.MenuDivider )" //btm
-				2="fill( x0, y0, x0 + 1, y1, A2.MenuDivider )" //lt
-				3="fill( x1 - 1, y0, x1, y1, A2.MenuDivider )" //rt
+			inset="0 -1 0 0"
+		}
+
+		MenuItem {
+			padding-right=5
+			padding-left=5
+		}
+
+		MenuItem:hover {
+			textcolor=Focus
+		}
+
+		MenuSeparator {
+			textcolor=none
+			render_bg {
+				0="fill( x0, y0 + 1, x1, y0 + 2, A2.MenuDivider )"
 			}
 		}
 
@@ -578,22 +577,6 @@ steam.styles {
 		CChatActionsButton:selected {
 			image="graphics/inactive/more_vert_hover"
 			render_bg { }
-		}
-
-		MenuItem {
-			padding-right=5
-			padding-left=5
-		}
-
-		MenuItem:hover {
-			bgcolor=A2.Ribbon
-		}
-
-		MenuSeparator {
-			textcolor=none
-			render_bg {
-				0="fill( x0, y0 + 1, x1, y0 + 2, A2.MenuDivider )"
-			}
 		}
 
 		Notification {

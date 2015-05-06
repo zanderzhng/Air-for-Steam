@@ -2,7 +2,7 @@ web.styles {
 
 	styles {
 		HTML {
-			bgcolor="A2.Ribbon"
+			bgcolor=A2.Notification
 			inset="2 2 2 2"
 		}
 

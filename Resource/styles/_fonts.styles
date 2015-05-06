@@ -530,7 +530,7 @@ fonts.styles {
 //Menus
 
 	MenuItem
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Primary font-style=regular }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
 
 	MenuItem:disabled
 		{ textcolor=Text.Hint }
@@ -559,10 +559,7 @@ fonts.styles {
 //Misc
 
 	EmoticonMenuItemStyle
-		{ font-size=20 textcolor=Text.Secondary }
-
-	EmoticonMenuItemStyle:hover
-		{ textcolor=Text.Secondary }
+		{ font-size=20 textcolor=Text.Notification }
 
 	SettingsList {
 		font-family=medium font-size=18 font-weight=500 textcolor=Text.Notification font-style=regular
