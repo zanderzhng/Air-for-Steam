@@ -4,22 +4,22 @@
 		menuButtonStyle { }
 
 		WebStatusStyle
-		{ image="graphics/material/icons/status_web" }
+		{ image="graphics/inactive/status_web" }
 
 		BigPictureStatusStyle
-		{ image="graphics/material/icons/status_bigpic" }
+		{ image="graphics/inactive/status_bigpic" }
 
 		MobileStatusStyle
-		{ image="graphics/material/icons/status_mobile" }
+		{ image="graphics/inactive/status_mobile" }
 
 		WebStatusStyleInGame
-		{ image="graphics/material/icons/status_web" }
+		{ image="graphics/inactive/status_web" }
 
 		BigPictureStatusStyleInGame
-		{ image="graphics/material/icons/status_bigpic" }
+		{ image="graphics/inactive/status_bigpic" }
 
 		MobileStatusStyleInGame
-		{ image="graphics/material/icons/status_mobile" }
+		{ image="graphics/inactive/status_mobile" }
 	}
 
 	layout {
