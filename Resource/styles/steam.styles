@@ -717,9 +717,7 @@ steam.styles {
 		TextEntryURL {
 			minimum-height=0 //reset for button height
 			inset-left=0
-			render_bg {
-				0="fill( x0 - 6, y0 - 6, x1 + 30, y1 + 5, AL20 )"
-			}
+			render_bg { }
 		}
 
 		TooltipWindow {

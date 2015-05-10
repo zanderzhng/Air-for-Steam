@@ -111,6 +111,9 @@ layout.styles {
 			render_bg {
 				1="fill( x0, y0, x1, y0 + 50, Focus )"
 			}
+			render {
+				0="image_tiled( x0, y0 + 50, x1, y0 + 56, graphics/material/shadow_horiz )"
+			}
 		}
 
 		COverlayWebBrowser {
@@ -118,6 +121,9 @@ layout.styles {
 			render_bg {
 				1="fill( x0, y0, x1, y0 + 6, Focus4 )"
 				2="fill( x0, y0 + 6, x1, y0 + 56, A2.Bar )"
+			}
+			render {
+				0="image_tiled( x0, y0 + 56, x1, y0 + 62, graphics/material/shadow_horiz )"
 			}
 		}
 
