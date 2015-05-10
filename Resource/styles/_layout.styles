@@ -178,18 +178,6 @@ layout.styles {
 			}
 		}
 
-		CPlayersDialog {
-			minimum-width=650
-			render_bg {
-				0="fill( x0, y0, x1, y0 + 50, Focus )"
-				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
-				2="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
-			}
-			render {
-				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/material/shadow_horiz )"
-			}
-		}
-
 		CAddShortcutDialog {
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
@@ -217,10 +205,23 @@ layout.styles {
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
 				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
-				1="fill( x0, y0 + 80, x1, y0 + 110, A2.Bar )"
-				2="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
-				3="fill( x1 - 250, y0 + 110, x1, y1 - 50, A2.Ribbon )"
+				2="fill( x0, y0 + 80, x1, y0 + 110, A2.Bar )"
+				3="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
+				4="fill( x1 - 250, y0 + 110, x1, y1 - 50, A2.Ribbon )"
 				//right-side filter ribbon overridden in InternetGamesPage.res
+			}
+			render {
+				0="image_tiled( x0, y0 + 110, x1, y0 + 116, graphics/material/shadow_horiz )"
+			}
+		}
+
+		CPlayersDialog {
+			minimum-width=650
+			render_bg {
+				0="fill( x0, y0, x1, y0 + 50, Focus )"
+				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
+				2="fill( x0, y0 + 80, x1, y0 + 110, A2.Bar )"
+				3="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
 			}
 			render {
 				0="image_tiled( x0, y0 + 110, x1, y0 + 116, graphics/material/shadow_horiz )"

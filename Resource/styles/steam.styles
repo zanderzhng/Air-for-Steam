@@ -277,7 +277,7 @@ steam.styles {
 			{ bgcolor=none }
 
 		"CPlayersDialog ListPanel"
-			{ bgcolor=none }
+			{ bgcolor=none inset-top=12 }
 
 		"CServerBrowserDialog ListPanel"
 			{ bgcolor=none }
@@ -301,12 +301,6 @@ steam.styles {
 			render_bg { }
 		}
 
-		"CPlayersDialog ListPanelColumnheader" {
-			inset-top=-8
-			padding-left=2
-			render_bg { }
-		}
-
 		"CAddShortcutDialog ListPanelColumnheader" {
 			inset-top=-8
 			padding-left=2
@@ -314,6 +308,12 @@ steam.styles {
 		}
 
 		"CServerBrowserDialog ListPanelColumnheader" {
+			inset-top=-8
+			padding-left=2
+			render_bg { }
+		}
+
+		"CPlayersDialog ListPanelColumnheader" {
 			inset-top=-8
 			padding-left=2
 			render_bg { }
@@ -605,14 +605,6 @@ steam.styles {
 		}
 
 		"CGamePropertiesDialog PageTab:selected" {
-			render_bg { }
-		}
-
-		"CPlayersDialog PageTab" {
-			inset-top=-9999
-		}
-
-		"CPlayersDialog PageTab:selected" {
 			render_bg { }
 		}
 

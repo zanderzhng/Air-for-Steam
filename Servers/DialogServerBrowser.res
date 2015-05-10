@@ -6,8 +6,7 @@ Servers/DialogServerBrowser.res {
 			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		region { name=body height=max width=max y=49 }
-		region { name=box height=max width=max region=body }
-			place { control=GameTabs region=box width=max height=max }
+			place { control=GameTabs region=body width=max height=max }
 
 		region { name=buttons align=bottom height=50 }
 			place { control=StatusLabel region=buttons align=left spacing=10 y=10 height=30 margin-left=26 }
