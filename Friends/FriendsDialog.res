@@ -1,5 +1,5 @@
-"Friends/FriendsDialog.res"
-{
+Friends/FriendsDialog.res {
+
 	styles {
 		"CFriendsDialog CFriendPanel" { }
 
@@ -41,17 +41,14 @@
 			place { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
 			place { control=frame_captiongrip margin=2 width=max height=50 }
 
-		place [!$OSX] { control=MenuBar align=top width=52 height=49 margin-left=-10 }
+			place [!$OSX] { control=MenuBar region=header align=top width=52 height=49 margin-left=-10 }
+			place { control=friends_search region=header y=9 x=56 height=22 width=92 }
 
-		region { name=nav height=50 width=max }
 		region { name=body y=50 height=max width=max }
-
-		place { control=FriendsDialogSheet region=body y=2 width=max height=max }
-
-		place { control=friends_search region=nav y=9 x=56 height=22 width=92 }
-
-		place { control=DownLabel y=77 width=max margin=16 }
-		place { control=NoFriendsAddFriendButton start=DownLabel dir=down margin-top=13 }
+		region { name=box height=max width=max region=body margin-left=26 margin-right=26 }
+			place { control=FriendsDialogSheet region=body y=2 width=max height=max }
+			place { control=DownLabel region=box y=56 width=max }
+			place { control=NoFriendsAddFriendButton region=box start=DownLabel dir=down margin-top=20 }
 
 		place { control=FriendPanelSelf margin-left=-9999 } //don't apply 0's because of cpu spike
 		place { control=frame_maximize,friends_search_icon,addFriendsButton height=0 width=0 margin-left=-9999 }
