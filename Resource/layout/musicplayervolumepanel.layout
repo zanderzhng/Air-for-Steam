@@ -9,6 +9,7 @@
 		}
 
 		VolumeSlider {
+			bgcolor=none
 			textcolor=Text.Notification //slider color
 		}
 

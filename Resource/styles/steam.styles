@@ -686,9 +686,10 @@ steam.styles {
 		}
 
 		Slider {
-			minimum-height=30
-			inset-top=5
+			bgcolor=A2.Ribbon
 			textcolor=Text.Secondary //slider color
+			inset-top=5
+			minimum-height=30
 		}
 
 		Slider:focus {
