@@ -583,7 +583,7 @@ steam.styles {
 			bgcolor=A2.Background
 			render_bg {
 				0="fill( x0, y0, x1, y1, A2.Background )"
-				1="fill( x0, y0 + 74, x1, y1, A2.MenuDivider )" //darkened region
+				1="fill( x0, y0 + 74, x1, y1, A2.Ribbon )" //darkened region
 			}
 			render { }
 
