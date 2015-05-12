@@ -1,0 +1,9 @@
+"" {
+
+	colors {
+		Focus="102 51 153 255"		//dark purple main color
+		Focus2="130 88 189 255"		//lighter purple for headers
+		Focus3="130 88 189 150"		//lighter purple with opacity for content boxes
+		Focus4="93 46 140 255"		//darker purple for contrast
+	}
+}
