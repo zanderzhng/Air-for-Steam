@@ -45,6 +45,6 @@ dark.styles {
 		Chat.History						"Text.Label"					//chat window history text
 
 		Details.Background			"114 114 114 50"			//games details semi-transparent overlay on top of screenshots, resolves into A2.Ribbon
-		Overlay.Background			"50 50 50 125"				//overlay bg
+		Overlay.Background			"50 50 50 150"				//overlay bg
 	}
 }
