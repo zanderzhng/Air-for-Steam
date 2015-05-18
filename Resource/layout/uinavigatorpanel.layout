@@ -65,7 +65,7 @@ resource/layout/uinavigatorpanel.layout {
 		CGameFilterMenuButton {
 			render {
 				0="fill( x0, y0, x1, y1, focus )"
-				0="image( x0, y0 + 8, x1, y1, graphics/onfocus/caret_down_onfocus_hover )"
+				0="image( x0, y0 + 8, x1, y1, graphics/onfocus/caret_down_onfocus )"
 			}
 		}
 	}
