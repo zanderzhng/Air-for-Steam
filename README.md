@@ -2,7 +2,7 @@
 
 Embracing Google's Material Design language, Air is a skin for Steam that has been designed to be bold without compromise—showcasing consistent beauty through minimal design.
 
-[Preview Album](http://imgur.com/a/xW7uG)
+[Preview Album](https://goo.gl/photos/zVDkK9FiYMAiETbW8)
 
 --
 
