@@ -129,7 +129,7 @@ fonts.styles {
 		{ textcolor=Friends.InGameColor }
 
 	friends_chat_name
-	{ textcolor=Friends.OnlineColor }
+		{ textcolor=Friends.OnlineColor }
 
 //friends_chat_event { }
 //friends_chat_self { }
