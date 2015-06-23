@@ -3,7 +3,7 @@
 	styles {
 		ListPanel {
 			bgcolor=A2.Ribbon
-			selectedtextcolor=Focus
+			selectedtextcolor=Text.Focus
 		}
 	}
 

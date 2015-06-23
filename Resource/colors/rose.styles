@@ -1,9 +1,19 @@
-"" {
+resource/colors/sky.styles {
 
 	colors {
-		Focus="236 64 122 255"	//material 400
-		Focus2="240 98 146 255"	//material 300
-		Focus3="240 98 146 150"	//material 300
-		Focus4="222 60 114 255"	//-5% brightness
+		Focus="236 64 122 255"
+			//material 400
+
+		Focus2="240 98 146 255"
+			//lighter hue (material 300)
+
+		Focus3="222 60 114 255"
+			//darker hue (-5% brightness)
+
+		Text.Focus="Focus"
+			//
+
+		Text.Focus2="Focus2"
+			//
 	}
 }

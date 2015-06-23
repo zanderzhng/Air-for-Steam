@@ -38,7 +38,7 @@ fonts.styles {
 		//friend alias color
 
 	inviteLinkStyle
-		{ textcolor=focus }
+		{ textcolor=Text.Focus }
 		//friend invitation accept/block/ignore links
 
 //namestyle { }
@@ -79,10 +79,10 @@ fonts.styles {
 		//downloads page section header
 
 	URLLabel
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Focus font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Focus font-style=regular }
 
 	URLLabelSimple
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Focus font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Focus font-style=regular }
 
 	URLBarSecure
 		{ textcolor=html.secureurl }
@@ -108,7 +108,7 @@ fonts.styles {
 		{ font-style=italic }
 
 	"RichText url"
-		{ textcolor=Focus }
+		{ textcolor=Text.Focus }
 
 	friends_chat_text
 		{ textcolor=Chat.Friend }
@@ -171,7 +171,7 @@ fonts.styles {
 	}
 
 	"CSettingsSubFriends TextEntry"
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Focus font-style=regular }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=regular }
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -203,13 +203,13 @@ fonts.styles {
 		{ textcolor=Text.Primary selectedtextcolor=Text.Primary }
 
 	GameItem_Updating
-		{ textcolor=Focus2 selectedtextcolor=Focus2 }
+		{ textcolor=Text.Focus2 selectedtextcolor=Text.Focus2 }
 
 	GameItem_Decrypting
-		{ textcolor=Focus2 selectedtextcolor=Focus2 }
+		{ textcolor=Text.Focus2 selectedtextcolor=Text.Focus2 }
 
 	GameItem_Syncing
-		{ textcolor=Focus2 selectedtextcolor=Focus2 }
+		{ textcolor=Text.Focus2 selectedtextcolor=Text.Focus2 }
 
 	DLC_Uninstalled
 		{ textcolor=Text.Secondary selectedtextcolor=Text.Secondary } //details dlc panel
@@ -223,17 +223,17 @@ fonts.styles {
 //Buttons/Controls
 
 	Button
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 
 	Button:disabled
 		{ textcolor=Text.Hint }
 
 	"CSettingsSubStreamingAdvancedClient URLLabel"
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 		//spoof a button
 
 	"CSettingsSubStreamingAdvancedHost URLLabel"
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 		//spoof a button
 
 //ToggleButton { }
@@ -274,8 +274,8 @@ fonts.styles {
 		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Notification font-style=uppercase }
 
 	ComboBox {
-		font-family=basefont font-size=16 font-weight=700 textcolor=Focus font-style=uppercase
-		selectedtextcolor=Focus //text color on focus, keep same as textcolor
+		font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase
+		selectedtextcolor=Text.Focus //text color on focus, keep same as textcolor
 	}
 
 	CheckButton
@@ -315,7 +315,7 @@ fonts.styles {
 		//floating download status notification
 
 	friends_chat_securitylink
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Focus font-style=regular }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Focus font-style=regular }
 
 //"CTradeInviteBar Label" { } //trade invite
 //"CVoiceBar Label" { } //voice chat
@@ -370,16 +370,16 @@ fonts.styles {
 		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.OnFocus font-style=regular }
 
 	gamedetails-headerlabel
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 
 	gamedetails-headerlabel-red
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 
 	gamedetails-headerlabel-green
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 
 	gamedetails-headerlabel-blue
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 
 	workshop_description
 		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.Primary font-style=regular }
@@ -411,10 +411,10 @@ fonts.styles {
 //Music
 
 	ArtistStyle
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 
 	PlaylistTitleStyle
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 
 	PositionLabelStyle
 		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Secondary font-style=regular } //tracklist num
@@ -443,7 +443,7 @@ fonts.styles {
 		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.OnFocus font-style=uppercase }
 
 	"CSteamRootDialog ModuleHeading"
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 
 	"CSteamRootDialog ModuleHeading2"
 		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Label font-style=uppercase }
@@ -455,7 +455,7 @@ fonts.styles {
 		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Secondary font-style=regular }
 
 	settingslink
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Focus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase }
 
 	PauseButton
 		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.OnFocus font-style=uppercase }
@@ -464,7 +464,7 @@ fonts.styles {
 		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.OnFocus font-style=uppercase }
 
 	links
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Focus font-style=uppercase } //view news button
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase } //view news button
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -561,7 +561,7 @@ fonts.styles {
 
 	SettingsList {
 		font-family=medium font-size=18 font-weight=500 textcolor=Text.Notification font-style=regular
-		selectedtextcolor=Focus
+		selectedtextcolor=Text.Focus
 		selectedbgcolor=none
 	}
 

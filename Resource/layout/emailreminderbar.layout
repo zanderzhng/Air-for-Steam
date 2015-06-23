@@ -5,7 +5,7 @@
 		CEmailReminderBar {
 			render { }
 			render_bg {
-				0="fill (x0, y0, x1, y1, Focus4 )"
+				0="fill (x0, y0, x1, y1, Focus3 )"
 			}
 		}
 

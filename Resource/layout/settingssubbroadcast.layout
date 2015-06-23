@@ -2,7 +2,7 @@
 {
 	styles {
 		rightcolumnlink {
-			textcolor=Focus
+			textcolor=Text.Focus
 		}
 
 		rightcolumnlink:hover {

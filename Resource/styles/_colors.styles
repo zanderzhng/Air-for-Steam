@@ -67,9 +67,6 @@ colors.styles {
 		TitleBar															"86 81 78 50"
 		TitleBarFocus													"176 169 162 50"
 
-		//Focus																"Focus"
-		//Focus2															"Focus2"
-		//Focus3															"Focus3"
 		FocusGrid															"85 146 160 240"
 		Highlight															"Focus"
 		Highlight1														"Focus2"

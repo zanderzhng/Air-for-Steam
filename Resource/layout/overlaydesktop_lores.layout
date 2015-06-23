@@ -24,7 +24,7 @@
 			font-family=condensed
 			font-size=30
 			font-weight=700
-			textcolor=Focus
+			textcolor=Text.Focus
 			font-style=uppercase
 			render_bg {
 				0="fill( x0 - 14, y0, x1 + 14, y1, AL10 )"
@@ -32,7 +32,7 @@
 		}
 
 		sidemenu:hover {
-			textcolor=Focus2
+			textcolor=Text.Focus2
 		}
 	}
 

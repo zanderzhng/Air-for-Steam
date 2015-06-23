@@ -23,7 +23,7 @@ layout.styles {
 
 		CGamesPage_List {
 			render_bg {
-				0="fill( x0, y0 - 10, x1, y0 + 21, Focus4 )"
+				0="fill( x0, y0 - 10, x1, y0 + 21, Focus3 )"
 			}
 			render {
 				0="image_tiled( x0, y0 + 21, x1, y0 + 27, graphics/material/shadow_horiz )"
@@ -38,7 +38,7 @@ layout.styles {
 
 		CGamesPage_Grid {
 			render_bg {
-				0="fill( x0, y0 - 30, x1, y0, Focus4 )"
+				0="fill( x0, y0 - 30, x1, y0, Focus3 )"
 			}
 			render {
 				0="image_tiled( x0, y0, x1, y0 + 6, graphics/material/shadow_horiz )"
@@ -53,7 +53,7 @@ layout.styles {
 
 		CDownloadsPage {
 			render_bg {
-				0="fill( x0, y0, x1, y0 + 130, Focus4 )"
+				0="fill( x0, y0, x1, y0 + 130, Focus3 )"
 			}
 			render {
 				0="image_tiled( x0, y0 + 130, x1, y0 + 136, graphics/material/shadow_horiz )"
@@ -65,7 +65,7 @@ layout.styles {
 			bgcolor=A2.Background
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
-				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
+				1="fill( x0, y0 + 50, x1, y0 + 80, Focus3 )"
 			}
 			render {
 				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/material/shadow_horiz )"
@@ -78,7 +78,7 @@ layout.styles {
 			bgcolor=A2.Background
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
-				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
+				1="fill( x0, y0 + 50, x1, y0 + 80, Focus3 )"
 			}
 			render {
 				0="image_tiled( x0, y0 + 80, x1, y0 + 86, graphics/material/shadow_horiz )"
@@ -90,7 +90,7 @@ layout.styles {
 			bgcolor=A2.Background
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
-				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
+				1="fill( x0, y0 + 50, x1, y0 + 80, Focus3 )"
 				2="fill( x0, y1 - 90, x1, y1 - 60, A2.Ribbon )"
 			}
 		}
@@ -119,7 +119,7 @@ layout.styles {
 		COverlayWebBrowser {
 			bgcolor=A2.Background
 			render_bg {
-				1="fill( x0, y0, x1, y0 + 6, Focus4 )"
+				1="fill( x0, y0, x1, y0 + 6, Focus3 )"
 				2="fill( x0, y0 + 6, x1, y0 + 56, A2.Bar )"
 			}
 			render {
@@ -170,7 +170,7 @@ layout.styles {
 		CGamePropertiesDialog {
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
-				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
+				1="fill( x0, y0 + 50, x1, y0 + 80, Focus3 )"
 				2="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
 			}
 			render {
@@ -181,7 +181,7 @@ layout.styles {
 		CAddShortcutDialog {
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
-				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
+				1="fill( x0, y0 + 50, x1, y0 + 80, Focus3 )"
 				2="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
 			}
 			render {
@@ -193,7 +193,7 @@ layout.styles {
 			minimum-height=712
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
-				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
+				1="fill( x0, y0 + 50, x1, y0 + 80, Focus3 )"
 				2="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
 			}
 			render {
@@ -204,7 +204,7 @@ layout.styles {
 		CServerBrowserDialog {
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
-				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
+				1="fill( x0, y0 + 50, x1, y0 + 80, Focus3 )"
 				2="fill( x0, y0 + 80, x1, y0 + 110, A2.Bar )"
 				3="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
 				4="fill( x1 - 250, y0 + 110, x1, y1 - 50, A2.Ribbon )"
@@ -219,7 +219,7 @@ layout.styles {
 			minimum-width=650
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
-				1="fill( x0, y0 + 50, x1, y0 + 80, Focus4 )"
+				1="fill( x0, y0 + 50, x1, y0 + 80, Focus3 )"
 				2="fill( x0, y0 + 80, x1, y0 + 110, A2.Bar )"
 				3="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
 			}

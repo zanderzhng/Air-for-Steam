@@ -240,7 +240,7 @@ steam.styles {
 			{ textcolor=none }
 
 		GraphPanel {
-			textcolor=focus // graph bars color
+			textcolor=Focus // graph bars color
 			bgcolor=A2.Ribbon
 			inset="3 3 3 3"
 			render_bg { }
@@ -267,7 +267,7 @@ steam.styles {
 			//needs to be defined due to CDialogSettings overwrite
 
 		"CSettingsSubStreaming ListPanel"
-			{ bgcolor=A2.Ribbon selectedtextcolor=Focus }
+			{ bgcolor=A2.Ribbon selectedtextcolor=Text.Focus }
 			//needs to be defined due to CDialogSettings overwrite
 
 		"CSteamRootDialog ListPanel"
@@ -526,7 +526,7 @@ steam.styles {
 		}
 
 		MenuItem:hover {
-			textcolor=Focus
+			textcolor=Text.Focus
 		}
 
 		MenuSeparator {
@@ -657,7 +657,7 @@ steam.styles {
 		}
 
 		ProgressBar {
-			textcolor=focus //bar color
+			textcolor=Focus //bar color
 			bgcolor=A2.Ribbon
 			render_bg { }
 		}

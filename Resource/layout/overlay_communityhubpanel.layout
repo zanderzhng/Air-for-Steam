@@ -12,13 +12,13 @@
 			font-family=condensed
 			font-size=30
 			font-weight=700
-			textcolor=Focus
+			textcolor=Text.Focus
 			font-style=uppercase
 			render_bg { }
 		}
 
 		button:hover {
-			textcolor=Focus2
+			textcolor=Text.Focus2
 		}
 	}
 

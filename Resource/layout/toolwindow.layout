@@ -9,14 +9,14 @@ resource/layout/toolwindow.layout {
 			minimum-height=29
 			minimum-width=16
 			render {
-				0="fill( x0, y0, x1, y1, Focus4 )"
+				0="fill( x0, y0, x1, y1, Focus3 )"
 				1="image( x0 + 2, y0 + 7, x1, y1, graphics/onfocus/caret_down_onfocus )"
 			}
 		}
 
 		MenuButton:hover {
 			render {
-				0="fill( x0, y0, x1, y1, Focus4 )"
+				0="fill( x0, y0, x1, y1, Focus3 )"
 				1="image( x0 + 2, y0 + 7, x1, y1, graphics/onfocus/caret_down_onfocus_hover )"
 			}
 		}
@@ -24,7 +24,7 @@ resource/layout/toolwindow.layout {
 		TabMenuButtonFlash {
 			bgcolor=none
 			render {
-				0="fill( x0, y0, x1, y1, Focus4 )"
+				0="fill( x0, y0, x1, y1, Focus3 )"
 				1="image( x0 + 2, y0 + 7, x1, y1, graphics/onfocus/caret_down_onfocus_hover )"
 			}
 		}
