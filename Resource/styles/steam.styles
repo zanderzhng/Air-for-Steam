@@ -270,6 +270,10 @@ steam.styles {
 			{ bgcolor=A2.Ribbon selectedtextcolor=Text.Focus }
 			//needs to be defined due to CDialogSettings overwrite
 
+		"CContentManagmentDialog ListPanel"
+			{ selectedtextcolor=Text.Focus }
+			//steam library folders in settings>downloads
+
 		"CSteamRootDialog ListPanel"
 			{ bgcolor=none }
 
