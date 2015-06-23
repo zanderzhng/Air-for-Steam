@@ -22,7 +22,7 @@ resource/layout/screenshotmanager.layout {
 
 		ThumbnailSelected {
 			render {
-				0="fill( x0 + 1, y0 + 11, x1, y1 - 14, Focus3 )"
+				0="fill( x0 + 1, y1 - 10, x1, y1 - 8, Focus )"
 			}
 		}
 
