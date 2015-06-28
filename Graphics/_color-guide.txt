@@ -20,6 +20,7 @@ Inactive icons
 	#000000, Alpha 26%
 	#000000, Alpha 36% hover
 	(officer star, minithrobber)
+	(cloud icons: to match the inactive color, apply a 45% black on top of the alpha channel afterwards)
 
 Ribbon
 	(gridview_placeholder, listview_placeholder, mic_meter_live)
