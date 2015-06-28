@@ -109,8 +109,8 @@ resource/layout/steamrootdialog.layout {
 
 		place { control=UINavigatorPanel width=max height=max }
 
-		region { name=downloads align=bottom height=40 width=max }
-			place { control=UIStatusPanel region=downloads align=top-center height=30 width=181 }
+		region { name=downloads align=bottom height=74 width=max }
+			place { control=UIStatusPanel region=downloads align=top-center height=48 width=180 }
 
 		place { control=SupportAlert,fullscreen,New,add_game,ImageLogo,BigPictureBG,FriendPanel,account_balance_seperator,account_URL,universe_label height=0 width=0 }
 	}
