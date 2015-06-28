@@ -24,6 +24,9 @@ gameoverlay.styles {
 		Text.Secondary					"Air155"							//white 54%, caption
 		Text.Label							"Air125"							//white 39%, label
 		Text.Hint								"Air105"							//white 26%, hint text, disabled items
+
+		Chat.Friend							"Text.Primary"				//chat window friend text
+		//!! keep here due to bug
 	}
 
 	styles {
@@ -31,5 +34,9 @@ gameoverlay.styles {
 			render_bg { }
 			//remove minimize button from chat window
 		}
+
+		friends_chat_text
+			{ textcolor=Chat.Friend }
+			//!! needs to be added here to due to bug with color not updating in overlay
 	}
 }
