@@ -1,14 +1,6 @@
 Friends/FriendsDialog.res {
 
 	styles {
-		"CFriendsDialog CFriendPanel" { }
-
-		SelfPanel {
-			render_bg {
-				0="fill( x0 - 99, y0 - 3, x1 + 99, y1 + 3, A2.Ribbon )"
-			}
-		}
-
 		FriendsSearch:empty {
 			textcolor=none
 			padding-top=3

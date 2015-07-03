@@ -1,6 +1,8 @@
 "resource/layout/friendpanel.layout"
 {
 	styles {
+		SelfPanel { }
+
 		menuButtonStyle { }
 
 		WebStatusStyle
