@@ -33,13 +33,20 @@
 			textcolor=none
 			render { }
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/onfocus/game_launch )"
+				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_launch )"
 			}
 		}
 
 		DetailsLaunchButton:hover {
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/onfocus/game_launch_hover )"
+				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_launch_hover )"
+			}
+		}
+
+		DetailsLaunchButton:active {
+			render_bg {
+				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_launch_hover )"
+				1="image( x0, y0, x1, y1, graphics/onfocus/active_circle_lg )"
 			}
 		}
 
@@ -48,13 +55,20 @@
 			textcolor=none
 			render { }
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/onfocus/game_install )"
+				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install )"
 			}
 		}
 
 		DetailsInstallButton:hover {
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/onfocus/game_install_hover )"
+				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install_hover )"
+			}
+		}
+
+		DetailsInstallButton:active {
+			render_bg {
+				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install_hover )"
+				1="image( x0, y0, x1, y1, graphics/onfocus/active_circle_lg )"
 			}
 		}
 
@@ -63,13 +77,20 @@
 			textcolor=none
 			render { }
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/onfocus/game_install )"
+				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install )"
 			}
 		}
 
 		DetailsBuyButton:hover {
 			render_bg {
-				0="image( x0, y0, x1, y1, graphics/onfocus/game_install_hover )"
+				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install_hover )"
+			}
+		}
+
+		DetailsBuyButton:active {
+			render_bg {
+				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install_hover )"
+				1="image( x0, y0, x1, y1, graphics/onfocus/active_circle_lg )"
 			}
 		}
 	}
@@ -103,7 +124,7 @@
 			region=header
 			align=top-center
 			dir=down
-			height=50 width=50
+			height=70 width=70
 			y=40
 		}
 	}
