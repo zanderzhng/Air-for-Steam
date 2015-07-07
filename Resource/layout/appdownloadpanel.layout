@@ -83,6 +83,7 @@
 		place { control=downloadtotallabel,downloadtotalfield region=column3 spacing=20 y=21 height=19 }
 		place { control=timecompletedlabel,timecompletedfield,starttimelabel,starttimefield region=column3 spacing=20 y=51 height=19 }
 		place { control=timeremaininglabel,timeremainingfield region=column3 spacing=20 y=81 height=19 }
+		place { control=pausereasonlabel,pausereasonfield   region=column3 spacing=47 y=70 }
 
 		place { control=topofqueuebutton region=column3 y=18 align=right height=24 width=24 }
 		place { control=removefromqueuebutton region=column3 y=48 align=right height=24 width=24 }
