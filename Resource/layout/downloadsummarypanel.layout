@@ -6,10 +6,30 @@
 			render_bg { }
 		}
 
-		GraphPanel {
-			textcolor=AL100 // graph bars color
+		NetGraphPanel {
+			textcolor=AL100 // download graph bars color
 			bgcolor=none
 			inset-left=1
+		}
+		
+		DiscGraphPanel {
+			textcolor=AL250 // disk usage color
+			bgcolor=none
+			inset-left=1
+		}
+		
+		DiskLegendPanel	{
+			render_bg {
+				// background fill
+				0="fill( x0, y0, x1,y1, AL250 )"
+			}
+		}
+		
+		NetLegendPanel	{
+			render_bg {
+				// background fill
+				0="fill( x0, y0, x1,y1, AL100 )"
+			}
 		}
 	}
 
@@ -17,18 +37,27 @@
 
 		region { name=notification height=50 width=max }
 		region { name=graph y=50 height=80 width=max }
+		region { name=legend align=right width=200 margin-top=12 }
 
-		place { control="GraphPanel" region=graph width=max height=max }
+		place { control="net_graphpanel" region=graph width=max height=max }
+		place { control="disc_graphpanel" region=graph width=max height=max }
+
+		// graph legend
+		place { control="net_legend_panel" region=legend y=3 x=0 width=9 height=9 }
+		place { control="net_legend_label" region=legend y=0 x=12 }
+		
+		place { control="disk_legend_panel" region=legend y=16 x=0  width=9 height=9 }
+		place { control="disk_legend_label" region=legend y=13 x=12 }
 
 		place { control="pauseresumeallbutton" region=notification align=right y=9 margin-right=26 }
 
-		place { region=notification control="download_rate,download_rate_value" 						y=17 x=26 spacing=10 }
+		place { region=notification control="download_rate,download_rate_value" 						y=10 x=26 spacing=10 }
 		place { region=notification control="peak_download_rate,peak_download_rate_value" 	x=20 spacing=10 start=download_rate_value }
 		place { region=notification control="total_downloaded,total_downloaded_value" 			x=20 spacing=10 start=peak_download_rate_value }
-		place { region=notification control="blackout_label,blackout_value" 								x=20 spacing=10 start=total_downloaded_value }
-		place { region=notification control="throttling_label,throttling_value" 						x=20 spacing=10 start=blackout_value }
-		place { region=notification control="disk_status_label" 														x=20 start=throttling_value }
-
+		place { region=notification control="disk_status_label, disk_status_value" 					x=20 spacing=10 start=total_downloaded_value }
+		place { region=notification control="blackout_label,blackout_value" 							y=28 x=26 spacing=10 }
+		place { region=notification control="throttling_label,throttling_value" 							x=20 spacing=10 start=blackout_value }
+		
 		place { control=header height=0 width=0 } //Network label
 	}
 }
