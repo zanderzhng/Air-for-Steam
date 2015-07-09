@@ -4,13 +4,13 @@ resource/colors/sky.styles {
 		Focus="68 59 54 255"
 			//
 
-		Focus2="96 96 90 255"
-			//lighter hue (+28 +37 +36)
+		Focus2="138 140 134 255"
+			//lighter hue (+70 +81 +80)
 
 		Focus3="59 51 46 255"
 			//darker hue (-5% brightness)
 
-		Text.Focus="Focus"
+		Text.Focus="Focus2"
 			//
 
 		Text.Focus2="Focus2"
