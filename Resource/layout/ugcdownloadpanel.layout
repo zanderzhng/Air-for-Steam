@@ -1,8 +1,8 @@
-"resource/layout/ugcdownloadpanel.layout"
-{
-	styles
-	{
+resource/layout/ugcdownloadpanel.layout {
+
+	styles {
 		CAppSubscriptionsDownloadPanel {
+			minimum-height=180
 			render_bg {
 				0="fill( x0, y0, x1, y1, A2.Ribbon )"
 			}
@@ -17,46 +17,24 @@
 			}
 			render { }
 		}
-
-		SmRemoveButton {
-			padding-left=8 padding-right=8
-			minimum-height=30
-			render { }
-		}
-
-		SmRemoveButton:hover {
-			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Hover )"
-			}
-		}
-
-		SmRemoveButton:active {
-			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Pressed )"
-			}
-		}
 	}
 
 
 	layout {
 		region { name=box height=max width=max margin-left=26 margin-right=26 }
-		region { name=column1 region=box width=184 height=max align=left }
-		region { name=column2 region=box x=184 width=max height=max align=left margin-left=20 margin-right=330 }
-		region { name=column3 region=box width=330 height=max align=right margin-left=20 }
+		region { name=column2 region=box x=204 width=max height=max }
+
+		place { control=updatetypelabel,namelabel region=box y=18 spacing=20 }
+
+		place { control=gameimage region=box y=75 height=69 width=184 }
+
+		place { control=downloadtotallabel,downloadtotalfield region=column2 spacing=10 y=75 height=19 }
+		place { control=timecompletedlabel,timecompletedfield,starttimelabel,starttimefield,pausereasonlabel,pausereasonfield region=column2 spacing=10 y=101 height=19 }
+		place { control=timeremaininglabel,timeremainingfield region=column2 spacing=10 y=127 height=19 }
+
+		place { control=viewmodsbutton,pauseresumebutton region=box y=65 align=right dir=down }
 
 		place { control=downloadprogressbar align=bottom height=5 width=max }
-
-		// left column
-		place { control=gameimage region=column1 height=69 width=184 align=left y=25 }
-
-		// mid column
-		place { control=namelabel,updatetypelabel region=column2 y=16 spacing=20 }
-		place { control=viewmodsbutton,pauseresumebutton region=column2 y=64 spacing=10 }
-
-		// right column
-		place { control=downloadtotallabel,downloadtotalfield region=column3 spacing=20 y=21 height=19 }
-		place { control=timecompletedlabel,timecompletedfield,starttimelabel,starttimefield region=column3 spacing=20 y=51 height=19 }
-		place { control=timeremaininglabel,timeremainingfield region=column3 spacing=20 y=81 height=19 }
 
 		place { control=graphdownloadrate,dashlabel,workshopminibanner,downloadfileslabel,downloadfilesfield height=0 width=0 }
 	}
