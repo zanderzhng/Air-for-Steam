@@ -143,7 +143,7 @@ layout.styles {
 
 		CScreenshotManager {
 			minimum-width=735
-			minimum-height=450
+			minimum-height=464
 			bgcolor=A2.Background
 			render_bg {
 				0="fill( x1 - 366, y0, x1, y1, A2.Ribbon )"
