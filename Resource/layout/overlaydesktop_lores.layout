@@ -32,7 +32,7 @@
 		}
 
 		sidemenu:hover {
-			textcolor=Text.Focus2
+			textcolor=Text.FocusHover
 		}
 	}
 

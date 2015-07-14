@@ -3,8 +3,8 @@ resource/layout/downloadsummarypanel.layout {
 	styles {
 		CDownloadSummaryPanel { render_bg { } }
 
-		NetGraphPanel { textcolor=AD30 bgcolor=none inset="0 0 0 0" }
-		NetLegendPanel { bgcolor=AD30 }
+		NetGraphPanel { textcolor=AL40 bgcolor=none inset="0 0 0 0" }
+		NetLegendPanel { bgcolor=AL40 }
 
 		DiscGraphPanel { textcolor=Focus2 bgcolor=none inset="0 0 0 0" }
 		DiskLegendPanel { bgcolor=Focus2 }

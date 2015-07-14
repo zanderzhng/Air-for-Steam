@@ -203,13 +203,13 @@ fonts.styles {
 		{ textcolor=Text.Primary selectedtextcolor=Text.Primary }
 
 	GameItem_Updating
-		{ textcolor=Text.Focus2 selectedtextcolor=Text.Focus2 }
+		{ textcolor=Text.Focus selectedtextcolor=Text.Focus }
 
 	GameItem_Decrypting
-		{ textcolor=Text.Focus2 selectedtextcolor=Text.Focus2 }
+		{ textcolor=Text.Focus selectedtextcolor=Text.Focus }
 
 	GameItem_Syncing
-		{ textcolor=Text.Focus2 selectedtextcolor=Text.Focus2 }
+		{ textcolor=Text.Focus selectedtextcolor=Text.Focus }
 
 	DLC_Uninstalled
 		{ textcolor=Text.Secondary selectedtextcolor=Text.Secondary } //details dlc panel

@@ -13,7 +13,7 @@ resource/colors/breeze.styles {
 		Text.Focus="Focus"
 			//
 
-		Text.Focus2="Focus2"
+		Text.FocusHover="Focus2"
 			//
 	}
 }

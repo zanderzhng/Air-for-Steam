@@ -153,7 +153,7 @@ colors.styles {
 		TextEntry.IMEFGColor									"Text.Label"
 
 		WizardPanel.HeaderBGColor							"HeaderDialog"
-		PropertySheet.FlashTabColor						"Text.Focus2"
+		PropertySheet.FlashTabColor						"Text.FocusHover"
 
 		Friends.InGameColor										"Friends.InGame"
 		Friends.OnlineColor										"Friends.Online"

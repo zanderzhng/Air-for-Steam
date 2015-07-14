@@ -30,7 +30,7 @@ resource/layout/toolwindow.layout {
 		}
 
 		TabMenuItemFlash {
-			textcolor=Text.Focus2
+			textcolor=Text.FocusHover
 		}
 
 		TabPageCloseButton {
