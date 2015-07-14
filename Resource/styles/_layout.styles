@@ -8,14 +8,13 @@ layout.styles {
 			}
 		}
 
-		"CSteamRootDialog WebPanelStyle" {
+		WebPanelStyle {
 			render {
-				0="image_tiled( x0, y0 + 2, x1, y0 + 8, graphics/material/shadow_horiz )"
+				0="image_tiled( x0, y0, x1, y0 + 6, graphics/material/shadow_horiz )"
 			}
 		}
 
-		"CSteamRootDialog BroadcastPanelMinimized" {
-			inset="0 0 0 0" //reset for html inset
+		BroadcastPanelMinimized {
 			render {
 				0="image_tiled( x0, y0, x1, y0 + 6, graphics/material/shadow_horiz )"
 			}

@@ -1,9 +1,6 @@
 resource/layout/htmlpopup.layout {
 
 	styles {
-		HTML {
-			inset="0 0 0 0"
-		}
 	}
 
 	layout {

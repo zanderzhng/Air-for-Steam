@@ -6,9 +6,20 @@ web.styles {
 			inset="2 2 2 2"
 		}
 
+		WebPanelStyle {
+			inset="0 0 0 0"
+		}
+
+		PopupHTML {
+			inset="0 0 0 0"
+		}
+
+		BroadcastPanelMinimized {
+			inset="0 0 0 0"
+		}
+
 		"CWebURLDialog CSteamAuthedHTML" {
 			inset="0 0 0 0"
-
 			//received gift window
 		}
 
