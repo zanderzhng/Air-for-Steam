@@ -271,5 +271,21 @@ controls.styles {
 
 		"COverlaySettingsDialog FrameCloseButton:hover"
 			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
+
+
+		"CMusicLibraryPanel FrameMinimizeButton"
+			{ render_bg { } }
+
+		"CMusicLibraryPanel FrameMaximizeButton"
+			{ render_bg { } }
+
+		"CMusicLibraryPanel FrameRestoreButton"
+			{ render_bg { } }
+
+		"CMusicLibraryPanel FrameCloseButton"
+			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_close_onfocus )" } }
+
+		"CMusicLibraryPanel FrameCloseButton:hover"
+			{ render_bg { 1="image( x0 + 5, y0 + 5, x1, y1, graphics/onfocus/controls/win_close_onfocus_hover )" } }
 	}
 }

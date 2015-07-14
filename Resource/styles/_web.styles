@@ -18,9 +18,10 @@ web.styles {
 			inset="0 0 0 0"
 		}
 
-		"CWebURLDialog CSteamAuthedHTML" {
+		CSteamAuthedHTML {
 			inset="0 0 0 0"
-			//received gift window
+			//received gift dialog
+			//update news dialog
 		}
 
 		BackButton

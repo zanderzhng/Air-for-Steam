@@ -56,7 +56,6 @@ resource/layout/uinavigatorpanel.layout {
 
 		NavLabel2 {
 			image=graphics/onfocus/add
-
 			//music page list panel collapser icon (overriden below for game filter button)
 		}
 
@@ -119,8 +118,8 @@ resource/layout/uinavigatorpanel.layout {
 		place { control=ToolsPage							region=body width=max height=max start=emailreminderbar dir=down y=9 }
 		place { control=ConsolePage						region=body width=max height=max start=emailreminderbar dir=down }
 
-		place { control="library_music_player_icon" align=right y=64 height=24 width=24 margin-right=24 }
+		place { control=library_music_player_icon align=right y=64 height=24 width=24 margin-right=24 }
 
-		place { control="label_console,library_music_add_button,URLBar,forward,URLStatusImage,label_search_icon,label_library_zoom,home,refresh,stop,EVCert,subnavgroup_library,label_zoom_separator,label_library_view,library_filters_details,library_filters_list,library_filters_grid,label_community_new,label_community_gamehubs,label_community_forums,label_community_workshop,label_community_greenlight,label_community_friends,label_community_profile,label_community_marketplace,label_community_groups,BetaFlagBigPicture,fullscreen" height=0 width=0 }
+		place { control=label_console,library_music_add_button,URLBar,forward,URLStatusImage,label_search_icon,label_library_zoom,home,refresh,stop,EVCert,subnavgroup_library,label_zoom_separator,label_library_view,library_filters_details,library_filters_list,library_filters_grid,label_community_new,label_community_gamehubs,label_community_forums,label_community_workshop,label_community_greenlight,label_community_friends,label_community_profile,label_community_marketplace,label_community_groups,BetaFlagBigPicture,fullscreen height=0 width=0 }
 	}
 }

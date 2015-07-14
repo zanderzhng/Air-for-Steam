@@ -1,9 +1,6 @@
 steam/cached/UpdateNewsDialog.res {
 
 	styles {
-		HTML {
-			inset="0 0 0 0"
-		}
 	}
 
 	layout {

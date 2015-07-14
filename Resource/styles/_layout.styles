@@ -140,6 +140,18 @@ layout.styles {
 			}
 		}
 
+		CMusicLibraryPanel {
+			minimum-width=800
+			minimum-height=400
+			bgcolor=A2.Background
+			render_bg {
+				0="fill( x0, y0, x1, y0 + 50, Focus )"
+			}
+			render {
+				0="image_tiled( x0, y0 + 50, x1, y0 + 56, graphics/material/shadow_horiz )"
+			}
+		}
+
 		CScreenshotManager {
 			minimum-width=735
 			minimum-height=464
