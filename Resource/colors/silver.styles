@@ -1,13 +1,13 @@
-resource/colors/sky.styles {
+resource/colors/silver.styles {
 
 	colors {
-		Focus="32 32 32 255"
+		Focus="180 180 180 255"
 			//material 500
 
-		Focus2="60 69 68 255"
+		Focus2="208 217 216 255"
 			//lighter hue (+28 +37 +36)
 
-		Focus3="20 20 20 255"
+		Focus3="168 168 168 255"
 			//darker hue (-5% brightness)
 
 		Text.Focus="0 188 212 255"
