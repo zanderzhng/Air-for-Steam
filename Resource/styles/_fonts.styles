@@ -310,6 +310,10 @@ fonts.styles {
 	friends_ignored
 		{ textcolor=Friends.Offline }
 
+	StatusLabel
+		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
+		//floating download status notification
+
 	StatusLabelDim
 		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
 		//floating download status notification
@@ -584,10 +588,6 @@ fonts.styles {
 
 	"CDialogParentalUnlock Password"
 		{ font-size=40 }
-
-	IntroHeading
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.Primary font-style=regular }
-		//from broadcast_firsttime.layout
 
 	"HTML label"
 		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
