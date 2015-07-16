@@ -11,7 +11,7 @@ Steam/Cached/LaunchParametersDialog.res {
 			place { control=LaunchOptions region=box start=Label1 dir=down y=20 width=max }
 
 		region { name=buttons align=bottom height=50 }
-			place { control=Button1,Button2 region=buttons align=right spacing=10 y=10 margin-right=26 }
+			place { control=Button2,Button1 region=buttons align=right spacing=10 y=10 margin-right=26 }
 
 		place { control=frame_minimize height=0 width=0 margin-left=-9999 }
 	}
