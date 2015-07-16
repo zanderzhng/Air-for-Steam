@@ -337,8 +337,19 @@ fonts.styles {
 		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
 
 	FindEntry {
-		font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular
+		font-family=regular font-size=16 font-weight=400 textcolor=Text.Notification font-style=regular
 		shadowtextcolor=Text.Notification
+	}
+
+	"HTML Label" {
+		font-family=regular font-size=16 font-weight=400 textcolor=Text.Notification font-style=regular
+		//htmlfindbar results found count
+	}
+
+	IMEEntry {
+		font-family=regular font-size=18 font-weight=400 textcolor=Text.Notification font-style=regular
+		shadowtextcolor=Text.Notification
+		//vary font size for legibility in CJK languages
 	}
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -588,14 +599,6 @@ fonts.styles {
 
 	"CDialogParentalUnlock Password"
 		{ font-size=40 }
-
-	"HTML label"
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
-		//from htmlfindbar.layout
-
-	IMEEntry
-		{ font-size=18 }
-		//from htmlimebar.layout, vary font size for legibility in CJK languages
 
 	emptylisttext
 		{ textcolor=none selectedtextcolor=none }
