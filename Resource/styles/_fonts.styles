@@ -556,11 +556,36 @@ fonts.styles {
 
 //Overlay
 
-	taskbar
-		{ font-family=condensed font-size=30 font-weight=700 textcolor=Text.Overlay font-style=uppercase } //in overlaytaskbar
+	topbar {
+		font-family=basefont font-size=16 font-weight=700 textcolor=Text.OverlayLabel font-style=uppercase
+		//clock
+	}
+
+	clocksuffix {
+		font-family=basefont font-size=16 font-weight=700 textcolor=Text.OverlayLabel font-style=uppercase
+		//clock am/pm
+	}
+
+	timeStrings {
+		font-family=basefont font-size=16 font-weight=700 textcolor=Text.OverlayLabel font-style=uppercase
+		//played time stats
+	}
+
+	taskbar {
+		font-family=medium font-size=16 font-weight=700 textcolor=Text.Overlay font-style=uppercase
+		//taskbar, web browser, music, settings
+	}
 
 	taskbar:hover
 		{ textcolor=Text.OverlaySoft }
+
+	sidemenu {
+		font-family=medium font-size=16 font-weight=700 textcolor=Text.OverlayLabel font-style=uppercase
+		//extra links
+	}
+
+	sidemenu:hover
+		{ textcolor=Text.OverlayLabelHover }
 
 	ViewersTextStyle
 		{ font-family=medium font-size=18 font-weight=500 textcolor="144 153 161 255" font-style=regular }

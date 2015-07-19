@@ -1,43 +1,23 @@
-"resource/layout/overlaydesktop.layout"
-{
+resource/layout/overlaydesktop.layout {
+
 	styles {
-
-		topbar {
-			font-family=condensed
-			textcolor=Text.OverlaySoft
-			font-size=30
-			font-weight=700
-		}
-
-		clocksuffix {
-			font-family=condensed
-			textcolor=Text.OverlaySoft
-			font-size=30
-			font-weight=700
-		}
-
-		timeStrings {
-			//this is the session text
-		}
 	}
 
 	layout {
+		region { name=overlay height=max width=max margin-left=80 margin-right=80 }
+			place { control=FriendsDetailPanel width=301 }
+			place { control=AchievementsDetailPanel width=207 }
+			place { control=CommunityHubDetailPanel width=191 }
+			place { control=ScreenshotsDetailPanel width=174 }
+			place { control=FriendsDetailPanel,AchievementsDetailPanel,CommunityHubDetailPanel,ScreenshotsDetailPanel region=overlay y=189 height=30 align=left }
 
-		region { name=achievements width=max height=149 align=bottom }
-		place { control=AchievementsDetailPanel region=achievements width=max height=max }
+			place { control=SessionText,ForeverText,Clock region=overlay y=102 height=20 dir=down x=6 }
+			place { control=Clocksuffix region=overlay start=Clock y=2 }
 
-		region { name=bottom align=bottom height=64 width=max }
-		place { control=Clock,Clocksuffix region=bottom height=20 align=right margin-right=120 }
+			place { control=GameGroupsButton,ChatRoomButton,DLCButton,GuideButton,LegacyCDKeyButton,WebSiteButton,RecommendButton,WorkshopButton region=overlay y=299 x=6 dir=down height=20 }
 
-		region { name=links width=max align=top y=90 }
+			place { control=BroadcastDetailPanel align=top-center y=14 height=40 width=360 }
 
-		place { control=FriendsDetailPanel 				width=450 } //190 + 150 + 40 + 40 + 30
-		place { control=CommunityHubDetailPanel 	width=277 } //237 + 40
-		place { control=ScreenshotsDetailPanel 		width=279 } //209 + 40 + 30
-		place { control=FriendsDetailPanel,CommunityHubDetailPanel,ScreenshotsDetailPanel region=links align=top-center height=60 }
-
-		place { control=BroadcastDetailPanel align=top-center y=20 height=50 width=360 }
-
-		place { control="SessionText,ForeverText,TwoWeeksText,GameHubButton,GameGroupsButton,ChatRoomButton,DLCButton,GuideButton,LegacyCDKeyButton,WebSiteButton,ForumsButton,RecommendButton,WorkshopButton,GuidesButton,GuidesDetailPanel,NewsDetailPanel,CommunityDiscussionsDetailPanel" height=0 width=0 margin-left=-9999 }
+		place { control=TwoWeeksText,GuidesDetailPanel,NewsDetailPanel,CommunityDiscussionsDetailPanel height=0 width=0 margin-left=-9999 }
 	}
 }

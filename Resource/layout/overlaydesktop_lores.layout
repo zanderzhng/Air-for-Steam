@@ -1,55 +1,19 @@
-"resource/layout/overlaydesktop_lores.layout"
-{
+resource/layout/overlaydesktop_lores.layout {
+
 	styles {
-
-		topbar {
-			font-family=condensed
-			textcolor=Text.OverlaySoft
-			font-size=30
-			font-weight=700
-		}
-
-		clocksuffix {
-			font-family=condensed
-			textcolor=Text.OverlaySoft
-			font-size=30
-			font-weight=700
-		}
-
-		timeStrings {
-			//this is the session text
-		}
-
-		sidemenu {
-			font-family=condensed
-			font-size=30
-			font-weight=700
-			textcolor=Text.Focus
-			font-style=uppercase
-			render_bg {
-				0="fill( x0 - 14, y0, x1 + 14, y1, AL10 )"
-			}
-		}
-
-		sidemenu:hover {
-			textcolor=Text.FocusHover
-		}
 	}
 
 	layout {
+		region { name=overlay height=max width=max margin-left=80 margin-right=80 }
+			place { control=FriendsButton,PlayersButton,AchievementsButton,GameHubButton,ScreenshotsButton region=overlay y=184 height=30 x=6 spacing=30 align=left }
 
-		region { name=achievements width=max height=137 align=bottom }
-		place { control=AchievementsButton region=achievements align=top-center }
+			place { control=SessionText,ForeverText,Clock region=overlay y=102 height=20 dir=down x=6 }
+			place { control=Clocksuffix region=overlay start=Clock y=2 }
 
-		region { name=bottom align=bottom height=64 width=max }
-		place { control=Clock,Clocksuffix region=bottom height=20 align=right margin-right=120 }
+			place { control=GameGroupsButton,ChatRoomButton,DLCButton,GuideButton,GuidesButton,LegacyCDKeyButton,WebSiteButton,ForumsButton,RecommendButton,WorkshopButton region=overlay y=299 x=6 dir=down height=20 }
 
-		region { name=links width=max align=top y=90 }
+			place { control=BroadcastDetailPanel align=top-center y=14 height=40 width=360 }
 
-		place { control="FriendsButton,PlayersButton,GameHubButton,ScreenshotsButton" region=links align=top-center height=60 spacing=28 }
-
-		place { control=BroadcastDetailPanel align=top-center y=20 height=50 width=360 }
-
-		place { control="SessionText,ForeverText,TwoWeeksText,GameGroupsButton,ChatRoomButton,DLCButton,GuideButton,GuidesButton,LegacyCDKeyButton,WebSiteButton,ForumsButton,RecommendButton,WorkshopButton" height=0 width=0 margin-left=-9999 }
+		place { control=TwoWeeksText,GuidesDetailPanel,NewsDetailPanel,CommunityDiscussionsDetailPanel height=0 width=0 margin-left=-9999 }
 	}
 }

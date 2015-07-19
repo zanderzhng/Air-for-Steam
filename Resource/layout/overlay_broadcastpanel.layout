@@ -1,12 +1,20 @@
-"resource/layout/overlay_broadcastpanel.layout"
-{
+resource/layout/overlay_broadcastpanel.layout {
+
 	styles {
-		highlight { textcolor=white }
+		button {
+			minimum-height=0 //reset for button height
+			padding-right=0 padding-left=0
+			render_bg { }
+		}
+
+		button:hover {
+			textcolor=Text.FocusHover
+		}
 	}
 
 	layout {
-		place { control="ShowBroadcast,ShowChat,ShowSettings,StopBroadcast" spacing=10 align=top-center margin-top=10 }
+		place { control=ShowBroadcast,ShowChat,ShowSettings,StopBroadcast spacing=20 align=top-center }
 
-		place { control="TitleText,InstructionText" height=0 width=0 }
+		place { control=TitleText,InstructionText height=0 width=0 }
 	}
 }

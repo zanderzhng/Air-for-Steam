@@ -1,19 +1,12 @@
-"resource/layout/overlay_communityhubpanel.layout"
-{
-	styles
-	{
+resource/layout/overlay_communityhubpanel.layout {
+
+	styles {
 		detailsbox {
-			bgcolor=AL10
 		}
 
 		button {
 			minimum-height=0 //reset for button height
-			padding-right=0 padding-left=3
-			font-family=condensed
-			font-size=30
-			font-weight=700
-			textcolor=Text.Focus
-			font-style=uppercase
+			padding-right=0 padding-left=0
 			render_bg { }
 		}
 
@@ -22,10 +15,9 @@
 		}
 	}
 
-	layout
-	{
-		place { control=ViewCommunityHub height=60 align=top-center }
+	layout {
+		place { control=ViewCommunityHub height=20 }
 
-		place { control="TitleText,NumContributionsText" height=0 width=0 }
+		place { control=TitleText,NumContributionsText height=0 width=0 }
 	}
 }
