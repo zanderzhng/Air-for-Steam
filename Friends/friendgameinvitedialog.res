@@ -1,27 +1,29 @@
-"Friends/friendgameinvitedialog.res"
-{
+Friends/friendgameinvitedialog.res {
+
 	styles {
 		FriendsPanel {
 			bgcolor=A2.Background
 			render_bg {
-				3="fill( x0, y1 - 54, x1, y1, A2.Ribbon )"
+				1="fill( x0, y0, x1, y0 + 50, Focus )"
+				2="fill( x0, y1 - 50, x1, y1, A2.Ribbon )"
 			}
-		}
-
-		RootMenu {
-			bgcolor=none
-		}
-
-
-		FriendsTitle {
-			inset="0 0 0 0"
+			render {
+				0="image_tiled( x0, y0 + 50, x1, y0 + 56, graphics/material/shadow_horiz )"
+			}
 		}
 	}
 
 	layout {
-		// the title bar is missing, so increase the size of the grip
-		place { control="frame_captiongrip" margin=2 width=max height=38 }
+		region { name=header height=50 width=max }
+			place { control=frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
 
-		place { control="buddylist" align=left margin-top=36 margin-bottom=54 width=max height=max }
+		region { name=body height=max width=max y=50 margin-bottom=50 }
+			place { control=buddylist region=body width=max }
+
+		region { name=buttons align=bottom height=50 }
+			place { control=CloseButton region=buttons align=right spacing=10 y=10 margin-right=26 }
+
+		place { control=frame_minimize height=0 width=0 margin-left=-9999 }
 	}
 }
