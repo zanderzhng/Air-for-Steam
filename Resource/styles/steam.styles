@@ -705,6 +705,7 @@ steam.styles {
 		}
 
 		tooltip_headline {
+			font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular
 			padding-left=8
 			padding-right=8
 			padding-top=3
@@ -714,6 +715,7 @@ steam.styles {
 		}
 
 		"TooltipWindow Label" {
+			font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular
 			padding-left=8
 			padding-right=8
 			padding-top=3

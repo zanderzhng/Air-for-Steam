@@ -220,7 +220,7 @@ fonts.styles {
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
 
-//Buttons/Controls
+//Buttons
 
 	Button
 		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase }
@@ -292,11 +292,11 @@ fonts.styles {
 
 //Notifications
 
-	"TooltipWindow Label"
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
+	//"TooltipWindow Label"
+		//defined in steam.styles due to text appearing unstyled
 
-	tooltip_headline
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.Notification font-style=regular }
+	//tooltip_headline
+		//defined in steam.styles due to text appearing unstyled
 
 	friends_offline
 		{ textcolor=Friends.Offline }
@@ -320,10 +320,6 @@ fonts.styles {
 
 	friends_chat_securitylink
 		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Focus font-style=regular }
-
-//"CTradeInviteBar Label" { } //trade invite
-//"CVoiceBar Label" { } //voice chat
-//"CGameInviteBar Label" { } //gmae invite
 
 	"CSteamRootDialog soft"
 		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.NotificationSoft font-style=regular }
@@ -630,7 +626,6 @@ fonts.styles {
 		//search results empty
 
 	TreeNodeText
-		{ font-family=Arial font-size=13 textcolor=Text.Primary selectedtextcolor=Text.White selectedbgcolor=Focus2 }
-
+		{ font-family=basefont font-size=16 textcolor=Text.Primary selectedtextcolor=Text.White selectedbgcolor=Focus2 }
 	}
 }
