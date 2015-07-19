@@ -28,6 +28,10 @@ web.styles {
 			inset="0 0 0 0"
 		}
 
+		"CShowEULADialog HTML" {
+			inset="0 0 0 0"
+		}
+
 		BackButton
 			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/back }
 
