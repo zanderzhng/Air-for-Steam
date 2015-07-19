@@ -3,7 +3,7 @@
 	styles {
 		CSteamLoginDialog {
 			minimum-height=430
-			bgcolor=A2.Background
+			bgcolor=A2Background
 		}
 
 		"CSteamLoginDialog Label" {

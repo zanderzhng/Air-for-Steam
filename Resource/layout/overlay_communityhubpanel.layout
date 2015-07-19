@@ -11,7 +11,7 @@ resource/layout/overlay_communityhubpanel.layout {
 		}
 
 		button:hover {
-			textcolor=Text.FocusHover
+			textcolor=A2TextFocusHover
 		}
 	}
 

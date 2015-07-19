@@ -79,13 +79,13 @@ steam.styles {
 
 		Button:hover {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Hover )"
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
 			}
 		}
 
 		Button:active {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Pressed )"
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
 			}
 		}
 
@@ -101,13 +101,13 @@ steam.styles {
 
 		"CSettingsSubStreamingAdvancedClient URLLabel:hover" {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Hover )"
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
 			}
 		}
 
 		"CSettingsSubStreamingAdvancedClient URLLabel:active" {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Pressed )"
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
 			}
 		}
 
@@ -119,19 +119,19 @@ steam.styles {
 
 		"CSettingsSubStreamingAdvancedHost URLLabel:hover" {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Hover )"
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
 			}
 		}
 
 		"CSettingsSubStreamingAdvancedHost URLLabel:active" {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Pressed )"
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
 			}
 		}
 
 		ToggleButton:selected {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Pressed )"
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
 			}
 		}
 
@@ -145,13 +145,13 @@ steam.styles {
 				0="image ( x1 - 20, y0 + 8, x1, y1, graphics/secondary/caret_down )"
 			}
 			render_bg {
-				0="fill( x0, y0, x1, y1 + 1, Button.Hover )"
+				0="fill( x0, y0, x1, y1 + 1, A2ButtonHover )"
 			}
 		}
 
 		ComboBox:hover {
 			render_bg {
-				0="fill( x0, y0, x1, y1 + 1, Button.Pressed )"
+				0="fill( x0, y0, x1, y1 + 1, A2ButtonActive )"
 			}
 		}
 
@@ -187,15 +187,15 @@ steam.styles {
 		Divider {
 			bgcolor=none
 			render {
-				0="fill( x0, y0, x1, y0 + 1, A2.Divider )"
+				0="fill( x0, y0, x1, y0 + 1, A2Divider )"
 			}
 		}
 
 		Frame
-			{ bgcolor=A2.Background }
+			{ bgcolor=A2Background }
 
 		Frame:FrameFocus
-			{ bgcolor=A2.Background }
+			{ bgcolor=A2Background }
 
 		FrameTitle
 			{ textcolor=none }
@@ -207,7 +207,7 @@ steam.styles {
 			minimum-height=128
 			//width is 384
 			render {
-				0="fill( x0, y0, x1, y1, A2.Background )"
+				0="fill( x0, y0, x1, y1, A2Background )"
 				1="image( x0, y0, x1, y1, graphics/inactive/air_splash )"
 			}
 		}
@@ -223,37 +223,37 @@ steam.styles {
 
 		GraphPanel {
 			textcolor=Focus // graph bars color
-			bgcolor=A2.Ribbon
+			bgcolor=A2Ribbon
 			inset="3 3 3 3"
 			render_bg { }
 		}
 
 		ListPanel {
 			padding-left=8
-			bgcolor=A2.Ribbon
-			selectedbgcolor=A2.Ribbon //games list selected game bg color
-			shadowtextcolor="Text.Hint" //the color of disabled line items
+			bgcolor=A2Ribbon
+			selectedbgcolor=A2Ribbon //games list selected game bg color
+			shadowtextcolor="A2TextHint" //the color of disabled line items
 		}
 
 		CheckButtonList
-			{ bgcolor=A2.Ribbon }
+			{ bgcolor=A2Ribbon }
 
 		RadioButtonList
-			{ bgcolor=A2.Ribbon }
+			{ bgcolor=A2Ribbon }
 
 		"CDialogSettings ListPanel"
 			{ bgcolor=none }
 
 		"CSubPanelOptionsFamily ListPanel"
-			{ bgcolor=A2.Ribbon }
+			{ bgcolor=A2Ribbon }
 			//needs to be defined due to CDialogSettings overwrite
 
 		"CSettingsSubStreaming ListPanel"
-			{ bgcolor=A2.Ribbon selectedtextcolor=Text.Focus }
+			{ bgcolor=A2Ribbon selectedtextcolor=A2TextFocus }
 			//needs to be defined due to CDialogSettings overwrite
 
 		"CContentManagmentDialog ListPanel"
-			{ selectedtextcolor=Text.Focus }
+			{ selectedtextcolor=A2TextFocus }
 			//steam library folders in settings>downloads
 
 		"CSteamRootDialog ListPanel"
@@ -365,7 +365,7 @@ steam.styles {
 			image=graphics/onfocus/add
 			render { }
 			render_bg {
-				0="fill( x0 + 7, y0, x1, y1 + 1, Scroll.Gutter )"
+				0="fill( x0 + 7, y0, x1, y1 + 1, A2ScrollGutter )"
 			}
 		}
 
@@ -384,7 +384,7 @@ steam.styles {
 			image=graphics/onfocus/add
 			render { }
 			render_bg {
-				0="fill( x0 + 7, y0 + 1, x1, y1 + 1, Scroll.Gutter )"
+				0="fill( x0 + 7, y0 + 1, x1, y1 + 1, A2ScrollGutter )"
 			}
 		}
 
@@ -412,7 +412,7 @@ steam.styles {
 			minimum-height=30
 			padding-left=3
 			render_bg {
-				//0="fill( x0 - 26, y1 - 1, x1, y1, A2.Divider )"
+				//0="fill( x0 - 26, y1 - 1, x1, y1, A2Divider )"
 			}
 		}
 
@@ -420,7 +420,7 @@ steam.styles {
 			minimum-height=30
 			padding-left=3
 			render_bg {
-				//0="fill( x0 - 26, y1 - 1, x1, y1, A2.Divider )"
+				//0="fill( x0 - 26, y1 - 1, x1, y1, A2Divider )"
 			}
 		}
 
@@ -491,19 +491,19 @@ steam.styles {
 		}
 
 		"CSteamRootDialog SectionedListPanelInterior" {
-			bgcolor=A2.Ribbon
+			bgcolor=A2Ribbon
 			//downloads page background
 		}
 
 		MainNav { }
 
 		Menu {
-			bgcolor=A2.Menu
+			bgcolor=A2Menu
 			inset="0 5 0 5"
 		}
 
 		SuperNavMenu {
-			bgcolor=A2.Menu
+			bgcolor=A2Menu
 			inset="0 5 0 5"
 		}
 
@@ -517,13 +517,13 @@ steam.styles {
 		}
 
 		MenuItem:hover {
-			textcolor=Text.Focus
+			textcolor=A2TextFocus
 		}
 
 		MenuSeparator {
 			textcolor=none
 			render_bg {
-				0="fill( x0, y0 + 1, x1, y0 + 2, A2.MenuDivider )"
+				0="fill( x0, y0 + 1, x1, y0 + 2, A2MenuDivider )"
 			}
 		}
 
@@ -571,7 +571,7 @@ steam.styles {
 		}
 
 		Notification {
-			bgcolor=A2.Notification
+			bgcolor=A2Notification
 
 			//!! doesn't seem to work on fonts
 		}
@@ -609,7 +609,7 @@ steam.styles {
 
 		HotkeyEntryClearButton:hover {
 			render {
-				0="fill( x0, y0, x1, y1, A2.Background )"
+				0="fill( x0, y0, x1, y1, A2Background )"
 				1="image( x0 - 3, y0, x1, y1, resource/icon_clear_field_hover )"
 			}
 		}
@@ -644,7 +644,7 @@ steam.styles {
 
 		ProgressBar {
 			textcolor=Focus //bar color
-			bgcolor=A2.Ribbon
+			bgcolor=A2Ribbon
 			render_bg { }
 		}
 
@@ -664,21 +664,21 @@ steam.styles {
 		}
 
 		Slider {
-			bgcolor=A2.Ribbon
-			textcolor=Text.Secondary //slider color
+			bgcolor=A2Ribbon
+			textcolor=A2TextSecondary //slider color
 			inset-top=5
 			minimum-height=30
 		}
 
 		Slider:focus {
-			textcolor=Text.Secondary //slider color
+			textcolor=A2TextSecondary //slider color
 		}
 
 		TextEntry {
 			minimum-height=30
 			inset-left=-3
 			render_bg {
-				0="fill( x0, y1 - 1, x1, y1, Text.Hint )"
+				0="fill( x0, y1 - 1, x1, y1, A2TextHint )"
 			}
 		}
 
@@ -699,13 +699,13 @@ steam.styles {
 		}
 
 		TooltipWindow {
-			bgcolor=A2.Snackbar
+			bgcolor=A2Snackbar
 
 			//background and frame of a tooltip
 		}
 
 		tooltip_headline {
-			font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular
+			font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular
 			padding-left=8
 			padding-right=8
 			padding-top=3
@@ -715,7 +715,7 @@ steam.styles {
 		}
 
 		"TooltipWindow Label" {
-			font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular
+			font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular
 			padding-left=8
 			padding-right=8
 			padding-top=3
@@ -734,7 +734,7 @@ steam.styles {
 		}
 
 		TreeViewSubPanel {
-			bgcolor=A2.Ribbon
+			bgcolor=A2Ribbon
 		}
 
 		TreeView {

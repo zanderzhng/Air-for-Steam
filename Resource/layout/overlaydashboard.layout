@@ -3,8 +3,8 @@ resource/layout/overlaydashboard.layout {
 	styles {
 		overlaymain {
 			render_bg {
-				0="fill( x0, y0, x1, y0 + 264, Overlay.Bar )"
-				1="fill( x0, y0 + 264, x1, y1, Overlay.Background )"
+				0="fill( x0, y0, x1, y0 + 264, A2OverlayBar )"
+				1="fill( x0, y0 + 264, x1, y1, A2OverlayBackground )"
 			}
 			render {
 				0="image_tiled( x0, y0 + 264, x1, y0 + 270, graphics/material/shadow_horiz )"
@@ -25,7 +25,7 @@ resource/layout/overlaydashboard.layout {
 			font-size=60
 			font-weight=700
 			font-style=uppercase
-			textcolor=Text.Overlay
+			textcolor=A2TextOverlay
 
 			//game name
 		}

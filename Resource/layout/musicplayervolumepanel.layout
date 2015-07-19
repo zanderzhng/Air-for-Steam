@@ -5,16 +5,16 @@
 		CMusicPlayerVolumePanel {
 			minimum-width=150
 			minimum-height=30
-			bgcolor=A2.Snackbar
+			bgcolor=A2Snackbar
 		}
 
 		VolumeSlider {
 			bgcolor=none
-			textcolor=Text.Notification //slider color
+			textcolor=A2TextNotification //slider color
 		}
 
 		VolumeSlider:focus {
-			textcolor=Text.Notification //slider color
+			textcolor=A2TextNotification //slider color
 		}
 	}
 

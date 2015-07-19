@@ -3,7 +3,7 @@ resource/layout/musicplayerpanel.layout {
 	styles {
 		ListPanelInterior:scrollbar {
 			render_bg {
-				0="fill( x1, y0, x1 + 1, y1, Scroll.Gutter )"
+				0="fill( x1, y0, x1 + 1, y1, A2ScrollGutter )"
 			}
 		}
 

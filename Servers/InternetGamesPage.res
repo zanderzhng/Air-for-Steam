@@ -3,7 +3,7 @@ servers/InternetGamesPage.res {
 	styles {
 		ListPanelInterior {
 			render_bg {
-				0="fill( x0, y0, x1, y1, A2.Background )"
+				0="fill( x0, y0, x1, y1, A2Background )"
 			}
 		}
 	}

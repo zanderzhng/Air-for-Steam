@@ -10,10 +10,10 @@ resource/colors/sky.styles {
 		Focus3="45 55 79 255"
 			//darker hue (-5% brightness)
 
-		Text.Focus="96 118 168 255"
+		A2TextFocus="96 118 168 255"
 			//+30% brightness focus
 
-		Text.FocusHover="129	162 204 255"
+		A2TextFocusHover="129	162 204 255"
 			//+30% brightness focus2
 	}
 }

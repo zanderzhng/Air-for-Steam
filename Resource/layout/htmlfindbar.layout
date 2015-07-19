@@ -4,7 +4,7 @@ resource/layout/htmlfindbar.layout {
 		CHTMLFindBar {
 			minimum-height=50
 			render_bg {
-				0="fill( x0, y0, x1, y1, A2.Bar )"
+				0="fill( x0, y0, x1, y1, A2Bar )"
 			}
 		}
 
@@ -29,7 +29,7 @@ resource/layout/htmlfindbar.layout {
 		NextButtonSm {
 			textcolor=none
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Hover )"
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
 				1="image( x0 + 4, y0 + 8, x1, y1, graphics/onfocus/caret_down_onfocus )"
 			}
 		}
@@ -37,7 +37,7 @@ resource/layout/htmlfindbar.layout {
 		PrevButtonSm {
 			textcolor=none
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Hover )"
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
 				1="image( x0 + 4, y0 + 8, x1, y1, graphics/onfocus/caret_up_onfocus )"
 			}
 		}

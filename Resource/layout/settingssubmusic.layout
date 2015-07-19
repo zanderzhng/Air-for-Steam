@@ -2,8 +2,8 @@
 {
 	styles {
 		ListPanel {
-			bgcolor=A2.Ribbon
-			selectedtextcolor=Text.Focus
+			bgcolor=A2Ribbon
+			selectedtextcolor=A2TextFocus
 		}
 	}
 

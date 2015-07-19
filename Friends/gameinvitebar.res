@@ -3,7 +3,7 @@
 	styles {
 		CGameInviteBar {
 			render_bg {
-				0="fill( x0, y0, x1, y1, A2.Bar )"
+				0="fill( x0, y0, x1, y1, A2Bar )"
 			}
 		}
 
@@ -20,7 +20,7 @@
 			}
 		}
 
-		Label { font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
+		Label { font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 	}
 
 	layout {

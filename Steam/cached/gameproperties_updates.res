@@ -3,7 +3,7 @@
 	styles {
 
 		CloudUsageLabelStyle:disabled {
-			textcolor=Text.Hint
+			textcolor=A2TextHint
 		}
 	}
 

@@ -4,10 +4,10 @@ resource/layout/ugcdownloadpanel.layout {
 		CAppSubscriptionsDownloadPanel {
 			minimum-height=180
 			render_bg {
-				0="fill( x0, y0, x1, y1, A2.Ribbon )"
+				0="fill( x0, y0, x1, y1, A2Ribbon )"
 			}
 			render {
-				0="fill( x0, y1 - 1, x1, y1, A2.Divider )"
+				0="fill( x0, y1 - 1, x1, y1, A2Divider )"
 			}
 		}
 

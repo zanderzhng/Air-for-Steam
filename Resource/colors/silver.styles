@@ -10,10 +10,10 @@ resource/colors/silver.styles {
 		Focus3="168 168 168 255"
 			//darker hue (-5% brightness)
 
-		Text.Focus="0 188 212 255"
+		A2TextFocus="0 188 212 255"
 			//sky focus
 
-		Text.FocusHover="77 208 225 255"
+		A2TextFocusHover="77 208 225 255"
 			//sky focus2
 	}
 }

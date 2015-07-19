@@ -2,11 +2,11 @@
 {
 	styles {
 		rightcolumnlink {
-			textcolor=Text.Focus
+			textcolor=A2TextFocus
 		}
 
 		rightcolumnlink:hover {
-			//textcolor=Text.Primary
+			//textcolor=A2TextPrimary
 		}
 	}
 

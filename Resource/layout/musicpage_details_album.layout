@@ -4,7 +4,7 @@
 
 		CMusicPage_Details_Album {
 			render_bg {
-				//0="fill( x0, y0, x1, y0 + 1, A2.Divider )"
+				//0="fill( x0, y0, x1, y0 + 1, A2Divider )"
 			}
 		}
 

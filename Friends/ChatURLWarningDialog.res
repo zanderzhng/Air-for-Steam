@@ -13,7 +13,7 @@
 		}
 
 		warning {
-			textcolor=Text.Primary
+			textcolor=A2TextPrimary
 			font-weight=700
 		}
 	}

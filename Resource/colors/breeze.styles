@@ -10,10 +10,10 @@ resource/colors/breeze.styles {
 		Focus3="0 152 212 255"
 			//darker hue (-5% brightness)
 
-		Text.Focus="Focus"
+		A2TextFocus="Focus"
 			//
 
-		Text.FocusHover="Focus2"
+		A2TextFocusHover="Focus2"
 			//
 	}
 }

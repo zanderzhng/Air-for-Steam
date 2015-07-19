@@ -5,31 +5,31 @@ gameoverlay.styles {
 	colors {
 		Notifications.PanelPosition "BottomRight"
 
-		Overlay.Background			"0 0 0 50"						//overlay bg
-		Overlay.Bar							"75 75 75 150"				//overlay topbar bg (A2.Bar in dark theme)
+		A2OverlayBackground			"0 0 0 50"						//overlay bg
+		A2OverlayBar						"75 75 75 150"				//overlay topbar bg (A2Bar in dark theme)
 
-		A2.Background						"Air40"								//client bg
-		A2.Ribbon								"Air55"								//bg for section emphasis (ie. left side of settings dialog)
-		A2.Divider							"Air65"								//client dividers
-		A2.Snackbar							"Air50"								//bg for download notification
-		A2.Notification					"Overlay.Bar"					//bg for steam popup notifications
-		A2.Bar									"Air75"								//bg for greater section emphasis (ie. voice chat and trade notifications)
-		A2.Menu									"A2.Bar"							//menu bg
-		A2.MenuDivider					"Air95"								//menu dividers
+		A2Background						"Air40"								//client bg
+		A2Ribbon								"Air55"								//bg for section emphasis (ie. left side of settings dialog)
+		A2Divider								"Air65"								//client dividers
+		A2Snackbar							"Air50"								//bg for download notification
+		A2Notification					"A2OverlayBar"					//bg for steam popup notifications
+		A2Bar										"Air75"								//bg for greater section emphasis (ie. voice chat and trade notifications)
+		A2Menu									"A2Bar"								//menu bg
+		A2MenuDivider						"Air95"								//menu dividers
 
-		Button.Hover						"155 155 155 50"			//button bg on hover
-		Button.Pressed					"155 155 155 100"			//button bg on click
+		A2ButtonHover						"155 155 155 50"			//button bg on hover
+		A2ButtonActive					"155 155 155 100"			//button bg on click
 
-		Scroll.Std							"Air80"								//scrollbar handle
-		Scroll.Hover						"Air95"								//scrollbar handle on hover
-		Scroll.Gutter						"A2.Ribbon"						//scrollbar gutter/backdrop
+		A2Scroll								"Air80"								//scrollbar handle
+		A2ScrollHover						"Air95"								//scrollbar handle on hover
+		A2ScrollGutter					"A2Ribbon"						//scrollbar gutter/backdrop
 
-		Text.Primary						"Air215"							//white 87%, text
-		Text.Secondary					"Air155"							//white 54%, caption
-		Text.Label							"Air125"							//white 39%, label
-		Text.Hint								"Air105"							//white 26%, hint text, disabled items
+		A2TextPrimary						"Air215"							//white 87%, text
+		A2TextSecondary					"Air155"							//white 54%, caption
+		A2TextLabel							"Air125"							//white 39%, label
+		A2TextHint							"Air105"							//white 26%, hint text, disabled items
 
-		Chat.Friend							"Text.Primary"				//chat window friend text
+		A2ChatFriend						"A2TextPrimary"				//chat window friend text
 		//!! keep here due to bug
 	}
 
@@ -40,7 +40,7 @@ gameoverlay.styles {
 		}
 
 		friends_chat_text
-			{ textcolor=Chat.Friend }
+			{ textcolor=A2ChatFriend }
 			//!! needs to be added here to due to bug with color not updating in overlay
 	}
 }

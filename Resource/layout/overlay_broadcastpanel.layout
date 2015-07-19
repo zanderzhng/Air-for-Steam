@@ -8,7 +8,7 @@ resource/layout/overlay_broadcastpanel.layout {
 		}
 
 		button:hover {
-			textcolor=Text.FocusHover
+			textcolor=A2TextFocusHover
 		}
 	}
 

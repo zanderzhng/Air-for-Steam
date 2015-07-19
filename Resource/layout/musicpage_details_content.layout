@@ -19,7 +19,7 @@
 		"CMusicPage_Details_Content ListPanelInterior" {
 			minimum-width="262"
 			render_bg {
-				0="fill( x0, y0, x1, y1, A2.Background )"
+				0="fill( x0, y0, x1, y1, A2Background )"
 			}
 		}
 
@@ -29,10 +29,10 @@
 
 		DetailsBorderPanel {
 			render_bg {
-				0="fill( x0, y0, x1, y1 - 1, Details.Background )"
-				1="fill( x0, y0, x0 + 1, y1, A2.Ribbon )" //do not delete these three lines
-				2="fill( x1 - 1, y0, x1, y1, A2.Ribbon )" //they remove the 1px line aorund the edges
-				3="fill( x0, y1 - 1, x1, y1, A2.Ribbon )" //in empty search results view
+				0="fill( x0, y0, x1, y1 - 1, A2DetailsBackground )"
+				1="fill( x0, y0, x0 + 1, y1, A2Ribbon )" //do not delete these three lines
+				2="fill( x1 - 1, y0, x1, y1, A2Ribbon )" //they remove the 1px line aorund the edges
+				3="fill( x0, y1 - 1, x1, y1, A2Ribbon )" //in empty search results view
 			}
 		}
 	}

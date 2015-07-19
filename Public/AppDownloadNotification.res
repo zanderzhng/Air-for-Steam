@@ -1,7 +1,7 @@
 friends/AppDownloadNotification.res {
 
 	styles {
-		Label { font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
+		Label { font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 	}
 
 	layout {

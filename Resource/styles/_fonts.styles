@@ -13,32 +13,83 @@ fonts.styles {
 	}
 
 	styles {
-	//Title					22px, 400, condensed, text.white, regular					//
+		//Title
+		//font-family=condensed
+		//font-size=22
+		//font-weight=400
+		//textcolor=A2TextOnFocus
+		//font-style=regular
 
-	//Body					16px, 400, basefont, text.primary, regular				//
-	//Caption				16px, 400, basefont, text.secondary, regular			//
-	//Subhead (up)	16px, 500, medium, text.primary, UPPERCASE				//
-	//Subhead				18px, 500, medium, text.secondary, regular				//
-	//Headline			40px, 700, condensed, text.secondary, UPPERCASE		//
-	//Display				60px, 400, condensed, text.secondary, regular			//
+		//Body
+		//font-family=basefont
+		//font-size=16
+		//font-weight=400
+		//textcolor=A2TextPrimary
+		//font-style=regular
 
-	//Notification	16px, 500, medium, text.white, regular						//
-	//Button				16px, 700, basefont, focus, UPPERCASE							//
+		//Caption
+		//font-family=basefont
+		//font-size=16
+		//font-weight=400
+		//textcolor=A2TextSecondary
+		//font-style=regular
+
+		//Subhead 1
+		//font-family=medium
+		//font-size=16
+		//font-weight=500
+		//textcolor=A2TextPrimary
+		//font-style=regular (or UPPERCASE)
+
+		//Subhead 2
+		//font-family=medium
+		//font-size=18
+		//font-weight=500
+		//textcolor=A2TextSecondary
+		//font-style=regular
+
+		//Headline
+		//font-family=condensed
+		//font-size=40
+		//font-weight=700
+		//textcolor=A2TextSecondary
+		//font-style=UPPERCASE
+
+		//Display
+		//font-family=condensed
+		//font-size=50 (or 60)
+		//font-weight=700
+		//textcolor=A2TextSecondary
+		//font-style=regular (or UPPERCASE)
+
+		//Notification
+		//font-family=medium
+		//font-size=16
+		//font-weight=500
+		//textcolor=A2TextNotification
+		//font-style=regular
+
+		//Button
+		//font-family=basefont
+		//font-size=16
+		//font-weight=700
+		//textcolor=Focus
+		//font-style=UPPERCASE
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
 
 	Panel {
-		font-family=basefont font-size=16 font-weight=400 textcolor=Text.Primary font-style=regular
-		selectedtextcolor=Text.Primary
+		font-family=basefont font-size=16 font-weight=400 textcolor=A2TextPrimary font-style=regular
+		selectedtextcolor=A2TextPrimary
 	}
 
 	nameInstanceStyle
-		{ textcolor=Friends.Offline }
+		{ textcolor=A2FriendsOffline }
 		//friend alias color
 
 	inviteLinkStyle
-		{ textcolor=Text.Focus }
+		{ textcolor=A2TextFocus }
 		//friend invitation accept/block/ignore links
 
 //namestyle { }
@@ -51,38 +102,38 @@ fonts.styles {
 //Labels
 
 	Label {
-		font-family=basefont font-size=16 font-weight=400 textcolor=Text.Primary font-style=regular
-		selectedtextcolor=Text.Primary
+		font-family=basefont font-size=16 font-weight=400 textcolor=A2TextPrimary font-style=regular
+		selectedtextcolor=A2TextPrimary
 	}
 
 	"ToolWindow Label"
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Secondary font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextSecondary font-style=regular }
 		//"Last message received..." text
 
 	"CFriendsDialog Label"
-		{ textcolor=Text.Label }
+		{ textcolor=A2TextLabel }
 		// friends list offline/disconnected msg !!ALSO CONNECTED TO "2 IN GAME, 2 ONLINE" text
 
 	"CFriendsDialog Panel"
-		{ textcolor=Text.Secondary }
+		{ textcolor=A2TextSecondary }
 		//friends list section header
 
 	"ToolWindow Panel"
-		{ textcolor=Text.Secondary }
+		{ textcolor=A2TextSecondary }
 		//group chat mini-friends list section header
 
 	ListPanelSectionHeader
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Label font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextLabel font-style=regular }
 
 	SectionHeaderStyleLabel
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Label font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextLabel font-style=regular }
 		//downloads page section header
 
 	URLLabel
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Focus font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextFocus font-style=regular }
 
 	URLLabelSimple
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Focus font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextFocus font-style=regular }
 
 	URLBarSecure
 		{ textcolor=html.secureurl }
@@ -96,8 +147,8 @@ fonts.styles {
 //Rich Text
 
 	RichText {
-		font-family=basefont font-size=16 font-weight=400 textcolor=Text.Primary font-style=regular
-		selectedtextcolor=Text.Selected
+		font-family=basefont font-size=16 font-weight=400 textcolor=A2TextPrimary font-style=regular
+		selectedtextcolor=A2TextSelected
 		selectedbgcolor=Focus2
 	}
 
@@ -108,16 +159,16 @@ fonts.styles {
 		{ font-style=italic }
 
 	"RichText url"
-		{ textcolor=Text.Focus }
+		{ textcolor=A2TextFocus }
 
 	friends_chat_text
-		{ textcolor=Chat.Friend }
+		{ textcolor=A2ChatFriend }
 
 	friends_chat_text_self
-		{ textcolor=Chat.Self }
+		{ textcolor=A2ChatSelf }
 
 	friends_chat_history
-		{ textcolor=Chat.History }
+		{ textcolor=A2ChatHistory }
 
 	friends_chat_bright_event
 		{ font-family=medium }
@@ -126,10 +177,10 @@ fonts.styles {
 		{ font-style=underline }
 
 	friends_chat_name_ingame
-		{ textcolor=Friends.InGameColor }
+		{ textcolor=A2FriendsInGame }
 
 	friends_chat_name
-		{ textcolor=Friends.OnlineColor }
+		{ textcolor=A2FriendsOnline }
 
 //friends_chat_event { }
 //friends_chat_self { }
@@ -143,10 +194,10 @@ fonts.styles {
 //Text Entry
 
 	TextEntry {
-		font-family=basefont font-size=16 font-weight=400 textcolor=Text.Secondary font-style=regular
-		selectedtextcolor=Text.Selected
+		font-family=basefont font-size=16 font-weight=400 textcolor=A2TextSecondary font-style=regular
+		selectedtextcolor=A2TextSelected
 		selectedbgcolor=Focus2
-		shadowtextcolor=Text.Primary //cursor color
+		shadowtextcolor=A2TextPrimary //cursor color
 
 		//READ ME IF YOU ARE CHANGING TEXTENTRY STYLES
 		//To update TextEntry in Settings > In-Game Overlay & Screenshot shortcut keys
@@ -154,24 +205,24 @@ fonts.styles {
 	}
 
 	TextEntry:focus
-		{ textcolor=Text.Primary }
+		{ textcolor=A2TextPrimary }
 
 	TextEntry:disabled
-		{ textcolor=Text.Hint }
+		{ textcolor=A2TextHint }
 
 	TextEntry:empty
-		{ textcolor=Text.Hint }
+		{ textcolor=A2TextHint }
 
 	TextEntryURL {
-		font-family=basefont font-size=16 font-weight=400 textcolor=Text.OnFocus font-style=regular
-		selectedtextcolor=Text.Selected
+		font-family=basefont font-size=16 font-weight=400 textcolor=A2TextOnFocus font-style=regular
+		selectedtextcolor=A2TextSelected
 		selectedbgcolor=Focus2
 
 		//url strings from htmlpopup
 	}
 
 	"CSettingsSubFriends TextEntry"
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=regular }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=A2TextFocus font-style=regular }
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -179,43 +230,43 @@ fonts.styles {
 //List Panels
 
 	ListPanel {
-		font-family=basefont font-size=16 font-weight=400 textcolor=Text.Primary font-style=regular
-		selectedtextcolor=Text.Primary
+		font-family=basefont font-size=16 font-weight=400 textcolor=A2TextPrimary font-style=regular
+		selectedtextcolor=A2TextPrimary
 	}
 
 	SectionedListPanel {
-		font-family=basefont font-size=16 font-weight=400 textcolor=Text.Primary font-style=regular
-		selectedtextcolor=Text.Primary
+		font-family=basefont font-size=16 font-weight=400 textcolor=A2TextPrimary font-style=regular
+		selectedtextcolor=A2TextPrimary
 	}
 
 //GameColumn_BigText { } //game name in list mode
 
 	GameItem_Uninstalled
-		{ textcolor=Text.Secondary selectedtextcolor=Text.Secondary }
+		{ textcolor=A2TextSecondary selectedtextcolor=A2TextSecondary }
 
 	GameItem_Installed
-		{ textcolor=Text.Primary selectedtextcolor=Text.Primary }
+		{ textcolor=A2TextPrimary selectedtextcolor=A2TextPrimary }
 
 	GameItem_Shortcut
-		{ textcolor=Text.Primary selectedtextcolor=Text.Primary }
+		{ textcolor=A2TextPrimary selectedtextcolor=A2TextPrimary }
 
 	GameItem_Mod
-		{ textcolor=Text.Primary selectedtextcolor=Text.Primary }
+		{ textcolor=A2TextPrimary selectedtextcolor=A2TextPrimary }
 
 	GameItem_Updating
-		{ textcolor=Text.Focus selectedtextcolor=Text.Focus }
+		{ textcolor=A2TextFocus selectedtextcolor=A2TextFocus }
 
 	GameItem_Decrypting
-		{ textcolor=Text.Focus selectedtextcolor=Text.Focus }
+		{ textcolor=A2TextFocus selectedtextcolor=A2TextFocus }
 
 	GameItem_Syncing
-		{ textcolor=Text.Focus selectedtextcolor=Text.Focus }
+		{ textcolor=A2TextFocus selectedtextcolor=A2TextFocus }
 
 	DLC_Uninstalled
-		{ textcolor=Text.Secondary selectedtextcolor=Text.Secondary } //details dlc panel
+		{ textcolor=A2TextSecondary selectedtextcolor=A2TextSecondary } //details dlc panel
 
 	DLC_Installed
-		{ textcolor=Text.Primary selectedtextcolor=Text.Primary } //details dlc panel
+		{ textcolor=A2TextPrimary selectedtextcolor=A2TextPrimary } //details dlc panel
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -223,69 +274,69 @@ fonts.styles {
 //Buttons
 
 	Button
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 
 	Button:disabled
-		{ textcolor=Text.Hint }
+		{ textcolor=A2TextHint }
 
 	"CSettingsSubStreamingAdvancedClient URLLabel"
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 		//spoof a button
 
 	"CSettingsSubStreamingAdvancedHost URLLabel"
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 		//spoof a button
 
 //ToggleButton { }
 
 	PageTab
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.OnFocus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextOnFocus font-style=uppercase }
 
 	PageTab:hover
-		{ textcolor=Text.OnFocus }
+		{ textcolor=A2TextOnFocus }
 
 	PageTab:selected
-		{ textcolor=Text.OnFocusHover }
+		{ textcolor=A2TextOnFocusHover }
 
 	PageTab:selected:hover
-		{ textcolor=Text.OnFocusHover }
+		{ textcolor=A2TextOnFocusHover }
 
 	"CFriendsDialog PageTab:selected"
-		{ textcolor=Text.OnFocusHover }
+		{ textcolor=A2TextOnFocusHover }
 		//mimic ListPanelColumnHeader
 
 	"CGamePropertiesDialog PageTab:selected"
-		{ textcolor=Text.OnFocusHover }
+		{ textcolor=A2TextOnFocusHover }
 		//mimic ListPanelColumnHeader
 
 	ListPanelColumnHeader
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.OnFocus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextOnFocus font-style=uppercase }
 
 	ListPanelColumnHeader:hover
-		{ textcolor=Text.OnFocusHover }
+		{ textcolor=A2TextOnFocusHover }
 
 	ControlButton
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Notification font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextNotification font-style=uppercase }
 
 	Chat_MenuButton_withChrome
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Notification font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextNotification font-style=uppercase }
 
 	"CScreenshotManager Button"
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Notification font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextNotification font-style=uppercase }
 
 	ComboBox {
-		font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase
-		selectedtextcolor=Text.Focus //text color on focus, keep same as textcolor
+		font-family=basefont font-size=16 font-weight=700 textcolor=A2TextFocus font-style=uppercase
+		selectedtextcolor=A2TextFocus //text color on focus, keep same as textcolor
 	}
 
 	CheckButton
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Primary font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextPrimary font-style=regular }
 
 	CheckButton:disabled
-		{ textcolor=Text.Hint }
+		{ textcolor=A2TextHint }
 
 	RadioButton
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Primary font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextPrimary font-style=regular }
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -299,52 +350,52 @@ fonts.styles {
 		//defined in steam.styles due to text appearing unstyled
 
 	friends_offline
-		{ textcolor=Friends.Offline }
+		{ textcolor=A2FriendsOffline }
 
 	friends_online
-		{ textcolor=Friends.Online }
+		{ textcolor=A2FriendsOnline }
 
 	friends_ingame
-		{ textcolor=Friends.InGame }
+		{ textcolor=A2FriendsInGame }
 
 	friends_ignored
-		{ textcolor=Friends.Offline }
+		{ textcolor=A2FriendsOffline }
 
 	StatusLabel
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 		//floating download status notification
 
 	StatusLabelDim
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 		//floating download status notification
 
 	friends_chat_securitylink
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Focus font-style=regular }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextFocus font-style=regular }
 
 	"CSteamRootDialog soft"
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.NotificationSoft font-style=regular }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotificationSoft font-style=regular }
 		//email reminder bar
 
 	"CSteamRootDialog bright"
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 		//email reminder bar
 
 	support_alert
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 
 	FindEntry {
-		font-family=regular font-size=16 font-weight=400 textcolor=Text.Notification font-style=regular
-		shadowtextcolor=Text.Notification
+		font-family=regular font-size=16 font-weight=400 textcolor=A2TextNotification font-style=regular
+		shadowtextcolor=A2TextNotification
 	}
 
 	"HTML Label" {
-		font-family=regular font-size=16 font-weight=400 textcolor=Text.Notification font-style=regular
+		font-family=regular font-size=16 font-weight=400 textcolor=A2TextNotification font-style=regular
 		//htmlfindbar results found count
 	}
 
 	IMEEntry {
-		font-family=regular font-size=18 font-weight=400 textcolor=Text.Notification font-style=regular
-		shadowtextcolor=Text.Notification
+		font-family=regular font-size=18 font-weight=400 textcolor=A2TextNotification font-style=regular
+		shadowtextcolor=A2TextNotification
 		//vary font size for legibility in CJK languages
 	}
 
@@ -354,67 +405,67 @@ fonts.styles {
 //Details
 
 	headertextlarge
-	{ font-family=condensed font-size=50 font-weight=400 textcolor=Text.White font-style=regular }
+	{ font-family=condensed font-size=50 font-weight=700 textcolor=A2TextWhite font-style=regular }
 
 	"CGamesPage_Details headertext"
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.White font-style=regular }
+		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextWhite font-style=regular }
 
 	"CGamesPage_Details headertext-red"
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.White font-style=regular }
+		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextWhite font-style=regular }
 
 	"CGamesPage_Details headertext-green"
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.White font-style=regular }
+		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextWhite font-style=regular }
 
 	"CGamesPage_Details headertext-blue"
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.White font-style=regular }
+		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextWhite font-style=regular }
 
 	valuetext
-		{ font-family=basefont font-size=16 font-weight=500 textcolor=Text.White font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=500 textcolor=A2TextWhite font-style=regular }
 
 	rightcolumnlink
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.OnFocus font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextOnFocus font-style=regular }
 
 	rightcolumnlink:hover
-		{ textcolor=Text.OnFocusHover }
+		{ textcolor=A2TextOnFocusHover }
 
 	rightcolumntag
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.OnFocus font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextOnFocus font-style=regular }
 
 	gamedetails-headerlabel
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 
 	gamedetails-headerlabel-red
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 
 	gamedetails-headerlabel-green
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 
 	gamedetails-headerlabel-blue
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 
 	workshop_description
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.Primary font-style=regular }
+		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextPrimary font-style=regular }
 
 	communityfile_name
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Secondary font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextSecondary font-style=regular }
 
 	mostrecent_label
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.Primary font-style=regular }
+		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextPrimary font-style=regular }
 
 	mostrecent_unlockedsofar
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Secondary font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextSecondary font-style=regular }
 
 	everythinglabel
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.Primary font-style=regular }
+		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextPrimary font-style=regular }
 
 	infolabel
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.Primary font-style=regular }
+		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextPrimary font-style=regular }
 
 	title_label
-		{ font-family=medium font-size=18 font-weight=500 textcolor=Text.Primary font-style=regular }
+		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextPrimary font-style=regular }
 
 	date_and_author
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Secondary font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextSecondary font-style=regular }
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -422,19 +473,19 @@ fonts.styles {
 //Music
 
 	ArtistStyle
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 
 	PlaylistTitleStyle
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 
 	PositionLabelStyle
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Secondary font-style=regular } //tracklist num
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextSecondary font-style=regular } //tracklist num
 
 	TrackLabelStyle
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Primary font-style=regular } //tracklist name
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextPrimary font-style=regular } //tracklist name
 
 	TracksInfoStyle
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Secondary font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextSecondary font-style=uppercase }
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -442,40 +493,40 @@ fonts.styles {
 //Downloads
 
 	bigtextlabel
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.OnFocusHover font-style=uppercase }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextOnFocusHover font-style=uppercase }
 
 	bigtext
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.OnFocus font-style=uppercase }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextOnFocus font-style=uppercase }
 
 	throttleLabel
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.OnFocusHover font-style=uppercase }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextOnFocusHover font-style=uppercase }
 
 	throttleValue
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.OnFocus font-style=uppercase }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextOnFocus font-style=uppercase }
 
 	"CSteamRootDialog ModuleHeading"
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 
 	"CSteamRootDialog ModuleHeading2"
-		{ font-family=condensed font-size=40 font-weight=700 textcolor=Text.Label font-style=uppercase }
+		{ font-family=condensed font-size=40 font-weight=700 textcolor=A2TextLabel font-style=uppercase }
 
 	"CSteamRootDialog SectionedListPanel label"
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Primary font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextPrimary font-style=regular }
 
 	"CSteamRootDialog SectionedListPanel label2"
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Secondary font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextSecondary font-style=regular }
 
 	settingslink
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 
 	PauseButton
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.OnFocus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextOnFocus font-style=uppercase }
 
 	ResumeButton
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.OnFocus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextOnFocus font-style=uppercase }
 
 	links
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.Focus font-style=uppercase } //view news button
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextFocus font-style=uppercase } //view news button
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -483,15 +534,15 @@ fonts.styles {
 //Screenshots
 
 	gameselector {
-		font-family=condensed font-size=22 font-weight=400 textcolor=Text.OnFocus font-style=regular
-		selectedtextcolor=Text.OnFocus //text color on focus, keep same as textcolor
+		font-family=condensed font-size=22 font-weight=400 textcolor=A2TextOnFocus font-style=regular
+		selectedtextcolor=A2TextOnFocus //text color on focus, keep same as textcolor
 	}
 
 	CScreenshotCaptionEntry:empty
-		{ textcolor=Text.Secondary }
+		{ textcolor=A2TextSecondary }
 
 	publishcharsleft
-		{ font-family=basefont font-size=16 font-weight=400 textcolor=Text.Label font-style=regular }
+		{ font-family=basefont font-size=16 font-weight=400 textcolor=A2TextLabel font-style=regular }
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -499,42 +550,42 @@ fonts.styles {
 //Main Client
 
 	CUINavButton
-		{ font-family=condensed font-size=22 font-weight=400 textcolor=Text.OnFocus font-style=regular }
+		{ font-family=condensed font-size=22 font-weight=400 textcolor=A2TextOnFocus font-style=regular }
 
 	CUINavButton:selected
-		{ textcolor=Text.OnFocusHover }
+		{ textcolor=A2TextOnFocusHover }
 
 	NavLabel2
-		{ font-family=basefont font-size=16 font-weight=700 textcolor=Text.OnFocus font-style=uppercase }
+		{ font-family=basefont font-size=16 font-weight=700 textcolor=A2TextOnFocus font-style=uppercase }
 		//small mode games filter
 
 	NavLabel2:hover
-		{ textcolor=Text.OnFocusHover }
+		{ textcolor=A2TextOnFocusHover }
 
 	NavLabel2:selected
-		{ textcolor=Text.OnFocusHover }
+		{ textcolor=A2TextOnFocusHover }
 
 	LibrarySearch {
-		font-family=condensed font-size=22 font-weight=400 textcolor=Text.OnFocus font-style=regular
-		shadowtextcolor=Text.OnFocus //cursor color
+		font-family=condensed font-size=22 font-weight=400 textcolor=A2TextOnFocus font-style=regular
+		shadowtextcolor=A2TextOnFocus //cursor color
 		selectedbgcolor=Focus2
 	}
 
 	FriendsSearch {
-		font-family=condensed font-size=22 font-weight=400 textcolor=Text.OnFocus font-style=regular
-		shadowtextcolor=Text.OnFocus //cursor color
+		font-family=condensed font-size=22 font-weight=400 textcolor=A2TextOnFocus font-style=regular
+		shadowtextcolor=A2TextOnFocus //cursor color
 		selectedbgcolor=Focus2
 	}
 
 	"CMusicPlayerPanel StatusStyle"
-		{ font-family=condensed font-size=22 font-weight=400 textcolor=Text.OnFocus font-style=regular }
+		{ font-family=condensed font-size=22 font-weight=400 textcolor=A2TextOnFocus font-style=regular }
 		//track name in mini-player, mimic CUINavButton
 
 	AccountBalanceStyle
-		{ font-family=condensed font-size=18 font-weight=700 textcolor=Text.OnFocusHover font-style=regular }
+		{ font-family=condensed font-size=18 font-weight=700 textcolor=A2TextOnFocusHover font-style=regular }
 
 	online_friends
-		{ font-family=condensed font-size=18 font-weight=700 textcolor=Text.OnFocusHover font-style=regular }
+		{ font-family=condensed font-size=18 font-weight=700 textcolor=A2TextOnFocusHover font-style=regular }
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -542,10 +593,10 @@ fonts.styles {
 //Menus
 
 	MenuItem
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 
 	MenuItem:disabled
-		{ textcolor=Text.Hint }
+		{ textcolor=A2TextHint }
 
 	//-------------------------------------------------------------------------------------------------------------------------------//
 	//-------------------------------------------------------------------------------------------------------------------------------//
@@ -553,35 +604,35 @@ fonts.styles {
 //Overlay
 
 	topbar {
-		font-family=basefont font-size=16 font-weight=700 textcolor=Text.OverlayLabel font-style=uppercase
+		font-family=basefont font-size=16 font-weight=700 textcolor=A2TextOverlayLabel font-style=uppercase
 		//clock
 	}
 
 	clocksuffix {
-		font-family=basefont font-size=16 font-weight=700 textcolor=Text.OverlayLabel font-style=uppercase
+		font-family=basefont font-size=16 font-weight=700 textcolor=A2TextOverlayLabel font-style=uppercase
 		//clock am/pm
 	}
 
 	timeStrings {
-		font-family=basefont font-size=16 font-weight=700 textcolor=Text.OverlayLabel font-style=uppercase
+		font-family=basefont font-size=16 font-weight=700 textcolor=A2TextOverlayLabel font-style=uppercase
 		//played time stats
 	}
 
 	taskbar {
-		font-family=medium font-size=16 font-weight=700 textcolor=Text.Overlay font-style=uppercase
+		font-family=medium font-size=16 font-weight=700 textcolor=A2TextOverlay font-style=uppercase
 		//taskbar, web browser, music, settings
 	}
 
 	taskbar:hover
-		{ textcolor=Text.OverlaySoft }
+		{ textcolor=A2TextOverlaySoft }
 
 	sidemenu {
-		font-family=medium font-size=16 font-weight=700 textcolor=Text.OverlayLabel font-style=uppercase
+		font-family=medium font-size=16 font-weight=700 textcolor=A2TextOverlayLabel font-style=uppercase
 		//extra links
 	}
 
 	sidemenu:hover
-		{ textcolor=Text.OverlayLabelHover }
+		{ textcolor=A2TextOverlayLabelHover }
 
 	ViewersTextStyle
 		{ font-family=medium font-size=18 font-weight=500 textcolor="144 153 161 255" font-style=regular }
@@ -593,29 +644,29 @@ fonts.styles {
 //Misc
 
 	EmoticonMenuItemStyle
-		{ font-size=20 textcolor=Text.Notification }
+		{ font-size=20 textcolor=A2TextNotification }
 
 	SettingsList {
-		font-family=medium font-size=18 font-weight=500 textcolor=Text.Notification font-style=regular
-		selectedtextcolor=Text.Focus
+		font-family=medium font-size=18 font-weight=500 textcolor=A2TextNotification font-style=regular
+		selectedtextcolor=A2TextFocus
 		selectedbgcolor=none
 	}
 
 	"CDialogGameInfo TextEntry"
-		{textcolor=Text.Primary }
+		{textcolor=A2TextPrimary }
 		//spoof label text
 
 	"CDialogGameInfo LabelDull"
-		{textcolor=Text.Secondary }
+		{textcolor=A2TextSecondary }
 
 	"CServerBrowserDialog status"
-		{ textcolor=Text.Label }
+		{ textcolor=A2TextLabel }
 
 	"CSettingsSubStreaming ListPanelSectionHeader"
-		{ font-family=medium font-size=16 font-weight=500 textcolor=Text.Label font-style=regular }
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextLabel font-style=regular }
 
 	CloudUsageLabelStyle
-		{ textcolor=Text.Label }
+		{ textcolor=A2TextLabel }
 		//game properties > updates
 
 	"CDialogParentalUnlock Password"
@@ -626,6 +677,6 @@ fonts.styles {
 		//search results empty
 
 	TreeNodeText
-		{ font-family=basefont font-size=16 textcolor=Text.Primary selectedtextcolor=Text.White selectedbgcolor=Focus2 }
+		{ font-family=basefont font-size=16 textcolor=A2TextPrimary selectedtextcolor=A2TextWhite selectedbgcolor=Focus2 }
 	}
 }

@@ -4,20 +4,20 @@ resource/layout/appdownloadpanel.layout {
 		panelStyle {
 			minimum-height=180
 			render_bg {
-				0="fill( x0, y0, x1, y1, A2.Ribbon )"
+				0="fill( x0, y0, x1, y1, A2Ribbon )"
 			}
 			render {
-				0="fill( x0, y1 - 1, x1, y1, A2.Divider )"
+				0="fill( x0, y1 - 1, x1, y1, A2Divider )"
 			}
 		}
 
 		panelStyleHighlight {
 			minimum-height=180
 			render_bg {
-				0="fill( x0, y0, x1, y1, A2.Ribbon )"
+				0="fill( x0, y0, x1, y1, A2Ribbon )"
 			}
 			render {
-				0="fill( x0, y1 - 1, x1, y1, A2.Divider )"
+				0="fill( x0, y1 - 1, x1, y1, A2Divider )"
 			}
 		}
 
@@ -29,13 +29,13 @@ resource/layout/appdownloadpanel.layout {
 
 		links:hover {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Hover )"
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
 			}
 		}
 
 		links:active {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Pressed )"
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
 			}
 		}
 
@@ -47,13 +47,13 @@ resource/layout/appdownloadpanel.layout {
 
 		settingslink:hover {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Hover )"
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
 			}
 		}
 
 		settingslink:active {
 			render_bg {
-				0="fill( x0, y0, x1, y1, Button.Pressed )"
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
 			}
 		}
 

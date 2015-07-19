@@ -3,7 +3,7 @@ resource/layout/uinavigatorpanel.layout {
 	styles {
 		zoomslider {
 			bgcolor=none
-			textcolor=Text.OnFocus
+			textcolor=A2TextOnFocus
 			inset-top=-2
 			minimum-height=0 //reset for slider height
 		}

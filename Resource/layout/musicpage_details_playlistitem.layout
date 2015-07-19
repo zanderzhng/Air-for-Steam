@@ -8,13 +8,13 @@
 
 		TrackLabelStyle {
 			render_bg {
-				0="fill( x0 - 50, y1 - 1, x1, y1, A2.Divider )"
+				0="fill( x0 - 50, y1 - 1, x1, y1, A2Divider )"
 			}
 		}
 
 		TrackLabelStyle:hover {
 			render_bg {
-				0="fill( x0 - 50, y0, x1, y1, A2.Divider )"
+				0="fill( x0 - 50, y0, x1, y1, A2Divider )"
 			}
 		}
 	}

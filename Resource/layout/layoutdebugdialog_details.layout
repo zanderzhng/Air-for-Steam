@@ -2,9 +2,9 @@
 {
 	styles {
 		Page {
-			bgcolor=A2.Background
+			bgcolor=A2Background
 			render_bg {
-				0="fill( x0 - 6, y0 + 2 , x1 + 6, y1 + 18, A2.Background )"
+				0="fill( x0 - 6, y0 + 2 , x1 + 6, y1 + 18, A2Background )"
 			}
 		}
 	}

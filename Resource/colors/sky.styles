@@ -10,10 +10,10 @@ resource/colors/sky.styles {
 		Focus3="0 172 193 255"
 			//darker hue (material 600)
 
-		Text.Focus="Focus"
+		A2TextFocus="Focus"
 			//
 
-		Text.FocusHover="Focus2"
+		A2TextFocusHover="Focus2"
 			//
 	}
 }
