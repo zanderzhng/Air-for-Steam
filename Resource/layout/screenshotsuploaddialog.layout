@@ -1,39 +1,35 @@
-"resource/layout/screenshotsuploaddialog.layout"
-{
+resource/layout/screenshotsuploaddialog.layout {
+
 	styles {
-		CScreenshotUploadDialog {
-			minimum-width=325
-			minimum-height=350
-		}
-
-		visibility_options {
-			minimum-width=200
-		}
-
 		SlimProgressBar { }
 		SlimProgressBarError { textcolor=Highlight3 }
 	}
 
 	layout {
-		region { name=box height=max width=max margin-right=26 margin-left=26 }
+		region { name=header height=50 width=max }
+			place { control=frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
 
-		place { region=box control=upload_question y=60 }
-		place { region=box control=upload_info y=60 width=max  }
-		place { region=box control=error_info y=60 width=max }
-		place { region=box control=upload_progress y=90 width=max height=5 }
+		region { name=body height=max width=max y=50 margin-bottom=50 }
+		region { name=box height=max width=max region=body margin-left=26 margin-right=26 }
+			place { control=upload_question region=box width=max }
+			place { control=upload_size region=box start=upload_question dir=down y=20 }
+			place { control=upload_size_info region=box start=upload_size x=4 }
+			place { control=storage_remaining region=box start=upload_size dir=down }
+			place { control=storage_remaining_info region=box start=storage_remaining x=4 }
 
-		place { region=box control=upload_size y=100 }
-		place { region=box control=upload_size_info x=120 y=100 }
-		place { region=box control=storage_remaining start=upload_size dir=down y=5 }
-		place { region=box control=storage_remaining_info start=upload_size_info dir=down y=5 }
-		place { region=box control=visibility_options start=storage_remaining dir=down y=20 }
-		place { region=box control=share_to_facebook_check_button start=visibility_options dir=down y=20 }
+			place { control=upload_info region=box width=max }
+			place { control=error_info region=box width=max }
+			place { control=upload_progress region=box start=upload_info dir=down y=20 height=5 width=max }
 
-		place { region=box control=shared_to_facebook_ok_label,shared_to_facebook_no_multi_label,shared_to_facebook_no_private_label start=share_to_facebook_check_button dir=down width=max y=10 }
+			place { control=visibility_options region=box start=storage_remaining width=150 dir=down y=20 }
+			place { control=share_to_facebook_check_button region=box start=visibility_options dir=down y=20 }
 
-		region { name=buttons region=box align=bottom height=40 }
-		place { control=upload_button,cancel_button region=buttons align=right spacing=10 }
+			place { region=box control=shared_to_facebook_ok_label,shared_to_facebook_no_multi_label,shared_to_facebook_no_private_label start=share_to_facebook_check_button dir=down width=max y=20 }
 
-		place { control=facebook_logo,visiblity_label height=0 width=0 }
+		region { name=buttons align=bottom height=50 }
+			place { control=upload_button,cancel_button region=buttons align=right spacing=10 y=10 margin-right=26 }
+
+		place { control=facebook_logo,visiblity_label height=0 width=0 margin-left=-9999 }
 	}
 }
