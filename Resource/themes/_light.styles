@@ -6,7 +6,8 @@ light.styles {
 		A2.Background						"Air235"							//client bg
 		A2.Ribbon								"Air205"							//bg for section emphasis (ie. left side of settings dialog)
 		A2.Divider							"Air190"							//client dividers
-		A2.Notification					"Air50"								//bg for download notification
+		A2.Snackbar							"Air50"								//bg for notifications
+		A2.Notification					"A2.Snackbar"					//bg for steam popup notifications
 		A2.Bar									"Air110"							//bg for greater section emphasis (ie. voice chat and trade notifications)
 		A2.Menu									"A2.Bar"							//menu bg
 		A2.MenuDivider					"Air130"							//menu dividers
@@ -35,6 +36,8 @@ light.styles {
 
 		Text.Overlay						"Air255"							//overlay text color
 		Text.OverlaySoft				"Air210"							//softer overlay text color (also used for hover)
+		Text.OverlayLabel				"Air155"							//overlay label text color
+		Text.OverlayLabelHover	"Air200"							//hover
 
 		Friends.Online					"103 161 184 255"			//friend online text
 		Friends.InGame					"117 165 112 255"			//friend in-game text
@@ -45,6 +48,5 @@ light.styles {
 		Chat.History						"Text.Label"					//chat window history text
 
 		Details.Background			"184 184 184 150"			//games details semi-transparent overlay on top of screenshots, resolves into A2.Ribbon
-		Overlay.Background			"50 50 50 150"				//overlay bg
 	}
 }

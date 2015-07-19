@@ -8,9 +8,8 @@ resource/layout/uistatuspanel.layout {
 			textcolor=none
 			bgcolor=none
 			render_bg {
-				//0="fill( x0, y0 - 48, x1, y1, A2.Notification )"
-				//use for background that only shows up during active downloads
-				//on workshop downloads - bg appears but doesn't have text, no good
+				//can use for background that only shows up during active downloads
+				//!! text does not appear for workshop downloads leaving only the bg, don't use
 			}
 		}
 
@@ -19,7 +18,7 @@ resource/layout/uistatuspanel.layout {
 
 		StatusLabelDim {
 			render_bg {
-				0="fill( x0, y0, x1 - 3, y1, A2.Notification )"
+				0="fill( x0, y0, x1 - 3, y1, A2.Snackbar )"
 			}
 		}
 	}

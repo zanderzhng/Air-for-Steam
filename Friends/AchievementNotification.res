@@ -1,18 +1,13 @@
-"friends/AchievementNotification.res"
-{
-	styles
-	{
-		Notification {
-			render_bg {
-				0="fill( x0, y0, x1, y1, A2.Background )"
-				//1="fill( x0, y0, x1, y0 + 2, A2.Divider )"
-				//2="fill( x0, y0 + 74, x1, y1, A2.Divider )" //DISABLE darkened region
-			}
-		}
+friends/AchievementNotification.res {
+
+	styles {
+		Label { font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
 	}
-	
-	layout
-	{
-		place { control="DarkenedRegion" width=0 height=0 }
+
+	layout {
+		region { name=box height=max width=max margin-left=26 margin-right=26 }
+			place { control=LabelTitle,LabelText region=box height=20 y=19 dir=down }
+
+		place { control=AchievementIcon,IconBorder,DarkenedRegion width=0 height=0 }
 	}
 }

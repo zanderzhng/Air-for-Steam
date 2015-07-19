@@ -5,10 +5,14 @@ gameoverlay.styles {
 	colors {
 		Notifications.PanelPosition "BottomRight"
 
+		Overlay.Background			"0 0 0 50"						//overlay bg
+		Overlay.Bar							"75 75 75 150"				//overlay topbar bg (A2.Bar in dark theme)
+
 		A2.Background						"Air40"								//client bg
 		A2.Ribbon								"Air55"								//bg for section emphasis (ie. left side of settings dialog)
 		A2.Divider							"Air65"								//client dividers
-		A2.Notification					"Air50"								//bg for download notification
+		A2.Snackbar							"Air50"								//bg for download notification
+		A2.Notification					"Overlay.Bar"					//bg for steam popup notifications
 		A2.Bar									"Air75"								//bg for greater section emphasis (ie. voice chat and trade notifications)
 		A2.Menu									"A2.Bar"							//menu bg
 		A2.MenuDivider					"Air95"								//menu dividers

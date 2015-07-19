@@ -2,7 +2,7 @@ web.styles {
 
 	styles {
 		HTML {
-			bgcolor=A2.Notification
+			bgcolor=A2.Snackbar
 			inset="2 2 2 2"
 		}
 

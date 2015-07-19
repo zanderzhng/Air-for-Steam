@@ -5,7 +5,7 @@
 		CMusicPlayerVolumePanel {
 			minimum-width=150
 			minimum-height=30
-			bgcolor=A2.Notification
+			bgcolor=A2.Snackbar
 		}
 
 		VolumeSlider {

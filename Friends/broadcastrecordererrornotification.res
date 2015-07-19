@@ -1,4 +1,4 @@
-resource/BroadcastUploadErrorNotification.res {
+friends/broadcastrecordererrornotification.res {
 
 	styles {
 		Label { font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }

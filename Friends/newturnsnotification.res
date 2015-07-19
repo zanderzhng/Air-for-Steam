@@ -1,4 +1,4 @@
-steam/cached/OverlaySplash.res {
+friends/NewTurnsNotification.res {
 
 	styles {
 		Label { font-family=medium font-size=16 font-weight=500 textcolor=Text.Notification font-style=regular }
@@ -6,10 +6,9 @@ steam/cached/OverlaySplash.res {
 
 	layout {
 		region { name=box height=max width=max margin-left=26 margin-right=26 }
-			place { control=ImageAvatar region=box height=29 width=29 y=22 }
-			place { control=LabelMessage height=40 y=21 x=70 } //won't fit in box region
+			place { control=LabelInfo region=box height=20 y=19 }
 			place { control=LabelHotkey region=box height=20 width=max y=76 }
 
-		place { control=DarkenedRegion width=0 height=0 }
+		place { control=ItemImage,DarkenedRegion width=0 height=0 }
 	}
 }
