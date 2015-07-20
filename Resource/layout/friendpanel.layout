@@ -24,8 +24,8 @@ resource/layout/friendpanel.layout {
 
 	layout {
 		region { name=box height=max width=max margin-right=10 }
-			place { control=AvatarOverlayImage region=box y=2 width=46 height=46 }
-			place { control=AvatarImage region=box x=7 y=9 width=32 height=32 }
+			place { control=AvatarOverlayImage y=2 width=46 height=46 }
+			place { control=AvatarImage x=7 y=9 width=32 height=32 }
 
 			place { control=NameLabel,FriendsNameInstanceLabel,ClanStatusImage region=box x=53 y=9 spacing=4 }
 
