@@ -6,7 +6,7 @@ steam/cached/OverlayBattery.res {
 
 	layout {
 		region { name=box height=max width=max margin-left=26 margin-right=26 }
-			place { control=LabelMessage region=box height=20 y=19 }
+			place { control=LabelMessage region=box height=40 y=21 }
 
 		place { control=ImageAvatar width=0 height=0 }
 	}

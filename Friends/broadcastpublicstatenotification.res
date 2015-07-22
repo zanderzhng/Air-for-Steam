@@ -6,7 +6,7 @@ resource/BroadcastPublicState.res {
 
 	layout {
 		region { name=box height=max width=max margin-left=26 margin-right=26 }
-			place { control=LabelTitle,LabelInfo region=box height=20 y=19 dir=down }
+			place { control=LabelTitle,LabelInfo region=box height=16 y=21 dir=down }
 
 		place { control=BroadcastImageBlue,BroadcastImageRed width=0 height=0 }
 	}

@@ -5,9 +5,12 @@ friends/AchievementNotification.res {
 	}
 
 	layout {
-		region { name=box height=max width=max margin-left=26 margin-right=26 }
-			place { control=LabelTitle,LabelText region=box height=20 y=19 dir=down }
+		region { name=img height=max width=50 x=20 }
+			place { control=AchievementIcon region=img height=32 width=32 y=21 }
 
-		place { control=AchievementIcon,IconBorder,DarkenedRegion width=0 height=0 }
+		region { name=box height=max width=max x=68 margin-right=20 }
+			place { control=LabelTitle,LabelText region=box height=16 y=21 dir=down }
+
+		place { control=IconBorder,DarkenedRegion width=0 height=0 }
 	}
 }

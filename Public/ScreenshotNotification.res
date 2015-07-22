@@ -5,8 +5,10 @@ public/ScreenshotNotification.res {
 	}
 
 	layout {
-		region { name=box height=max width=max margin-left=26 margin-right=26 }
-			place { control=ScreenshotImage region=box height=48 width=58 y=13 }
-			place { control=LabelInfo,LabelGame region=box height=20 y=19 x=68 dir=down }
+		region { name=img height=max width=53 x=20 }
+			place { control=ScreenshotImage region=img height=30 width=53 y=22 }
+
+		region { name=box height=max width=max x=93 margin-right=20 }
+			place { control=LabelInfo,LabelGame region=box height=16 y=21 dir=down }
 	}
 }

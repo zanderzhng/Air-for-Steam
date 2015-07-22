@@ -6,7 +6,7 @@ friends/AppDownloadNotification.res {
 
 	layout {
 		region { name=box height=max width=max margin-left=26 margin-right=26 }
-			place { control=LabelSteam,LabelInfo,LabelGame region=box height=16 y=14 dir=down }
+			place { control=LabelSteam,LabelInfo,LabelGame region=box height=16 y=13 dir=down }
 
 		place { control=GameImage width=0 height=0 }
 	}
