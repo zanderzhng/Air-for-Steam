@@ -39,8 +39,16 @@ gameoverlay.styles {
 			//remove minimize button from chat window
 		}
 
-		friends_chat_text
-			{ textcolor=A2ChatFriend }
+		friends_chat_text {
+			textcolor=A2ChatFriend
 			//!! needs to be added here to due to bug with color not updating in overlay
+		}
+
+		CAvatarOverlayImage {
+			render {
+				0="image( x0, y0, x1, y1, graphics/avatarBorderOverlay )"
+			}
+			//removes double avatar border
+		}
 	}
 }
