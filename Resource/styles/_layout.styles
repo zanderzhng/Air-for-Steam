@@ -73,7 +73,7 @@ layout.styles {
 
 		FriendsPanel {
 			minimum-width=230
-			minimum-height=250
+			minimum-height=380
 			bgcolor=A2Background
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
