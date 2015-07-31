@@ -5,12 +5,14 @@ friends/AchievementNotification.res {
 	}
 
 	layout {
-		region { name=img height=max width=50 x=20 }
-			place { control=AchievementIcon region=img height=32 width=32 y=21 }
+		region { name=img height=max width=max x=15 }
+			place { control=AchievementIcon region=img y=15 }
 
-		region { name=box height=max width=max x=68 margin-right=20 }
-			place { control=LabelTitle,LabelText region=box height=16 y=21 dir=down }
+		region { name=box height=max width=max x=95 margin-right=20 }
+			place { control=LabelText region=box height=16 y=39 dir=down }
 
-		place { control=IconBorder,DarkenedRegion width=0 height=0 }
+			//!! bug, LabelTitle is hidden because it's color is not controlled by Label
+
+		place { control=LabelTitle,IconBorder,DarkenedRegion width=0 height=0 }
 	}
 }
