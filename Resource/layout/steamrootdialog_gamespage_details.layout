@@ -1,20 +1,16 @@
 "resource/layout/steamrootdialog_gamespage_details.layout"
 {
 	styles {
-		CGamesPage_Details {
-			bgcolor=none
-			//render { }
-			render_bg { }
+		CGamesPage_Details { }
+
+		CGamesListPanel {
+			render_bg {
+				0="fill( x0, y0, x1 - 13, y1, A2Background )"
+			}
 		}
 
 		"CGamesPage_Details ListPanelInterior" {
 			minimum-width="262"
-		}
-
-		CGamesListPanel {
-			render_bg {
-				0="fill( x0, y0, x1, y1, A2Background )"
-			}
 		}
 
 		DetailsBorderPanel {
