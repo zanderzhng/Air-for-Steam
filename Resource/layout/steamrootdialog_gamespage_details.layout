@@ -6,6 +6,7 @@
 		CGamesListPanel {
 			render_bg {
 				0="fill( x0, y0, x1 - 13, y1, A2Background )"
+				1="fill( x1 - 13, y0, x1, y1, A2Ribbon )"
 			}
 		}
 
@@ -36,9 +37,10 @@
 		region { name=details x=275 width=max height=max overflow=scroll-vertical }
 			place { control=gametitleheader region=details y=70 dir=down spacing=10 margin-left=20 margin-right=20 align=top-center }
 			place { control=gamesubheader region=details start=gametitleheader y=10 dir=down align=top-center }
-			place { control=headerimagea region=details width=1024 height=550 align=top-center margin-left=-155 }
-			place { control=headerimageb region=details width=1024 height=550 align=top-center margin-left=-155 }
 			place { control=emptylisttext region=details width=max height=max margin=16 }
+
+			place { control=headerimagea width=1024 height=550 align=top-center margin-left=155 }
+			place { control=headerimageb width=1024 height=550 align=top-center margin-left=155 }
 
 			place {
 				control=welcomedetails,turnnotifications,nonsteamdetails,achievementsdetails,friendsdetails,dlcdetails,clouddetails,communityfilesdetails,newsdetails,screenshotsdetails
