@@ -39,8 +39,8 @@
 			place { control=gamesubheader region=details start=gametitleheader y=10 dir=down align=top-center }
 			place { control=emptylisttext region=details width=max height=max margin=16 }
 
-			place { control=headerimagea width=1024 height=550 align=top-center margin-left=155 }
-			place { control=headerimageb width=1024 height=550 align=top-center margin-left=155 }
+			place { control=headerimagea region=details width=1024 height=550 align=top-center margin-left=-120 }
+			place { control=headerimageb region=details width=1024 height=550 align=top-center margin-left=-120 }
 
 			place {
 				control=welcomedetails,turnnotifications,nonsteamdetails,achievementsdetails,friendsdetails,dlcdetails,clouddetails,communityfilesdetails,newsdetails,screenshotsdetails
