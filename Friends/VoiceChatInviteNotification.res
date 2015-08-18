@@ -2,12 +2,6 @@ friends/VoiceChatInviteNotification.res {
 
 	styles {
 		Label { font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
-
-		Notification {
-			render {
-				0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotification )"
-			}
-		}
 	}
 
 	layout {
