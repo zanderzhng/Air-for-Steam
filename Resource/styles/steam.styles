@@ -364,9 +364,6 @@ steam.styles {
 			padding-top=2
 			image=graphics/onfocus/add
 			render { }
-			render_bg {
-				0="fill( x0 + 7, y0, x1, y1 + 1, A2ScrollGutter )"
-			}
 		}
 
 		"CGamesPage_Details ListPanelColumnSelectButton:hover" {
@@ -383,9 +380,6 @@ steam.styles {
 			padding-left=1
 			image=graphics/onfocus/add
 			render { }
-			render_bg {
-				0="fill( x0 + 7, y0 + 1, x1, y1 + 1, A2ScrollGutter )"
-			}
 		}
 
 		"CGamesPage_Mini ListPanelColumnSelectButton:hover" {

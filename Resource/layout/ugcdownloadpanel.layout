@@ -24,7 +24,7 @@ resource/layout/ugcdownloadpanel.layout {
 		region { name=box height=max width=max margin-left=26 margin-right=26 }
 		region { name=column2 region=box x=204 width=max height=max }
 
-		place { control=updatetypelabel,namelabel region=box y=18 spacing=20 }
+		place { control=updatetypelabel,namelabel region=box y=18 spacing=20 margin-right=182 }
 
 		place { control=gameimage region=box y=75 height=69 width=184 }
 

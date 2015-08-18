@@ -13,8 +13,7 @@ resource/layout/steamrootdialog.layout {
 			textcolor=none
 		}
 
-		view_friends 				{ textcolor=none }
-		view_friends:hover 	{ textcolor=none }
+		view_friends { textcolor=none }
 
 		support_alert {
 			padding-left=50
@@ -112,6 +111,6 @@ resource/layout/steamrootdialog.layout {
 		region { name=downloads align=bottom height=74 width=max }
 			place { control=UIStatusPanel region=downloads align=top-center height=48 width=180 }
 
-		place { control=SupportAlert,fullscreen,New,add_game,ImageLogo,BigPictureBG,FriendPanel,account_balance_seperator,account_URL,universe_label height=0 width=0 }
+		place { control=startvr,exitvr,SupportAlert,fullscreen,New,add_game,ImageLogo,BigPictureBG,FriendPanel,account_balance_seperator,account_URL,universe_label height=0 width=0 }
 	}
 }

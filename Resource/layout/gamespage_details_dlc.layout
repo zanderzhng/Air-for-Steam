@@ -1,5 +1,5 @@
-"resource/layout/gamespage_details_dlc.layout"
-{
+resource/layout/gamespage_details_dlc.layout {
+
 	colors {
 		//margin-top + margin-btm + button-height + desired button spacing + y-spacing + dlclist height
 		//20 + 30 + 26 + 20 + 60 + 120
@@ -21,6 +21,10 @@
 			render_bg {
 				0="fill( x0, y0, x1, y1, focus )"
 			}
+		}
+
+		ListPanelInterior {
+			inset-left=-3
 		}
 
 		mostrecenttime {

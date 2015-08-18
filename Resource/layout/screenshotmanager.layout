@@ -1,34 +1,16 @@
 resource/layout/screenshotmanager.layout {
 
-	colors {
-		BorderThumbnailUnpublished="0 0 0 0"
-		BorderThumbnailUploaded="0 0 0 0"
-		BorderThumbnailPublished="0 0 0 0"
-		BorderThumbnailSelected="139 185 224 255"
-	}
-
 	styles {
-		ThumbnailUnpublished {
-			render_bg {
-				0="fill( x0, y0, x1 - 1, y1, BorderThumbnailUnpublished )"
-			}
-		}
-
-		ThumbnailPublished {
-			render_bg {
-				0="fill( x0, y0, x1 - 1, y1, BorderThumbnailPublished )"
-			}
-		}
+		ThumbnailUnpublished { }
+		ThumbnailUploaded { }
+		ThumbnailPublished { }
 
 		ThumbnailSelected {
-			render {
-				0="fill( x0 + 1, y1 - 2, x1, y1, Focus )"
-			}
-		}
-
-		ThumbnailUploaded {
 			render_bg {
-				0="fill( x0, y0, x1 - 1, y1, BorderThumbnailUploaded )"
+				0="fill( x0, y0, x1, y1, black )"
+			}
+			render {
+				0="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/screenshot_check )"
 			}
 		}
 
