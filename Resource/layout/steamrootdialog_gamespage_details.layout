@@ -10,7 +10,7 @@
 			}
 		}
 
-		"CGamesPage_Details ListPanelInterior" {
+		"CGamesListPanel ListPanelInterior" {
 			minimum-width="262"
 		}
 
