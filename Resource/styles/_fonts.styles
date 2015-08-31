@@ -407,7 +407,7 @@ fonts.styles {
 //Details
 
 	headertextlarge
-	{ font-family=condensed font-size=50 font-weight=700 textcolor=A2TextWhite font-style=regular }
+	{ font-family=condensed font-size=50 font-weight=700 textcolor=A2TextWhite font-style=uppercase }
 
 	"CGamesPage_Details headertext"
 		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextWhite font-style=regular }

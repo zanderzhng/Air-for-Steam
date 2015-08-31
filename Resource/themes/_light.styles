@@ -46,7 +46,5 @@ light.styles {
 		A2ChatFriend						"A2TextPrimary"				//chat window friend text
 		A2ChatSelf							"A2TextSecondary"			//chat window self text
 		A2ChatHistory						"A2TextLabel"					//chat window history text
-
-		A2DetailsBackground			"184 184 184 150"			//games details semi-transparent overlay on top of screenshots, resolves into A2Ribbon
 	}
 }
