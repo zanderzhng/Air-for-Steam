@@ -10,6 +10,9 @@ resource/colors/deeppurple.styles {
 		Focus3="87 49 163 255"
 			//darker hue (-5% brightness)
 
+		Focus4="87 49 163 150"
+			//Focus3 transparent for details box
+
 		A2TextFocus="128 72 240 255"
 			//+25% brightness focus
 

@@ -10,6 +10,9 @@ resource/colors/slate.styles {
 		Focus3="84 110 122 255"
 			//darker hue (material 600)
 
+		Focus4="84 110 122 150"
+			//Focus3 transparent for details box
+
 		A2TextFocus="Focus"
 			//
 

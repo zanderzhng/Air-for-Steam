@@ -10,6 +10,9 @@ resource/colors/gunmetal.styles {
 		Focus3="20 20 20 255"
 			//darker hue (-5% brightness)
 
+		Focus4="20 20 20 150"
+			//Focus3 transparent for details box
+
 		A2TextFocus="0 188 212 255"
 			//sky focus
 

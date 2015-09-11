@@ -827,22 +827,22 @@ steam.styles {
 
 		rightcolumnheadertext {
 			textcolor=none
-			bgcolor=Focus3
+			bgcolor=Focus4
 		}
 
 		rightcolumnheadertext-red {
 			textcolor=none
-			bgcolor=Focus3
+			bgcolor=Focus4
 		}
 
 		rightcolumnheadertext-green {
 			textcolor=none
-			bgcolor=Focus3
+			bgcolor=Focus4
 		}
 
 		rightcolumnheadertext-blue {
 			textcolor=none
-			bgcolor=Focus3
+			bgcolor=Focus4
 		}
 	}
 }

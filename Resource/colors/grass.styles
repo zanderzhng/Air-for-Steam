@@ -10,6 +10,9 @@ resource/colors/grass.styles {
 		Focus3="78 158 70 255"
 			//darker hue (-5% brightness)
 
+		Focus4="78 158 70 150"
+			//Focus3 transparent for details box
+
 		A2TextFocus="Focus"
 			//
 
