@@ -1,7 +1,9 @@
-"resource/layout/steamrootdialog_gamespage_details.layout"
-{
+resource/layout/steamrootdialog_gamespage_details.layout {
+
 	styles {
-		CGamesPage_Details { }
+		CGamesPage_Details {
+			bgcolor=A2Ribbon
+		}
 
 		CGamesListPanel {
 			render_bg {
@@ -10,17 +12,8 @@
 			}
 		}
 
-		"CGamesPage_Details ListPanelInterior" {
+		"CGamesListPanel ListPanelInterior" {
 			minimum-width="262"
-		}
-
-		DetailsBorderPanel {
-			render_bg {
-				0="fill( x0 + 1, y0, x1 - 1, y1 - 1, A2DetailsBackground )"
-				1="fill( x0, y0, x0 + 1, y1, A2Ribbon )" //do not delete these three lines
-				2="fill( x1 - 1, y0, x1, y1, A2Ribbon )" //they remove the 1px line aorund the edges
-				3="fill( x0, y1 - 1, x1, y1, A2Ribbon )" //in empty search results view
-			}
 		}
 
 		headerimage {
@@ -35,8 +28,8 @@
 			place { control=GamesList region=list width=275 height=max margin-top=-1 }
 
 		region { name=details x=275 width=max height=max overflow=scroll-vertical }
-			place { control=gametitleheader region=details y=70 dir=down spacing=10 margin-left=20 margin-right=20 align=top-center }
-			place { control=gamesubheader region=details start=gametitleheader y=10 dir=down align=top-center }
+			place { control=gametitleheader region=details y=70 dir=down align=top-center margin-left=40 margin-right=40  }
+			place { control=gamesubheader region=details start=gametitleheader dir=down align=top-center }
 			place { control=emptylisttext region=details width=max height=max margin=16 }
 
 			place { control=headerimagea region=details width=1024 height=550 align=top-center margin-left=-120 }

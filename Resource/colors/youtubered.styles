@@ -10,6 +10,9 @@ resource/colors/youtubered.styles {
 		Focus3="217 31 22 255"
 			//darker hue (-5% brightness)
 
+		Focus4="217 31 22 150"
+			//Focus3 transparent for details box
+
 		A2TextFocus="Focus"
 			//
 

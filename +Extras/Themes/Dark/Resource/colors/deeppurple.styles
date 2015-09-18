@@ -1,4 +1,4 @@
-resource/colors/sky.styles {
+resource/colors/deeppurple.styles {
 
 	colors {
 		Focus="94 53 177 255"
@@ -9,6 +9,9 @@ resource/colors/sky.styles {
 
 		Focus3="87 49 163 255"
 			//darker hue (-5% brightness)
+
+		Focus4="87 49 163 150"
+			//Focus3 transparent for details box
 
 		A2TextFocus="128 72 240 255"
 			//+25% brightness focus

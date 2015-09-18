@@ -6,7 +6,9 @@
 
 	styles {
 		CDetailsGameTitleHeaderPanel {
-			bgcolor=none
+			render_bg {
+				//0="fill( x0 - 30, y0 - 10, x1 + 30, y1 + 10, AD100 )"
+			}
 		}
 	}
 

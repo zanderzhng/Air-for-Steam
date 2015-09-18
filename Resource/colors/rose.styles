@@ -10,6 +10,9 @@ resource/colors/rose.styles {
 		Focus3="222 60 114 255"
 			//darker hue (-5% brightness)
 
+		Focus4="222 60 114 150"
+			//Focus3 transparent for details box
+
 		A2TextFocus="Focus"
 			//
 

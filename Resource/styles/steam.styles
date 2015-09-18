@@ -570,6 +570,23 @@ steam.styles {
 			//!! doesn't seem to work on fonts
 		}
 
+		//notification overrides
+		//rgb50 = 50 in overlay
+		//rgb51 = 50 in desktop
+		BroadcastApproveNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		BroadcastInviteNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		BroadcastViewerNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CChatInvitationNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CChatMsgNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CClanEventNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CClanInvitationNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CFriendInGameNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CFriendInvitationNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CFriendOnlineNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CGameInvitationNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		TradInvitationNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CVoiceChatInviteNotification { render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+
 		Page { }
 
 		PageTab {
@@ -810,22 +827,22 @@ steam.styles {
 
 		rightcolumnheadertext {
 			textcolor=none
-			bgcolor=Focus3
+			bgcolor=Focus4
 		}
 
 		rightcolumnheadertext-red {
 			textcolor=none
-			bgcolor=Focus3
+			bgcolor=Focus4
 		}
 
 		rightcolumnheadertext-green {
 			textcolor=none
-			bgcolor=Focus3
+			bgcolor=Focus4
 		}
 
 		rightcolumnheadertext-blue {
 			textcolor=none
-			bgcolor=Focus3
+			bgcolor=Focus4
 		}
 	}
 }

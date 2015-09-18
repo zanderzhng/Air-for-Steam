@@ -1,7 +1,6 @@
-"resource/layout/emailreminderbar.layout"
-{
-	styles
-	{
+resource/layout/emailreminderbar.layout {
+
+	styles {
 		CEmailReminderBar {
 			render { }
 			render_bg {

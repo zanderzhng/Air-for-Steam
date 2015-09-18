@@ -32,6 +32,10 @@ web.styles {
 			inset="0 0 0 0"
 		}
 
+		"CSSADialog HTML" {
+			inset="0 0 0 0"
+		}
+
 		BackButton
 			{ minimum-height=0 padding-left=0 padding-right=0 render_bg { } image=graphics/onfocus/web/back }
 

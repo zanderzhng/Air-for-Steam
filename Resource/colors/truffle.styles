@@ -10,6 +10,9 @@ resource/colors/truffle.styles {
 		Focus3="59 51 46 255"
 			//darker hue (-5% brightness)
 
+		Focus4="59 51 46 150"
+			//Focus3 transparent for details box
+
 		A2TextFocus="Focus"
 			//
 

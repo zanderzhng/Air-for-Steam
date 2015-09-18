@@ -10,6 +10,9 @@ resource/colors/sky.styles {
 		Focus3="227 115 2 255"
 			//darker hue (-5% brightness)
 
+		Focus4="227 115 2 150"
+			//Focus3 transparent for details box
+
 		A2TextFocus="Focus"
 			//
 

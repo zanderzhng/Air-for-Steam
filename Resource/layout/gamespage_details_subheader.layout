@@ -1,13 +1,11 @@
-"resource/layout/gamespage_details_subheader.layout"
-{
-	colors
-	{
+resource/layout/gamespage_details_subheader.layout {
+
+	colors {
 		GameDetailsSubHeader.HorizontalSpacing=10
 		GameDetailsSubHeader.VerticalMargin=100
 	}
 
-	styles
-	{
+	styles {
 		CDetailsGameSubHeaderPanel {
 			bgcolor=none
 		}
@@ -29,74 +27,61 @@
 		}
 
 		DetailsLaunchButton {
-			padding-left=0 padding-right=0
-			textcolor=none
-			render { }
-			render_bg {
-				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_launch )"
-			}
+			padding-left=30 padding-right=30 padding-top=10 padding-bottom=10
+			bgcolor=AD100
 		}
 
 		DetailsLaunchButton:hover {
-			render_bg {
-				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_launch_hover )"
-			}
+			bgcolor=AD200
 		}
 
 		DetailsLaunchButton:active {
 			render_bg {
-				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_launch_hover )"
-				1="image( x0, y0, x1, y1, graphics/onfocus/active_circle_lg )"
+				0="fill( x0 - 4, y0, x0, y1, Focus )"
+				1="fill( x1, y0, x1 + 4, y1, Focus )"
+				2="fill( x0 - 4, y0 - 4, x1 + 4, y0, Focus )"
+				3="fill( x0 - 4, y1, x1 + 4, y1 + 4, Focus )"
 			}
 		}
 
 		DetailsInstallButton {
-			padding-left=0 padding-right=0
-			textcolor=none
-			render { }
-			render_bg {
-				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install )"
-			}
+			padding-left=30 padding-right=30 padding-top=10 padding-bottom=10
+			bgcolor=AD100
 		}
 
 		DetailsInstallButton:hover {
-			render_bg {
-				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install_hover )"
-			}
+			bgcolor=AD200
 		}
 
 		DetailsInstallButton:active {
 			render_bg {
-				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install_hover )"
-				1="image( x0, y0, x1, y1, graphics/onfocus/active_circle_lg )"
+				0="fill( x0 - 4, y0, x0, y1, Focus )"
+				1="fill( x1, y0, x1 + 4, y1, Focus )"
+				2="fill( x0 - 4, y0 - 4, x1 + 4, y0, Focus )"
+				3="fill( x0 - 4, y1, x1 + 4, y1 + 4, Focus )"
 			}
 		}
 
 		DetailsBuyButton {
-			padding-left=0 padding-right=0
-			textcolor=none
-			render { }
-			render_bg {
-				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install )"
-			}
+			padding-left=30 padding-right=30 padding-top=10 padding-bottom=10
+			bgcolor=AD100
 		}
 
 		DetailsBuyButton:hover {
-			render_bg {
-				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install_hover )"
-			}
+			bgcolor=AD200
 		}
 
 		DetailsBuyButton:active {
 			render_bg {
-				0="image( x0 + 10, y0 + 10, x1, y1, graphics/onfocus/game_install_hover )"
-				1="image( x0, y0, x1, y1, graphics/onfocus/active_circle_lg )"
+				0="fill( x0 - 4, y0, x0, y1, Focus )"
+				1="fill( x1, y0, x1 + 4, y1, Focus )"
+				2="fill( x0 - 4, y0 - 4, x1 + 4, y0, Focus )"
+				3="fill( x0 - 4, y1, x1 + 4, y1 + 4, Focus )"
 			}
 		}
 	}
 
-	layout
-	{
+	layout {
 		// Y offset here should match the vertical padding value above in the colors section
 		region { name="header" y=0 x=0 width=max height=max }
 
@@ -124,7 +109,7 @@
 			region=header
 			align=top-center
 			dir=down
-			height=70 width=70
+			//height=70 width=70
 			y=40
 		}
 	}

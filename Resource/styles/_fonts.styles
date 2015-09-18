@@ -382,6 +382,12 @@ fonts.styles {
 		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 		//email reminder bar
 
+	"CSteamRootDialog ButtonStyle"
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
+
+	"CSteamRootDialog ButtonStyle:hover"
+		{ textcolor=A2TextNotificationSoft }
+
 	support_alert
 		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 
@@ -407,7 +413,7 @@ fonts.styles {
 //Details
 
 	headertextlarge
-	{ font-family=condensed font-size=50 font-weight=700 textcolor=A2TextWhite font-style=regular }
+	{ font-family=condensed font-size=50 font-weight=700 textcolor=A2TextWhite font-style=uppercase }
 
 	"CGamesPage_Details headertext"
 		{ font-family=medium font-size=18 font-weight=500 textcolor=A2TextWhite font-style=regular }
