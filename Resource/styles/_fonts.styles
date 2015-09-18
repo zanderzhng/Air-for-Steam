@@ -382,6 +382,12 @@ fonts.styles {
 		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 		//email reminder bar
 
+	"CSteamRootDialog ButtonStyle"
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
+
+	"CSteamRootDialog ButtonStyle:hover"
+		{ textcolor=A2TextNotificationSoft }
+
 	support_alert
 		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
 

@@ -7,7 +7,7 @@ layout {
 
 		region { name=body height=max width=max y=50 margin-bottom=50 }
 		region { name=box height=max width=max region=body margin-left=26 margin-right=26 }
-			place { control=SSA region=box width=max }
+			place { control=SSA region=body width=max }
 			place { control=AgreeLabel region=box start=SSA dir=down y=20 width=max }
 			place { control=PrintLink region=box start=AgreeLabel dir=down y=20 }
 
