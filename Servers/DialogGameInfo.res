@@ -32,8 +32,8 @@ Servers/DialogGameInfo.res {
 			place { control=SecureText region=right start=PlayersText dir=down y=10 width=max }
 			place { control=PingText region=right start=SecureText dir=down y=10 width=max }
 
-			place { control=PlayerList region=box y=192 width=max height=140 }
-			place { control=InfoLabel region=box start=PlayerList dir=down height=30 width=max }
+			place { control=PlayerList region=box y=192 width=max height=max margin-bottom=62 }
+			place { control=InfoLabel region=box align=bottom height=30 width=max margin-bottom=15 }
 
 		region { name=buttons align=bottom height=50 }
 			place { control=AutoRetry,Connect,Refresh,Close region=buttons align=right spacing=10 y=10 margin-right=26 }

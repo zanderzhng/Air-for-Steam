@@ -32,9 +32,9 @@ Servers/DialogGameInfo.res {
 			place { control=SecureText region=right start=PlayersText dir=down y=10 width=max }
 			place { control=PingText region=right start=SecureText dir=down y=10 width=max }
 
-			place { control=PlayerList region=box y=192 width=max height=140 }
-			place { control=AutoRetryAlert region=box start=PlayerList dir=down width=max y=20 }
-			place { control=AutoRetryJoin region=box start=AutoRetryAlert dir=down width=max }
+			place { control=PlayerList region=box y=192 width=max height=max margin-bottom=90 }
+			place { control=AutoRetryAlert region=box align=bottom width=max margin-bottom=46 }
+			place { control=AutoRetryJoin region=box align=bottom width=max margin-bottom=22 }
 
 		region { name=buttons align=bottom height=50 }
 			place { control=AutoRetry,Connect,Refresh,Close region=buttons align=right spacing=10 y=10 margin-right=26 }
