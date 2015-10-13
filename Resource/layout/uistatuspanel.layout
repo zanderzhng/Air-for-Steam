@@ -16,14 +16,14 @@ resource/layout/uistatuspanel.layout {
 			}
 		}
 
-		StatusLabel { textcolor=none }
-		StatusLabelDim { textcolor=none }
+		StatusLabel { }
+		StatusLabelDim { }
 	}
 
 	layout {
 		place { control=StatusProgressbar align=bottom width=max height=0 }
-		place { control=StatusDownloading width=max height=max }
+		place { control=StatusComplete x=12 y=12 width=50 height=50 }
 
-		place { control=StatusPaused,StatusComplete height=0 width=0 }
+		place { control=StatusPaused,StatusDownloading height=0 width=0 }
 	}
 }

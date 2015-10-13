@@ -363,14 +363,6 @@ fonts.styles {
 	friends_ignored
 		{ textcolor=A2FriendsOffline }
 
-	StatusLabel
-		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
-		//floating download status notification
-
-	StatusLabelDim
-		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular }
-		//floating download status notification
-
 	friends_chat_securitylink
 		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextFocus font-style=regular }
 
