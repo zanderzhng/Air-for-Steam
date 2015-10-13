@@ -20,6 +20,10 @@ resource/layout/musicplayerpanel.layout {
 
 		CurrentAlbumImageStyle { }
 
+		SeekBarStyle {
+			bgcolor=none
+		}
+
 		RepeatButtonStyle
 			{ render_bg { 0="image( x0, y0, x1, y1, graphics/active/music/repeat )" } }
 
@@ -116,8 +120,9 @@ resource/layout/musicplayerpanel.layout {
 			margin-right=26
 		}
 
-		place { control="TrackList" region=body y=82 width=max height=max }
+		place { control=SeekBar region=body y=82 height=18 width=max margin-right=10 margin-left=10 }
+		place { control=TrackList region=body y=112 width=max height=max }
 
-		place { control="NoTracksLabel,InfoLabel,CurrentStatusLabel,CurrentArtistLabel" height=0 width=0 margin-left=-9999 }
+		place { control=NoTracksLabel,InfoLabel,CurrentStatusLabel,CurrentArtistLabel height=0 width=0 margin-left=-9999 }
 	}
 }
