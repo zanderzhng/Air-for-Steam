@@ -8,7 +8,7 @@
 		place { control=ThrottleRates														dir=down width=max start=RestrictionsLabel y=5 }
 
 		place {
-			control=AllowDownloadsDuringGameplayCheckbox,AutoUpdateTimeRestrictCheckbox
+			control=AllowDownloadsDuringGameplayCheckbox,ThrottleDownloadsWhileStreamingCheckbox,AutoUpdateTimeRestrictCheckbox
 			dir=down start=ThrottleRates y=20
 		}
 
@@ -21,6 +21,6 @@
 		place { control=ManageInstalledappsLabel								dir=down start=AutoUpdateTimeRestrictStart y=30 }
 		place { control=ManageInstalledApps											dir=down start=ManageInstalledappsLabel y=10 }
 
-		place { control=Divider1,Divider2,RegionInfoLabel,LibrariesLabel,ThrottleRatesLabel,AllowDownloadsDuringGameplayInfo height=0 width=0 }
+		place { control=Divider1,Divider2,RegionInfoLabel,LibrariesLabel,ThrottleRatesLabel,AllowDownloadsDuringGameplayInfo,ThrottleDownloadsWhileStreamingInfo height=0 width=0 }
 	}
 }
