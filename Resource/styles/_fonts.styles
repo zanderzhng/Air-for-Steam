@@ -643,6 +643,9 @@ fonts.styles {
 
 //Misc
 
+	GamesGridPlaceholder
+		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextPrimary font-style=uppercase }
+
 	EmoticonMenuItemStyle
 		{ font-size=20 textcolor=A2TextNotification }
 
