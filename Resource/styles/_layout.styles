@@ -167,8 +167,8 @@ layout.styles {
 		}
 
 		CDialogSettings {
-			minimum-width=664
-			minimum-height=664
+			minimum-width=704
+			minimum-height=704
 			bgcolor=A2Background
 			render_bg {
 				0="fill( x0, y0, x0 + 182, y1, A2Bar )"
@@ -268,10 +268,10 @@ layout.styles {
 			{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
 
 		CSettingsSubStreamingAdvancedClient
-			{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+			{ minimum-width=400 minimum-height=444 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
 
 		CSettingsSubStreamingAdvancedHost
-			{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+			{ minimum-width=400 minimum-height=484 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
 
 		CFriendNotificationOptionsDialog
 			{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }

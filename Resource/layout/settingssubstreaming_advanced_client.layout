@@ -12,9 +12,11 @@ resource/layout/settingssubstreaming_advanced_client.layout {
 			place { control=BandwidthLimit region=box start=BandwidthLabel dir=down y=5 width=max }
 			place { control=ResolutionLabel region=box start=BandwidthLimit dir=down y=20 width=max }
 			place { control=ResolutionLimit region=box start=ResolutionLabel dir=down y=5 width=max }
+			place { control=AudioChannelsLabel region=box start=ResolutionLimit dir=down y=20 width=max }
+			place { control=AudioChannelSelect region=box start=AudioChannelsLabel dir=down y=5 width=max }
 			place {
 				control=EnableHardwareDecoding,EnableDebugOverlay
-				region=box start=ResolutionLimit dir=down y=20
+				region=box start=AudioChannelSelect dir=down y=20
 			}
 
 		region { name=buttons align=bottom height=50 }

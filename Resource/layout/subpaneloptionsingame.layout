@@ -1,9 +1,12 @@
 "resource/layout/subpaneloptionsingame.layout"
 {
 	layout {
-		place { control=EnableOverlayCheck									width=max margin-top=-4 }
+		place {
+			control=EnableOverlayCheck,EnableSCTenFootOverlayCheck
+			dir=down width=max margin-top=-4
+		}
 
-		place { control=PingRateLabel												dir=down width=max start=EnableOverlayCheck y=15 }
+		place { control=PingRateLabel												dir=down width=max start=EnableSCTenFootOverlayCheck y=15 }
 		place { control=PingRateCombo												dir=down width=max start=PingRateLabel y=5 }
 
 		place { control=ShowIngameFPSLabel									dir=down start=PingRateCombo y=20 }

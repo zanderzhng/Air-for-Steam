@@ -8,7 +8,7 @@
 		place { control=ThrottleRates														dir=down width=max start=RestrictionsLabel y=5 }
 
 		place {
-			control=AllowDownloadsDuringGameplayCheckbox,ThrottleDownloadsWhileStreamingCheckbox,AutoUpdateTimeRestrictCheckbox
+			control=AllowDownloadsDuringGameplayCheckbox,ThrottleDownloadsWhileStreamingCheckbox,DownloadRatesInBitsCheckbox,AutoUpdateTimeRestrictCheckbox
 			dir=down start=ThrottleRates y=20
 		}
 
