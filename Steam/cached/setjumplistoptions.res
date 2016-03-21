@@ -14,7 +14,7 @@ steam/cached/SetJumplistOptions.res {
 			}
 			place { control=Label2 region=box start=ShowAppearOfflineStatus y=20 width=max dir=down }
 			place {
-				control=ShowStore,ShowMyGames,ShowCommunity,ShowFriendActivity,ShowFriends,ShowMusicPlayer,ShowScreenshots,ShowServers,ShowSettings,ShowBigPicture,ShowExit
+				control=ShowStore,ShowMyGames,ShowCommunity,ShowFriendActivity,ShowFriends,ShowMusicPlayer,ShowScreenshots,ShowServers,ShowSettings,ShowBigPicture,ShowVR,ShowExit
 				region=box start=Label2 dir=down y=5
 			}
 
