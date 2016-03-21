@@ -498,7 +498,7 @@ fonts.styles {
 	bigtextlabel
 		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextOnFocusHover font-style=uppercase }
 
-	bigtext
+	bigtextNonUpper
 		{ font-family=medium font-size=16 font-weight=500 textcolor=A2TextOnFocus font-style=uppercase }
 
 	throttleLabel
