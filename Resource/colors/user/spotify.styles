@@ -20,12 +20,10 @@ resource/colors/spotify.styles {
 			//Spotify hover green
 
 		//THEME OVERRIDES
-		A2Background "Air40"
 		A2Ribbon "24 24 24 255"
-		A2Divider "Air40"
-		A2Snackbar "24 24 24 255"
-		A2Notification "A2Snackbar"
-		A2Menu "Air40"
+		A2Divider "40 40 40 255"
+		//A2Snackbar "24 24 24 255" //Doesn't work with notifications
+		A2Menu "40 40 40 255"
 		A2MenuDivider "24 24 24 255"
 		A2Scroll "24 24 24 255"
 		A2ScrollHover "33 33 33 255"
