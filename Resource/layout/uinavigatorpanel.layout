@@ -111,7 +111,7 @@ resource/layout/uinavigatorpanel.layout {
 			width=max height=max start=phonereminderbar dir=down }
 
 		place { control=GamesPage_Details
-			width=max height=max start=phonereminderbar dir=down margin-top=-1 }
+			width=max height=max start=phonereminderbar dir=down }
 
 		place { control=GamesPage_List
 			width=max height=max start=phonereminderbar dir=down y=9 }
@@ -129,7 +129,7 @@ resource/layout/uinavigatorpanel.layout {
 			width=max height=max start=phonereminderbar dir=down }
 
 		place { control=MusicPage_Details
-			width=max height=max start=phonereminderbar dir=down margin-top=-1 }
+			width=max height=max start=phonereminderbar dir=down }
 
 		place { control=ToolsPage
 			width=max height=max start=phonereminderbar dir=down y=9 }
