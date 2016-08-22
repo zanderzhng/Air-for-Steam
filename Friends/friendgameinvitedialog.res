@@ -8,7 +8,7 @@ Friends/friendgameinvitedialog.res {
 				2="fill( x0, y1 - 50, x1, y1, A2Ribbon )"
 			}
 			render {
-				0="image_tiled( x0, y0 + 50, x1, y0 + 56, graphics/material/shadow_horiz )"
+				0="image_scale( x0, y0 + 50, x1, y0 + 56, graphics/material/shadow_horiz )"
 			}
 		}
 	}
