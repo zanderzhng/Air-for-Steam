@@ -13,7 +13,7 @@ resource/colors/deepblue.styles {
 		Focus4="62 62 62 150"
 			//Focus3 transparent for details box
 
-		A2TextFocus="Focus"
+		A2TextFocus="Focus2"
 			//
 
 		A2TextFocusHover="Focus2"
