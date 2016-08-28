@@ -202,7 +202,7 @@ layout.styles {
 		}
 
 		COverlaySettingsDialog {
-			minimum-height=712
+			minimum-height=750
 			render_bg {
 				0="fill( x0, y0, x1, y0 + 50, Focus )"
 				1="fill( x0, y0 + 50, x1, y0 + 80, Focus3 )"
