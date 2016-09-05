@@ -1,30 +1,30 @@
-light.styles {
+blue.styles {
 
 	include "resource/styles/_vars.styles"
 
 	colors {
-		A2Background						"Air235"							//client bg
-		A2Ribbon								"Air205"							//bg for section emphasis (ie. left side of settings dialog)
-		A2Divider								"Air190"							//client dividers
-		A2Snackbar							"Air50"								//bg for notifications
+		A2Background						"32 55 82 255"				//client bg
+		A2Ribbon								"27 40 56 255"				//bg for section emphasis (ie. left side of settings dialog)
+		A2Divider								"32 55 82 255"				//client dividers
+		A2Snackbar							"28 47 69 255"				//bg for download notification
 		A2Notification					"A2Snackbar"					//bg for steam popup notifications
-		A2Bar										"Air110"							//bg for greater section emphasis (ie. voice chat and trade notifications)
+		A2Bar										"37 64 94 255"				//bg for greater section emphasis (ie. voice chat and trade notifications)
 		A2Menu									"A2Bar"								//menu bg
-		A2MenuDivider						"Air130"							//menu dividers
+		A2MenuDivider						"32 55 82 255"				//menu dividers
 
 		A2ButtonHover						"155 155 155 50"			//button bg on hover
 		A2ButtonActive					"155 155 155 100"			//button bg on click
-		A2DetailsButton					"0 0 0 100"						//details install/play button
-		A2DetailsButtonHover		"0 0 0 200"						//details install/play button hover
+		A2DetailsButton					"5 8 12 100"				//details install/play button
+		A2DetailsButtonHover		"5 8 12 200"				//details install/play button hover
 
-		A2Scroll								"Air180"							//scrollbar handle
-		A2ScrollHover						"Air155"							//scrollbar handle on hover
+		A2Scroll								"28 47 69 255"				//scrollbar handle
+		A2ScrollHover						"60 108 149 100"			//scrollbar handle on hover
 		A2ScrollGutter					"A2Ribbon"						//scrollbar gutter/backdrop
 
-		A2TextPrimary						"Air35"								//black 87%, text
-		A2TextSecondary					"Air115"							//black 54%, caption
-		A2TextLabel							"Air155"							//black 39%, label
-		A2TextHint							"Air190"							//black 26%, hint text, disabled items
+		A2TextPrimary						"255 255 255 220"			//white 87%, text
+		A2TextSecondary					"255 255 255 140"			//white 54%, caption
+		A2TextLabel							"255 255 255 100"			//white 39%, label
+		A2TextHint							"255 255 255 66"			//white 26%, hint text, disabled items
 		A2TextBlack							"Black"								//black text
 		A2TextBlackHover				"0 0 0 220"						//hover
 		A2TextWhite							"White"								//white text

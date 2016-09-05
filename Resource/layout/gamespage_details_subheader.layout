@@ -28,11 +28,11 @@ resource/layout/gamespage_details_subheader.layout {
 
 		DetailsLaunchButton {
 			padding-left=30 padding-right=30 padding-top=10 padding-bottom=10
-			bgcolor=AD100
+			bgcolor=A2DetailsButton
 		}
 
 		DetailsLaunchButton:hover {
-			bgcolor=AD200
+			bgcolor=A2DetailsButtonHover
 		}
 
 		DetailsLaunchButton:active {
@@ -46,11 +46,11 @@ resource/layout/gamespage_details_subheader.layout {
 
 		DetailsInstallButton {
 			padding-left=30 padding-right=30 padding-top=10 padding-bottom=10
-			bgcolor=AD100
+			bgcolor=A2DetailsButton
 		}
 
 		DetailsInstallButton:hover {
-			bgcolor=AD200
+			bgcolor=A2DetailsButtonHover
 		}
 
 		DetailsInstallButton:active {
@@ -64,11 +64,11 @@ resource/layout/gamespage_details_subheader.layout {
 
 		DetailsBuyButton {
 			padding-left=30 padding-right=30 padding-top=10 padding-bottom=10
-			bgcolor=AD100
+			bgcolor=A2DetailsButton
 		}
 
 		DetailsBuyButton:hover {
-			bgcolor=AD200
+			bgcolor=A2DetailsButtonHover
 		}
 
 		DetailsBuyButton:active {
