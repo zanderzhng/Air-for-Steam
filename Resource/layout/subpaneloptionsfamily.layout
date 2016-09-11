@@ -1,7 +1,6 @@
-"resource/layout/subpaneloptionscloud.layout"
-{
-	layout {
+resource/layout/subpaneloptionsfamily.layout {
 
+	layout {
 		place { control=BorrowersLabel width=max }
 		place { control=BorrowersList dir=down width=max height=120 start=BorrowersLabel y=20 }
 		place {
