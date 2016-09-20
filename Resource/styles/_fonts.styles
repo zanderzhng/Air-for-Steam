@@ -678,6 +678,9 @@ fonts.styles {
 	"CDialogParentalUnlock Password"
 		{ font-size=40 }
 
+	"CTwoFactorCodeChallenge AuthCode"
+		{ font-size=40 }
+
 	emptylisttext
 		{ textcolor=none selectedtextcolor=none }
 		//search results empty
