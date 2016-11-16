@@ -38,7 +38,8 @@
 
 	layout {
 		region { name=header height=50 width=max }
-			place { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place [!$OSX] { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place [$OSX] { control=frame_close,frame_minimize height=22 width=22 y=13 align=left margin-left=20 }
 			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		place [!$OSX] { control=MenuBar align=top width=52 height=49 }
@@ -48,7 +49,8 @@
 
 		place { control=gameslist region=body width=max height=max }
 
-		place { control=library_search region=nav y=9 x=66 height=22 width=162 }
+		place [!$OSX] { control=library_search region=nav y=9 x=66 height=22 width=162 }
+		place [$OSX] { control=library_search region=nav y=9 x=73 height=22 width=162 }
 		place { control=library_filters height=30 y=50 x=20 }
 
 		place { control=label_search_icon,subnavgroup_library height=0 width=0 margin-left=-9999 }
