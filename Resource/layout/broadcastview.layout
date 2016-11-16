@@ -19,6 +19,7 @@
 	layout {
 
 		place { control=clickpanel width=max height=max }
-		place { control=closebutton width=17 height=17 margin-top=10 margin-right=10 align=right }
+		place [!$OSX] { control=closebutton width=17 height=17 margin-top=10 margin-right=10 align=right }
+		place [$OSX] { control=closebutton width=17 height=17 margin-top=10 margin-left=10 align=left }
 	}
 }
