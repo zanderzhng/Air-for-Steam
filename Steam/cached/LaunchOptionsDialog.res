@@ -2,7 +2,8 @@ Steam/Cached/LaunchOptionsDialog.res {
 
 	layout {
 		region { name=header height=50 width=max }
-			place { control=frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place [!$OSX] { control=frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place [$OSX] { control=frame_close,frame_minimize,frame_maximize height=22 width=22 y=13 align=left margin-left=20 }
 			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 		//region { name=body height=max width=max y=50 margin-bottom=50 }
@@ -16,6 +17,7 @@ Steam/Cached/LaunchOptionsDialog.res {
 		//region { name=buttons align=bottom height=50 }
 			place { control=LaunchButton,Button1 align=bottom spacing=10 x=240 margin-bottom=16 }
 
-		place { control=frame_minimize,ImagePanel1 height=0 width=0 margin-left=-9999 }
+		place { control=ImagePanel1 height=0 width=0 margin-left=-9999 }
+		place [!$OSX] { control=frame_minimize height=0 width=0 margin-left=-9999 }
 	}
 }

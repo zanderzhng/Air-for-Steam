@@ -30,11 +30,13 @@ Friends/FriendsDialog.res {
 
 	layout {
 		region { name=header height=50 width=max }
-			place { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place [!$OSX] { control=frame_minimize,frame_close height=22 width=22 y=13 align=right margin-right=20 }
+			place [$OSX] { control=frame_close,frame_minimize height=22 width=22 y=13 align=left margin-left=20 }
 			place { control=frame_captiongrip margin=2 width=max height=50 }
 
 			place [!$OSX] { control=MenuBar region=header align=top width=52 height=49 margin-left=-10 }
-			place { control=friends_search region=header y=9 x=56 height=22 width=92 }
+			place [!$OSX] { control=friends_search region=header y=9 x=56 height=22 width=92 }
+			place [$OSX] { control=friends_search region=header y=9 x=73 height=22 width=92 }
 
 		region { name=body y=50 height=max width=max }
 		region { name=box height=max width=max region=body margin-left=16 margin-right=16 }
