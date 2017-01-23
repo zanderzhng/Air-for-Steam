@@ -289,6 +289,10 @@ fonts.styles {
     { font-family=basefont font-size=16 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
     //spoof a button
 
+  "CSubPanelOptionsFamily URLLabel"
+    { font-family=basefont font-size=16 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
+    //spoof a button
+
   CUILaunchButton
     { font-family=basefont font-size=16 font-weight=700 textcolor=A2TextFocus font-style=uppercase }
 
@@ -679,6 +683,9 @@ fonts.styles {
     { font-size=40 }
 
   "CTwoFactorCodeChallenge AuthCode"
+    { font-size=40 }
+
+  "CSettingsSubStreamingPIN Password"
     { font-size=40 }
 
   emptylisttext
