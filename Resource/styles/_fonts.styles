@@ -663,11 +663,11 @@ fonts.styles {
   }
 
   "CDialogGameInfo TextEntry"
-    {textcolor=A2TextPrimary }
+    { textcolor=A2TextPrimary }
     //spoof label text
 
   "CDialogGameInfo LabelDull"
-    {textcolor=A2TextSecondary }
+    { textcolor=A2TextSecondary }
 
   "CServerBrowserDialog status"
     { textcolor=A2TextLabel }
@@ -687,6 +687,10 @@ fonts.styles {
 
   "CSettingsSubStreamingPIN Password"
     { font-size=40 }
+
+  loginerror_style_body
+    { textcolor=A2TextPrimary selectedtextcolor=A2TextPrimary }
+    //necessary for login dialog to overwrite generic Label style set to none
 
   emptylisttext
     { textcolor=none selectedtextcolor=none }
