@@ -7,8 +7,9 @@
 		place { control=DescriptionLabel width=max }
 		place { control=OverlayHomePageLabel start=DescriptionLabel dir=down y=30 }
 		place { control=OverlayHomePage start=OverlayHomePageLabel width=max dir=down y=5 }
+		place { controls=ClientBrowserAuthHomePage start=OverlayHomePage width=max dir=down y=15 }
 
-		place { control=ClearWebCacheButton,ClearAllCookiesButton start=OverlayHomePage dir=down y=30 }
+		place { control=ClearWebCacheButton,ClearAllCookiesButton start=ClientBrowserAuthHomePage dir=down y=20 }
 
 		place { control=Divider1 height=0 width=0 }
 	}
