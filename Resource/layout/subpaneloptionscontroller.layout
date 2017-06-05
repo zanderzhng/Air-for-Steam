@@ -1,19 +1,12 @@
-"resource/layout/subpaneloptionscontroller.layout"
-{
+resource/layout/subpaneloptionscontroller.layout {
 
-	styles {
-	}
+  layout {
+    place { control=DescriptionLabel width=max }
+    place { control=GeneralSettingsButton start=DescriptionLabel dir=down y=20 }
 
-	layout {
-		place { control=TitleLabel margin-right=20 width=max }
-		place { control=DescriptionLabel start=TitleLabel dir=down width=max margin-top=15 }
-		place { control=GeneralSettingsButton start=DescriptionLabel dir=down height=20 width=260 margin-top=15 }
+    place { control=DescriptionBindingLabel start=GeneralSettingsButton width=max dir=down y=30 }
+    place { control=BigPictureConfigButton,DesktopConfigButton,GuideConfigButton start=DescriptionBindingLabel dir=down y=20 }
 
-		place { control=Divider1 start=GeneralSettingsButton dir=down width=max margin-top=15 }
-
-		place { control=DescriptionBindingLabel start=Divider1 height=40 width=max dir=down margin-top=8 }
-		place { control=BigPictureConfigButton start=DescriptionBindingLabel dir=down height=20 width=260 }
-		place { control=DesktopConfigButton start=BigPictureConfigButton dir=down height=20 width=260 }
-		place { control=GuideConfigButton start=DesktopConfigButton dir=down height=20 width=260 }
-	}
+    place { control=TitleLabel,Divider1 height=0 width=0 }
+  }
 }
