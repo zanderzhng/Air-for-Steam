@@ -1,4 +1,4 @@
-resource/colors/deepblue.styles {
+resource/colors/materialblue.styles {
 
   colors {
     Focus="0 70 92 255"
