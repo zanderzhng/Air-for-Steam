@@ -4,7 +4,7 @@ resource/colors/materialblue.styles {
     Focus="0 70 92 255"
       //
 
-    Focus2="200 200 200 255"
+    Focus2="160 160 160 255"
       //for text
 
     Focus3="0 60 82 255"
