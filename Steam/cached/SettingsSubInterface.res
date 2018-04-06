@@ -2,8 +2,9 @@ steam/cached/SettingsSubInterface.res {
 	layout {
 		place { control=Label4 dir=down }
 		place { control=LanguageCombo dir=down width=max start=Label4 y=5 }
+		place { control=TranslationLabel dir=down width=max start=LanguageCombo y=20 }
 
-		place { control=Label1 dir=down start=LanguageCombo y=20 }
+		place { control=Label1 dir=down start=TranslationLabel y=20 }
 		place { control=FavoriteWindowCombo dir=down width=max start=Label1 y=5 }
 
 		place { control=Label3 dir=down start=FavoriteWindowCombo y=20 }
@@ -19,6 +20,6 @@ steam/cached/SettingsSubInterface.res {
 
 		place { control=SetJumpListOptionsButton dir=down start=NotifyAvailableGamesCheck y=10 }
 
-		place { control=Divider3,Divider2,Divider1,TranslationLabel height=0 width=0 }
+		place { control=Divider3,Divider2,Divider1 height=0 width=0 }
 	}
 }
