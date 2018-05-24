@@ -47,6 +47,7 @@
 		ChangeUser						{	text="#steam_menu_changeuser"						command="ChangeUser" }
 		GoOnline							{	text="#SteamUI_OfflineMode_GoOnline"		command="goonline" }
 		GoOffline							{	text="#SteamUI_OfflineMode_GoOffline"		command="gooffline" }
+		SystemInfo							{ text="#steam_menu_systeminfo"						command="SystemInfo" }
 		Divider								{ }
 		BackupGames						{	text="#steam_menu_backupgames"					command="backupgames" }
 	}
