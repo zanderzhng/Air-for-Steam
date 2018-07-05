@@ -34,8 +34,8 @@
 		Restart								{ text="#steam_mustrestart_button"				command="RestartSteam" }
 		ChangeUser						{ text="#steam_menu_changeuser"						command="ChangeUser" }
 		GoOnline							{ text="#steamui_offlinemode_goonline"		command="goonline" }
-		Divider								{ } //if this divider isn't here, the next one doesn't show in offline mode
 		GoOffline							{ text="#steamui_offlinemode_gooffline"		command="gooffline" }
+		SystemInfo							{ text="#steam_menu_systeminfo"						command="SystemInfo" }
 		Divider								{ }
 		Settings							{ text="#steam_menu_settings"							command="Settings" }
 		Exit									{ text="#steam_exitsteam"									command="Exit" }
@@ -47,6 +47,7 @@
 		ChangeUser						{	text="#steam_menu_changeuser"						command="ChangeUser" }
 		GoOnline							{	text="#SteamUI_OfflineMode_GoOnline"		command="goonline" }
 		GoOffline							{	text="#SteamUI_OfflineMode_GoOffline"		command="gooffline" }
+		SystemInfo							{ text="#steam_menu_systeminfo"						command="SystemInfo" }
 		Divider								{ }
 		BackupGames						{	text="#steam_menu_backupgames"					command="backupgames" }
 	}
