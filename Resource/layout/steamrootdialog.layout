@@ -105,6 +105,9 @@ resource/layout/steamrootdialog.layout {
     region { name=downloads align=bottom height=80 width=max }
       place { control=UIStatusPanel region=downloads align=right height=74 width=74 margin-right=23 }
 
-    place { control=AnnouncementButton,view_friends,online_friends,startvr,exitvr,SupportAlert,fullscreen,New,add_game,ImageLogo,BigPictureBG,FriendPanel,account_balance,account_balance_seperator,account_URL,universe_label height=0 width=0 }
+    place { control=view_friends,online_friends,startvr,exitvr,SupportAlert,fullscreen,New,add_game,ImageLogo,BigPictureBG,FriendPanel,account_balance,account_balance_seperator,account_URL,universe_label height=0 width=0 margin-left=-9999 }
+
+    //needs the margin-left to actually remove the announcement web panel from sight
+    place { control=AnnouncementButton height=0 width=0 margin-left=-9999 }
   }
 }
