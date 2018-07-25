@@ -22,7 +22,6 @@ resource/layout/accountbutton.layout {
 
 		AccountBalanceStyle {
 			padding-left=14
-			padding-right=14
 			padding-bottom=3
 		}
 
