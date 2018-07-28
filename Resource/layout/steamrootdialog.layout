@@ -98,7 +98,6 @@ resource/layout/steamrootdialog.layout {
       place { control=ParentalLockButton region=header align=right height=30 width=30 align=right }
       place [!$OSX] { control=InboxButton region=header align=right y=7 height=50 width=36 margin-right=122 }
       place [$OSX] { control=InboxButton region=header align=right y=7 height=50 width=36 margin-right=20 }
-      place { control=AccountButton region=header align=right y=7 height=41 margin-right=24 end-right=InboxButton }
 
     place { control=UINavigatorPanel width=max height=max }
 
@@ -108,6 +107,6 @@ resource/layout/steamrootdialog.layout {
     place { control=view_friends,online_friends,startvr,exitvr,SupportAlert,fullscreen,New,add_game,ImageLogo,BigPictureBG,FriendPanel,account_balance,account_balance_seperator,account_URL,universe_label height=0 width=0 margin-left=-9999 }
 
     //needs the margin-left to actually remove the announcement web panel from sight
-    place { control=AnnouncementButton height=0 width=0 margin-left=-9999 }
+    place { control=AccountButton,AnnouncementButton height=0 width=0 margin-left=-9999 }
   }
 }
