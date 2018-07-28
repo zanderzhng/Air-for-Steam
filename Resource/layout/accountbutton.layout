@@ -1,7 +1,10 @@
 resource/layout/accountbutton.layout {
 
 	styles {
-		AccountPersonaStyleOffline { }
+		AccountPersonaStyleOffline {
+			//textcolor=none
+			//minimum-width=16
+		}
 		AccountPersonaStyleOnline { }
 		AccountPersonaStyleInGame { }
 
