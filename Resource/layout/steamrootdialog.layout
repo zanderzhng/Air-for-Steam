@@ -43,7 +43,7 @@ resource/layout/steamrootdialog.layout {
     inbox_button_active {
       textcolor=none
       render_bg {
-        0="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/inbox_active )"
+        0="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/inbox_active_hover )"
       }
     }
 
