@@ -17,6 +17,7 @@ This [handy-dandy FAQ](https://github.com/Elundris/Air-for-Steam/wiki) should an
 When reporting an [issue](https://github.com/Elundris/Air-for-Steam/issues), please first read through the current topics to make sure that your issue hasn't already been reported.
 
 Remember to include:
+
 * A brief description of the issue and steps to reproduce
 * A screenshot (pictures are worth a million words)
 * Are you opted in to the Steam Client beta?
@@ -46,7 +47,8 @@ Indent all code via tabs rather than spaces.
 ##### Ordering
 
 When including styles for a control keep them in the following order. The mantra is: "width before height, clockwise in position starting left." `X then Y, Left Top Right Bottom`
-```
+
+```text
 // Styling
 bgcolor
 selectedbgcolor
@@ -79,21 +81,23 @@ padding-bottom
 // Content
 image
 ```
+
 Here is an example style:
-```
+
+```layout
 TestStyle [!$OSX] {
-   bgcolor=none
-   selectedbgcolor=blue
-   textcolor=red
-   font-family=basefont
-   font-size=15
-font-size=14 [$LINUX]
-   font-weight=400
-   image="graphics/test"
-   inset="5 10 10 5" // Left, Top, Right, Bottom
-   minimum-width=10
-   
-   render {}   
-   render_bg {}
+	bgcolor=none
+	selectedbgcolor=blue
+	textcolor=red
+	font-family=basefont
+	font-size=15
+	font-size=14 [$LINUX]
+	font-weight=400
+	image="graphics/test"
+	inset="5 10 10 5" // Left, Top, Right, Bottom
+	minimum-width=10
+
+	render { }
+	render_bg { }
 }
 ```
