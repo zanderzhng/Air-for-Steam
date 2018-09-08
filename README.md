@@ -4,47 +4,39 @@ Air is a visual redesign of the Steam client that embraces Google's Material Des
 
 [Preview Album](https://goo.gl/photos/zVDkK9FiYMAiETbW8)
 
---
-
-#### Installation, customization, tweaks (oh my!)
+## Installation, customization, tweaks (oh my!)
 
 This [handy-dandy FAQ](https://github.com/Elundris/Air-for-Steam/wiki) should answer all of your burning questions. If you are the type who frequently has questions, we've frequently got answers!
 
---
-
-#### Issues
+## Issues
 
 When reporting an [issue](https://github.com/Elundris/Air-for-Steam/issues), please first read through the current topics to make sure that your issue hasn't already been reported.
 
 Remember to include:
 
-* A brief description of the issue and steps to reproduce
-* A screenshot (pictures are worth a million words)
-* Are you opted in to the Steam Client beta?
-* Your operating system
+- A brief description of the issue and steps to reproduce
+- A screenshot (pictures are worth a million words)
+- Are you opted in to the Steam Client beta?
+- Your operating system
 
---
-
-#### Community
+## Community
 
 Stay up to date with Air on the [Steam Community Group](http://steamcommunity.com/groups/airforsteam).
 
---
-
-#### Contribute
+## Contribute
 
 If you're providing code to add to the project please adhere to these coding practices to make it easier on everyone to collaborate efficiently.
 
-##### Branches
+### Branches
 
-* `master` should be stable at all times
-* `develop` is for new updates and fixes
+- `master` should be stable at all times
+- `develop` is for new updates and fixes
 
-##### Spacing
+### Spacing
 
 Indent all code via tabs rather than spaces.
 
-##### Ordering
+### Ordering
 
 When including styles for a control keep them in the following order. The mantra is: "width before height, clockwise in position starting left." `X then Y, Left Top Right Bottom`
 

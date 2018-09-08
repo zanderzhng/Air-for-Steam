@@ -13,9 +13,7 @@ resource/layout/htmlfindbar.layout {
 			render_bg { }
 		}
 
-		"HTML Label" {
-			inset-top=-1
-		}
+		"HTML Label" { inset-top=-1 }
 
 		CloseButtonSm {
 			image=graphics/none
