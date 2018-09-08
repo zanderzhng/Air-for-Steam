@@ -71,762 +71,736 @@ steam.styles {
 			alpha		120
 		}
 
-	Button {
-		padding-left=4 padding-right=4
-		minimum-height=30
-		render_bg { }
-	}
-
-	Button:hover {
-		render_bg {
-			0="fill( x0, y0, x1, y1, A2ButtonHover )"
+		Button {
+			padding-left=4 padding-right=4
+			minimum-height=30
+			render_bg { }
 		}
-	}
 
-	Button:active {
-		render_bg {
-			0="fill( x0, y0, x1, y1, A2ButtonActive )"
+		Button:hover {
+			render_bg {
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
+			}
 		}
-	}
 
-	Button:disabled	{
-		render_bg { }
-	}
-
-	"CSettingsSubStreamingAdvancedClient URLLabel" {
-		padding-left=10 padding-right=10
-		minimum-height=30
-		render_bg { }
-	}
-
-	"CSettingsSubStreamingAdvancedClient URLLabel:hover" {
-		render_bg {
-			0="fill( x0, y0, x1, y1, A2ButtonHover )"
+		Button:active {
+			render_bg {
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
+			}
 		}
-	}
 
-	"CSettingsSubStreamingAdvancedClient URLLabel:active" {
-		render_bg {
-			0="fill( x0, y0, x1, y1, A2ButtonActive )"
+		Button:disabled	{
+			render_bg { }
 		}
-	}
 
-	"CSettingsSubStreamingAdvancedHost URLLabel" {
-		padding-left=10 padding-right=10
-		minimum-height=30
-		render_bg { }
-	}
-
-	"CSettingsSubStreamingAdvancedHost URLLabel:hover" {
-		render_bg {
-			0="fill( x0, y0, x1, y1, A2ButtonHover )"
+		"CSettingsSubStreamingAdvancedClient URLLabel" {
+			padding-left=10 padding-right=10
+			minimum-height=30
+			render_bg { }
 		}
-	}
 
-	"CSettingsSubStreamingAdvancedHost URLLabel:active" {
-		render_bg {
-			0="fill( x0, y0, x1, y1, A2ButtonActive )"
+		"CSettingsSubStreamingAdvancedClient URLLabel:hover" {
+			render_bg {
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
+			}
 		}
-	}
 
-	"CSubPanelOptionsFamily URLLabel" {
-		padding-left=10 padding-right=10
-		minimum-height=30
-		render_bg { }
-	}
-
-	"CSubPanelOptionsFamily URLLabel:hover" {
-		render_bg {
-			0="fill( x0, y0, x1, y1, A2ButtonHover )"
+		"CSettingsSubStreamingAdvancedClient URLLabel:active" {
+			render_bg {
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
+			}
 		}
-	}
 
-	"CSubPanelOptionsFamily URLLabel:active" {
-		render_bg {
-			0="fill( x0, y0, x1, y1, A2ButtonActive )"
+		"CSettingsSubStreamingAdvancedHost URLLabel" {
+			padding-left=10 padding-right=10
+			minimum-height=30
+			render_bg { }
 		}
-	}
 
-	ToggleButton:selected {
-		render_bg {
-			0="fill( x0, y0, x1, y1, A2ButtonActive )"
+		"CSettingsSubStreamingAdvancedHost URLLabel:hover" {
+			render_bg {
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
+			}
 		}
-	}
 
-	ComboBox {
-		padding-left=4
-		padding-right=4
-		minimum-height=29
-		inset-left=7
-		inset-top=1
-		render {
-			0="image( x1 - 20, y0 + 8, x1, y1, graphics/secondary/caret_down )"
+		"CSettingsSubStreamingAdvancedHost URLLabel:active" {
+			render_bg {
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
+			}
 		}
-		render_bg {
-			0="fill( x0, y0, x1, y1 + 1, A2ButtonHover )"
+
+		"CSubPanelOptionsFamily URLLabel" {
+			padding-left=10 padding-right=10
+			minimum-height=30
+			render_bg { }
 		}
-	}
 
-	ComboBox:hover {
-		render_bg {
-			0="fill( x0, y0, x1, y1 + 1, A2ButtonActive )"
+		"CSubPanelOptionsFamily URLLabel:hover" {
+			render_bg {
+				0="fill( x0, y0, x1, y1, A2ButtonHover )"
+			}
 		}
-	}
 
-	ComboBoxButton {
-		textcolor=none
-		render_bg { }
-	}
-
-	downarrow { image="graphics/secondary/caret_down" }
-
-	uparrow { image="graphics/secondary/caret_up" }
-
-	rightarrow { image="graphics/secondary/caret_right" }
-
-	leftarrow { image="graphics/secondary/caret_left" }
-
-	"CSteamRootDialog downarrow" { image="graphics/onfocus/caret_down_onfocus" }
-
-	"CSteamRootDialog uparrow" { image="graphics/onfocus/caret_up_onfocus" }
-
-	"CSteamRootDialog rightarrow" { image="graphics/onfocus/caret_right_onfocus" }
-
-	"CSteamRootDialog leftarrow" { image="graphics/onfocus/caret_left_onfocus" }
-
-	Divider {
-		bgcolor=none
-		render {
-			0="fill( x0, y0, x1, y0 + 1, A2Divider )"
+		"CSubPanelOptionsFamily URLLabel:active" {
+			render_bg {
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
+			}
 		}
-	}
 
-	Frame { bgcolor=A2Background }
-
-	Frame:FrameFocus { bgcolor=A2Background }
-
-	FrameTitle { textcolor=none }
-
-	FrameTitle:FrameFocus { textcolor=none }
-
-	ProgressBox {
-		minimum-height=128
-		//width is 384
-		render {
-			0="fill( x0, y0, x1, y1, A2Background )"
-			1="image( x0, y0, x1, y1, graphics/inactive/air_splash )"
+		ToggleButton:selected {
+			render_bg {
+				0="fill( x0, y0, x1, y1, A2ButtonActive )"
+			}
 		}
-	}
 
-	"ProgressBox Button" { textcolor=none render_bg { } }
-
-	"ProgressBox FrameCloseButton" { render_bg { } }
-
-	"ProgressBox Label" { textcolor=none }
-
-	GraphPanel {
-		textcolor=Focus		// graph bars color
-		bgcolor=A2Ribbon
-		inset="3 3 3 3"
-		render_bg { }
-	}
-
-	ListPanel {
-		padding-left=8
-		bgcolor=A2Ribbon
-		selectedbgcolor=A2Ribbon		//games list selected game bg color
-		shadowtextcolor="A2TextHint"	//the color of disabled line items
-	}
-
-	CheckButtonList { bgcolor=A2Ribbon }
-
-	RadioButtonList { bgcolor=A2Ribbon }
-
-	"CDialogSettings ListPanel" { bgcolor=none }
-
-	"CSubPanelOptionsFamily ListPanel" { bgcolor=A2Ribbon }
-		//needs to be defined due to CDialogSettings overwrite
-
-	"CSettingsSubStreaming ListPanel" { bgcolor=A2Ribbon selectedtextcolor=A2TextFocus }
-		//needs to be defined due to CDialogSettings overwrite
-
-	"CContentManagmentDialog ListPanel" { selectedtextcolor=A2TextFocus }
-		//steam library folders in settings>downloads
-
-	"CSteamRootDialog ListPanel" { bgcolor=none }
-
-	"CGamesPage_Mini ListPanel" { bgcolor=none }
-
-	"CPlayersDialog ListPanel" { bgcolor=none inset-top=12 }
-
-	"CServerBrowserDialog ListPanel" { bgcolor=none }
-
-	"CAddShortcutDialog ListPanel" { bgcolor=none }
-
-	ListPanelInterior { }
-
-	ListPanelColumnheader {
-		minimum-height=0 //reset for button height
-		inset-top=1
-		render_bg {
-			0="fill( x0, y0, x1, y1, focus )"
+		ComboBox {
+			padding-left=4
+			padding-right=4
+			minimum-height=29
+			inset-left=7
+			inset-top=1
+			render {
+				0="image( x1 - 20, y0 + 8, x1, y1, graphics/secondary/caret_down )"
+			}
+			render_bg {
+				0="fill( x0, y0, x1, y1 + 1, A2ButtonHover )"
+			}
 		}
-	}
 
-	"CSteamRootDialog ListPanelColumnheader" {
-		inset-top=-8
-		padding-left=2
-		render_bg { }
-	}
-
-	"CAddShortcutDialog ListPanelColumnheader" {
-		inset-top=-8
-		padding-left=2
-		render_bg { }
-	}
-
-	"CServerBrowserDialog ListPanelColumnheader" {
-		inset-top=-8
-		padding-left=2
-		render_bg { }
-	}
-
-	"CPlayersDialog ListPanelColumnheader" {
-		inset-top=-8
-		padding-left=2
-		render_bg { }
-	}
-
-	ListPanelColumnSelectButton { image=graphics/onfocus/add }
-
-	ListPanelColumnSelectButton:hover { image=graphics/onfocus/add_hover }
-
-	ListPanelColumnSelectButton:selected { image=graphics/onfocus/add_hover }
-
-	"CGamesListPanel ListPanelColumnSelectButton" {
-		image=graphics/none
-		render {
-			0="image( x0 - 1, y0 - 2, x1, y1, graphics/onfocus/add )"
+		ComboBox:hover {
+			render_bg {
+				0="fill( x0, y0, x1, y1 + 1, A2ButtonActive )"
+			}
 		}
-	}
 
-	"CGamesListPanel ListPanelColumnSelectButton:hover" {
-		image=graphics/none
-		render {
-			0="image( x0 - 1, y0 - 2, x1, y1, graphics/onfocus/add_hover )"
+		ComboBoxButton {
+			textcolor=none
+			render_bg { }
 		}
-	}
 
-	"CGamesListPanel ListPanelColumnSelectButton:selected" {
-		image=graphics/none
-		render {
-			0="image( x0 - 1, y0 - 2, x1, y1, graphics/onfocus/add_hover )"
+		downarrow { image="graphics/secondary/caret_down" }
+
+		uparrow { image="graphics/secondary/caret_up" }
+
+		rightarrow { image="graphics/secondary/caret_right" }
+
+		leftarrow { image="graphics/secondary/caret_left" }
+
+		"CSteamRootDialog downarrow" { image="graphics/onfocus/caret_down_onfocus" }
+
+		"CSteamRootDialog uparrow" { image="graphics/onfocus/caret_up_onfocus" }
+
+		"CSteamRootDialog rightarrow" { image="graphics/onfocus/caret_right_onfocus" }
+
+		"CSteamRootDialog leftarrow" { image="graphics/onfocus/caret_left_onfocus" }
+
+		Divider {
+			bgcolor=none
+			render {
+				0="fill( x0, y0, x1, y0 + 1, A2Divider )"
+			}
 		}
-	}
 
-	"CServerBrowserDialog ListPanelColumnSelectButton" {
-		image=graphics/none
-		render {
-			0="image( x0 - 1, y0 - 3, x1, y1, graphics/onfocus/add )"
+		Frame { bgcolor=A2Background }
+
+		Frame:FrameFocus { bgcolor=A2Background }
+
+		FrameTitle { textcolor=none }
+
+		FrameTitle:FrameFocus { textcolor=none }
+
+		ProgressBox {
+			minimum-height=128
+			//width is 384
+			render {
+				0="fill( x0, y0, x1, y1, A2Background )"
+				1="image( x0, y0, x1, y1, graphics/inactive/air_splash )"
+			}
 		}
-	}
 
-	"CServerBrowserDialog ListPanelColumnSelectButton:hover" {
-		image=graphics/none
-		render {
-			0="image( x0 - 1, y0 - 3, x1, y1, graphics/onfocus/add_hover )"
+		"ProgressBox Button" { textcolor=none render_bg { } }
+
+		"ProgressBox FrameCloseButton" { render_bg { } }
+
+		"ProgressBox Label" { textcolor=none }
+
+		GraphPanel {
+			textcolor=Focus		// graph bars color
+			bgcolor=A2Ribbon
+			inset="3 3 3 3"
+			render_bg { }
 		}
-	}
 
-	"CServerBrowserDialog ListPanelColumnSelectButton:selected" {
-		image=graphics/none
-		render {
-			0="image( x0 - 1, y0 - 3, x1, y1, graphics/onfocus/add_hover )"
+		ListPanel {
+			padding-left=8
+			bgcolor=A2Ribbon
+			selectedbgcolor=A2Ribbon		//games list selected game bg color
+			shadowtextcolor="A2TextHint"	//the color of disabled line items
 		}
-	}
 
-	"CGamesPage_Details ListPanelColumnSelectButton" {
-		padding-left=1
-		padding-top=2
-		image=graphics/onfocus/add
-		render { }
-	}
+		CheckButtonList { bgcolor=A2Ribbon }
 
-	"CGamesPage_Details ListPanelColumnSelectButton:hover" {
-		image=graphics/onfocus/add
-		render { }
-	}
+		RadioButtonList { bgcolor=A2Ribbon }
 
-	"CGamesPage_Details ListPanelColumnSelectButton:selected" {
-		image=graphics/onfocus/add
-		render { }
-	}
+		"CDialogSettings ListPanel" { bgcolor=none }
 
-	"CGamesPage_Mini ListPanelColumnSelectButton" {
-		padding-left=1
-		image=graphics/onfocus/add
-		render { }
-	}
+		"CSubPanelOptionsFamily ListPanel" { bgcolor=A2Ribbon }
+			//needs to be defined due to CDialogSettings overwrite
 
-	"CGamesPage_Mini ListPanelColumnSelectButton:hover" {
-		image=graphics/onfocus/add
-		render { }
-	}
+		"CSettingsSubStreaming ListPanel" { bgcolor=A2Ribbon selectedtextcolor=A2TextFocus }
+			//needs to be defined due to CDialogSettings overwrite
 
-	"CGamesPage_Mini ListPanelColumnSelectButton:selected" {
-		image=graphics/onfocus/add
-		render { }
-	}
+		"CContentManagmentDialog ListPanel" { selectedtextcolor=A2TextFocus }
+			//steam library folders in settings>downloads
 
-	ListPanelDragger {
-		bgcolor=none
-		render { } //fill makes dragger visible
-	}
+		"CSteamRootDialog ListPanel" { bgcolor=none }
 
-	ListPanelSectionHeader {
-		padding-left=5
-		padding-bottom=2
-	}
+		"CGamesPage_Mini ListPanel" { bgcolor=none }
 
-	"CSteamRootDialog ListPanelSectionHeader" {
-		minimum-height=30
-		padding-left=3
-		render_bg {
-			//0="fill( x0 - 26, y1 - 1, x1, y1, A2Divider )"
+		"CPlayersDialog ListPanel" { bgcolor=none inset-top=12 }
+
+		"CServerBrowserDialog ListPanel" { bgcolor=none }
+
+		"CAddShortcutDialog ListPanel" { bgcolor=none }
+
+		ListPanelInterior { }
+
+		ListPanelColumnheader {
+			minimum-height=0 //reset for button height
+			inset-top=1
+			render_bg {
+				0="fill( x0, y0, x1, y1, focus )"
+			}
 		}
-	}
 
-	"CGamesPage_Mini ListPanelSectionHeader" {
-		minimum-height=30
-		padding-left=3
-		render_bg {
-			//0="fill( x0 - 26, y1 - 1, x1, y1, A2Divider )"
+		"CSteamRootDialog ListPanelColumnheader" {
+			inset-top=-8
+			padding-left=2
+			render_bg { }
 		}
-	}
 
-	"CSettingsSubStreaming ListPanelSectionHeader" {
-		padding-left=8
-		padding-top=2
-		padding-bottom=0
-	}
-
-	CFriendsListSectionHeader {
-		inset-left=1
-	}
-
-	ListPanelSectionCollapser {
-		minimum-height=0 //reset for button height
-		textcolor=none
-		padding-left=4 padding-right=0
-		render_bg {
-			0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_less )"
+		"CAddShortcutDialog ListPanelColumnheader" {
+			inset-top=-8
+			padding-left=2
+			render_bg { }
 		}
-	}
 
-	ListPanelSectionCollapser:hover {
-		render_bg {
-			0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_less )"
+		"CServerBrowserDialog ListPanelColumnheader" {
+			inset-top=-8
+			padding-left=2
+			render_bg { }
 		}
-	}
 
-	ListPanelSectionCollapser:selected {
-		padding-left=2 padding-right=0
-		render_bg {
-			0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_more )"
+		"CPlayersDialog ListPanelColumnheader" {
+			inset-top=-8
+			padding-left=2
+			render_bg { }
 		}
-	}
 
-	ListPanelSectionCollapser:selected:hover {
-		render_bg {
-			0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_more )"
+		ListPanelColumnSelectButton { image=graphics/onfocus/add }
+
+		ListPanelColumnSelectButton:hover { image=graphics/onfocus/add_hover }
+
+		ListPanelColumnSelectButton:selected { image=graphics/onfocus/add_hover }
+
+		"CGamesListPanel ListPanelColumnSelectButton" {
+			image=graphics/none
+			render {
+				0="image( x0 - 1, y0 - 2, x1, y1, graphics/onfocus/add )"
+			}
 		}
-	}
 
-	SectionedListPanelCollapser {
-		minimum-height=0 //reset for button height
-		textcolor=none
-		padding-left=4 padding-right=0
-		render_bg {
-			0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_less )"
+		"CGamesListPanel ListPanelColumnSelectButton:hover" {
+			image=graphics/none
+			render {
+				0="image( x0 - 1, y0 - 2, x1, y1, graphics/onfocus/add_hover )"
+			}
 		}
-	}
 
-	SectionedListPanelCollapser:hover {
-		render_bg {
-			0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_less )"
+		"CGamesListPanel ListPanelColumnSelectButton:selected" {
+			image=graphics/none
+			render {
+				0="image( x0 - 1, y0 - 2, x1, y1, graphics/onfocus/add_hover )"
+			}
 		}
-	}
 
-	SectionedListPanelCollapser:selected {
-		padding-left=2 padding-right=0
-		render_bg {
-			0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_more )"
+		"CServerBrowserDialog ListPanelColumnSelectButton" {
+			image=graphics/none
+			render {
+				0="image( x0 - 1, y0 - 3, x1, y1, graphics/onfocus/add )"
+			}
 		}
-	}
 
-	SectionedListPanelCollapser:selected:hover {
-		render_bg {
-			0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_more )"
+		"CServerBrowserDialog ListPanelColumnSelectButton:hover" {
+			image=graphics/none
+			render {
+				0="image( x0 - 1, y0 - 3, x1, y1, graphics/onfocus/add_hover )"
+			}
 		}
-	}
 
-	"CSteamRootDialog SectionedListPanelInterior" {
-		bgcolor=A2Ribbon
-		//downloads page background
-	}
-
-	MainNav { }
-
-	Menu {
-		bgcolor=A2Menu
-		inset="0 5 0 5"
-	}
-
-	SuperNavMenu {
-		bgcolor=A2Menu
-		inset="0 5 0 5"
-	}
-
-	"ComboBox Menu" {
-		inset="0 -1 0 0"
-	}
-
-	MenuItem {
-		padding-right=5
-		padding-left=5
-	}
-
-	MenuItem:hover {
-		textcolor=A2TextFocus
-	}
-
-	MenuSeparator {
-		textcolor=none
-		render_bg {
-			0="fill( x0, y0 + 1, x1, y0 + 2, A2MenuDivider )"
+		"CServerBrowserDialog ListPanelColumnSelectButton:selected" {
+			image=graphics/none
+			render {
+				0="image( x0 - 1, y0 - 3, x1, y1, graphics/onfocus/add_hover )"
+			}
 		}
-	}
 
-	MenuBar { }
-
-	"MenuBar MenuButton" {
-		minimum-width=52
-		textcolor=none
-		render_bg {
-			1="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger )"
+		"CGamesPage_Details ListPanelColumnSelectButton" {
+			padding-left=1
+			padding-top=2
+			image=graphics/onfocus/add
+			render { }
 		}
-	}
 
-	"MenuBar MenuButton:hover" {
-		textcolor=none
-		render_bg {
-			1="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger_hover )"
+		"CGamesPage_Details ListPanelColumnSelectButton:hover" {
+			image=graphics/onfocus/add
+			render { }
 		}
-	}
 
-	"MenuBar MenuButton:selected" {
-		textcolor=none
-		render_bg {
-			1="image( x0 + 17, y0 + 7, x1, y1, graphics/onfocus/active_circle )"
-			2="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger_hover )"
+		"CGamesPage_Details ListPanelColumnSelectButton:selected" {
+			image=graphics/onfocus/add
+			render { }
 		}
-	}
 
-	MenuButton { }
-
-	CChatActionsButton {
-		inset-left=12
-		image="graphics/inactive/more_vert"
-		render_bg { }
-	}
-
-	CChatActionsButton:hover {
-		image="graphics/inactive/more_vert_hover"
-		render_bg { }
-	}
-
-	CChatActionsButton:selected {
-		image="graphics/inactive/more_vert_hover"
-		render_bg { }
-	}
-
-	Notification {
-		bgcolor=A2Notification
-		//!! doesn't seem to work on fonts
-	}
-
-	//notification overrides
-	//rgb50 = 50 in overlay
-	//rgb51 = 50 in desktop
-
-	BroadcastApproveNotification	{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	BroadcastInviteNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	BroadcastViewerNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	CChatInvitationNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	CChatMsgNotification			{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	CClanEventNotification			{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	CClanInvitationNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	CFriendInGameNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	CFriendInvitationNotification	{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	CFriendOnlineNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	CGameInvitationNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	TradInvitationNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-	CVoiceChatInviteNotification	{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
-
-	Page { }
-
-	PageTab {
-		minimum-height=0 //reset for button height
-		padding-left=0 padding-right=0 //reset for button padding
-		padding-top=1
-		render_bg { }
-	}
-
-	"CGamePropertiesDialog PageTab" {
-		inset-top=-5
-		padding-left=10
-	}
-
-	"CGamePropertiesDialog PageTab:selected" {
-		render_bg { }
-	}
-
-	TabCloseButton {
-		textcolor=none //don't render "X" as text
-		render_bg {
-			0="image( x0 + 5, y0 + 7, x1, y1, graphics/onfocus/tiny_x )"
+		"CGamesPage_Mini ListPanelColumnSelectButton" {
+			padding-left=1
+			image=graphics/onfocus/add
+			render { }
 		}
-	}
 
-	TabCloseButton:hover {
-		render_bg {
-		1="image( x0 + 5, y0 + 7, x1, y1, graphics/onfocus/tiny_x_hover )"
+		"CGamesPage_Mini ListPanelColumnSelectButton:hover" {
+			image=graphics/onfocus/add
+			render { }
 		}
-	}
 
-	HotkeyEntryClearButton:hover {
-		render {
-		0="fill( x0, y0, x1, y1, A2Background )"
-		1="image( x0 - 3, y0, x1, y1, resource/icon_clear_field_hover )"
+		"CGamesPage_Mini ListPanelColumnSelectButton:selected" {
+			image=graphics/onfocus/add
+			render { }
 		}
-	}
 
-	TextEntryClearButton {
-		inset-left=9999
-	}
-
-	TextEntryClearButton:hover {
-	}
-
-	CEmoticonButton {
-		padding-left=8
-		image="graphics/inactive/emoticon"
-	}
-
-	CEmoticonButton:hover {
-		image="graphics/inactive/emoticon_hover"
-	}
-
-	CEmoticonButton:selected {
-		image="graphics/inactive/emoticon_hover"
-	}
-
-	EmoticonMenuItemStyle {
-		padding-left=0
-		padding-right=0
-		bgcolor=none
-	}
-
-	ProgressBar {
-		textcolor=Focus //bar color
-		bgcolor=A2Ribbon
-		render_bg { }
-	}
-
-	PropertyPage {
-		bgcolor=PropertySheetBG
-	}
-
-	RichTextInterior {
-		bgcolor=none
-	}
-
-	SectionedListPanel {
-		bgcolor=none
-		selectedbgcolor=Focus
-		render_bg { }
-		inset="0 0 0 0"
-	}
-
-	Slider {
-		bgcolor=A2Ribbon
-		textcolor=A2TextSecondary //slider color
-		inset-top=5
-		minimum-height=30
-	}
-
-	Slider:focus {
-		textcolor=A2TextSecondary //slider color
-	}
-
-	TextEntry {
-		minimum-height=30
-		inset-left=-3
-		render_bg {
-		0="fill( x0, y1 - 1, x1, y1, A2TextHint )"
+		ListPanelDragger {
+			bgcolor=none
+			render { } //fill makes dragger visible
 		}
-	}
 
-	TextEntry:focus {
-		render_bg {
-		0="fill( x0, y1 - 1, x1, y1 + 1, Focus )"
+		ListPanelSectionHeader {
+			padding-left=5
+			padding-bottom=2
 		}
-	}
 
-	TextEntryLarge {
-		//for password entry
-	}
-
-	TextEntryURL {
-		minimum-height=0 //reset for button height
-		inset-left=0
-		render_bg { }
-	}
-
-	TooltipWindow {
-		bgcolor=A2Snackbar
-
-		//background and frame of a tooltip
-	}
-
-	tooltip_headline {
-		font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular
-		padding-left=8
-		padding-right=8
-		padding-top=3
-		padding-bottom=0
-
-		//headline text inside a tooltip
-	}
-
-	"TooltipWindow Label" {
-		font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular
-		padding-left=8
-		padding-right=8
-		padding-top=3
-		padding-bottom=4
-
-		//body text inside a tooltip
-	}
-
-	TreeNode {
-		bgcolor=none
-		render_bg { }
-	}
-
-	TreeNodeImage {
-		bgcolor=none
-	}
-
-	TreeViewSubPanel {
-		bgcolor=A2Ribbon
-	}
-
-	TreeView {
-		render_bg { }
-	}
-
-	GameColumnHeaderFavorites {
-		textcolor=none
-		inset-top=-8
-		inset-left=-1
-		image=graphics/onfocus/favorite_onfocus
-	}
-
-	CGamesListFavoritesToggle {
-		minimum-width=24
-		inset-left=4
-	}
-
-	CGamesListFavoritesToggle:hover {
-		image=graphics/inactive/favorite
-	}
-
-	CGamesListFavoritesToggle:selected {
-		image=graphics/inactive/favorite
-	}
-
-	CGamesListFavoritesToggle:selected:hover {
-		image=graphics/inactive/favorite_outline
-	}
-
-	WrapPanel { }
-
-	"CSteamRootDialog BackButton:hover"
-		{ render_bg { } image=graphics/onfocus/web/back }
-
-	LibrarySearch {
-		minimum-height=30 //reset for text entry height
-		inset-left=3 //reset for text entry inset
-		render_bg { }
-	}
-
-	LibrarySearch:focus {
-		render_bg {
-		0="fill( x0 + 5, y1 - 1, x1, y1 + 1, Focus2 )"
+		"CSteamRootDialog ListPanelSectionHeader" {
+			minimum-height=30
+			padding-left=3
+			render_bg {
+				//0="fill( x0 - 26, y1 - 1, x1, y1, A2Divider )"
+			}
 		}
-	}
 
-	LibrarySearch:empty:focus {
-		render_bg {
-		0="fill( x0 + 5, y1 - 1, x1, y1 + 1, Focus2 )"
+		"CGamesPage_Mini ListPanelSectionHeader" {
+			minimum-height=30
+			padding-left=3
+			render_bg {
+				//0="fill( x0 - 26, y1 - 1, x1, y1, A2Divider )"
+			}
 		}
-	}
 
-	LibrarySearchIcon {
-		image="graphics/onfocus/search"
-	}
-
-	FriendsSearch {
-		minimum-height=30 //reset for text entry height
-		inset-left=3 //reset for text entry inset
-		render_bg { }
-	}
-
-	FriendsSearch:focus {
-		render_bg {
-		0="fill( x0 + 5, y1 - 1, x1, y1 + 1, Focus2 )"
+		"CSettingsSubStreaming ListPanelSectionHeader" {
+			padding-left=8
+			padding-top=2
+			padding-bottom=0
 		}
-	}
 
-	FriendsSearch:empty:focus {
-		render_bg {
-		0="fill( x0 + 5, y1 - 1, x1, y1 + 1, Focus2 )"
+		CFriendsListSectionHeader {
+			inset-left=1
 		}
-	}
 
-	FriendsSearchIcon {
-		image="graphics/onfocus/search"
-	}
+		ListPanelSectionCollapser {
+			minimum-height=0 //reset for button height
+			textcolor=none
+			padding-left=4 padding-right=0
+			render_bg {
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_less )"
+			}
+		}
 
-	rightcolumnheadertext {
-		textcolor=none
-		bgcolor=Focus4
-	}
+		ListPanelSectionCollapser:hover {
+			render_bg {
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_less )"
+			}
+		}
 
-	rightcolumnheadertext-red {
-		textcolor=none
-		bgcolor=Focus4
-	}
+		ListPanelSectionCollapser:selected {
+			padding-left=2 padding-right=0
+			render_bg {
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_more )"
+			}
+		}
 
-	rightcolumnheadertext-green {
-		textcolor=none
-		bgcolor=Focus4
-	}
+		ListPanelSectionCollapser:selected:hover {
+			render_bg {
+				0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_more )"
+			}
+		}
 
-	rightcolumnheadertext-blue {
-		textcolor=none
-		bgcolor=Focus4
-	}
+		SectionedListPanelCollapser {
+			minimum-height=0 //reset for button height
+			textcolor=none
+			padding-left=4 padding-right=0
+			render_bg {
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_less )"
+			}
+		}
+
+		SectionedListPanelCollapser:hover {
+			render_bg {
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_less )"
+			}
+		}
+
+		SectionedListPanelCollapser:selected {
+			padding-left=2 padding-right=0
+			render_bg {
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_more )"
+			}
+		}
+
+		SectionedListPanelCollapser:selected:hover {
+			render_bg {
+				0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_more )"
+			}
+		}
+
+		"CSteamRootDialog SectionedListPanelInterior" {
+			bgcolor=A2Ribbon
+			//downloads page background
+		}
+
+		MainNav { }
+
+		Menu {
+			bgcolor=A2Menu
+			inset="0 5 0 5"
+		}
+
+		SuperNavMenu {
+			bgcolor=A2Menu
+			inset="0 5 0 5"
+		}
+
+		"ComboBox Menu" {
+			inset="0 -1 0 0"
+		}
+
+		MenuItem {
+			padding-right=5
+			padding-left=5
+		}
+
+		MenuItem:hover {
+			textcolor=A2TextFocus
+		}
+
+		MenuSeparator {
+			textcolor=none
+			render_bg {
+				0="fill( x0, y0 + 1, x1, y0 + 2, A2MenuDivider )"
+			}
+		}
+
+		MenuBar { }
+
+		"MenuBar MenuButton" {
+			minimum-width=52
+			textcolor=none
+			render_bg {
+				1="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger )"
+			}
+		}
+
+		"MenuBar MenuButton:hover" {
+			textcolor=none
+			render_bg {
+				1="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger_hover )"
+			}
+		}
+
+		"MenuBar MenuButton:selected" {
+			textcolor=none
+			render_bg {
+				1="image( x0 + 17, y0 + 7, x1, y1, graphics/onfocus/active_circle )"
+				2="image( x0 + 24, y0 + 14, x1, y1, graphics/onfocus/hamburger_hover )"
+			}
+		}
+
+		MenuButton { }
+
+		CChatActionsButton {
+			inset-left=12
+			image="graphics/inactive/more_vert"
+			render_bg { }
+		}
+
+		CChatActionsButton:hover {
+			image="graphics/inactive/more_vert_hover"
+			render_bg { }
+		}
+
+		CChatActionsButton:selected {
+			image="graphics/inactive/more_vert_hover"
+			render_bg { }
+		}
+
+		Notification {
+			bgcolor=A2Notification
+			//!! doesn't seem to work on fonts
+		}
+
+		//notification overrides
+		//rgb50 = 50 in overlay
+		//rgb51 = 50 in desktop
+
+		BroadcastApproveNotification	{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		BroadcastInviteNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		BroadcastViewerNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CChatInvitationNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CChatMsgNotification			{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CClanEventNotification			{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CClanInvitationNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CFriendInGameNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CFriendInvitationNotification	{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CFriendOnlineNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CGameInvitationNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		TradInvitationNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+		CVoiceChatInviteNotification	{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
+
+		Page { }
+
+		PageTab {
+			minimum-height=0 //reset for button height
+			padding-left=0 padding-right=0 //reset for button padding
+			padding-top=1
+			render_bg { }
+		}
+
+		"CGamePropertiesDialog PageTab" {
+			inset-top=-5
+			padding-left=10
+		}
+
+		"CGamePropertiesDialog PageTab:selected" {
+			render_bg { }
+		}
+
+		TabCloseButton {
+			textcolor=none //don't render "X" as text
+			render_bg {
+				0="image( x0 + 5, y0 + 7, x1, y1, graphics/onfocus/tiny_x )"
+			}
+		}
+
+		TabCloseButton:hover {
+			render_bg {
+				1="image( x0 + 5, y0 + 7, x1, y1, graphics/onfocus/tiny_x_hover )"
+			}
+		}
+
+		HotkeyEntryClearButton:hover {
+			render {
+				0="fill( x0, y0, x1, y1, A2Background )"
+				1="image( x0 - 3, y0, x1, y1, resource/icon_clear_field_hover )"
+			}
+		}
+
+		TextEntryClearButton { inset-left=9999 }
+
+		TextEntryClearButton:hover { }
+
+		CEmoticonButton {
+			padding-left=8
+			image="graphics/inactive/emoticon"
+		}
+
+		CEmoticonButton:hover { image="graphics/inactive/emoticon_hover" }
+
+		CEmoticonButton:selected { image="graphics/inactive/emoticon_hover" }
+
+		EmoticonMenuItemStyle {
+			padding-left=0
+			padding-right=0
+			bgcolor=none
+		}
+
+		ProgressBar {
+			textcolor=Focus //bar color
+			bgcolor=A2Ribbon
+			render_bg { }
+		}
+
+		PropertyPage { bgcolor=PropertySheetBG }
+
+		RichTextInterior { bgcolor=none }
+
+		SectionedListPanel {
+			bgcolor=none
+			selectedbgcolor=Focus
+			inset="0 0 0 0"
+			render_bg { }
+		}
+
+		Slider {
+			bgcolor=A2Ribbon
+			textcolor=A2TextSecondary //slider color
+			inset-top=5
+			minimum-height=30
+		}
+
+		Slider:focus {
+			textcolor=A2TextSecondary //slider color
+		}
+
+		TextEntry {
+			minimum-height=30
+			inset-left=-3
+			render_bg {
+				0="fill( x0, y1 - 1, x1, y1, A2TextHint )"
+			}
+		}
+
+		TextEntry:focus {
+			render_bg {
+				0="fill( x0, y1 - 1, x1, y1 + 1, Focus )"
+			}
+		}
+
+		TextEntryLarge {
+			//for password entry
+		}
+
+		TextEntryURL {
+			minimum-height=0 //reset for button height
+			inset-left=0
+			render_bg { }
+		}
+
+		TooltipWindow {
+			bgcolor=A2Snackbar
+			//background and frame of a tooltip
+		}
+
+		tooltip_headline {
+			font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular
+			padding-left=8
+			padding-right=8
+			padding-top=3
+			padding-bottom=0
+
+			//headline text inside a tooltip
+		}
+
+		"TooltipWindow Label" {
+			font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular
+			padding-left=8
+			padding-right=8
+			padding-top=3
+			padding-bottom=4
+
+			//body text inside a tooltip
+		}
+
+		TreeNode {
+			bgcolor=none
+			render_bg { }
+		}
+
+		TreeNodeImage { bgcolor=none }
+
+		TreeViewSubPanel { bgcolor=A2Ribbon }
+
+		TreeView { render_bg { } }
+
+		GameColumnHeaderFavorites {
+			textcolor=none
+			inset-top=-8
+			inset-left=-1
+			image=graphics/onfocus/favorite_onfocus
+		}
+
+		CGamesListFavoritesToggle {
+			minimum-width=24
+			inset-left=4
+		}
+
+		CGamesListFavoritesToggle:hover { image=graphics/inactive/favorite }
+
+		CGamesListFavoritesToggle:selected { image=graphics/inactive/favorite }
+
+		CGamesListFavoritesToggle:selected:hover { image=graphics/inactive/favorite_outline }
+
+		WrapPanel { }
+
+		"CSteamRootDialog BackButton:hover" {
+			image=graphics/onfocus/web/back
+			render_bg { }
+		}
+
+		LibrarySearch {
+			minimum-height=30	//reset for text entry height
+			inset-left=3		//reset for text entry inset
+			render_bg { }
+		}
+
+		LibrarySearch:focus {
+			render_bg {
+				0="fill( x0 + 5, y1 - 1, x1, y1 + 1, Focus2 )"
+			}
+		}
+
+		LibrarySearch:empty:focus {
+			render_bg {
+				0="fill( x0 + 5, y1 - 1, x1, y1 + 1, Focus2 )"
+			}
+		}
+
+		LibrarySearchIcon { image="graphics/onfocus/search" }
+
+		FriendsSearch {
+			minimum-height=30	//reset for text entry height
+			inset-left=3		//reset for text entry inset
+			render_bg { }
+		}
+
+		FriendsSearch:focus {
+			render_bg {
+				0="fill( x0 + 5, y1 - 1, x1, y1 + 1, Focus2 )"
+			}
+		}
+
+		FriendsSearch:empty:focus {
+			render_bg {
+				0="fill( x0 + 5, y1 - 1, x1, y1 + 1, Focus2 )"
+			}
+		}
+
+		FriendsSearchIcon { image="graphics/onfocus/search" }
+
+		rightcolumnheadertext {
+			textcolor=none
+			bgcolor=Focus4
+		}
+
+		rightcolumnheadertext-red {
+			textcolor=none
+			bgcolor=Focus4
+		}
+
+		rightcolumnheadertext-green {
+			textcolor=none
+			bgcolor=Focus4
+		}
+
+		rightcolumnheadertext-blue {
+			textcolor=none
+			bgcolor=Focus4
+		}
 	}
 }
