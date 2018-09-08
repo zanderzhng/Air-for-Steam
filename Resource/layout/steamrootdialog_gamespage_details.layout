@@ -1,25 +1,19 @@
 resource/layout/steamrootdialog_gamespage_details.layout {
 
-  styles {
-    CGamesPage_Details {
-      bgcolor=A2Ribbon
-    }
+	styles {
+		CGamesPage_Details { bgcolor=A2Ribbon }
 
-    CGamesListPanel {
-      render_bg {
-        0="fill( x0, y0, x1 - 13, y1, A2Background )"
-        1="fill( x1 - 13, y0, x1, y1, A2Ribbon )"
-      }
-    }
+		CGamesListPanel {
+			render_bg {
+				0="fill( x0, y0, x1 - 13, y1, A2Background )"
+				1="fill( x1 - 13, y0, x1, y1, A2Ribbon )"
+			}
+		}
 
-    "CGamesListPanel ListPanelInterior" {
-      minimum-width="262"
-    }
+		"CGamesListPanel ListPanelInterior" { minimum-width="262" }
 
-    headerimage {
-      bgcolor=none
-    }
-  }
+		headerimage { bgcolor=none }
+	}
 
   layout {
     place { control=DetailsBorder width=max height=max }

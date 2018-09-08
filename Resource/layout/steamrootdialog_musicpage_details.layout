@@ -1,7 +1,6 @@
-"resource/layout/steamrootdialog_musicpage_details.layout"
-{
-	styles {
+"resource/layout/steamrootdialog_musicpage_details.layout" {
 
+	styles {
 		CMusicPage_Details {
 			bgcolor=none
 			//render { }
@@ -10,7 +9,6 @@
 	}
 
 	layout {
-
 		place	{ control=CMusicPage_Details_Content width=max height=max }
 	}
 }

@@ -1,29 +1,28 @@
 resource/layout/uistatuspanel.layout {
 
 	styles {
-		CUIStatusPanel {
-		}
+		CUIStatusPanel { }
 
 		SlimProgressBar {
 			textcolor=none
 			bgcolor=none
 			render_bg {
-        0="image( x0 + 6, y0 - 37, x1, y1, graphics/onfocus/downloads_hover )"
-      }
+				0="image( x0 + 6, y0 - 37, x1, y1, graphics/onfocus/downloads_hover )"
+			}
 		}
 
 		StatusLabel {
 			textcolor=none
 			render_bg {
-        0="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/downloads )"
-      }
+				0="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/downloads )"
+			}
 		}
 
 		StatusLabel:hover {
 			render_bg {
-        0="image( x0, y0, x1, y1, graphics/onfocus/active_circle )"
-        1="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/downloads )"
-      }
+				0="image( x0, y0, x1, y1, graphics/onfocus/active_circle )"
+				1="image( x0 + 6, y0 + 6, x1, y1, graphics/onfocus/downloads )"
+			}
 		}
 
 		StatusLabelDim { textcolor=none }
