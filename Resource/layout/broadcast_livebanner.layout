@@ -1,5 +1,5 @@
-"resource/layout/broadcast_livebanner.layout"
-{
+"resource/layout/broadcast_livebanner.layout" {
+
 	colors {
 		transparent_bg = "0 0 0 80"
 		debug_green = "0 128 0 255"
@@ -14,17 +14,11 @@
 			}
 		}
 
-		DebugLineStyleGreen {
-			render_bg { 0="fill( x0, y0, x1, y1, debug_green )" }
-		}
+		DebugLineStyleGreen { render_bg { 0="fill( x0, y0, x1, y1, debug_green )" } }
 
-		DebugLineStyleYellow {
-			render_bg { 0="fill( x0, y0, x1, y1, debug_yellow )" }
-		}
+		DebugLineStyleYellow { render_bg { 0="fill( x0, y0, x1, y1, debug_yellow )" } }
 
-		DebugLineStyleRed {
-			render_bg { 0="fill( x0, y0, x1, y1, debug_red )" }
-		}
+		DebugLineStyleRed { render_bg { 0="fill( x0, y0, x1, y1, debug_red )" } }
 	}
 
 	layout {
