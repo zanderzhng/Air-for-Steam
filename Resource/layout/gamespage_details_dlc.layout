@@ -23,12 +23,9 @@ resource/layout/gamespage_details_dlc.layout {
 			}
 		}
 
-		ListPanelInterior {
-			inset-left=-3
-		}
+		ListPanelInterior { inset-left=-3 }
 
-		mostrecenttime {
-		}
+		mostrecenttime { }
 	}
 
 	layout {
