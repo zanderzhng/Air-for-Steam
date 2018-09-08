@@ -23,7 +23,7 @@ Scheme {
 		"GrayBG"			"73 78 73 255"
 		"GrayBG2"			"82 89 78 255"
 
-		SecBG				GrayBG2
+		"SecBG"				"GrayBG2"
 
 		"ClayBG"				"70 70 70 255"
 		"ClayButtonBG"			"87 88 88 255"
@@ -63,9 +63,9 @@ Scheme {
 		"TitleDimBG"		"TestColor"
 
 		// border colors
-		"BorderBright"			"128 128 128 255"	// the lit side of a control
-		"BorderDark"			"40 46 34 255"		// the dark/unlit side of a control
-		"BorderSelection"		"0 0 0 255"		// the additional border color for displaying the default/selected button
+		"BorderBright"		"128 128 128 255"	// the lit side of a control
+		"BorderDark"		"40 46 34 255"		// the dark/unlit side of a control
+		"BorderSelection"	"0 0 0 255"			// the additional border color for displaying the default/selected button
 	}
 
 
@@ -123,6 +123,7 @@ Scheme {
 				PinCorner	1
 				PinCorner	0 [$OSX]
 			}
+
 			frame_close {
 				xpos		r29
 				xpos		1 [$OSX]
@@ -233,184 +234,162 @@ Scheme {
 				"weight"	"400"
 			}
 		}
-		"DefaultBold"
-		{
-			"1"
-			{
+
+		"DefaultBold" {
+			"1" {
 				"name"		"Arial"
 				"tall"		"15"
 				"weight"	"1000"
 			}
 		}
-		"DefaultUnderline"
-		{
-			"1"
-			{
+
+		"DefaultUnderline" {
+			"1" {
 				"name"		"Arial"
 				"tall"		"13"
 				"weight"	"800"
 				"underline" "1"
 			}
 		}
-		"DefaultSmall"
-		{
-			"1"
-			{
+
+		"DefaultSmall" {
+			"1" {
 				"name"		"Arial"
 				"tall"		"11"
 				"weight"	"800"
 			}
 		}
-		ListSmall
-		{
-			1
-			{
-				name		Arial
-				tall		12
-				weight		0
+
+		ListSmall {
+			"1" {
+				"name"		"Arial"
+				"tall"		"12"
+				"weight"	"0"
 			}
 		}
-		"DefaultVerySmall"
-		{
-			"1"
-			{
+
+		"DefaultVerySmall" {
+			"1" {
 				"name"		"Arial"
 				"tall"		"12"
 				"weight"	"800"
 			}
 		}
 
-		"DefaultLarge"
-		{
-			"1"
-			{
+		"DefaultLarge" {
+			"1" {
 				"name"		"Arial"
 				"tall"		"18"
 				"weight"	"0"
 			}
 		}
-		"UiBold"
-		{
-			"1"
-			{
+
+		"UiBold" {
+			"1" {
 				"name"		"Arial"
 				"tall"		"14"
 				"weight"	"1000"
 			}
 		}
-		"HeadlineLarge"
-		{
-			"1"
-			{
+
+		"HeadlineLarge" {
+			"1" {
 				"name"		"Arial"
 				"tall"		"22"
 				"weight"	"1000"
 				"antialias" "1"
 			}
 		}
-		"UiHeadline"
-		{
-			"1"
-			{
+
+		"UiHeadline" {
+			"1" {
 				"name"		"Arial"
 				"tall"		"13"
 				"weight"	"0"
 			}
 		}
-		"MenuLarge"
-		{
-			"1"
-			{
+
+		"MenuLarge" {
+			"1" {
 				"name"		"Arial"
 				"tall"		"16"
 				"weight"	"600"
 				"antialias" "1"
 			}
 		}
+
 		// this is the symbol font
-		"Marlett"
-		{
-			"1"
-			{
+		"Marlett" {
+			"1" {
 				"name"		"Marlett"
 				"tall"		"14"
 				"weight"	"0"
 				"symbol"	"1"
 			}
 		}
-		MarlettLarge
-		{
-			"1"
-			{
+
+		MarlettLarge {
+			"1" {
 				"name"		"Marlett"
 				"tall"		"16"
 				"weight"	"0"
 				"symbol"	"1"
 			}
-
 		}
-		"DefaultFixed"
-		{
-			"1"
-			{
+
+		"DefaultFixed" {
+			"1" {
 				"name"		"Lucida Console"
 				"name"		"Monaco" [$OSX]
 				"tall"		"10"
 				"weight"	"0"
 			}
 		}
-		"ConsoleText"
-		{
-			"1"
-			{
+
+		"ConsoleText" {
+			"1" {
 				"name"		"Lucida Console"
 				"name"		"Monaco" [$OSX]
 				"tall"		"10"
 				"weight"	"500"
 			}
 		}
-		FriendsSmall
-		{
-			"1"
-			{
+
+		FriendsSmall {
+			"1" {
 				"name"		"Arial"
 				"tall"		"12"
 				"weight"	"800"
 			}
 		}
-		FriendsMedium
-		{
-			"1"
-			{
+
+		FriendsMedium {
+			"1" {
 				"name"		"Arial"
 				"tall"		"13"
 				"weight"	"800"
 			}
 		}
 
-		FriendsVerySmall
-		{
-			"1"
-			{
+		FriendsVerySmall {
+			"1" {
 				"name"		"Arial"
 				"tall"		"12"
 				"weight"	"0"
 			}
 		}
-		FriendsVerySmallUnderline
-		{
-			"1"
-			{
+
+		FriendsVerySmallUnderline {
+			"1" {
 				"name"		"Arial"
 				"tall"		"12"
 				"weight"	"0"
 				"underline"	"1"
 			}
 		}
-		OverlayTaskbarFont
-		{
-			"1"
-			{
+
+		OverlayTaskbarFont {
+			"1" {
 				"name"		"Arial"
 				"tall"		"16"
 				"weight"	"1000"
