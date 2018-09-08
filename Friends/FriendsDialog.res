@@ -23,9 +23,7 @@ Friends/FriendsDialog.res {
 			//minimum-width=75
 		}
 
-		PageTab:selected {
-			render_bg { }
-		}
+		PageTab:selected { render_bg { } }
 	}
 
 	layout {

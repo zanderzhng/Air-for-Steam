@@ -1,5 +1,5 @@
-"friends/broadcastapprovebar.res"
-{
+"friends/broadcastapprovebar.res" {
+
 	styles {
 		CBroadcastApproveBar {
 			render_bg {

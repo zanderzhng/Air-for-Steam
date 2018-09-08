@@ -1,5 +1,5 @@
-"friends/tradeinvitebar.res"
-{
+"friends/tradeinvitebar.res" {
+
 	styles {
 		CTradeInviteBar {
 			render_bg {

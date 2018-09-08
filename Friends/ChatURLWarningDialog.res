@@ -1,7 +1,6 @@
-"friends/ChatURLWarningDialog.res"
-{
-	styles {
+"friends/ChatURLWarningDialog.res" {
 
+	styles {
 		danger {
 			textcolor=clientbg
 			font-weight=700
