@@ -170,8 +170,6 @@ scroll.styles {
 			inset-top=-1
 		}
 
-		"CPlayersDialog Scrollbar" {
-			inset-bottom=18
-		}
+		"CPlayersDialog Scrollbar" { inset-bottom=18 }
 	}
 }
