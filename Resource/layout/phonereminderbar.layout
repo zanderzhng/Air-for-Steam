@@ -8,9 +8,7 @@ resource/layout/phonereminderbar.layout {
 			}
 		}
 
-		soft {
-			minimum-width=780
-		}
+		soft { minimum-width=780 }
 
 		ButtonStyle {
 			minimum-height=0
