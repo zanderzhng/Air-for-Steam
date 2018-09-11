@@ -3,27 +3,28 @@
 // currently used only for the BaseSettings, Colors LayoutTemplates and Fonts sections
 ///////////////////////////////////////////////////////////
 Scheme {
+
 	//////////////////////// COLORS ///////////////////////////
 	// color details
 	// this is a list of all the colors used by the scheme
 	Colors {
 		// base colors
-		"White"				"255 255 255 255"
-		"TransparentBlack"	"0 0 0 128"
-		"Black"				"0 0 0 255"
-		"Blank"				"1 1 1 0"
-		"TestColor"			"255 0 0 255"
+		"White"					"255 255 255 255"
+		"TransparentBlack"		"0 0 0 128"
+		"Black"					"0 0 0 255"
+		"Blank"					"1 1 1 0"
+		"TestColor"				"255 0 0 255"
 
 		// scheme-specific colors
-		"OffWhite"			"216 222 211 255"
-		"DullGreen"			"216 222 211 255"
-		"Maize"				"196 181 80 255"
+		"OffWhite"				"216 222 211 255"
+		"DullGreen"				"216 222 211 255"
+		"Maize"					"196 181 80 255"
 
-		"LightGrayBG"		"121 126 121 255"
-		"GrayBG"			"73 78 73 255"
-		"GrayBG2"			"82 89 78 255"
+		"LightGrayBG"			"121 126 121 255"
+		"GrayBG"				"73 78 73 255"
+		"GrayBG2"				"82 89 78 255"
 
-		"SecBG"				"GrayBG2"
+		"SecBG"					"GrayBG2"
 
 		"ClayBG"				"70 70 70 255"
 		"ClayButtonBG"			"87 88 88 255"
@@ -51,23 +52,22 @@ Scheme {
 		"NotificationBodyText"	"White"
 
 		// button state text colors
-		"Normal"			"143 146 141 255"
-		"Over"				"196 181 80 255"		// same as Maize
-		"Down"				"35 36 33 255"
+		"Normal"				"143 146 141 255"
+		"Over"					"196 181 80 255"		// same as Maize
+		"Down"					"35 36 33 255"
 
 		// background colors
 
 		// titlebar colors
-		"TitleDimText"		"136 145 128 255"
-		"TitleBG"			"TestColor"
-		"TitleDimBG"		"TestColor"
+		"TitleDimText"			"136 145 128 255"
+		"TitleBG"				"TestColor"
+		"TitleDimBG"			"TestColor"
 
 		// border colors
-		"BorderBright"		"128 128 128 255"	// the lit side of a control
-		"BorderDark"		"40 46 34 255"		// the dark/unlit side of a control
-		"BorderSelection"	"0 0 0 255"			// the additional border color for displaying the default/selected button
+		"BorderBright"			"128 128 128 255"	// the lit side of a control
+		"BorderDark"			"40 46 34 255"		// the dark/unlit side of a control
+		"BorderSelection"		"0 0 0 255"		// the additional border color for displaying the default/selected button
 	}
-
 
 	///////////////////// BASE SETTINGS ////////////////////////
 	//
@@ -82,139 +82,139 @@ Scheme {
 	LayoutTemplates {
 		Frame {
 			frame_menu {
-				visible	0	// hidden
+				"visible"		0	// hidden
 			}
 
 			frame_title {
-				xpos		0
-				ypos		1
-				wide		max
-				tall		28
-				AutoResize	1
+				"xpos"			0
+				"ypos"			1
+				"wide"			max
+				"tall"			28
+				"AutoResize"	1
 			}
 
 			frame_captiongrip {
-				xpos		4
-				ypos		4
-				wide		r20
-				tall		60
-				AutoResize	1
+				"xpos"			4
+				"ypos"			4
+				"wide"			r20
+				"tall"			60
+				"AutoResize"	1
 			}
 
 			frame_minimize {
-				xpos		r45
-				xpos		22 [$OSX]
-				ypos		7
-				ypos		3 [$OSX]
-				wide		20
-				tall		20
-				PinCorner	1
-				PinCorner	0 [$OSX]
+				"xpos"		r45
+				"xpos"		22 [$OSX]
+				"ypos"		7
+				"ypos"		3 [$OSX]
+				"wide"		20
+				"tall"		20
+				"PinCorner"	1
+				"PinCorner"	0 [$OSX]
 			}
 
 			frame_maximize {
-				xpos		r59
-				xpos		43 [$OSX]
-				ypos		7
-				ypos		3 [$OSX]
-				wide		20
-				tall		20
-				visible		0 [!$OSX]
-				PinCorner	1
-				PinCorner	0 [$OSX]
+				"xpos"		r59
+				"xpos"		43 [$OSX]
+				"ypos"		7
+				"ypos"		3 [$OSX]
+				"wide"		20
+				"tall"		20
+				"visible" 	0 [!$OSX]
+				"PinCorner"	1
+				"PinCorner"	0 [$OSX]
 			}
 
 			frame_close {
-				xpos		r29
-				xpos		1 [$OSX]
-				ypos		7
-				ypos		3 [$OSX]
-				wide		20
-				tall		20
-				PinCorner	1
-				PinCorner	0 [$OSX]
+				"xpos"		r29
+				"xpos"		1 [$OSX]
+				"ypos"		7
+				"ypos"		3 [$OSX]
+				"wide"		20
+				"tall"		20
+				"PinCorner"	1
+				"PinCorner"	0 [$OSX]
 			}
 
 			frame_brGrip {
-				xpos		r15
-				ypos		r15
-				wide		14
-				tall		14
-				PinCorner	3
+				"xpos"		r15
+				"ypos"		r15
+				"wide"		14
+				"tall"		14
+				"PinCorner"	3
 			}
 		}
 
 		PropertyDialog {
 			sheet {
-				xpos	9
-				ypos	26
-				wide	r9
-				tall	r48
+				"xpos"	9
+				"ypos"	26
+				"wide"	r9
+				"tall"	r48
 			}
 
 			// these buttons are still a bit special - if some of them are hidden, they shuffle
 			// across taking the place of other buttons to make sure there aren't gaps
 			ApplyButton {
-				xpos	r101
-				ypos	r36
-				wide	92
-				tall	24
+				"xpos"	r101
+				"ypos"	r36
+				"wide"	92
+				"tall"	24
 			}
 
 			CancelButton {
-				xpos	r203
-				ypos	r36
-				wide	92
-				tall	24
+				"xpos"	r203
+				"ypos"	r36
+				"wide"	92
+				"tall"	24
 			}
 
 			OKButton {
-				xpos	r304
-				ypos	r36
-				wide	92
-				tall	24
+				"xpos"	r304
+				"ypos"	r36
+				"wide"	92
+				"tall"	24
 			}
 		}
 
 		WizardPanel {
 			subpanel {
-				xpos		10
-				ypos		28
-				wide		r10
-				tall		r48
-				AutoResize	3
+				"xpos"			10
+				"ypos"			28
+				"wide"			r10
+				"tall"			r48
+				"AutoResize"	3
 			}
 
 			PrevButton {
-				xpos		r306
-				ypos		r36
-				wide		92
-				tall		24
-				PinCorner	3
+				"xpos"		r306
+				"ypos"		r36
+				"wide"		92
+				"tall"		24
+				"PinCorner"	3
 			}
 
 			NextButton {
-				xpos		r204
-				ypos		r36
-				wide		92
-				tall		24
-				PinCorner	3
+				"xpos"		r204
+				"ypos"		r36
+				"wide"		92
+				"tall"		24
+				"PinCorner"	3
 			}
 
 			CancelButton {
-				xpos		r102
-				ypos		r36
-				wide		92
-				tall		24
-				PinCorner	3
+				"xpos"		r102
+				"ypos"		r36
+				"wide"		92
+				"tall"		24
+				"PinCorner"	3
 			}
 
 			FinishButton {
-				xpos		r102
-				ypos		r36
-				wide		92
-				tall		24
-				PinCorner	3
+				"xpos"		r102
+				"ypos"		r36
+				"wide"		92
+				"tall"		24
+				"PinCorner"	3
 			}
 		}
 	}
@@ -224,7 +224,6 @@ Scheme {
 	//
 	// !! legacy, should set fonts in the style for a control
 	// this is just for reference by the code
-
 	Fonts {
 		"Default" {
 			"1" {
@@ -260,11 +259,11 @@ Scheme {
 			}
 		}
 
-		ListSmall {
+		"ListSmall" {
 			"1" {
-				"name"		"Arial"
-				"tall"		"12"
-				"weight"	"0"
+				"name"		Arial
+				"tall"		12
+				"weight"	0
 			}
 		}
 
@@ -314,7 +313,7 @@ Scheme {
 				"name"		"Arial"
 				"tall"		"16"
 				"weight"	"600"
-				"antialias" "1"
+				"antialias"	"1"
 			}
 		}
 
@@ -328,13 +327,14 @@ Scheme {
 			}
 		}
 
-		MarlettLarge {
+		"MarlettLarge" {
 			"1" {
 				"name"		"Marlett"
 				"tall"		"16"
 				"weight"	"0"
 				"symbol"	"1"
 			}
+
 		}
 
 		"DefaultFixed" {
@@ -355,7 +355,7 @@ Scheme {
 			}
 		}
 
-		FriendsSmall {
+		"FriendsSmall" {
 			"1" {
 				"name"		"Arial"
 				"tall"		"12"
@@ -363,7 +363,7 @@ Scheme {
 			}
 		}
 
-		FriendsMedium {
+		"FriendsMedium" {
 			"1" {
 				"name"		"Arial"
 				"tall"		"13"
@@ -371,7 +371,7 @@ Scheme {
 			}
 		}
 
-		FriendsVerySmall {
+		"FriendsVerySmall" {
 			"1" {
 				"name"		"Arial"
 				"tall"		"12"
@@ -379,7 +379,7 @@ Scheme {
 			}
 		}
 
-		FriendsVerySmallUnderline {
+		"FriendsVerySmallUnderline" {
 			"1" {
 				"name"		"Arial"
 				"tall"		"12"
@@ -388,7 +388,7 @@ Scheme {
 			}
 		}
 
-		OverlayTaskbarFont {
+		"OverlayTaskbarFont" {
 			"1" {
 				"name"		"Arial"
 				"tall"		"16"
@@ -403,7 +403,7 @@ Scheme {
 	// !! currently unused, just left for reference
 	Appearances {
 		p_ListGiftSendInteriorBorder {
-			inset	"0 0 0 0"
+			inset		"0 0 0 0"
 			render_bg {
 				"1"		"image_tiled( x0, y0, x1, y0 + 5, graphics/shadowTop )"
 				"2"		"fill( x0, y0 + 5, x1, y1, GrayBG )"			// body
@@ -412,7 +412,7 @@ Scheme {
 		}
 
 		p_ListGiftSendScrollInteriorBorder {
-			inset	"0 0 0 0"
+			inset		"0 0 0 0"
 			render_bg {
 				"1"		"image_tiled( x0, y0, x1, y0 + 5, graphics/shadowTop )"
 				"2"		"fill( x0, y0 + 5, x1, y1, GrayBG )"			// body
@@ -422,7 +422,7 @@ Scheme {
 
 		ChatInputBorder {
 			// for text entry fields and drop-down controls and  boxes in Chat
-			inset	"4 0 4 0"
+			inset		"4 0 4 0"
 			render_bg {
 				"0"		"fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, DarkGray )"
 				"1"		"image( x1 - 10, y0 + 10, x1, y1 - 10, graphics/btnStdRight )"		// right
@@ -437,10 +437,10 @@ Scheme {
 		}
 
 		ListPanelSlantBGWithBorder {
-			inset	"1 1 1 1"
+			inset		"1 1 1 1"
 			render {
-				"2"		"image( x1 - 3, y0, x1, y0 + 3, graphics/tabSquareTopRight )"	// topright
-				"3"		"image( x0 , y0, x0 + 3, y0 + 3, graphics/tabSquareTopLeft )"	// topleft
+				"2"		"image( x1 - 3, y0, x1, y0 + 3, graphics/tabSquareTopRight )"		// topright
+				"3"		"image( x0 , y0, x0 + 3, y0 + 3, graphics/tabSquareTopLeft )"		// topleft
 				"4"		"image( x1 - 3, y1 - 3, x1, y1, graphics/tabStdBottomRight )"	// bottomright
 				"5"		"image( x0, y1 - 3, x0 + 3, y1, graphics/tabStdBottomLeft )"	// bottomleft
 				"6"		"image( x0 + 3, y0, x1 - 3, y0 + 1, graphics/tabStdTop )"		// top
@@ -455,7 +455,7 @@ Scheme {
 		}
 
 		ListPanelSlantBGNoBorder {
-			inset	"0 0 0 0"
+			inset		"0 0 0 0"
 			render_bg {
 				"1"		"image_tiled( x0, y0, x1, y0 + 90, graphics/FriendsListSlantBG )"
 				"2"		"fill(   x0, y0 + 90, x1, y1, DarkGray )"			// body
@@ -465,13 +465,13 @@ Scheme {
 		ChatFriendTitlePanelDefault {
 			render_bg {
 				"1"		"image( x0, y0 + 2, x0 + 2, y0 + 50, graphics/FriendsPanelLeftBG )" // left
-				"2"		"fill(  x0 + 2, y0 + 2, x1 - 2, y0 + 50, Friends.PanelDefault )"	// body
+				"2"		"fill(  x0 + 2, y0 + 2, x1 - 2, y0 + 50, Friends.PanelDefault )"			// body
 				"3"		"image( x1 - 2, y0 + 2, x1, y0 + 50, graphics/FriendsPanelRightBG )" //right
 			}
 		}
 
 		VoiceChatOffBG {
-			inset	"1 1 1 1"
+			inset		"1 1 1 1"
 			render {
 				"2"		"image( x1 - 3, y0, x1, y0 + 3, graphics/tabStdTopRight )"		// topright
 				"3"		"image( x0 , y0, x0 + 3, y0 + 3, graphics/tabStdTopLeft )"		// topleft
@@ -488,7 +488,7 @@ Scheme {
 		}
 
 		VoiceChatOnBG {
-			inset	"1 1 1 1"
+			inset		"1 1 1 1"
 			render {
 				"2"		"image( x1 - 3, y0, x1, y0 + 3, graphics/tabStdTopRight )"		// topright
 				"3"		"image( x0 , y0, x0 + 3, y0 + 3, graphics/tabStdTopLeft )"		// topleft
@@ -505,16 +505,16 @@ Scheme {
 		}
 
 		ChatInviteBG {
-			inset	"1 1 1 1"
+			inset		"1 1 1 1"
 			render {
-				"2"		"image( x1 - 3, y0, x1, y0 + 3, graphics/tabStdTopRight )"			// topright
-				"3"		"image( x0 , y0, x0 + 3, y0 + 3, graphics/tabStdTopLeft )"			// topleft
+				"2"		"image( x1 - 3, y0, x1, y0 + 3, graphics/tabStdTopRight )"		// topright
+				"3"		"image( x0 , y0, x0 + 3, y0 + 3, graphics/tabStdTopLeft )"		// topleft
 				"4"		"image( x1 - 3, y1 - 3, x1, y1, graphics/tabSquareBottomRight )"	// bottomright
-				"5"		"image( x0, y1 - 3, x0 + 3, y1, graphics/tabSquareBottomLeft )"		// bottomleft
-				"6"		"image( x0 + 3, y0, x1 - 3, y0 + 1, graphics/tabStdTop )"			// top
-				"7"		"image( x0, y0 + 3, x0 + 1, y1 - 3, graphics/tabStdLeft )"			// left
-				"8"		"image( x1 - 1, y0 + 3, x1, y1 - 3, graphics/tabStdRight )"			// right
-				"9"		"image( x0 + 3, y1 - 1, x1 - 3, y1, graphics/tabStdBottom )"		// bottom
+				"5"		"image( x0, y1 - 3, x0 + 3, y1, graphics/tabSquareBottomLeft )"	// bottomleft
+				"6"		"image( x0 + 3, y0, x1 - 3, y0 + 1, graphics/tabStdTop )"		// top
+				"7"		"image( x0, y0 + 3, x0 + 1, y1 - 3, graphics/tabStdLeft )"		// left
+				"8"		"image( x1 - 1, y0 + 3, x1, y1 - 3, graphics/tabStdRight )"		// right
+				"9"		"image( x0 + 3, y1 - 1, x1 - 3, y1, graphics/tabStdBottom )"	// bottom
 			}
 			render_bg {
 				"0"		"fill( x0 + 1, y0 + 1, x1 - 1, y1 - 1, DarkGray )"
@@ -523,7 +523,7 @@ Scheme {
 
 		FriendPanelDefault {
 			render_bg {
-				"1"		"image( x0, y0 + 2, x0 + 2, y0 + 50, graphics/FriendsPanelLeftBG )" 	// left
+				"1"		"image( x0, y0 + 2, x0 + 2, y0 + 50, graphics/FriendsPanelLeftBG )" // left
 				"2"		"fill(  x0 + 2, y0 + 2, x1, y0 + 50, Friends.PanelDefault )"			// body
 			}
 		}
@@ -531,14 +531,14 @@ Scheme {
 		FriendPanelMouseOver {
 			render_bg {
 				"1"		"image( x0, y0 + 2, x0 + 2, y0 + 50, graphics/FriendsPanelLeftBG_Over )" // left
-				"2"		"fill(  x0 + 2, y0 + 2, x1, y1, Friends.PanelOver )"					// body
+				"2"		"fill(  x0 + 2, y0 + 2, x1, y1, Friends.PanelOver )"			// body
 			}
 		}
 
 		FriendPanelSelected {
 			render_bg {
 				"1"		"image( x0, y0 + 2, x0 + 2, y0 + 50, graphics/FriendsPanelLeftBG_Down )" // left
-				"2"		"fill(  x0 + 2, y0 + 2, x1, y1, Friends.PanelSelected )"				// body
+				"2"		"fill(  x0 + 2, y0 + 2, x1, y1, Friends.PanelSelected )"			// body
 			}
 		}
 
