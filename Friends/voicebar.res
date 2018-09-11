@@ -1,4 +1,4 @@
-"friends/voicebar.res" {
+"Friends/voicebar.res" {
 
 	styles {
 		CVoiceBar {

@@ -1,4 +1,4 @@
-"friends/PlayersSubRecentPlayers.res" {
+"Friends/PlayersSubRecentPlayers.res" {
 
 	layout {
 		place { control=PlayersList height=max width=max margin-bottom=50 }

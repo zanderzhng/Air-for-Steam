@@ -1,4 +1,4 @@
-friends/ChatRoomDlg.res {
+"Friends/ChatRoomDlg.res" {
 
 	styles {
 		CChatRoomDlg {

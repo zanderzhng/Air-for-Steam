@@ -1,4 +1,4 @@
-"friends/ChatRoomDlgFriend.res" {
+"Friends/ChatRoomDlgFriend.res" {
 
 	styles {
 		CChatRoomDlg {
@@ -26,8 +26,8 @@
 
 		place { control=VoiceBar,TradeInviteBar,GameInviteBar,BIBar,BABar width=max height=50 }
 
-		place { control=VoiceBar		region=chat align=left width=max end-right=VoiceChat }
-		place { control=VoiceChat		region=chat align=right y=10 margin-right=26 }
+		place { control=VoiceBar	region=chat align=left width=max end-right=VoiceChat }
+		place { control=VoiceChat	region=chat align=right y=10 margin-right=26 }
 
 		place {
 			control=TradeInviteBar,GameInviteBar,ChatInfoBar,BIBar,BABar,ChatHistory

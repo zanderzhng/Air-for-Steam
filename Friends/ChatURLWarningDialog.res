@@ -1,4 +1,4 @@
-"friends/ChatURLWarningDialog.res" {
+"Friends/ChatURLWarningDialog.res" {
 
 	styles {
 		danger {

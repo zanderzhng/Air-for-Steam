@@ -1,4 +1,4 @@
-Friends/FriendsDialog.res {
+"Friends/FriendsDialog.res" {
 
 	styles {
 		FriendsSearch:empty {

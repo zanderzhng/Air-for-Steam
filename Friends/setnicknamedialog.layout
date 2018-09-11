@@ -1,4 +1,4 @@
-friends/setnicknamedialog.layout {
+"Friends/setnicknamedialog.layout" {
 
 	layout {
 		region { name=header height=50 width=max }

@@ -1,4 +1,4 @@
-Friends/friendgameinvitedialog.res {
+"Friends/friendgameinvitedialog.res" {
 
 	styles {
 		FriendsPanel {

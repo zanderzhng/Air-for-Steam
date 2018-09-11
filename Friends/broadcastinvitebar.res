@@ -1,4 +1,4 @@
-"friends/broadcastinvitebar.res" {
+"Friends/broadcastinvitebar.res" {
 
 	styles {
 		CBroadcastInviteBar {
