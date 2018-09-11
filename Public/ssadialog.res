@@ -1,4 +1,4 @@
-public/ssadialog.res {
+"Public/ssadialog.res" {
 
 	layout {
 		region { name=header height=50 width=max }

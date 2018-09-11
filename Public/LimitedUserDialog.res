@@ -1,4 +1,4 @@
-public/LimitedUserDialog.res {
+"Public/LimitedUserDialog.res" {
 
 	layout {
 		region { name=header height=50 width=max }
