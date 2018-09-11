@@ -1,4 +1,4 @@
-resource/colors/truffle.styles {
+"Resource/colors/truffle.styles" {
 
 	colors {
 		Focus="68 59 54 255"

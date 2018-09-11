@@ -1,4 +1,4 @@
-resource/colors/deeppurple.styles {
+"Resource/colors/deeppurple.styles" {
 
 	colors {
 		Focus="94 53 177 255"

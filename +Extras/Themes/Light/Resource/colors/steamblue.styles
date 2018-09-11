@@ -1,4 +1,4 @@
-resource/colors/steamblue.styles {
+"Resource/colors/steamblue.styles" {
 
 	colors {
 		Focus="52 64 91 255"
