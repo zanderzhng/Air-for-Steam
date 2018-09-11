@@ -9,56 +9,56 @@ steam.styles {
 	include "resource/styles/_web.styles"
 
 	colors {
-		Frame.ClientInsetX					"10"
-		Frame.ClientInsetY					"35"
-		Frame.FocusTransitionEffectTime		"0"			// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime			"0.25"		// time it takes for a window to fade in/out on open/close
-		Frame.OnDragAlphaDelayTime			"0.15"		// time it takes after clicking the title bar of a window before the alpha multiplier kicks in
-		Frame.OnDragAlphaMultiplier			"1.0"								// multiplier applied to alpha while dragging a frame
-		Frame.AutoSnapRange					"6"
-		Frame.UsesAlphaBlending				"1"
-		FrameSystemButton.Icon				""
-		FrameSystemButton.DisabledIcon		""
+		Frame.ClientInsetX						"10"
+		Frame.ClientInsetY						"35"
+		Frame.FocusTransitionEffectTime			"0"			// time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime				"0.25"		// time it takes for a window to fade in/out on open/close
+		Frame.OnDragAlphaDelayTime				"0.15"		// time it takes after clicking the title bar of a window before the alpha multiplier kicks in
+		Frame.OnDragAlphaMultiplier				"1.0"		// multiplier applied to alpha while dragging a frame
+		Frame.AutoSnapRange						"6"
+		Frame.UsesAlphaBlending					"1"
+		FrameSystemButton.Icon					""
+		FrameSystemButton.DisabledIcon			""
 
-		Notifications.PanelPosition		"BottomRight"		// Can be "BottomRight", "BottomLeft", "TopRight", "TopLeft"
-		Notifications.PanelPosition		"TopRight" [$OSX]	// the dock is on the bottom for OSX, so instead pop top right like other apps do
-		Notifications.SlideDirection	"Vertical"			// Can be "Vertical", "Horizontal", "None" and controls slide effect
-		Notifications.FadeInTime		"0.3"				// Controls the time it takes to slide/fade into view
-		Notifications.FadeOutTime		"0.2"				// Controls the time it takes to slide/fade out of view
-		Notifications.DisplayTime		"3"					// Controls the length of time at steady state after fade in and before fade out
-		Notifications.StackSize			"3"					// Controls how many panels we will stack before background queuing
+		Notifications.PanelPosition				"BottomRight"			// Can be "BottomRight", "BottomLeft", "TopRight", "TopLeft"
+		Notifications.PanelPosition				"TopRight" [$OSX]		// the dock is on the bottom for OSX, so instead pop top right like other apps do
+		Notifications.SlideDirection			"Vertical"				// Can be "Vertical", "Horizontal", "None" and controls slide effect
+		Notifications.FadeInTime				"0.3"					// Controls the time it takes to slide/fade into view
+		Notifications.FadeOutTime				"0.2"					// Controls the time it takes to slide/fade out of view
+		Notifications.DisplayTime				"3"						// Controls the length of time at steady state after fade in and before fade out
+		Notifications.StackSize					"3"						// Controls how many panels we will stack before background queuing
 
-		ListPanel.PerPixelScrolling		"1"
-		ListPanel.PostSectionLeading	"10"
+		ListPanel.PerPixelScrolling				"1"
+		ListPanel.PostSectionLeading			"10"
 
-		Tooltip.Delay		"75"		// Default tooltip delay pops fast, but lets the mouse pass through without popping
-		Tooltip.Anchor		"Cursor"	// Anchor=Cursor makes it stick to initial pop location like windows implementation. Anchor can also be 'Float' to move with the mouse, or 'Parent' to stick just outside the parent panel (useful for icon sized items)
+		Tooltip.Delay							"75"					// Default tooltip delay pops fast, but lets the mouse pass through without popping
+		Tooltip.Anchor							"Cursor"				// Anchor=Cursor makes it stick to initial pop location like windows implementation. Anchor can also be 'Float' to move with the mouse, or 'Parent' to stick just outside the parent panel (useful for icon sized items)
 
-		Menu.TextInset		"6"
+		Menu.TextInset							"6"
 
-		PropertySheet.TransitionEffectTime	"0"		// time to change from one tab to another
-		PropertySheet.TabGap				"4"
+		PropertySheet.TransitionEffectTime		"0"						// time to change from one tab to another
+		PropertySheet.TabGap					"4"
 
-		RichText.InsetX			"10"
-		RichText.InsetY			"7"
+		RichText.InsetX							"10"
+		RichText.InsetY							"7"
 
-		ScrollBar.Wide		"13"
+		ScrollBar.Wide							"13"
 
-		SectionedListPanel.CollapserWidth	"16"
+		SectionedListPanel.CollapserWidth		"16"
 
-		HTML.SearchInsetY			"5"
-		HTML.SearchInsetX			"10"
-		HTML.SearchWide				"348"
-		HTML.SearchTall				"38"
-		HTML.SearchAnimationTime	"0.25"
+		HTML.SearchInsetY						"5"
+		HTML.SearchInsetX						"10"
+		HTML.SearchWide							"348"
+		HTML.SearchTall							"38"
+		HTML.SearchAnimationTime				"0.25"
 
-		HTML.IMEInsetY				"5"
-		HTML.IMEInsetX				"10"
-		HTML.IMEWide				"348"
-		HTML.IMETall				"38"
-		HTML.IMEAnimationTime		"0.25"
+		HTML.IMEInsetY							"5"
+		HTML.IMEInsetX							"10"
+		HTML.IMEWide							"348"
+		HTML.IMETall							"38"
+		HTML.IMEAnimationTime					"0.25"
 
-		MessageBox.ButtonHeight		"24"
+		MessageBox.ButtonHeight					"24"
 	}
 
 	styles {
@@ -72,7 +72,8 @@ steam.styles {
 		}
 
 		Button {
-			padding-left=4 padding-right=4
+			padding-left=4
+			padding-right=4
 			minimum-height=30
 			render_bg { }
 		}
@@ -89,12 +90,11 @@ steam.styles {
 			}
 		}
 
-		Button:disabled	{
-			render_bg { }
-		}
+		Button:disabled	{ render_bg { } }
 
 		"CSettingsSubStreamingAdvancedClient URLLabel" {
-			padding-left=10 padding-right=10
+			padding-left=10
+			padding-right=10
 			minimum-height=30
 			render_bg { }
 		}
@@ -112,7 +112,8 @@ steam.styles {
 		}
 
 		"CSettingsSubStreamingAdvancedHost URLLabel" {
-			padding-left=10 padding-right=10
+			padding-left=10
+			padding-right=10
 			minimum-height=30
 			render_bg { }
 		}
@@ -130,7 +131,8 @@ steam.styles {
 		}
 
 		"CSubPanelOptionsFamily URLLabel" {
-			padding-left=10 padding-right=10
+			padding-left=10
+			padding-right=10
 			minimum-height=30
 			render_bg { }
 		}
@@ -159,12 +161,8 @@ steam.styles {
 			minimum-height=29
 			inset-left=7
 			inset-top=1
-			render {
-				0="image( x1 - 20, y0 + 8, x1, y1, graphics/secondary/caret_down )"
-			}
-			render_bg {
-				0="fill( x0, y0, x1, y1 + 1, A2ButtonHover )"
-			}
+			render { 0="image( x1 - 20, y0 + 8, x1, y1, graphics/secondary/caret_down )" }
+			render_bg { 0="fill( x0, y0, x1, y1 + 1, A2ButtonHover )" }
 		}
 
 		ComboBox:hover {
@@ -178,21 +176,15 @@ steam.styles {
 			render_bg { }
 		}
 
-		downarrow { image="graphics/secondary/caret_down" }
+		downarrow	{ image="graphics/secondary/caret_down" }
+		uparrow		{ image="graphics/secondary/caret_up" }
+		rightarrow	{ image="graphics/secondary/caret_right" }
+		leftarrow	{ image="graphics/secondary/caret_left" }
 
-		uparrow { image="graphics/secondary/caret_up" }
-
-		rightarrow { image="graphics/secondary/caret_right" }
-
-		leftarrow { image="graphics/secondary/caret_left" }
-
-		"CSteamRootDialog downarrow" { image="graphics/onfocus/caret_down_onfocus" }
-
-		"CSteamRootDialog uparrow" { image="graphics/onfocus/caret_up_onfocus" }
-
-		"CSteamRootDialog rightarrow" { image="graphics/onfocus/caret_right_onfocus" }
-
-		"CSteamRootDialog leftarrow" { image="graphics/onfocus/caret_left_onfocus" }
+		"CSteamRootDialog downarrow"	{ image="graphics/onfocus/caret_down_onfocus" }
+		"CSteamRootDialog uparrow"		{ image="graphics/onfocus/caret_up_onfocus" }
+		"CSteamRootDialog rightarrow"	{ image="graphics/onfocus/caret_right_onfocus" }
+		"CSteamRootDialog leftarrow"	{ image="graphics/onfocus/caret_left_onfocus" }
 
 		Divider {
 			bgcolor=none
@@ -201,13 +193,10 @@ steam.styles {
 			}
 		}
 
-		Frame { bgcolor=A2Background }
-
-		Frame:FrameFocus { bgcolor=A2Background }
-
-		FrameTitle { textcolor=none }
-
-		FrameTitle:FrameFocus { textcolor=none }
+		Frame					{ bgcolor=A2Background }
+		Frame:FrameFocus		{ bgcolor=A2Background }
+		FrameTitle				{ textcolor=none }
+		FrameTitle:FrameFocus	{ textcolor=none }
 
 		ProgressBox {
 			minimum-height=128
@@ -218,14 +207,12 @@ steam.styles {
 			}
 		}
 
-		"ProgressBox Button" { textcolor=none render_bg { } }
-
-		"ProgressBox FrameCloseButton" { render_bg { } }
-
-		"ProgressBox Label" { textcolor=none }
+		"ProgressBox Button"			{ textcolor=none render_bg { } }
+		"ProgressBox FrameCloseButton"	{ render_bg { } }
+		"ProgressBox Label"				{ textcolor=none }
 
 		GraphPanel {
-			textcolor=Focus		// graph bars color
+			textcolor=Focus // graph bars color
 			bgcolor=A2Ribbon
 			inset="3 3 3 3"
 			render_bg { }
@@ -239,7 +226,6 @@ steam.styles {
 		}
 
 		CheckButtonList { bgcolor=A2Ribbon }
-
 		RadioButtonList { bgcolor=A2Ribbon }
 
 		"CDialogSettings ListPanel" { bgcolor=none }
@@ -253,15 +239,11 @@ steam.styles {
 		"CContentManagmentDialog ListPanel" { selectedtextcolor=A2TextFocus }
 			//steam library folders in settings>downloads
 
-		"CSteamRootDialog ListPanel" { bgcolor=none }
-
-		"CGamesPage_Mini ListPanel" { bgcolor=none }
-
-		"CPlayersDialog ListPanel" { bgcolor=none inset-top=12 }
-
-		"CServerBrowserDialog ListPanel" { bgcolor=none }
-
-		"CAddShortcutDialog ListPanel" { bgcolor=none }
+		"CSteamRootDialog ListPanel"		{ bgcolor=none }
+		"CGamesPage_Mini ListPanel"			{ bgcolor=none }
+		"CPlayersDialog ListPanel"			{ bgcolor=none inset-top=12 }
+		"CServerBrowserDialog ListPanel"	{ bgcolor=none }
+		"CAddShortcutDialog ListPanel"		{ bgcolor=none }
 
 		ListPanelInterior { }
 
@@ -297,11 +279,9 @@ steam.styles {
 			render_bg { }
 		}
 
-		ListPanelColumnSelectButton { image=graphics/onfocus/add }
-
-		ListPanelColumnSelectButton:hover { image=graphics/onfocus/add_hover }
-
-		ListPanelColumnSelectButton:selected { image=graphics/onfocus/add_hover }
+		ListPanelColumnSelectButton				{ image=graphics/onfocus/add }
+		ListPanelColumnSelectButton:hover		{ image=graphics/onfocus/add_hover }
+		ListPanelColumnSelectButton:selected	{ image=graphics/onfocus/add_hover }
 
 		"CGamesListPanel ListPanelColumnSelectButton" {
 			image=graphics/none
@@ -410,14 +390,13 @@ steam.styles {
 			padding-bottom=0
 		}
 
-		CFriendsListSectionHeader {
-			inset-left=1
-		}
+		CFriendsListSectionHeader { inset-left=1 }
 
 		ListPanelSectionCollapser {
 			minimum-height=0 //reset for button height
 			textcolor=none
-			padding-left=4 padding-right=0
+			padding-left=4
+			padding-right=0
 			render_bg {
 				0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_less )"
 			}
@@ -430,7 +409,8 @@ steam.styles {
 		}
 
 		ListPanelSectionCollapser:selected {
-			padding-left=2 padding-right=0
+			padding-left=2
+			padding-right=0
 			render_bg {
 				0="image( x0 + 7, y0 + 8, x1, y1, graphics/inactive/expand_more )"
 			}
@@ -445,7 +425,8 @@ steam.styles {
 		SectionedListPanelCollapser {
 			minimum-height=0 //reset for button height
 			textcolor=none
-			padding-left=4 padding-right=0
+			padding-left=4
+			padding-right=0
 			render_bg {
 				0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_less )"
 			}
@@ -458,7 +439,8 @@ steam.styles {
 		}
 
 		SectionedListPanelCollapser:selected {
-			padding-left=2 padding-right=0
+			padding-left=2
+			padding-right=0
 			render_bg {
 				0="image( x0 + 7, y0 + 4, x1, y1, graphics/inactive/expand_more )"
 			}
@@ -487,18 +469,14 @@ steam.styles {
 			inset="0 5 0 5"
 		}
 
-		"ComboBox Menu" {
-			inset="0 -1 0 0"
-		}
+		"ComboBox Menu" { inset="0 -1 0 0" }
 
 		MenuItem {
 			padding-right=5
 			padding-left=5
 		}
 
-		MenuItem:hover {
-			textcolor=A2TextFocus
-		}
+		MenuItem:hover { textcolor=A2TextFocus }
 
 		MenuSeparator {
 			textcolor=none
@@ -558,7 +536,6 @@ steam.styles {
 		//notification overrides
 		//rgb50 = 50 in overlay
 		//rgb51 = 50 in desktop
-
 		BroadcastApproveNotification	{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
 		BroadcastInviteNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
 		BroadcastViewerNotification		{ render { 0="image( x0 + 11, y0 + 14, x1, y1, graphics/avatarBorderNotificationDesktop )" } }
@@ -577,7 +554,8 @@ steam.styles {
 
 		PageTab {
 			minimum-height=0 //reset for button height
-			padding-left=0 padding-right=0 //reset for button padding
+			padding-left=0
+			padding-right=0 //reset for button padding
 			padding-top=1
 			render_bg { }
 		}
@@ -643,8 +621,8 @@ steam.styles {
 		SectionedListPanel {
 			bgcolor=none
 			selectedbgcolor=Focus
-			inset="0 0 0 0"
 			render_bg { }
+			inset="0 0 0 0"
 		}
 
 		Slider {
@@ -654,9 +632,8 @@ steam.styles {
 			minimum-height=30
 		}
 
-		Slider:focus {
-			textcolor=A2TextSecondary //slider color
-		}
+		//slider color
+		Slider:focus { textcolor=A2TextSecondary }
 
 		TextEntry {
 			minimum-height=30
@@ -684,11 +661,17 @@ steam.styles {
 
 		TooltipWindow {
 			bgcolor=A2Snackbar
+
 			//background and frame of a tooltip
 		}
 
 		tooltip_headline {
-			font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular
+			font-family=medium
+			font-size=16
+			font-weight=500
+			textcolor=A2TextNotification
+			font-style=regular
+
 			padding-left=8
 			padding-right=8
 			padding-top=3
@@ -698,7 +681,12 @@ steam.styles {
 		}
 
 		"TooltipWindow Label" {
-			font-family=medium font-size=16 font-weight=500 textcolor=A2TextNotification font-style=regular
+			font-family=medium
+			font-size=16
+			font-weight=500
+			textcolor=A2TextNotification
+			font-style=regular
+
 			padding-left=8
 			padding-right=8
 			padding-top=3
@@ -738,14 +726,11 @@ steam.styles {
 
 		WrapPanel { }
 
-		"CSteamRootDialog BackButton:hover" {
-			image=graphics/onfocus/web/back
-			render_bg { }
-		}
+		"CSteamRootDialog BackButton:hover" { render_bg { } image=graphics/onfocus/web/back }
 
 		LibrarySearch {
-			minimum-height=30	//reset for text entry height
-			inset-left=3		//reset for text entry inset
+			minimum-height=30 //reset for text entry height
+			inset-left=3 //reset for text entry inset
 			render_bg { }
 		}
 
@@ -764,8 +749,8 @@ steam.styles {
 		LibrarySearchIcon { image="graphics/onfocus/search" }
 
 		FriendsSearch {
-			minimum-height=30	//reset for text entry height
-			inset-left=3		//reset for text entry inset
+			minimum-height=30 //reset for text entry height
+			inset-left=3 //reset for text entry inset
 			render_bg { }
 		}
 

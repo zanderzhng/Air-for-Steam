@@ -252,178 +252,46 @@ layout.styles {
 		//-------------------------------------------------------------------------------------------------------------------------------//
 		//-------------------------------------------------------------------------------------------------------------------------------//
 
-		CSetJumplistOptions {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
+		CSetJumplistOptions			{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CProductMarketingDialog		{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CChooseBetaDialog			{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CChangeContactEmailWizard	{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CChangePasswordWizard		{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
 
-		CProductMarketingDialog {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CSettingsSubStreamingAdvancedClient { minimum-width=400 minimum-height=444 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CSettingsSubStreamingAdvancedHost	{ minimum-width=400 minimum-height=528 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CSettingsSubStreamingPIN			{ minimum-width=400 minimum-height=282 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CFriendNotificationOptionsDialog	{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CBackupWizard						{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CEditFriendsGroupsDialog			{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CEditTagsDialog						{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CSetCustomImageDialog				{ minimum-width=400 minimum-height=249 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		DeleteCustomImageDialog				{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CSetNicknameDialog					{ minimum-width=400 minimum-height=213 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
 
-		CChooseBetaDialog {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		//BlockCommunicationDialog
+		SimpleDialog { minimum-width=400 minimum-height=280 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
 
-		CChangeContactEmailWizard {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CContentManagmentDialog		{ minimum-width=400 minimum-height=286 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CScreenshotDeleteDialog		{ minimum-width=400 minimum-height=198 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CScreenshotUploadDialog		{ minimum-width=400 minimum-height=339 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CFriendAliasesDialog		{ minimum-width=400 minimum-height=358 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CDialogGameInfo				{ minimum-width=400 minimum-height=522 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CGameLaunchParametersDialog	{ minimum-width=400 minimum-height=197 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CLaunchOptionsDialog		{ minimum-width=400 minimum-height=178 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CShowEULADialog				{ minimum-width=400 minimum-height=620 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CSSADialog					{ minimum-width=400 minimum-height=620 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CTwoFactorCodeChallenge		{ minimum-width=400 minimum-height=270 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CJoinGameDialog				{ minimum-width=400 minimum-height=270 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		CLimitedUserDialog			{ minimum-width=400 minimum-height=140 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
 
-		CChangePasswordWizard {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
+		//this is for DialogServerPassword
+		"CDialogGameInfo Frame" { minimum-width=400 minimum-height=197 render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
 
-		CSettingsSubStreamingAdvancedClient {
-			minimum-width=400
-			minimum-height=444
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
+		//unable to edit styles
+		CRegisterCDKeyWizard { render_bg { 0="fill( x0, y1 - 42, x1, y1, A2Ribbon )" } }
 
-		CSettingsSubStreamingAdvancedHost {
-			minimum-width=400
-			minimum-height=528
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CSettingsSubStreamingPIN {
-			minimum-width=400
-			minimum-height=282
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CFriendNotificationOptionsDialog {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CBackupWizard {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CEditFriendsGroupsDialog {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CEditTagsDialog {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CSetCustomImageDialog {
-			minimum-width=400
-			minimum-height=249
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		DeleteCustomImageDialog {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CSetNicknameDialog {
-			minimum-width=400
-			minimum-height=213
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		SimpleDialog {
-			minimum-width=400
-			minimum-height=280
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-			//BlockCommunicationDialog
-
-		CContentManagmentDialog {
-			minimum-width=400
-			minimum-height=286
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CScreenshotDeleteDialog {
-			minimum-width=400
-			minimum-height=198
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CScreenshotUploadDialog {
-			minimum-width=400
-			minimum-height=339
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CFriendAliasesDialog {
-			minimum-width=400
-			minimum-height=358
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CDialogGameInfo {
-			minimum-width=400
-			minimum-height=522
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" } }
-
-		CGameLaunchParametersDialog {
-			minimum-width=400
-			minimum-height=197
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CLaunchOptionsDialog {
-			minimum-width=400
-			minimum-height=178
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CShowEULADialog {
-			minimum-width=400
-			minimum-height=620
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CSSADialog {
-			minimum-width=400
-			minimum-height=620
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CTwoFactorCodeChallenge {
-			minimum-width=400
-			minimum-height=270
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CJoinGameDialog {
-			minimum-width=400
-			minimum-height=270
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		CLimitedUserDialog {
-			minimum-width=400
-			minimum-height=140
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		}
-
-		"CDialogGameInfo Frame" {
-			minimum-width=400
-			minimum-height=197
-			render_bg { 0="fill( x0, y1 - 50, x1, y1, A2Ribbon )" }
-		} //this is for DialogServerPassword
-
-		CRegisterCDKeyWizard { render_bg { 0="fill( x0, y1 - 42, x1, y1, A2Ribbon )" } }	//unable to edit styles
-
-		CInstallAppWizard { render_bg { 0="fill( x0, y1 - 42, x1, y1, A2Ribbon )" } }		//unable to edit styles
+		//unable to edit styles
+		CInstallAppWizard { render_bg { 0="fill( x0, y1 - 42, x1, y1, A2Ribbon )" } }
 	}
 }
