@@ -1,4 +1,4 @@
-resource/colors/youtubered.styles {
+"Resource/colors/youtubered.styles" {
 
 	colors {
 		Focus="230 33 23 255"

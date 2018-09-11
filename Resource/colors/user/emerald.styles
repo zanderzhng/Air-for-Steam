@@ -1,4 +1,4 @@
-resource/colors/user/emerald.styles {
+"Resource/colors/user/emerald.styles" {
 
 	colors {
 		Focus="46 204 113 255"

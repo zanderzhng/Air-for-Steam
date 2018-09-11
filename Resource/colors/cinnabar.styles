@@ -1,4 +1,4 @@
-resource/colors/cinnabar.styles {
+"Resource/colors/cinnabar.styles" {
 
 	colors {
 		Focus="232 78 64 255"

@@ -1,4 +1,4 @@
-resource/colors/grass.styles {
+"Resource/colors/grass.styles" {
 
 	colors {
 		Focus="86 171 76 255"

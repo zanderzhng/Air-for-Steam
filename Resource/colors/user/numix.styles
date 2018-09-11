@@ -1,4 +1,4 @@
-resource/colors/sky.styles {
+"Resource/colors/sky.styles" {
 
 	colors {
 		Focus="68 68 68 255"

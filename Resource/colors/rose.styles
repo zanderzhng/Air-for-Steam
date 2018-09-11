@@ -1,4 +1,4 @@
-resource/colors/rose.styles {
+"Resource/colors/rose.styles" {
 
 	colors {
 		Focus="236 64 122 255"

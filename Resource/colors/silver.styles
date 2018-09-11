@@ -1,4 +1,4 @@
-resource/colors/silver.styles {
+"Resource/colors/silver.styles" {
 
 	colors {
 		Focus="180 180 180 255"

@@ -1,4 +1,4 @@
-resource/colors/user/google.styles {
+"Resource/colors/user/google.styles" {
 
 	colors {
 		Focus="66 133 244 255"

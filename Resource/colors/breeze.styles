@@ -1,4 +1,4 @@
-resource/colors/breeze.styles {
+"Resource/colors/breeze.styles" {
 
 	colors {
 		Focus="0 162 224 255"

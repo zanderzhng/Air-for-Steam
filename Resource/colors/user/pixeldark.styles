@@ -1,4 +1,4 @@
-resource/colors/user/pixeldark.styles {
+"Resource/colors/user/pixeldark.styles" {
 
 	colors {
 		Focus="66 133 244 255"

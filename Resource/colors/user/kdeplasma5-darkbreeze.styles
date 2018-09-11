@@ -1,4 +1,4 @@
-resource/colors/breezedark.styles {
+"Resource/colors/breezedark.styles" {
 
 	colors {
 		Focus="49 54 59 255"
