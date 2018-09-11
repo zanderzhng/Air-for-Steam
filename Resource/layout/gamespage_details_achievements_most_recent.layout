@@ -1,4 +1,4 @@
-"resource/layout/gamespage_details_achievements_most_recent.layout" {
+"Resource/layout/gamespage_details_achievements_most_recent.layout" {
 
 	colors {
 		// ProgressBarMarings must be the combined left+right margin of the actual bar from it's container

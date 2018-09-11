@@ -1,4 +1,4 @@
-resource/layout/steamrootdialog_gamespage_details.layout {
+"Resource/layout/steamrootdialog_gamespage_details.layout" {
 
 	styles {
 		CGamesPage_Details { bgcolor=A2Ribbon }
@@ -42,6 +42,7 @@ resource/layout/steamrootdialog_gamespage_details.layout {
 
 		region { name=linksleft region=links width=215 height=124 align=left }
 			place { control=gamehublink,forumlink,ogglink,guideslink,recommendlink region=linksleft dir=down align=left y=17 x=20 spacing=6 }
+
 		region { name=linkscenter region=links width=160 height=124 align=top-center }
 			place {
 				control=storelink,sendguestpasslink,manuallink,dlclink,cdkeylink,supportlink,editconfiglink
@@ -51,6 +52,7 @@ resource/layout/steamrootdialog_gamespage_details.layout {
 				y=17
 				spacing=6
 			}
+
 		region { name=linksright region=links width=215 height=124 align=right }
 			place { control=edittagslink,*taglink region=linksright dir=down align=left y=17 spacing=6 }
 

@@ -1,4 +1,4 @@
-"resource/layout/subpaneloptionsingame.layout" {
+"Resource/layout/subpaneloptionsingame.layout" {
 
 	layout {
 		place {
@@ -23,17 +23,11 @@
 		place { control=ScreenshotActionLabel			dir=down start=ScreenshotHotKeySelector y=30 }
 		place {
 			control=ScreenshotNotifyCheck,ScreenshotPlaySoundCheck,ScreenshotSaveUncompressedCheck
-			dir=down
-			start=ScreenshotActionLabel
-			y=5
+			dir=down start=ScreenshotActionLabel y=5
 		}
 
 		place { control=SetScreenshotFolderButton		dir=down start=ScreenshotSaveUncompressedCheck y=10 }
 
-		place {
-			control=Divider1,DescriptionLabel,TitleLabel,PingRateInfo
-			height=0
-			width=0
-		}
+		place { control=Divider1,DescriptionLabel,TitleLabel,PingRateInfo height=0 width=0 }
 	}
 }

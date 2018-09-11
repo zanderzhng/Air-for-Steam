@@ -1,4 +1,4 @@
-resource/layout/appdownloadpanel.layout {
+"Resource/layout/appdownloadpanel.layout" {
 
 	styles {
 		panelStyle {
@@ -70,50 +70,26 @@ resource/layout/appdownloadpanel.layout {
 			minimum-width=24
 			padding-left=0
 			padding-right=0
-			render {
-				1="image( x0, y0, x1, y1, graphics/active/downloads/remove )"
-			}
+			render { 1="image( x0, y0, x1, y1, graphics/active/downloads/remove )" }
 			render_bg { }
 		}
 
-		SmRemoveButton:hover {
-			render {
-				1="image( x0, y0, x1, y1, graphics/active/downloads/remove )"
-			}
-			render_bg { }
-		}
+		SmRemoveButton:hover { render { 1="image( x0, y0, x1, y1, graphics/active/downloads/remove )" } render_bg { } }
 
-		SmRemoveButton:active {
-			render {
-				1="image( x0, y0, x1, y1, graphics/active/downloads/remove )"
-			}
-			render_bg { }
-		}
+		SmRemoveButton:active { render { 1="image( x0, y0, x1, y1, graphics/active/downloads/remove )" } render_bg { } }
 
 		topOfQueueButton {
 			minimum-height=24
 			minimum-width=24
 			padding-left=0
 			padding-right=0
-			render {
-				1="image( x0, y0, x1, y1, graphics/active/downloads/top )"
-			}
+			render { 1="image( x0, y0, x1, y1, graphics/active/downloads/top )" }
 			render_bg { }
 		}
 
-		topOfQueueButton:hover {
-			render {
-				1="image( x0, y0, x1, y1, graphics/active/downloads/top )"
-			}
-			render_bg { }
-		}
+		topOfQueueButton:hover { render { 1="image( x0, y0, x1, y1, graphics/active/downloads/top )" } render_bg { } }
 
-		topOfQueueButton:active {
-			render {
-				1="image( x0, y0, x1, y1, graphics/active/downloads/top )"
-			}
-			render_bg { }
-		}
+		topOfQueueButton:active { render { 1="image( x0, y0, x1, y1, graphics/active/downloads/top )" } render_bg { } }
 	}
 
 	layout {

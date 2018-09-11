@@ -1,4 +1,4 @@
-resource/layout/toolwindow.layout {
+"Resource/layout/toolwindow.layout" {
 
 	styles {
 		PageTab { minimum-height=30 }

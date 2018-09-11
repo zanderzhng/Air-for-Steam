@@ -1,4 +1,4 @@
-resource/layout/overlay_friendsdetails.layout {
+"Resource/layout/overlay_friendsdetails.layout" {
 
 	styles {
 		detailsbox { }

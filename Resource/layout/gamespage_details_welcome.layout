@@ -1,4 +1,4 @@
-"resource/layout/gamespage_details_welcome.layout" {
+"Resource/layout/gamespage_details_welcome.layout" {
 
 	colors {
 		//margin-top + margin-btm + desired btm spacing + y-spacing

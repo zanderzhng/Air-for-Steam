@@ -1,4 +1,4 @@
-resource/layout/htmlfindbar.layout {
+"Resource/layout/htmlfindbar.layout" {
 
 	styles {
 		CHTMLFindBar {

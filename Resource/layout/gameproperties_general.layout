@@ -1,4 +1,4 @@
-resource/layout/gameproperties_general.layout {
+"Resource/layout/gameproperties_general.layout" {
 
 	layout {
 		region { name=box height=max width=max y=30 margin-left=16 }
@@ -6,7 +6,9 @@ resource/layout/gameproperties_general.layout {
 			place { control=LaunchOptionsButton,CreateDesktopShortcutButton region=box start=EnableDesktopGameTheater dir=down y=20 }
 			place { control=HomepageLabelName,DeveloperLabelName,ManualLabelName region=box start=CreateDesktopShortcutButton y=30 spacing=10 dir=down }
 			place {
-				control=HomepageLabel,DeveloperLabel,ManualLabel,NoManualLabel region=box start=CreateDesktopShortcutButton
+				control=HomepageLabel,DeveloperLabel,ManualLabel,NoManualLabel
+				region=box
+				start=CreateDesktopShortcutButton
 				y=30
 				spacing=10
 				x=84

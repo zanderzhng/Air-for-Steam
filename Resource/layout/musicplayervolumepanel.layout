@@ -1,4 +1,4 @@
-"resource/layout/musicplayervolumepanel.layout" {
+"Resource/layout/musicplayervolumepanel.layout" {
 
 	styles {
 		CMusicPlayerVolumePanel {
@@ -12,9 +12,7 @@
 			textcolor=A2TextNotification //slider color
 		}
 
-		VolumeSlider:focus {
-			textcolor=A2TextNotification //slider color
-		}
+		VolumeSlider:focus { textcolor=A2TextNotification //slider color }
 	}
 
 	layout {

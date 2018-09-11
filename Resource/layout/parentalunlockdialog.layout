@@ -1,4 +1,4 @@
-"resource/layout/parentalunlockdialog.layout" {
+"Resource/layout/parentalunlockdialog.layout" {
 
 	styles {
 		ParentalUnlockDialog {
@@ -16,7 +16,7 @@
 		Key { textcolor=none }
 	}
 
-	layout 	{
+	layout {
 		region { name="top" width=max height=260 margin=10 margin-top=40 }
 		region { name="bottom" width=max align=bottom height=36 align="bottom" }
 
@@ -39,5 +39,5 @@
 		}
 	}
 
-	place { control="KeyImage" height=0 width=0 }
+		place { control="KeyImage" height=0 width=0 }
 }

@@ -1,4 +1,4 @@
-"resource/layout/gamespage_details_community_file.layout" {
+"Resource/layout/gamespage_details_community_file.layout" {
 
 	colors {
 		// The extra space needed vertical beyond the autocomputed size of the blurb contents
@@ -20,7 +20,8 @@
 		place { region=body control=communityfile_image width=160 height=100 align=top-center }
 
 		place {
-			region=body control=communityfile_image_border,communityfile_rating_image_background,communityfile_rating_image,friendimage
+			region=body
+			control=communityfile_image_border,communityfile_rating_image_background,communityfile_rating_image,friendimage
 			width=0
 			height=0
 		}

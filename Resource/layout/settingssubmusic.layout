@@ -1,4 +1,4 @@
-"resource/layout/settingssubmusic.layout" {
+"Resource/layout/settingssubmusic.layout" {
 
 	styles {
 		ListPanel {
@@ -18,7 +18,9 @@
 
 		place {
 			control=DatabaseCrawlAtStartup,DatabaseCrawlSteamInstallFolders,EnableMediaKeysCheckbox
-			dir=down start=AddLibraryButton y=20
+			dir=down
+			start=AddLibraryButton
+			y=20
 		}
 
 		place { control=PauseMusicHeader 			dir=down start=EnableMediaKeysCheckbox y=30 }

@@ -1,4 +1,4 @@
-resource/layout/musiclibrarypanel.layout {
+"Resource/layout/musiclibrarypanel.layout" {
 
 	styles {
 		LibrarySearch { minimum-width=180 }

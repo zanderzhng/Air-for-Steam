@@ -1,4 +1,4 @@
-resource/layout/overlay_communityhubpanel.layout {
+"Resource/layout/overlay_communityhubpanel.layout" {
 
 	styles {
 		detailsbox { }

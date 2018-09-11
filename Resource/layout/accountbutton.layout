@@ -1,16 +1,17 @@
-resource/layout/accountbutton.layout {
+"Resource/layout/accountbutton.layout" {
 
 	styles {
 		AccountPersonaStyleOffline {
 			//textcolor=none
 			//minimum-width=16
 		}
-
 		AccountPersonaStyleOnline { }
 		AccountPersonaStyleInGame { }
+
 		AccountDropDownStyleOffline { }
 		AccountDropDownStyleOnline { }
 		AccountDropDownStyleInGame { }
+
 
 		AccountButtonStyle {
 			render_bg {
@@ -34,8 +35,8 @@ resource/layout/accountbutton.layout {
 	}
 
 	layout {
-		place { control=account_menu_button height=max width=max } // span over everything
-		place { control=account_balance height=max width=max } //necessary to have here, otherwise the button has no width
+		place { control=account_menu_button height=max width=max }	// span over everything
+		place { control=account_balance height=max width=max }		//necessary to have here, otherwise the button has no width
 
 		place { control=account_persona,account_avatar,account_drop_down height=0 width=0 }
 	}

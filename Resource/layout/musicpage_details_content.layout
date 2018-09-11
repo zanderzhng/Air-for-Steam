@@ -1,11 +1,10 @@
-resource/layout/musicpage_detail_content.layout {
+"Resource/layout/musicpage_detail_content.layout" {
 
 	styles {
-		AlbumOrArtistListStyle {
-			render_bg { }
-		}
+		AlbumOrArtistListStyle { render_bg { } }
 
 		EmptyDatabaseText { }
+
 		CrawlingText { }
 
 		CMusicPage_Details_Content {

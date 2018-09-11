@@ -1,8 +1,7 @@
-resource/layout/friendpanel.layout {
+"Resource/layout/friendpanel.layout" {
 
 	styles {
 		SelfPanel { }
-
 		CFriendsPanel { }
 
 		WebStatusStyle { image="graphics/friends/status_web" }

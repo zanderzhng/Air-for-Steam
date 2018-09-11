@@ -1,4 +1,4 @@
-"resource/layout/gamespage_grid.layout" {
+"Resource/layout/gamespage_grid.layout" {
 
 	colors {
 		// values defining the aspect ratio of the images in the grid view
@@ -22,11 +22,17 @@
 		// uninstalled
 		// notinstalled (yes there are two)
 
-		GameItem_installed { alpha	255 }
+		GameItem_installed {
+			alpha		255
+		}
 
-		GameItem_unInstalled { alpha	255 }
+		GameItem_unInstalled {
+			alpha		255
+		}
 
-		GameItem_Updating { alpha	255 }
+		GameItem_Updating {
+			alpha		255
+		}
 	}
 
 	layout {

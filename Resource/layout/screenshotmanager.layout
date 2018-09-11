@@ -1,4 +1,4 @@
-resource/layout/screenshotmanager.layout {
+"Resource/layout/screenshotmanager.layout" {
 
 	styles {
 		ThumbnailUnpublished { }
@@ -75,13 +75,11 @@ resource/layout/screenshotmanager.layout {
 
 		place { control=details_caption 			region=details start=SSDetails y=20 width=max dir=down } //published caption
 
-		//place { control="null_placer" region="details" width=1 align=bottom margin-bottom=2 }
+		place { control=multi_img_selected 												region=details y=120 align=top-center }
+		place { control=multi_img_upload_size,multi_img_upload_size_info 				region=details y=149 align=top-center spacing=5 }
+		place { control=multi_img_storage_remaining,multi_img_storage_remaining_info 	region=details y=168 align=top-center spacing=5 }
 
-		place { control=multi_img_selected 													region=details y=120 align=top-center }
-		place { control=multi_img_upload_size,multi_img_upload_size_info 					region=details y=149 align=top-center spacing=5 }
-		place { control=multi_img_storage_remaining,multi_img_storage_remaining_info 		region=details y=168 align=top-center spacing=5 }
-
-		place { control=file_not_loaded_label 		region=details y=140 align=top-center }
+		place { control=file_not_loaded_label region=details y=140 align=top-center }
 
 		place {
 			control=multiselect_button,view_local_library_button,view_screenshots
@@ -91,8 +89,9 @@ resource/layout/screenshotmanager.layout {
 			margin-left=26
 			margin-bottom=10
 		}
-		place { control=delete_button,details_button,publish_button 	region=buttons align=right spacing=10 margin-right=26 margin-bottom=10 }
-		place { control=multi_img_delete,multi_img_upload 				region=buttons align=right spacing=10 margin-right=26 margin-bottom=10 }
+
+		place { control=delete_button,details_button,publish_button 			region=buttons align=right spacing=10 margin-right=26 margin-bottom=10 }
+		place { control=multi_img_delete,multi_img_upload 						region=buttons align=right spacing=10 margin-right=26 margin-bottom=10 }
 
 		place {
 			control=multi_img,multi_img_count,instr_no_selection,instr_no_selection_title,selectorlabel,null_placer

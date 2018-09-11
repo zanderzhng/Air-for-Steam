@@ -1,4 +1,4 @@
-resource/layout/emailreminderbar.layout {
+"Resource/layout/emailreminderbar.layout" {
 
 	styles {
 		CEmailReminderBar {

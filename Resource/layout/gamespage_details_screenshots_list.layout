@@ -1,4 +1,4 @@
-"resource/layout/gamespage_details_screenshots_list.layout" {
+"Resource/layout/gamespage_details_screenshots_list.layout" {
 
 	colors {
 		// Note, the below values are used for dynamic layout in code, and must match the values from place

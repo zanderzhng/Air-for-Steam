@@ -1,4 +1,4 @@
-resource/layout/uinavigatorpanel.layout {
+"Resource/layout/uinavigatorpanel.layout" {
 
 	styles {
 		zoomslider {
@@ -25,9 +25,8 @@ resource/layout/uinavigatorpanel.layout {
 
 		URLStatusImage { }
 
-		TextEntryURL {
-			render_bg { } //reset necessary to remove square of color from top-left of client
-		}
+		//reset necessary to remove square of color from top-left of client
+		TextEntryURL { render_bg { } }
 
 		URLBarSecure { textcolor=html.secureurl }
 
@@ -37,10 +36,8 @@ resource/layout/uinavigatorpanel.layout {
 
 		MusicPlayerIcon { image="graphics/active/music/player" }
 
-		NavLabel2 {
-			image=graphics/onfocus/add
-			//music page list panel collapser icon (overriden below for game filter button)
-		}
+		//music page list panel collapser icon (overriden below for game filter button)
+		NavLabel2 { image=graphics/onfocus/add }
 
 		CGameFilterMenuButton {
 			render {
@@ -80,38 +77,93 @@ resource/layout/uinavigatorpanel.layout {
 
 		place { control=emailreminderbar,phonereminderbar region=body dir=down width=max height=50 }
 
-		place { control=WebPanel width=max height=max start=phonereminderbar dir=down }
+		place {
+			control=WebPanel
+			width=max
+			height=max
+			start=phonereminderbar
+			dir=down
+		}
 
-		place { control=BroadcastPage width=max height=max start=phonereminderbar dir=down }
+		place {
+			control=BroadcastPage
+			width=max height=max start=phonereminderbar dir=down
+		}
 
-		place { control=GamesPage_Details width=max height=max start=phonereminderbar dir=down }
+		place {
+			control=GamesPage_Details
+			width=max height=max start=phonereminderbar dir=down
+		}
 
-		place { control=GamesPage_List width=max height=max start=phonereminderbar dir=down y=9 }
+		place {
+			control=GamesPage_List
+			width=max height=max start=phonereminderbar dir=down
+			y=9
+		}
 
-		place { control=GamesPage_Grid width=max height=max start=phonereminderbar dir=down y=30 margin-bottom=-2 }
+		place {
+			control=GamesPage_Grid
+			width=max height=max start=phonereminderbar dir=down
+			y=30
+			margin-bottom=-2
+		}
 
-		place { control=DownloadsPage width=max height=max start=phonereminderbar dir=down }
+		place {
+			control=DownloadsPage
+			width=max height=max start=phonereminderbar dir=down
+		}
 
-		place { control=ScreenshotsPage width=max height=max start=phonereminderbar dir=down }
+		place {
+			control=ScreenshotsPage
+			width=max height=max start=phonereminderbar dir=down
+		}
 
-		place { control=MediaPage width=max height=max start=phonereminderbar dir=down }
+		place {
+			control=MediaPage
+			width=max height=max start=phonereminderbar dir=down
+		}
 
-		place { control=MusicPage_Details width=max height=max start=phonereminderbar dir=down }
+		place {
+			control=MusicPage_Details
+			width=max height=max start=phonereminderbar dir=down
+		}
 
-		place { control=ToolsPage width=max height=max start=phonereminderbar dir=down y=9 }
+		place {
+			control=ToolsPage
+			width=max height=max start=phonereminderbar dir=down
+			y=9
+		}
 
-		place { control=ConsolePage width=max height=max start=phonereminderbar dir=down }
+		place {
+			control=ConsolePage
+			width=max height=max start=phonereminderbar dir=down
+		}
 
-		place { control=BroadcastPageMin width=300 height=168 margin-right=26 margin-bottom=26 dir=down align=bottom-right }
+		place {
+			control=BroadcastPageMin
+			width=300
+			height=168
+			margin-right=26
+			margin-bottom=26
+			dir=down
+			align=bottom-right
+		}
 
-		place { control=BroadcastPageMinHoriz width=300 height=168 margin-right=26 margin-bottom=26 dir=down align=bottom-right }
+		place {
+			control=BroadcastPageMinHoriz
+			width=300
+			height=168
+			margin-right=26
+			margin-bottom=26
+			dir=down
+			align=bottom-right
+		}
 
 		place {
 			control=label_console,library_music_add_button,URLBar,forward,URLStatusImage,label_search_icon,label_library_zoom,home,refresh,stop,EVCert,subnavgroup_library,label_zoom_separator,label_library_view,library_filters_details,library_filters_list,library_filters_grid,label_community_new,label_community_gamehubs,label_community_forums,label_community_workshop,label_community_greenlight,label_community_friends,label_community_profile,label_community_marketplace,label_community_groups,BetaFlagBigPicture,fullscreen
 			height=0
 			width=0
 		}
-
 		place [$OSX] { control=PageLoadThrobber height=0 width=0 }
 	}
 }

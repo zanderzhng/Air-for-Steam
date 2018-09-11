@@ -1,4 +1,4 @@
-"resource/layout/parentallockdialog.layout" {
+"Resource/layout/parentallockdialog.layout" {
 
 	styles {
 		ParentalLockDialog {
@@ -30,5 +30,5 @@
 		}
 	}
 
-	place { control="KeyImage" height=0 width=0 }
+		place { control="KeyImage" height=0 width=0 }
 }

@@ -1,4 +1,4 @@
-"resource/layout/subpaneloptionsdownloads.layout" {
+"Resource/layout/subpaneloptionsdownloads.layout" {
 
 	layout {
 		place { control=RegionLabel dir=down }

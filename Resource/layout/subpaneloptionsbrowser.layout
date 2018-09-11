@@ -1,4 +1,4 @@
-resource/layout/subpaneloptionsbrowser.layout {
+"Resource/layout/subpaneloptionsbrowser.layout" {
 
 	layout {
 		place { control=DescriptionLabel width=max }

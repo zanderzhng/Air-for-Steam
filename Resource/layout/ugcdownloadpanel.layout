@@ -1,4 +1,4 @@
-resource/layout/ugcdownloadpanel.layout {
+"Resource/layout/ugcdownloadpanel.layout" {
 
 	styles {
 		CAppSubscriptionsDownloadPanel {
@@ -29,7 +29,6 @@ resource/layout/ugcdownloadpanel.layout {
 		place { control=gameimage region=box y=75 height=69 width=184 }
 
 		place { control=downloadtotallabel,downloadtotalfield region=column2 spacing=10 y=75 height=19 }
-
 		place {
 			control=timecompletedlabel,timecompletedfield,starttimelabel,starttimefield,pausereasonlabel,pausereasonfield
 			region=column2
@@ -37,7 +36,6 @@ resource/layout/ugcdownloadpanel.layout {
 			y=101
 			height=19
 		}
-
 		place { control=timeremaininglabel,timeremainingfield region=column2 spacing=10 y=127 height=19 }
 
 		place { control=viewmodsbutton,pauseresumebutton region=box y=65 align=right dir=down }
