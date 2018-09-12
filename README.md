@@ -6,11 +6,11 @@ Air is a visual redesign of the Steam client that embraces Google's Material Des
 
 ## Installation, customization, tweaks (oh my!)
 
-This [handy-dandy FAQ](https://github.com/Elundris/Air-for-Steam/wiki) should answer all of your burning questions. If you are the type who frequently has questions, we've frequently got answers!
+This [handy-dandy FAQ](https://github.com/airforsteam/Air-for-Steam/wiki) should answer all of your burning questions. If you are the type who frequently has questions, we've frequently got answers!
 
 ## Issues
 
-When reporting an [issue](https://github.com/Elundris/Air-for-Steam/issues), please first read through the current topics to make sure that your issue hasn't already been reported.
+When reporting an [issue](https://github.com/airforsteam/Air-for-Steam/issues), please first read through the current topics to make sure that your issue hasn't already been reported.
 
 Remember to include:
 
