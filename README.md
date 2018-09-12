@@ -1,4 +1,4 @@
-# Air for Steam
+# Air for Steam / An elegant and customizable skin for Steam
 
 Air is a visual redesign of the Steam client that embraces Google's Material Design language to showcase consistent beauty through minimal design.
 
@@ -26,11 +26,6 @@ Stay up to date with Air on the [Steam Community Group](https://steamcommunity.c
 ## Contribute
 
 If you're providing code to add to the project please adhere to these coding practices to make it easier on everyone to collaborate efficiently.
-
-### Branches
-
-- `master` should be stable at all times
-- `develop` is for new updates and fixes
 
 ### Spacing
 
