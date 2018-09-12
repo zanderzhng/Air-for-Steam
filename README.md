@@ -26,7 +26,7 @@ Remember to include:
 
 #### Community
 
-Stay up to date with Air on the [Steam Community Group](http://steamcommunity.com/groups/airforsteam).
+Stay up to date with Air on the [Steam Community Group](https://steamcommunity.com/groups/airforsteam).
 
 --
 
