@@ -2,7 +2,10 @@
 
 	styles {
 		CDetailsCompatSubHeaderPanel { }
-		RichTextSimple { }
+
+		RichTextSimple {
+			minimum-width=260
+		}
 	}
 
 	layout {
@@ -10,7 +13,6 @@
 			control=compatdescription
 			align=top-center
 			dir=down
-			width=max
 		}
 	}
 }
