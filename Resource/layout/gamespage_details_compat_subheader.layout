@@ -6,13 +6,11 @@
 	}
 
 	layout {
-		region { name="header" y=0 x=0 width=max height=max }
-
 		place {
 			control=compatdescription
-			region=header
 			align=top-center
 			dir=down
+			width=max
 		}
 	}
 }
