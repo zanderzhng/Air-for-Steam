@@ -1,14 +1,12 @@
-resource/layout/gamespage_details_subheader.layout {
+"Resource/layout/gamespage_details_subheader.layout" {
 
 	colors {
 		GameDetailsSubHeader.HorizontalSpacing=10
-		GameDetailsSubHeader.VerticalMargin=100
+		GameDetailsSubHeader.VerticalMargin=62
 	}
 
 	styles {
-		CDetailsGameSubHeaderPanel {
-			bgcolor=none
-		}
+		CDetailsGameSubHeaderPanel { bgcolor=none }
 
 		ClientListButton {
 			image=graphics/none
@@ -31,9 +29,7 @@ resource/layout/gamespage_details_subheader.layout {
 			bgcolor=A2DetailsButton
 		}
 
-		DetailsLaunchButton:hover {
-			bgcolor=A2DetailsButtonHover
-		}
+		DetailsLaunchButton:hover { bgcolor=A2DetailsButtonHover }
 
 		DetailsLaunchButton:active {
 			render_bg {
@@ -49,9 +45,7 @@ resource/layout/gamespage_details_subheader.layout {
 			bgcolor=A2DetailsButton
 		}
 
-		DetailsInstallButton:hover {
-			bgcolor=A2DetailsButtonHover
-		}
+		DetailsInstallButton:hover { bgcolor=A2DetailsButtonHover }
 
 		DetailsInstallButton:active {
 			render_bg {
@@ -67,9 +61,7 @@ resource/layout/gamespage_details_subheader.layout {
 			bgcolor=A2DetailsButton
 		}
 
-		DetailsBuyButton:hover {
-			bgcolor=A2DetailsButtonHover
-		}
+		DetailsBuyButton:hover { bgcolor=A2DetailsButtonHover }
 
 		DetailsBuyButton:active {
 			render_bg {
