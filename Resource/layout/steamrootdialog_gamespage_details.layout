@@ -35,7 +35,7 @@
 				control=welcomedetails,turnnotifications,nonsteamdetails,achievementsdetails,friendsdetails,dlcdetails,clouddetails,communityfilesdetails,newsdetails,screenshotsdetails
 				region=details
 				y=499
-				y=520 [$LINUX]
+				y=510 [$LINUX]
 				dir=down
 				width=max
 			}
@@ -46,7 +46,7 @@
 			region=details
 			width=max
 			height=139
-			height=160 [$LINUX]
+			height=150 [$LINUX]
 		}
 			place { control=tagslabel region=links height=max width=max }
 
